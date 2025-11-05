@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d ახალი შეტყობინება</item>
+    <item quantity="other">%d ახალი შეტყობინება</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"მთავარზე გადასვლა"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"ზემოთ გადასვლა"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"სხვა ვარიანტები"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"მზადაა"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"ყველას ნახვა"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"აირჩიეთ აპი"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"გამორთვა"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ჩართვა"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"შორისი"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"ძიება…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"მოთხოვნის გასუფთავება"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"მოთხოვნის ძიება"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"ძიება"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"მოთხოვნის გადაგზავნა"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"ხმოვანი ძიება"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"გაზიარება:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>-ით გაზიარება"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ჩაკეცვა"</string>
+    <string name="app_logs_txt_file_name">app_logs.txt</string>
+    <string name="articles.browse">სტატიის ძიება</string>
+    <string name="articles.counts.many">%1$d სტატია</string>
+    <string name="articles.counts.one">%1$d სტატია</string>
+    <string name="articles.emptystate">ჩვენი ცოდნის ბაზის სექცია შექმნის პროცესშია. მოგვიანებით დაბრუნდით.</string>
+    <string name="articles.feedback.thanks">გმადლობთ გამოხმაურებისთვის!</string>
+    <string name="articles.pursuechat">ჩატი</string>
+    <string name="articles.recent.search">ბოლოდროინდელი ძიებები</string>
+    <string name="articles.recent.viewed">ბოლოს ნანახი</string>
+    <string name="articles.search.text">თქვენს საძიებო ფრაზასთან შესაბამისი შედეგები ვერ ვიპოვეთ</string>
+    <string name="articles.startchat">@string/livechat.conversation.startchat</string>
+    <string name="articles.views.many">%1$d ნახვა</string>
+    <string name="articles.views.one">%1$d ნახვა</string>
+    <string name="articles_updated_time">განახლდა %1$s წინ</string>
+    <string name="bottomsheet_action_collapse">ქვედა ფურცლის ჩაკეცვა</string>
+    <string name="bottomsheet_action_expand">ქვედა ფურცლის გაშლა</string>
+    <string name="bottomsheet_action_expand_halfway">ნახევრამდე გაფართოება</string>
+    <string name="bottomsheet_drag_handle_clicked">ორმაგი შეხება ჩავლების სახელურზე</string>
+    <string name="bottomsheet_drag_handle_content_description">სახელური ჩავლებისთვის</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"პასუხი"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"ვიდეო"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"უარყოფა"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"გათიშვა"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"შემომავალი ზარი"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"მიმდინარე ზარი"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"შემომავალი ზარების გაცხრილვა"</string>
+    <string name="character_counter_content_description">შეყვანილია %2$d-დან %1$d სიმბოლო</string>
+    <string name="character_counter_overflowed_content_description">გადაჭარბებულია სიმბოლოთა ლიმიტი (%2$d-დან %1$d)</string>
+    <string name="clear_text_end_icon_content_description">ტექსტის გასუფთავება</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">ჩართვა</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s ვერ იმუშავებს Google Play Services-ის ჩართვამდე.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play Services-ის ჩართვა</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">ინსტალაცია</string>
+    <string name="common_google_play_services_install_text">%1$s ვერ გაეშვება Google Play Services-ის გარეშე, რომელიც აკლია თქვენს მოწყობილობას.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play Services-ის ჩამოტვირთვა</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services-ის ხელმისაწვდომობა</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Services-ის შეცდომა</string>
+    <string name="common_google_play_services_unknown_issue">%1$s-ს Google Play Services-თან პრობლემა შეექმნა. გთხოვთ, ცადოთ ხელახლა.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ვერ გაეშვება Google Play Services-ის გარეშე, რომლებიც მხარდაუჭერელია თქვენი მოწყობილობის მიერ.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">განახლება</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s ვერ გაეშვება, თუ Google Play სერვისებს არ განაახლებთ.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">განაახლეთ Google Play Services</string>
+    <string name="common_google_play_services_updating_text">%1$s ვერ გაეშვება Google Play Services-ის გარეშე, რომელთა განახლებაც ამჟამად მიმდინარეობს.</string>
+    <string name="common_google_play_services_wear_update_text">საჭიროა Google Play Services-ის ახალი ვერსია. ის მალე განახლდება.</string>
+    <string name="common_open_on_phone">ტელეფონში გახსნა</string>
+    <string name="common_signin_button_text">შესვლა</string>
+    <string name="common_signin_button_text_long">Google-ით შესვლა</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"გაცვლის ბუფერში კოპირებული ბმული"</string>
+    <string name="duration_few_seconds">რამდენიმე წამი</string>
+    <string name="error_icon_content_description">შეცდომა</string>
+    <string name="exposed_dropdown_menu_content_description">ჩამოსაშლელი მენიუს ჩვენება</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"ბმულის კოპირება"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ბრაუზერში გახსნა"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"ბმულის გაზიარება"</string>
+    <string name="icon_content_description">დიალოგის ხატულა</string>
+    <string name="item_view_role_description">ჩანართი</string>
+    <string name="live_chat_no_application_to_handle_uri">ამ ვებგვერდის გასახსნელად აპლიკაცია არ გაქვთ</string>
+    <string name="livechat.article.title">ცოდნის ბაზა</string>
+    <string name="livechat.bot.action.pending.wait">გთხოვთ, დაელოდოთ.</string>
+    <string name="livechat.bot.connectwithhuman">ადამიანის დახმარება გჭირდებათ?</string>
+    <string name="livechat.bot.input.hint">აირჩიეთ ზემოთ მოცემულიდან</string>
+    <string name="livechat.chat.queue.banner.calculating">მიმდინარეობს ლოდინის დროის გამოთვლა…</string>
+    <string name="livechat.chat.queue.banner.position.subtitle">ადგილი</string>
+    <string name="livechat.chat.queue.banner.timeremaining">ლოდინის სავარაუდო დროა, დაახლოებით, ~%1$s</string>
+    <string name="livechat.chat.queue.banner.title">თქვენ ჩატის რიგში ხართ</string>
+    <string name="livechat.chat.sender.profanity.alert">გაფრთხილება ბოროტად გამოყენების შესახებ</string>
+    <string name="livechat.common.article">სტატია</string>
+    <string name="livechat.common.loading">იტვირთება…</string>
+    <string name="livechat.common.no">არა</string>
+    <string name="livechat.common.nointernet">შეამოწმეთ ინტერნეტკავშირი.</string>
+    <string name="livechat.common.ok">კარგი</string>
+    <string name="livechat.common.yes">დიახ</string>
+    <string name="livechat.conversation.emptystate">უი! როგორც ჩანს, მიმოწერები ჯერ არ გაქვთ! იცით, რომ ერთი დაწკაპუნებით შეგიძლიათ ჩვენს ექსპერტებთან დაკავშირება?</string>
+    <string name="livechat.conversation.endchat.timer">ჩატის სესია დასრულდება %1$s-ში</string>
+    <string name="livechat.conversation.filetype.audio">აუდიო</string>
+    <string name="livechat.conversation.filetype.image">სურათი</string>
+    <string name="livechat.conversation.filetype.others">ფაილი</string>
+    <string name="livechat.conversation.filetype.video">ვიდეო</string>
+    <string name="livechat.conversation.in.dept">%1$s-ში</string>
+    <string name="livechat.conversation.search.emptystate">უი! როგორც ჩანს, არცერთი არსებული მიმოწერა არ შეესაბამება ტერმინს, რომელიც ახლახან შეიყვანეთ. იქნებ სხვა მოთხოვნა სცადოთ?</string>
+    <string name="livechat.conversation.startchat">ჩატის დაწყება</string>
+    <string name="livechat.conversation.status">გახსნა</string>
+    <string name="livechat.conversation.subtitle.missed">ოპერატორები მიუწვდომელია</string>
+    <string name="livechat.conversation.subtitle.queue.position">ადგილი რიგში: %1$s</string>
+    <string name="livechat.conversation.subtitle.waiting.details">ველოდებით თქვენს დეტალებს</string>
+    <string name="livechat.conversation.title">მიმოწერები</string>
+    <string name="livechat.conversation.with.attender"> %1$s-სთან</string>
+    <string name="livechat.day.evening">საღამო</string>
+    <string name="livechat.day.friday">პარასკევი</string>
+    <string name="livechat.day.monday">ორშაბათი</string>
+    <string name="livechat.day.morning">დილა</string>
+    <string name="livechat.day.night">ღამე</string>
+    <string name="livechat.day.noon">შუადღე</string>
+    <string name="livechat.day.saturday">შაბათი</string>
+    <string name="livechat.day.sunday">კვირა</string>
+    <string name="livechat.day.thursday">ხუთშაბათი</string>
+    <string name="livechat.day.today">დღეს</string>
+    <string name="livechat.day.tuesday">სამშაბათი</string>
+    <string name="livechat.day.wednesday">ოთხშაბათი</string>
+    <string name="livechat.day.yesterday">გუშინ</string>
+    <string name="livechat.feedback.ask.rating">სასიამოვნო იყო დღეს თქვენთან გასაუბრება. დაუთმეთ გარკვეული დრო ჩვენს შეფასებას.</string>
+    <string name="livechat.feedback.button.msg">გამოხმაურების გაგზავნა</string>
+    <string name="livechat.feedback.hint">აკრიფეთ თქვენი გამოხმაურება აქ…</string>
+    <string name="livechat.feedback.rate.happy">ვაუ, გმადლობთ!  მოხარული ვართ, რომ გეხმარებით</string>
+    <string name="livechat.feedback.rate.neutral">გმადლობთ შეფასებისთვის! სურვილისამებრ, შეგიძლიათ ნებისმიერი დახმარებისთვის მოგვმართოთ.</string>
+    <string name="livechat.feedback.rate.sad">ვწუხვართ, რომ ვერ დაგეხმარეთ. მხარდაჭერას გავაუმჯობესებთ.</string>
+    <string name="livechat.feedback.submit">@string/livechat.prechatform.submit</string>
+    <string name="livechat.feedback.thankingmsg">გმადლობთ მნიშვნელოვანი გამოხმაურებისთვის.</string>
+    <string name="livechat.feedback.title">როგორ ჩაიარა ჩვენთან თქვენმა მიმოწერამ?</string>
+    <string name="livechat.gdpr.chatconsent">„თანხმობაზე“ დაწკაპუნებით ეთანხმებით დოკუმენტში მითითებულ ჩვენს ყველა წესსა და პირობას.</string>
+    <string name="livechat.gdpr.chatconsent.accept">თანხმობა</string>
+    <string name="livechat.gdpr.chatconsent.decline">ვუარყოფ</string>
+    <string name="livechat.gdpr.chatconsent.title">თანხმობა ჩატთან დაკავშირებით</string>
+    <string name="livechat.gdpr.creditcardmask">ვინაიდან თქვენი საკრედიტო ბარათი ძალიან სენსიტიურ მონაცემებს შეიცავს, გსურთ, დამალოთ ბარათის ნომრის პირველი 12 ციფრი?</string>
+    <string name="livechat.gdpr.creditcardmask.cancel">@string/livechat.requestlog.negative.button</string>
+    <string name="livechat.gdpr.creditcardmask.ok">დამალვა</string>
+    <string name="livechat.gdpr.emailconfirm">ამ ჩატის ტექსტურ ჩანაწერს ელფოსტით გაუგზავნით %1$s-ს.</string>
+    <string name="livechat.gdpr.emailconfirm.change">ელფოსტის მისამართის შეცვლა</string>
+    <string name="livechat.gdpr.emailconfirm.send">@string/livechat.requestlog.positive.button</string>
+    <string name="livechat.gdpr.googletranslate.concent">ეს სერვისი შეიძლება მოიცავდეს Google-ს მეშვეობით უზრუნველყოფილ თარგმანებს. Google უარყოფს თარგმანებთან დაკავშირებულ ყველა გარანტიას, აშკარა ან ნაგულისხმევს, მათ შორის სიზუსტესთან და საიმედობასთან დაკავშირებით და ნებისმიერ ნაგულისხმევ გარანტიებს, რომლებიც დაკავშირებულია სავაჭრო ვარგისიანობასთან, შესაბამისობასთან კონკრეტული მიზნისთვის და უფლებების დაცვის ჩათვლით.</string>
+    <string name="livechat.gdpr.googletranslate.concent.title">თანხმობა თარგმნასთან დაკავშირებით</string>
+    <string name="livechat.gdpr.learnmore">შეიტყვეთ მეტი</string>
+    <string name="livechat.gdpr.trackingconsent.donttrack">არ აკონტროლოთ</string>
+    <string name="livechat.gdpr.trackingconsent.gotit">გასაგებია.</string>
+    <string name="livechat.gdpr.trackingconsent.notify">გამარჯობა! ჩვენს აპში შემოთავაზებული გამოცდილების გასაუმჯობესებლად ჩვენ თვალს ვადევნებთ აპში თქვენს აქტივობებს.</string>
+    <string name="livechat.gdpr.trackingconsent.notifywithoptout">გამარჯობა! ჩვენს აპში შემოთავაზებული გამოცდილების გასაუმჯობესებლად ჩვენ თვალს ვადევნებთ აპში თქვენს აქტივობებს. ამის მიუხედავად, თუ აღნიშნულის გაუქმება გსურთ, დააწკაპუნეთ ვარიანტზე „არ უთვალთვალო“.</string>
+    <string name="livechat.message.download">ჩამოტვირთვა</string>
+    <string name="livechat.message.input.hint">აკრიფეთ თქვენი შეტყობინება აქ…</string>
+    <string name="livechat.message.noresults">შედეგები ვერ მოიძებნა</string>
+    <string name="livechat.message.saved">შენახულია</string>
+    <string name="livechat.message.search">ძიება</string>
+    <string name="livechat.message.status.copy">კოპირება</string>
+    <string name="livechat.message.status.delete">წაშლა</string>
+    <string name="livechat.message.status.resend">თავიდან გაგზავნა</string>
+    <string name="livechat.message.status.sending">იგზავნება</string>
+    <string name="livechat.message.status.sent">გაგზავნილია</string>
+    <string name="livechat.message.time.justnow">ახლა</string>
+    <string name="livechat.message.timedout">დრო ამოიწურა</string>
+    <string name="livechat.message.typingindicator">აკრეფა</string>
+    <string name="livechat.message.waitingforconnection">ქსელთან კავშირის მოლოდინში</string>
+    <string name="livechat.messages.action.copy.success">დაკოპირდა გაცვლის ბუფერში</string>
+    <string name="livechat.messages.alert.chatreqfailure">უი! რაღაც არასწორად წარიმართა. გთხოვთ, ხელახლა სცადოთ</string>
+    <string name="livechat.messages.alert.upload.filesizeexceed">ატვირთვის მაქსიმალური ზომა გადაჭარბებულია</string>
+    <string name="livechat.messages.attachment.notopen">დანართის გახსნა შეუძლებელია, რადგან თქვენს მოწყობილობაში არ არის აპი, რომელსაც ამ ფორმატის ფაილების მხარდაჭერა აქვს!</string>
+    <string name="livechat.messages.camera.notopen">კამერის გახსნა შეუძლებელია, რადგან თქვენს მოწყობილობას არ აქვს კამერა</string>
+    <string name="livechat.messages.continuechat.info">ჩვენთან თქვენი ჩატის სესია დასრულდა. სხვა საკითხების გარკვევაც ხომ არ გსურთ? ჩვენთან სასაუბროდ დააწკაპუნეთ „გაგრძელებაზე“.</string>
+    <string name="livechat.messages.department">@string/livechat.messages.prechatform.traditional.dept.hint</string>
+    <string name="livechat.messages.email.dialog.title">@string/livechat.messages.prechatform.traditional.email.hint</string>
+    <string name="livechat.messages.email.failure">ფოსტის გაგზავნა ვერ შესრულდა</string>
+    <string name="livechat.messages.email.send">@string/livechat.requestlog.positive.button</string>
+    <string name="livechat.messages.email.success">გზავნილი წარმატებით გაიგზავნა</string>
+    <string name="livechat.messages.email.title">ჩატის ტექსტური ჩანაწერის ელფოსტით გაგზავნა</string>
+    <string name="livechat.messages.email.wrong">@string/livechat.messages.prechatform.traditional.email.error</string>
+    <string name="livechat.messages.endchat.confirmation">გსურთ ამ ჩატის დასრულება?</string>
+    <string name="livechat.messages.endchattimer">ჩატის სესია დასრულდება %1$s წამში</string>
+    <string name="livechat.messages.file.defaultextn">@string/livechat.conversation.filetype.others</string>
+    <string name="livechat.messages.form.alert.message">გთხოვთ, შეავსოთ ფორმა წინა ჩატიდან, სანამ ახალ ჩატს დაიწყებთ!</string>
+    <string name="livechat.messages.info.acceptforward">ჩატი წარმატებით გადამისამართდა %1$s-თან.</string>
+    <string name="livechat.messages.info.agenttransfer">%1$s გადასცემს ჩატს %2$s-ს.</string>
+    <string name="livechat.messages.info.endchat">სესია დასრულდა</string>
+    <string name="livechat.messages.info.forward">%1$s ამისამართებს ჩატს</string>
+    <string name="livechat.messages.info.missedchat">ჩატის თქვენი მოთხოვნა გამოგვრჩა</string>
+    <string name="livechat.messages.info.operator.joined">%1$s ჩაერთო ამ დიალოგში.</string>
+    <string name="livechat.messages.info.reopen">თქვენ ხელახლა გახსენით ჩატი</string>
+    <string name="livechat.messages.info.transfer.accept">ჩატი გადაცემულია. გამარჯობა! მე ვარ %1$s! სიამოვნებით გაგიწევთ დამატებით დახმარებას.</string>
+    <string name="livechat.messages.offline">ამჟამად არ კავშირზე არ ვართ. გთხოვთ, დატოვოთ შეტყობინება. შეძლებისდაგვარად მალე დაგიკავშირდებით.</string>
+    <string name="livechat.messages.operator.typing">იკრიფება...</string>
+    <string name="livechat.messages.option.endchat">სესიის დასასრული</string>
+    <string name="livechat.messages.option.sharefile">ფაილის გაზიარება</string>
+    <string name="livechat.messages.option.takephoto">ფოტოს გადაღება</string>
+    <string name="livechat.messages.option.takescreenshot">ეკრანის ანაბეჭდის გადაღება</string>
+    <string name="livechat.messages.prechatform.conversation.campaign">@string/livechat.messages.prechatform.traditional.campaign.label</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.no">არა</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.yes">რა თქმა უნდა</string>
+    <string name="livechat.messages.prechatform.conversation.dept">აირჩიეთ დეპარტამენტი, რომელთანაც უნდა გადამისამართდეს თქვენი მოთხოვნა</string>
+    <string name="livechat.messages.prechatform.conversation.email">შეგვიძლია გამოგიგზავნოთ ელფოსტა?</string>
+    <string name="livechat.messages.prechatform.conversation.name">როგორ გსურთ, რომ მოგმართოთ?</string>
+    <string name="livechat.messages.prechatform.conversation.phone">შეგიძლიათ გაგვიზიაროთ თქვენი საკონტაქტო ნომერი?</string>
+    <string name="livechat.messages.prechatform.inline.button">შეავსეთ ფორმა</string>
+    <string name="livechat.messages.prechatform.inline.message">ჩატის დასაწყებად გაგვაცანით რამდენიმე დეტალი.</string>
+    <string name="livechat.messages.prechatform.introduction.greeting.message">გაგვაცანით, ვის ვესაუბრებით.</string>
+    <string name="livechat.messages.prechatform.introduction.name">ოპერატორი</string>
+    <string name="livechat.messages.prechatform.traditional.campaign.label">გსურთ, გამოიწეროთ ჩვენი საინფორმაციო ბიულეტენი?</string>
+    <string name="livechat.messages.prechatform.traditional.department.label">დეპარტამენტი</string>
+    <string name="livechat.messages.prechatform.traditional.dept.error">აირჩიეთ სწორი დეპარტამენტი</string>
+    <string name="livechat.messages.prechatform.traditional.dept.hint">დეპარტამენტის არჩევა</string>
+    <string name="livechat.messages.prechatform.traditional.email.error">შეიყვანეთ ელფოსტის სწორი მისამართი</string>
+    <string name="livechat.messages.prechatform.traditional.email.hint">მიუთითეთ თქვენი ელ-ფოსტის მისამართი</string>
+    <string name="livechat.messages.prechatform.traditional.email.label">ელფოსტა</string>
+    <string name="livechat.messages.prechatform.traditional.name.error">შეიყვანეთ სწორი სახელი</string>
+    <string name="livechat.messages.prechatform.traditional.name.hint">მიუთითეთ თქვენი სახელი</string>
+    <string name="livechat.messages.prechatform.traditional.name.label">სახელი</string>
+    <string name="livechat.messages.prechatform.traditional.phone.error">შეიყვანეთ სწორი საკონტაქტო ნომერი</string>
+    <string name="livechat.messages.prechatform.traditional.phone.hint">შეიყვანეთ თქვენი საკონტაქტო ნომერი</string>
+    <string name="livechat.messages.prechatform.traditional.phone.label">ტელეფონი</string>
+    <string name="livechat.messages.prechatform.traditional.question.error">შეიყვანეთ შეკითხვა</string>
+    <string name="livechat.messages.record.slidetocancel">გაასრიალეთ თითი გასაუქმებლად</string>
+    <string name="livechat.messages.sharefile.ques">გააზიარა ფაილი</string>
+    <string name="livechat.messages.shareimage">სურათის გაზიარება</string>
+    <string name="livechat.messages.sharescreenshot">ეკრანის ანაბეჭდის გაზიარება</string>
+    <string name="livechat.messages.title">ჩათის დაწყება</string>
+    <string name="livechat.messages.you">თქვენ</string>
+    <string name="livechat.notification.messages.shared.file">%1$s გიგზავნით ფაილს</string>
+    <string name="livechat.notification.messages.shared.image">%1$s გიგზავნით სურათს</string>
+    <string name="livechat.notification.messages.shared.video">%1$s გიგზავნით ვიდეოს</string>
+    <string name="livechat.operator.waiting.response">ოპერატორი მალე ჩაერთვება</string>
+    <string name="livechat.permission.camera">სურათის გადასაღებად დაუშვით წვდომა თქვენი მოწყობილობის კამერაზე.</string>
+    <string name="livechat.permission.file">ფაილის გასაგზავნად დაუშვით წვდომა თქვენი მოწყობილობის საცავზე.</string>
+    <string name="livechat.permission.locationdenied">მდებარეობაზე წვდომის ნებართვა უარყოფილია.</string>
+    <string name="livechat.permission.microphone">ხმოვანი შეტყობინებების ჩასაწერად და გასაგზავნად დაუშვით წვდომა თქვენი მოწყობილობის მიკროფონზე.</string>
+    <string name="livechat.permission.negative">ახლა არა</string>
+    <string name="livechat.permission.positive">პარამეტრები</string>
+    <string name="livechat.permission.storagedenied">საცავზე წვდომის ნებართვა უარყოფილია.</string>
+    <string name="livechat.prechatform.submit">გაგზავნა</string>
+    <string name="livechat.rating.skip">@string/livechat.widgets.skip</string>
+    <string name="livechat.reopen.title">ჩატის ხელახლა გახსნა</string>
+    <string name="livechat.requestlog.info">ოპერატორმა მოითხოვა წვდომა თქვენი აპის ჟურნალზე</string>
+    <string name="livechat.requestlog.negative.button">გაუქმება</string>
+    <string name="livechat.requestlog.positive.button">გაგზავნა</string>
+    <string name="livechat.requestlog.title">აპის ჟურნალი</string>
+    <string name="livechat.widgets.articles.related">დაკავშირებული სტატიები:</string>
+    <string name="livechat.widgets.calendar.fromdate">დაწყების თარიღი</string>
+    <string name="livechat.widgets.calendar.fromtime">დაწყების დრო</string>
+    <string name="livechat.widgets.calendar.schedule">ახლავე დაგეგმვა</string>
+    <string name="livechat.widgets.calendar.setdate">აირჩიეთ თარიღი</string>
+    <string name="livechat.widgets.calendar.settime">აირჩიეთ დრო</string>
+    <string name="livechat.widgets.calendar.timezone">დროის სარტყელი</string>
+    <string name="livechat.widgets.calendar.todate">დასრულების თარიღი</string>
+    <string name="livechat.widgets.calendar.totime">დასრულების დრო</string>
+    <string name="livechat.widgets.done">მზადაა</string>
+    <string name="livechat.widgets.input.password.error">გთხოვთ, შეიყვანოთ სწორი მნიშვნელობა</string>
+    <string name="livechat.widgets.input.phone.search.hint">ქვეყნის ძიება</string>
+    <string name="livechat.widgets.input.url.error">შეიყვანეთ სწორი URL</string>
+    <string name="livechat.widgets.location.accuracy">%1$d მეტრამდე სიზუსტით</string>
+    <string name="livechat.widgets.location.radius.float">%1$.1f კმ/წმ</string>
+    <string name="livechat.widgets.location.radius.integer">%1$d კმ/წმ</string>
+    <string name="livechat.widgets.location.select">აირჩიეთ მდებარეობა</string>
+    <string name="livechat.widgets.location.send.current">მიმდინარე მდებარეობის გაგზავნა</string>
+    <string name="livechat.widgets.location.send.selected">არჩეული მდებარეობის გაგზავნა</string>
+    <string name="livechat.widgets.location.suggestions">შემოთავაზებები</string>
+    <string name="livechat.widgets.rating.dislike">მოწონების უარყოფა</string>
+    <string name="livechat.widgets.rating.happy.angry">გაბრაზებული</string>
+    <string name="livechat.widgets.rating.happy.excited">მშვენიერი</string>
+    <string name="livechat.widgets.rating.happy.happy">კარგი</string>
+    <string name="livechat.widgets.rating.happy.neutral">ნეიტრალური</string>
+    <string name="livechat.widgets.rating.happy.sad">მოწყენილი</string>
+    <string name="livechat.widgets.rating.like">მოწონება</string>
+    <string name="livechat.widgets.select.limit.exceed">რამდენიმეს არჩევის ზღვარი მიღწეულია</string>
+    <string name="livechat.widgets.skip">გამოტოვება</string>
+    <string name="livechat.widgets.timeslot.button">აირჩიეთ დროის მონაკვეთი</string>
+    <string name="livechat.widgets.timezone.current">%1$s (მიმდინარე)</string>
+    <string name="livechat_conversation_filetype_gif">GIF</string>
+    <string name="material_clock_toggle_content_description">აირჩიეთ AM ან PM</string>
+    <string name="material_hour_24h_suffix">%1$s საათი</string>
+    <string name="material_hour_selection">აირჩიეთ საათი</string>
+    <string name="material_hour_suffix">%1$s საათი</string>
+    <string name="material_minute_selection">აირჩიეთ წუთები</string>
+    <string name="material_minute_suffix">%1$s წუთი</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">დროის შეყვანისთვის საათის რეჟიმზე გადართვა.</string>
+    <string name="material_timepicker_hour">საათი</string>
+    <string name="material_timepicker_minute">წუთი</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">აირჩიეთ დრო</string>
+    <string name="material_timepicker_text_input_mode_description">დროის შეყვანისთვის ტექსტის შეყვანის რეჟიმზე გადართვა.</string>
+    <string name="minimum_selection_is_required">გთხოვთ, აირჩიეთ სულ მცირე ერთი ვარიანტი</string>
+    <string name="minimum_selections_is_required">საჭიროა მინიმუმ %1$d არჩეული ელემენტი</string>
+    <string name="mobilisten_article_choose_a_department">აირჩიეთ დეპარტამენტი</string>
+    <string name="mobilisten_article_departments">დეპარტამენტები</string>
+    <string name="mobilisten_article_has_been_deleted_or_disabled">სტატია მიუწვდომელია</string>
+    <string name="mobilisten_article_no_views">ნახვები არ არის</string>
+    <string name="mobilisten_articles_general_error">@string/mobilisten_general_failure_error</string>
+    <string name="mobilisten_chat_connected_to_operator_or_bot">დაუკავშირდა %1$s-ს</string>
+    <string name="mobilisten_common_okay">კარგი</string>
+    <string name="mobilisten_conversation_deleted">ეს მიმოწერა წაშალა ოპერატორმა</string>
+    <string name="mobilisten_conversation_error_access_denied_to_initiate_chat">წვდომა აკრძალულია ჩატის დასაწყებად</string>
+    <string name="mobilisten_conversation_error_email_field_is_mandatory">ელფოსტის ველი სავალდებულოა</string>
+    <string name="mobilisten_conversation_error_error_unable_to_initiate_chat_outside_business_hours">ოფლაინ საათებში საუბრის შექმნა შეუძლებელია</string>
+    <string name="mobilisten_conversation_error_invalid_chat_user_id">სტუმარი მომხმარებლის ID არასწორია</string>
+    <string name="mobilisten_conversation_error_mentioned_department_is_not_mapped_to_the_brand">აღნიშნული დეპარტამენტი არ არის დაკავშირებული ბრენდთან</string>
+    <string name="mobilisten_conversation_error_name_field_is_mandatory">სახელი სავალდებულოა</string>
+    <string name="mobilisten_conversation_error_operation_not_available_for_mentioned_operator">ეს ოპერატორი მიუწვდომელია ჩატისთვის</string>
+    <string name="mobilisten_conversation_error_phone_number_field_is_mandatory">ტელეფონის ნომერი სავალდებულოა</string>
+    <string name="mobilisten_conversation_error_resource_limit_reached">რესურსების ლიმიტი მიღწეულია ამჟამინდელი გეგმისთვის</string>
+    <string name="mobilisten_conversation_general_error">საუბრის დეტალების ამოკრეფა ვერ ხერხდება</string>
+    <string name="mobilisten_error_chat_transfer_already_in_progress_failure">ჩატის გადაცემა უკვე მიმდინარეობს! გთხოვთ, დაელოდოთ.</string>
+    <string name="mobilisten_error_chat_transfer_no_online_user_failure">სამწუხაროდ, დეპარტამენტში არ არის ხელმისაწვდომი ონლაინ მომხმარებელი</string>
+    <string name="mobilisten_file_upload_size_limit_exceeded">ფაილის მაქსიმალური ზომა (50 მბაიტი) გადაჭარბებულია.</string>
+    <string name="mobilisten_general_failure_error">ვწუხვართ, მცირე შეფერხებაა. ხელახლა სცადეთ მოგვიანებით.</string>
+    <string name="mobilisten_load_more_messages">სხვა შეტყობინებების ჩატვირთვა</string>
+    <string name="mobilisten_loading_messages">შეტყობინებები იტვირთება...</string>
+    <string name="mobilisten_notification_multiple_messages">%1$d ახალი შეტყობინება</string>
+    <string name="mobilisten_notification_single_message">%1$d ახალი შეტყობინება</string>
+    <string name="mobilisten_operator_has_requested_for_app_log">ოპერატორმა მოითხოვა თქვენი აპის ჟურნალი.</string>
+    <string name="mobilisten_test_push_notifications">Push-შეტყობინებების შემოწმება</string>
+    <string name="mobilisten_unable_to_load_message_transcript">სამწუხაროდ, შეტყობინებების ამოკრეფა ვერ ხერხდება</string>
+    <string name="mtrl_badge_numberless_content_description">ახალი შეტყობინება</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s-ის ამოშლა</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d-ზე მეტი ახალი შეტყობინება</string>
+    <string name="mtrl_picker_a11y_next_month">შემდეგ თვეზე გადასვლა</string>
+    <string name="mtrl_picker_a11y_prev_month">წინა თვეზე გადასვლა</string>
+    <string name="mtrl_picker_announce_current_selection">ამჟამინდელი არჩევანი: %1$s</string>
+    <string name="mtrl_picker_cancel">გაუქმება</string>
+    <string name="mtrl_picker_confirm">კარგი</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">აირჩიეთ თარიღი</string>
+    <string name="mtrl_picker_date_header_unselected">არჩეული თარიღი</string>
+    <string name="mtrl_picker_day_of_week_column_header">დღეების სვეტი: %1$s</string>
+    <string name="mtrl_picker_invalid_format">არასწორი ფორმატი.</string>
+    <string name="mtrl_picker_invalid_format_example">მაგალითი: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">%1$s-ის გამოყენება</string>
+    <string name="mtrl_picker_invalid_range">დიაპაზონი არასწორია.</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s წელზე ნავიგაცია</string>
+    <string name="mtrl_picker_out_of_range">დიაპაზონს მიღმა: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">დაწყების თარიღი - %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s - დასრულების თარიღი</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">აირჩიეთ დიაპაზონი</string>
+    <string name="mtrl_picker_range_header_unselected">დაწყების თარიღი - დასრულების თარიღი</string>
+    <string name="mtrl_picker_save">შენახვა</string>
+    <string name="mtrl_picker_text_input_date_hint">თარიღი</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">დასრულების თარიღი</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">დაწყების თარიღი</string>
+    <string name="mtrl_picker_text_input_day_abbr">დ</string>
+    <string name="mtrl_picker_text_input_month_abbr">წთ</string>
+    <string name="mtrl_picker_text_input_year_abbr">წ</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">კალენდარში შეყვანის რეჟიმზე გადართვა</string>
+    <string name="mtrl_picker_toggle_to_day_selection">შეეხეთ დღის არჩევაზე გადასართავად</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">ტექსტის შეყვანის რეჟიმზე გადართვა</string>
+    <string name="mtrl_picker_toggle_to_year_selection">შეეხეთ წლის არჩევაზე გადასართავად</string>
+    <string name="mtrl_timepicker_cancel">გაუქმება</string>
+    <string name="mtrl_timepicker_confirm">კარგი</string>
+    <string name="password_toggle_content_description">პაროლის ჩვენება</string>
+    <string name="salesiq.advertisebadge.content">უზრუნველყოფს SalesIQ Mobilisten</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"ძიება"</string>
+    <string name="siq_articles_count_many">%1$d სტატია</string>
+    <string name="siq_articles_count_single">1 სტატია</string>
+    <string name="siq_articles_sub_categories_count_one">1 ქვეკატეგორია</string>
+    <string name="siq_articles_sub_categories_counts">%1$d ქვეკატეგორია</string>
+    <string name="siq_recently_viewed_articles_title">ბოლოს ნანახი</string>
+    <string name="siq_related_articles">დაკავშირებული სტატიები</string>
+    <string name="siq_title_articles">სტატიები</string>
+    <string name="siq_title_sub_category">ქვეკატეგორიები</string>
+    <string name="size_bytes"> ბაიტები</string>
+    <string name="size_kilo_bytes"> კბაიტი</string>
+    <string name="size_mega_bytes"> მბაიტი</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_unit_day_d">დღ</string>
+    <string name="time_unit_hour_h">სთ</string>
+    <string name="time_unit_minute_m">წთ</string>
+    <string name="time_unit_month_m">თვ</string>
+    <string name="time_unit_second_s">წმ</string>
+    <string name="time_unit_week_w">კვ</string>
+    <string name="time_unit_year_y">წ</string>
+</resources>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d νέα ειδοποίηση</item>
+    <item quantity="other">%d νέες ειδοποιήσεις</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Πλοήγηση στην αρχική σελίδα"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Πλοήγηση προς τα επάνω"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Περισσότερες επιλογές"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Τέλος"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Εμφάνιση όλων"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Επιλέξτε μια εφαρμογή"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"διάστημα"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Αναζήτηση…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Διαγραφή ερωτήματος"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Ερώτημα αναζήτησης"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Αναζήτηση"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Υποβολή ερωτήματος"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Φωνητική αναζήτηση"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Κοινοποίηση σε"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Κοινοποίηση στην εφαρμογή <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Σύμπτυξη"</string>
+    <string name="app_logs_txt_file_name">app_logs.txt</string>
+    <string name="articles.browse">Αναζήτηση άρθρου</string>
+    <string name="articles.counts.many">%1$d Άρθρα</string>
+    <string name="articles.counts.one">%1$d Άρθρο</string>
+    <string name="articles.emptystate">Η ενότητα Συχνές ερωτήσεις (Knowledge Base) βρίσκεται ακόμα υπό κατασκευή. Προσπαθήστε ξανά αργότερα!</string>
+    <string name="articles.feedback.thanks">Ευχαριστούμε για τη γνώμη σας!</string>
+    <string name="articles.pursuechat">Συνομιλία</string>
+    <string name="articles.recent.search">Πρόσφατες αναζητήσεις</string>
+    <string name="articles.recent.viewed">Εθεάθησαν πρόσφατα</string>
+    <string name="articles.search.text">Φαίνεται ότι δεν υπάρχουν αντιστοιχίες με τη λέξη αναζήτησης που καταχωρίσατε!</string>
+    <string name="articles.startchat">Έναρξη συνομιλίας</string>
+    <string name="articles.views.many">%1$d προβολές</string>
+    <string name="articles.views.one">%1$d προβολές</string>
+    <string name="articles_updated_time">Ενημερώθηκε πριν από %1$s</string>
+    <string name="bottomsheet_action_collapse">Σύμπτυξη του φύλλου κάτω μέρους</string>
+    <string name="bottomsheet_action_expand">Ανάπτυξη του φύλλου κάτω μέρους</string>
+    <string name="bottomsheet_action_expand_halfway">Ανάπτυξη μέχρι τη μέση</string>
+    <string name="bottomsheet_drag_handle_clicked">Η λαβή μεταφοράς πατήθηκε δύο φορές</string>
+    <string name="bottomsheet_drag_handle_content_description">Λαβή μεταφοράς</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Απάντηση"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Βίντεο"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Απόρριψη"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Τερματισμός"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Εισερχόμενη κλήση"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Κλήση σε εξέλιξη"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Διαλογή εισερχόμενης κλήσης"</string>
+    <string name="character_counter_content_description">Εισήχθησαν %1$d από %2$d χαρακτήρες</string>
+    <string name="character_counter_overflowed_content_description">Υπέρβαση ορίου χαρακτήρων %1$d από %2$d</string>
+    <string name="clear_text_end_icon_content_description">Διαγραφή κειμένου</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Ενεργοποίηση</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Η εφαρμογή %1$s δεν θα λειτουργήσει εάν δεν έχετε ενεργοποιήσει τις υπηρεσίες Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Ενεργοποίηση υπηρεσιών Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Εγκατάσταση</string>
+    <string name="common_google_play_services_install_text">Η εφαρμογή %1$s δεν μπορεί να εκτελεστεί χωρίς τις υπηρεσίες Google Play, οι οποίες λείπουν από τη συσκευή σας.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Λήψη υπηρεσιών Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Διαθεσιμότητα υπηρεσιών Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Σφάλμα Υπηρεσιών Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Η εφαρμογή %1$s αντιμετωπίζει κάποιο πρόβλημα με τις υπηρεσίες Google Play. Προσπαθήστε ξανά.</string>
+    <string name="common_google_play_services_unsupported_text">Η εφαρμογή %1$s δεν θα εκτελεστεί χωρίς τις υπηρεσίες Google Play, οι οποίες δεν υποστηρίζονται από τη συσκευή σας.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Ενημέρωση</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Η εφαρμογή %1$s θα εκτελεστεί αφού ενημερώσετε τις Υπηρεσίες Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Ενημέρωση υπηρεσιών Google Play</string>
+    <string name="common_google_play_services_updating_text">Η εφαρμογή %1$s δεν θα εκτελεστεί χωρίς τις υπηρεσίες Google Play, οι οποίες ενημερώνονται αυτήν τη στιγμή.</string>
+    <string name="common_google_play_services_wear_update_text">Απαιτείται νέα έκδοση των υπηρεσιών Google Play. Θα ενημερωθεί σύντομα.</string>
+    <string name="common_open_on_phone">Άνοιγμα σε τηλέφωνο</string>
+    <string name="common_signin_button_text">Σύνδεση</string>
+    <string name="common_signin_button_text_long">Συνδεθείτε με το Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Ο σύνδεσμος αντιγράφηκε στο πρόχειρο"</string>
+    <string name="duration_few_seconds">μερικά δευτερόλεπτα</string>
+    <string name="error_icon_content_description">Σφάλμα</string>
+    <string name="exposed_dropdown_menu_content_description">Εμφάνιση αναπτυσσόμενου μενού</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Αντιγραφή συνδέσμου"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Άνοιγμα σε πρόγραμμα περιήγησης"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Κοινοποίηση συνδέσμου"</string>
+    <string name="icon_content_description">Εικονίδιο παραθύρου διαλόγου</string>
+    <string name="item_view_role_description">Καρτέλα</string>
+    <string name="live_chat_no_application_to_handle_uri">Δεν διαθέτετε εφαρμογή για άνοιγμα αυτής της ιστοσελίδας</string>
+    <string name="livechat.article.title">Συχνές ερωτήσεις (Knowledge Base)</string>
+    <string name="livechat.bot.action.pending.wait">Περιμένετε...</string>
+    <string name="livechat.bot.connectwithhuman">Χρειάζεστε βοήθεια από άνθρωπο;</string>
+    <string name="livechat.bot.input.hint">Επιλέξτε από τα πιο πάνω</string>
+    <string name="livechat.chat.queue.banner.calculating">Υπολογισμός χρόνου αναμονής...</string>
+    <string name="livechat.chat.queue.banner.position.subtitle">Θέση</string>
+    <string name="livechat.chat.queue.banner.timeremaining">Ο εκτιμώμενος χρόνος αναμονής είναι περίπου %1$s</string>
+    <string name="livechat.chat.queue.banner.title">Βρίσκεστε σε ουρά για να συνομιλήσετε</string>
+    <string name="livechat.chat.sender.profanity.alert">Ειδοποίηση περί κατάχρησης</string>
+    <string name="livechat.common.article">Άρθρο</string>
+    <string name="livechat.common.loading">Φόρτωση...</string>
+    <string name="livechat.common.no">ΟΧΙ</string>
+    <string name="livechat.common.nointernet">Ελέγξτε τη σύνδεσή σας στο διαδίκτυο.</string>
+    <string name="livechat.common.ok">ΟΚ</string>
+    <string name="livechat.common.yes">ΝΑΙ</string>
+    <string name="livechat.conversation.emptystate">Θα ήταν χαρά για εμάς στην %1$s να σας βοηθήσουμε! Συνομιλήστε τώρα με τους ειδικούς μας.</string>
+    <string name="livechat.conversation.endchat.timer">Αυτή η συνεδρία συνομιλίας πρόκειται να τελειώσει</string>
+    <string name="livechat.conversation.filetype.audio">ήχος</string>
+    <string name="livechat.conversation.filetype.image">εικόνα</string>
+    <string name="livechat.conversation.filetype.others">Αρχείο</string>
+    <string name="livechat.conversation.filetype.video">βίντεο</string>
+    <string name="livechat.conversation.in.dept">Σε %1$s</string>
+    <string name="livechat.conversation.search.emptystate">Φαίνεται ότι δεν υπάρχουν αντιστοιχίες με τη λέξη αναζήτησης που καταχωρίσατε!</string>
+    <string name="livechat.conversation.startchat">Έναρξη συνομιλίας</string>
+    <string name="livechat.conversation.status">Ανοικτό</string>
+    <string name="livechat.conversation.subtitle.missed">Δεν υπάρχουν διαθέσιμοι χειριστές</string>
+    <string name="livechat.conversation.subtitle.queue.position">Θέση στην ουρά: %1$s</string>
+    <string name="livechat.conversation.subtitle.waiting.details">Εν αναμονή των στοιχείων σας</string>
+    <string name="livechat.conversation.title">Συνομιλίες μαζί μας</string>
+    <string name="livechat.conversation.with.attender"> με %1$s</string>
+    <string name="livechat.day.evening">Βράδυ</string>
+    <string name="livechat.day.friday">Παρασκευή</string>
+    <string name="livechat.day.monday">Δευτέρα</string>
+    <string name="livechat.day.morning">Πρωί</string>
+    <string name="livechat.day.night">Νύχτα</string>
+    <string name="livechat.day.noon">Μεσημέρι</string>
+    <string name="livechat.day.saturday">Σάββατο</string>
+    <string name="livechat.day.sunday">Κυριακή</string>
+    <string name="livechat.day.thursday">Πέμπτη</string>
+    <string name="livechat.day.today">Σήμερα</string>
+    <string name="livechat.day.tuesday">Τρίτη</string>
+    <string name="livechat.day.wednesday">Τετάρτη</string>
+    <string name="livechat.day.yesterday">Χθες</string>
+    <string name="livechat.feedback.ask.rating">Ich freue mich, heute mit Ihnen chatten zu können. Bitte nehmen Sie sich einen Moment für eine kurze Bewertung Zeit.</string>
+    <string name="livechat.feedback.button.msg">Αποστολή σχολίου</string>
+    <string name="livechat.feedback.hint">Εισαγάγετε την αξιολόγησή σας</string>
+    <string name="livechat.feedback.rate.happy">Oho! Vielen Dank!  Wir helfen Ihnen gerne weiter</string>
+    <string name="livechat.feedback.rate.neutral">Vielen Dank für Ihre Bewertung! Wenden Sie sich einfach an uns, wenn Sie Unterstützung brauchen.</string>
+    <string name="livechat.feedback.rate.sad">Schade, dass wir nicht helfen konnten. Wir arbeiten an der Verbesserung unseres Kundendienstes.</string>
+    <string name="livechat.feedback.submit">ΥΠΟΒΟΛΗ</string>
+    <string name="livechat.feedback.subtitle">Διαθέστε ελάχιστο από τον χρόνο σας για να καταχωρήσετε τη βαθμολογία σας</string>
+    <string name="livechat.feedback.thankingmsg">Vielen Dank für Ihre Rückmeldung.</string>
+    <string name="livechat.feedback.title">Σας βοήθησε η συνεδρία συνομιλίας;</string>
+    <string name="livechat.gdpr.chatconsent">Κάνοντας κλικ στο Αποδοχή, συμφωνείτε με όλους τους όρους και τις προϋποθέσεις μας, τα οποία ορίζονται στο έγγραφο.</string>
+    <string name="livechat.gdpr.chatconsent.accept">Αποδοχή</string>
+    <string name="livechat.gdpr.chatconsent.decline">Απόρριψη</string>
+    <string name="livechat.gdpr.chatconsent.title">Συναίνεση συνομιλίας</string>
+    <string name="livechat.gdpr.creditcardmask">Καθώς ο αριθμός κάρτας σας αποτελεί ευαίσθητο δεδομένο, θα θέλατε να αποκρύψουμε τα πρώτα 12 ψηφία του αριθμού της κάρτας σας;</string>
+    <string name="livechat.gdpr.creditcardmask.cancel">Άκυρο</string>
+    <string name="livechat.gdpr.creditcardmask.ok">Απόκρυψη</string>
+    <string name="livechat.gdpr.emailconfirm">Πρόκειται να στείλετε με email τα πρακτικά αυτής της συνομιλίας στο %1$s.</string>
+    <string name="livechat.gdpr.emailconfirm.change">Αλλάξτε διεύθυνση email</string>
+    <string name="livechat.gdpr.emailconfirm.send">Αποστολή</string>
+    <string name="livechat.gdpr.googletranslate.concent">Η υπηρεσία αυτή ενδέχεται να περιέχει μεταφράσεις από την Google. Η Google αποποιείται κάθε ευθύνη που σχετίζεται με τις μεταφράσεις, ρητές ή σιωπηρές, συμπεριλαμβανομένων τυχόν ευθυνών περί ακρίβειας, αξιοπιστίας και τυχόν σιωπηρών ευθυνών περί εμπορευσιμότητας, καταλληλότητας για συγκεκριμένο σκοπό και μη παραβίαση.</string>
+    <string name="livechat.gdpr.googletranslate.concent.title">Συναίνεση μετάφρασης</string>
+    <string name="livechat.gdpr.learnmore">Μάθετε περισσότερα</string>
+    <string name="livechat.gdpr.trackingconsent.donttrack">Να μην με παρακολουθείτε</string>
+    <string name="livechat.gdpr.trackingconsent.gotit">Ελήφθη!</string>
+    <string name="livechat.gdpr.trackingconsent.notify">Γεια σας! Παρακολουθούμε τις δραστηριότητές σας στην εφαρμογή μας για να βελτιώσουμε την εμπειρία σας εντός της εφαρμογής.</string>
+    <string name="livechat.gdpr.trackingconsent.notifywithoptout">Γεια σας! Παρακολουθούμε τις δραστηριότητές σας στην εφαρμογή μας για να βελτιώσουμε την εμπειρία σας εντός της εφαρμογής. Ωστόσο, αν θέλετε να εξαιρεθείτε από αυτό, κάντε κλικ στην επιλογή \’Να μην με παρακολουθείτε’\.</string>
+    <string name="livechat.message.download">Λήψη</string>
+    <string name="livechat.message.input.hint">Πληκτρολογήστε το μήνυμά σας εδώ...</string>
+    <string name="livechat.message.noresults">ΣςΔεν βρέθηκαν αποτελέσματα</string>
+    <string name="livechat.message.saved">Αποθηκεύτηκε</string>
+    <string name="livechat.message.search">Αναζήτηση</string>
+    <string name="livechat.message.status.copy">Αντιγραφή</string>
+    <string name="livechat.message.status.delete">Διαγραφή</string>
+    <string name="livechat.message.status.resend">Εκ νέου αποστολή</string>
+    <string name="livechat.message.status.sending">Αποστολή</string>
+    <string name="livechat.message.status.sent">Απεσταλμένα</string>
+    <string name="livechat.message.time.justnow">Μόλις τώρα</string>
+    <string name="livechat.message.timedout">Λήξη χρονικού ορίου</string>
+    <string name="livechat.message.typingindicator">πληκτρολογεί</string>
+    <string name="livechat.message.waitingforconnection">Αναμονή για σύνδεση στο δίκτυο</string>
+    <string name="livechat.messages.action.copy.success">Αντιγράφηκε στο πρόχειρο</string>
+    <string name="livechat.messages.alert.chatreqfailure">Αιφνιδιασμός! Φαίνεται ότι δεν μπορείτε να υποβάλετε αυτό το αίτημα για συνομιλία!</string>
+    <string name="livechat.messages.alert.upload.filesizeexceed">Υπέρβαση μέγιστου μεγέθους φόρτωσης</string>
+    <string name="livechat.messages.attachment.notopen">Αδυναμία ανοίγματος επισύναψης, καθώς η συσκευή σας δεν διαθέτει εφαρμογή που να υποστηρίζει αρχεία αυτής της μορφής!</string>
+    <string name="livechat.messages.camera.notopen">Αδυναμία ανοίγματος κάμερας, καθώς η συσκευή σας δεν διαθέτει κάμερα</string>
+    <string name="livechat.messages.continuechat.info">Η συνομιλία σας μαζί μας ολοκληρώθηκε. Χρειάζεστε περαιτέρω διευκρινίσεις; Κάντε κλικ στο κουμπί Συνέχεια για να συνομιλήσετε μαζί μας.</string>
+    <string name="livechat.messages.department">Επιλέξτε τμήμα</string>
+    <string name="livechat.messages.email.dialog.title">Εισαγάγετε τη διεύθυνση email σας</string>
+    <string name="livechat.messages.email.failure">Η αποστολή αλληλογραφίας απέτυχε</string>
+    <string name="livechat.messages.email.send">Αποστολή</string>
+    <string name="livechat.messages.email.success">Η αλληλογραφία εστάλη με επιτυχία</string>
+    <string name="livechat.messages.email.title">Στείλτε με email τα πρακτικά συνομιλίας</string>
+    <string name="livechat.messages.email.wrong">Εισαγάγετε έγκυρη διεύθυνση email</string>
+    <string name="livechat.messages.endchat.confirmation">Θα θέλατε να τερματίσετε αυτήν τη συνομιλία;</string>
+    <string name="livechat.messages.endchattimer">Καθώς αυτή η συνεδρία συνομιλίας ήταν ανενεργή για καιρό, θα τερματιστεί αυτόματα σε %1$s δευτερόλεπτα. Εάν επιθυμείτε να συνεχίσετε αυτή τη συνεδρία, τότε αφήστε μήνυμα.</string>
+    <string name="livechat.messages.file.defaultextn">Αρχείο</string>
+    <string name="livechat.messages.form.alert.message">Συμπληρώστε τη φόρμα στην προηγούμενη συνομιλία προτού ξεκινήσετε νέα συνομιλία!</string>
+    <string name="livechat.messages.info.acceptforward">Η συνομιλία έχει προωθηθεί σε %1$s επιτυχώς.</string>
+    <string name="livechat.messages.info.agenttransfer">%1$s μεταφέρει αυτή τη συνομιλία σε %2$s.</string>
+    <string name="livechat.messages.info.endchat">Η συνεδρία ολοκληρώθηκε</string>
+    <string name="livechat.messages.info.forward">Ο/η %1$s προωθεί τη συνομιλία.</string>
+    <string name="livechat.messages.info.missedchat">Χάσαμε την αίτησή σας για συνομιλία</string>
+    <string name="livechat.messages.info.operator.joined">%1$s πήρε μέρος στη συζήτηση αυτή.</string>
+    <string name="livechat.messages.info.reopen">Έχει ανοίξει ξανά τη συνομιλία</string>
+    <string name="livechat.messages.info.transfer.accept">Η συνομιλία μεταφέρθηκε. Γεια σας, %1$s!! Θα ήταν χαρά μου να σας βοηθήσω περαιτέρω.</string>
+    <string name="livechat.messages.offline">Γεια σας! Φαίνεται ότι κανένας από τους χειριστές μας δεν είναι διαθέσιμος αυτή τη στιγμή για να σας βοηθήσει. Αφήστε μας το μήνυμά σας και θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό.</string>
+    <string name="livechat.messages.operator.typing">πληκτρολογεί...</string>
+    <string name="livechat.messages.option.endchat">Τέλος συνομιλίας</string>
+    <string name="livechat.messages.option.sharefile">Κοινή χρήση αρχείου</string>
+    <string name="livechat.messages.option.takephoto">Λήψη φωτογραφίας</string>
+    <string name="livechat.messages.option.takescreenshot">Λήψη στιγμιότυπου οθόνης</string>
+    <string name="livechat.messages.prechatform.conversation.campaign">Möchten Sie unseren Newsletter abonnieren?</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.no">ΟΧΙ</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.yes">Sicher</string>
+    <string name="livechat.messages.prechatform.conversation.dept">Bitte Abteilung wählen, zu der Ihre Anfrage weitergeleitet werden soll</string>
+    <string name="livechat.messages.prechatform.conversation.email">Wie können wir Sie per E-Mail erreichen?</string>
+    <string name="livechat.messages.prechatform.conversation.name">Wie möchten Sie angesprochen werden?</string>
+    <string name="livechat.messages.prechatform.conversation.phone">Dürfen wir Ihre Telefonnummer haben?</string>
+    <string name="livechat.messages.prechatform.inline.button">Συμπλήρωση φόρμας</string>
+    <string name="livechat.messages.prechatform.inline.message">Δώστε μας μερικές λεπτομέρειες για να ξεκινήσετε μια συνομιλία.</string>
+    <string name="livechat.messages.prechatform.introduction.greeting.message">Βοηθήστε μας να μάθουμε με ποιον συνομιλούμε.</string>
+    <string name="livechat.messages.prechatform.introduction.name">Operator</string>
+    <string name="livechat.messages.prechatform.traditional.campaign.label">Möchten Sie unseren Newsletter abonnieren?</string>
+    <string name="livechat.messages.prechatform.traditional.department.label">Abteilung</string>
+    <string name="livechat.messages.prechatform.traditional.dept.error">Επιλέξτε έγκυρο τμήμα</string>
+    <string name="livechat.messages.prechatform.traditional.dept.hint">Επιλέξτε τμήμα</string>
+    <string name="livechat.messages.prechatform.traditional.email.error">Εισαγάγετε έγκυρη διεύθυνση email</string>
+    <string name="livechat.messages.prechatform.traditional.email.hint">Εισαγάγετε τη διεύθυνση email σας</string>
+    <string name="livechat.messages.prechatform.traditional.email.label">E-Mail</string>
+    <string name="livechat.messages.prechatform.traditional.name.error">Εισαγάγετε έγκυρο όνομα</string>
+    <string name="livechat.messages.prechatform.traditional.name.hint">Εισαγάγετε το όνομά σας</string>
+    <string name="livechat.messages.prechatform.traditional.name.label">Name</string>
+    <string name="livechat.messages.prechatform.traditional.phone.error">Εισαγάγετε έγκυρο αριθμό τηλεφώνου</string>
+    <string name="livechat.messages.prechatform.traditional.phone.hint">Εισαγάγετε τον αριθμό τηλεφώνου σας</string>
+    <string name="livechat.messages.prechatform.traditional.phone.label">Telefon</string>
+    <string name="livechat.messages.prechatform.traditional.question.error">Εισαγάγετε ερώτηση</string>
+    <string name="livechat.messages.record.slidetocancel">Σύρετε αριστερά για να σταματήσετε την εγγραφή</string>
+    <string name="livechat.messages.sharefile.ques">Μοιράστηκε ένα αρχείο</string>
+    <string name="livechat.messages.shareimage">Κοινή χρήση εικόνας</string>
+    <string name="livechat.messages.sharescreenshot">Κοινή χρήση στιγμιότυπου οθόνης</string>
+    <string name="livechat.messages.title">Συνομιλήστε μαζί μας τώρα!</string>
+    <string name="livechat.messages.you">Εσείς</string>
+    <string name="livechat.notification.messages.shared.file">%1$s μοιράστηκε ένα αρχείο</string>
+    <string name="livechat.notification.messages.shared.image">%1$s μοιράστηκε μια εικόνα</string>
+    <string name="livechat.notification.messages.shared.video">Ο/η %1$s σας έστειλε βίντεο</string>
+    <string name="livechat.operator.waiting.response">Ο χειριστής θα συμμετάσχει σύντομα</string>
+    <string name="livechat.permission.camera">Για να κάνετε κλικ σε μια εικόνα, παραχωρήστε άδεια για πρόσβαση στην κάμερα του κινητού σας.</string>
+    <string name="livechat.permission.file">Για να στείλετε ένα αρχείο, παραχωρήστε άδεια για πρόσβαση στον χώρο αποθήκευσης του κινητού σας.</string>
+    <string name="livechat.permission.locationdenied">Το δικαίωμα τοποθεσίας απορρίφθηκε</string>
+    <string name="livechat.permission.microphone">Για να ηχογραφήσετε ένα φωνητικό μήνυμα, παραχωρήστε άδεια για πρόσβαση στο μικρόφωνό σας.</string>
+    <string name="livechat.permission.negative">Όχι τώρα</string>
+    <string name="livechat.permission.positive">Ρυθμίσεις</string>
+    <string name="livechat.permission.storagedenied">Το δικαίωμα χώρου αποθήκευσης απορρίφθηκε.</string>
+    <string name="livechat.prechatform.submit">ΥΠΟΒΟΛΗ</string>
+    <string name="livechat.rating.skip">Παράβλεψη</string>
+    <string name="livechat.reopen.title">Εκ νέου άνοιγμα συνομιλίας</string>
+    <string name="livechat.requestlog.info">Ο χειριστής έχει ζητήσει πρόσβαση στο αρχείο καταγραφής εφαρμογών σας</string>
+    <string name="livechat.requestlog.negative.button">Άκυρο</string>
+    <string name="livechat.requestlog.positive.button">Αποστολή</string>
+    <string name="livechat.requestlog.title">Αρχείο καταγραφής εφαρμογών</string>
+    <string name="livechat.widgets.articles.related">Σχετικά άρθρα:</string>
+    <string name="livechat.widgets.calendar.fromdate">Από ημερομηνία</string>
+    <string name="livechat.widgets.calendar.fromtime">Από ώρα</string>
+    <string name="livechat.widgets.calendar.schedule">Προγραμματίστε τώρα</string>
+    <string name="livechat.widgets.calendar.setdate">Επιλέξτε ημερομηνία</string>
+    <string name="livechat.widgets.calendar.settime">Επιλέξτε ώρα</string>
+    <string name="livechat.widgets.calendar.timezone">Ζώνη ώρας</string>
+    <string name="livechat.widgets.calendar.todate">Μέχρι ημερομηνία</string>
+    <string name="livechat.widgets.calendar.totime">Μέχρι ώρα</string>
+    <string name="livechat.widgets.done">Ολοκληρώθηκε</string>
+    <string name="livechat.widgets.input.password.error">Εισαγάγετε έγκυρη τιμή</string>
+    <string name="livechat.widgets.input.phone.search.hint">Αναζήτηση χώρας</string>
+    <string name="livechat.widgets.input.url.error">Εισαγάγετε έγκυρη διεύθυνση URL</string>
+    <string name="livechat.widgets.location.accuracy">Ακρίβεια %1$d μέτρων</string>
+    <string name="livechat.widgets.location.radius.float">%1$.1f χλμ.</string>
+    <string name="livechat.widgets.location.radius.integer">%1$d χλμ.</string>
+    <string name="livechat.widgets.location.select">Επιλέξτε τοποθεσία</string>
+    <string name="livechat.widgets.location.send.current">Αποστολή της τρέχουσας τοποθεσίας</string>
+    <string name="livechat.widgets.location.send.selected">Αποστολή της επιλεγμένης τοποθεσίας</string>
+    <string name="livechat.widgets.location.suggestions">Προτάσεις</string>
+    <string name="livechat.widgets.rating.dislike">Δεν μου αρέσει</string>
+    <string name="livechat.widgets.rating.happy.angry">Θυμωμένος</string>
+    <string name="livechat.widgets.rating.happy.excited">Υπέροχα</string>
+    <string name="livechat.widgets.rating.happy.happy">Καλή</string>
+    <string name="livechat.widgets.rating.happy.neutral">Ουδέτερος</string>
+    <string name="livechat.widgets.rating.happy.sad">Θλιμμένος</string>
+    <string name="livechat.widgets.rating.like">Μου αρέσει</string>
+    <string name="livechat.widgets.select.limit.exceed">Συμπλήρωση επιλογής ορίου</string>
+    <string name="livechat.widgets.skip">Παράβλεψη</string>
+    <string name="livechat.widgets.timeslot.button">Επιλέξτε χρονοθυρίδα</string>
+    <string name="livechat.widgets.timezone.current">%1$s (Τρέχον)</string>
+    <string name="livechat_conversation_filetype_gif">GIF</string>
+    <string name="material_clock_toggle_content_description">Επιλέξτε π.μ. ή μ.μ.</string>
+    <string name="material_hour_24h_suffix">%1$s ώρες</string>
+    <string name="material_hour_selection">Επιλογή ώρας</string>
+    <string name="material_hour_suffix">%1$s ακριβώς</string>
+    <string name="material_minute_selection">Επιλογή λεπτών</string>
+    <string name="material_minute_suffix">%1$s λεπτά</string>
+    <string name="material_timepicker_am">ΠΜ</string>
+    <string name="material_timepicker_clock_mode_description">Κάντε εναλλαγή στη λειτουργία ρολογιού, για την εισαγωγή της ώρας.</string>
+    <string name="material_timepicker_hour">Ώρα</string>
+    <string name="material_timepicker_minute">Λεπτό</string>
+    <string name="material_timepicker_pm">ΜΜ</string>
+    <string name="material_timepicker_select_time">Επιλέξτε ώρα</string>
+    <string name="material_timepicker_text_input_mode_description">Κάντε εναλλαγή στη λειτουργία εισαγωγής κειμένου, για την εισαγωγή της ώρας.</string>
+    <string name="minimum_selection_is_required">Κάντε τουλάχιστον μία επιλογή</string>
+    <string name="minimum_selections_is_required">Απαιτούνται τουλάχιστον %1$d επιλογές</string>
+    <string name="mobilisten_article_choose_a_department">Επιλέξτε τμήμα</string>
+    <string name="mobilisten_article_departments">Τμήματα</string>
+    <string name="mobilisten_article_has_been_deleted_or_disabled">Το άρθρο δεν είναι διαθέσιμο</string>
+    <string name="mobilisten_article_no_views">Δεν υπάρχουν προβολές</string>
+    <string name="mobilisten_articles_general_error">@string/mobilisten_general_failure_error</string>
+    <string name="mobilisten_chat_connected_to_operator_or_bot">Συνδέθηκε σε %1$s</string>
+    <string name="mobilisten_common_okay">ΟΚ</string>
+    <string name="mobilisten_conversation_deleted">Η συνομιλία αυτή έχει διαγραφεί από τον χειριστή</string>
+    <string name="mobilisten_conversation_error_access_denied_to_initiate_chat">Απορρίφθηκε η πρόσβαση για έναρξη συνομιλίας</string>
+    <string name="mobilisten_conversation_error_email_field_is_mandatory">Το πεδίο email είναι υποχρεωτικό</string>
+    <string name="mobilisten_conversation_error_error_unable_to_initiate_chat_outside_business_hours">Αδυναμία δημιουργίας συνομιλίας κατά τη διάρκεια ωρών εκτός λειτουργίας</string>
+    <string name="mobilisten_conversation_error_invalid_chat_user_id">Μη έγκυρο αναγνωριστικό χρήστη επισκέπτη</string>
+    <string name="mobilisten_conversation_error_mentioned_department_is_not_mapped_to_the_brand">Το τμήμα που αναφέρθηκε δεν συσχετίζεται με την εμπορική επωνυμία</string>
+    <string name="mobilisten_conversation_error_name_field_is_mandatory">Το όνομα είναι υποχρεωτικό</string>
+    <string name="mobilisten_conversation_error_operation_not_available_for_mentioned_operator">Αυτός ο χειριστής δεν είναι διαθέσιμος για συνομιλία</string>
+    <string name="mobilisten_conversation_error_phone_number_field_is_mandatory">Ο αριθμός τηλεφώνου είναι υποχρεωτικός</string>
+    <string name="mobilisten_conversation_error_resource_limit_reached">Επετεύχθη το όριο πόρων για το τρέχον πρόγραμμα</string>
+    <string name="mobilisten_conversation_general_error">Αδυναμία λήψης στοιχείων συνομιλίας</string>
+    <string name="mobilisten_error_chat_transfer_already_in_progress_failure">Η μεταφορά συνομιλίας βρίσκεται ήδη σε εξέλιξη! Περιμένετε λίγη ώρα.</string>
+    <string name="mobilisten_error_chat_transfer_no_online_user_failure">Δυστυχώς, δεν υπάρχουν διαθέσιμοι χρήστες στο τμήμα σας</string>
+    <string name="mobilisten_file_upload_size_limit_exceeded">Υπέρβαση μέγιστου μεγέθους αρχείου (50 MB).</string>
+    <string name="mobilisten_general_failure_error">Δυστυχώς, κάτι πήγε λάθος. Ξαναπροσπαθήστε αργότερα.</string>
+    <string name="mobilisten_load_more_messages">Φόρτωση περισσότερων μηνυμάτων</string>
+    <string name="mobilisten_loading_messages">Φόρτωση μηνυμάτων...</string>
+    <string name="mobilisten_notification_multiple_messages">%1$d νέα μηνύματα</string>
+    <string name="mobilisten_notification_single_message">%1$d νέο μήνυμα</string>
+    <string name="mobilisten_operator_has_requested_for_app_log">Ο χειριστής έχει αιτηθεί αρχείο καταγραφής εφαρμογών.</string>
+    <string name="mobilisten_test_push_notifications">Δοκιμή ειδοποιήσεων push</string>
+    <string name="mobilisten_unable_to_load_message_transcript">Δυστυχώς, δεν ήταν δυνατή η λήψη μηνυμάτων</string>
+    <string name="mtrl_badge_numberless_content_description">Νέα ειδοποίηση</string>
+    <string name="mtrl_chip_close_icon_content_description">Κατάργηση %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Πάνω από %1$d νέες ειδοποιήσεις</string>
+    <string name="mtrl_picker_a11y_next_month">Αλλαγή στον επόμενο μήνα</string>
+    <string name="mtrl_picker_a11y_prev_month">Αλλαγή στον προηγούμενο μήνα</string>
+    <string name="mtrl_picker_announce_current_selection">Τρέχουσα επιλογή: %1$s</string>
+    <string name="mtrl_picker_cancel">Ακύρωση</string>
+    <string name="mtrl_picker_confirm">ΟΚ</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Επιλογή ημερομηνίας</string>
+    <string name="mtrl_picker_date_header_unselected">Επιλεγμένη ημερομηνία</string>
+    <string name="mtrl_picker_day_of_week_column_header">Στήλη ημερών: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Μη έγκυρη μορφή.</string>
+    <string name="mtrl_picker_invalid_format_example">Παράδειγμα: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Χρησιμοποιήστε: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Μη έγκυρο εύρος.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Πλοήγηση στο έτος %1$s</string>
+    <string name="mtrl_picker_out_of_range">Εκτός εύρους: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Ημερομηνία έναρξης – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Ημερομηνία λήξης</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Επιλογή εύρους</string>
+    <string name="mtrl_picker_range_header_unselected">Ημερομηνία έναρξης – Ημερομηνία λήξης</string>
+    <string name="mtrl_picker_save">Αποθήκευση</string>
+    <string name="mtrl_picker_text_input_date_hint">Ημερομηνία</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Ημερομηνία λήξης</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Ημερομηνία έναρξης</string>
+    <string name="mtrl_picker_text_input_day_abbr">η</string>
+    <string name="mtrl_picker_text_input_month_abbr">μ</string>
+    <string name="mtrl_picker_text_input_year_abbr">ε</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Εναλλαγή στη λειτουργία εισαγωγής ημερολογίου</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Πατήστε για εναλλαγή για την επιλογή ημέρας</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Εναλλαγή στη λειτουργία εισαγωγής κειμένου</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Πατήστε για εναλλαγή για την επιλογή έτους</string>
+    <string name="mtrl_timepicker_cancel">Ακύρωση</string>
+    <string name="mtrl_timepicker_confirm">ΟΚ</string>
+    <string name="password_toggle_content_description">Εμφάνιση κωδικού πρόσβασης</string>
+    <string name="salesiq.advertisebadge.content">Από την SalesIQ Mobilisten</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Αναζήτηση"</string>
+    <string name="siq_articles_count_many">%1$d άρθρα</string>
+    <string name="siq_articles_count_single">1 άρθρο</string>
+    <string name="siq_articles_sub_categories_count_one">1 υποκατηγορία</string>
+    <string name="siq_articles_sub_categories_counts">%1$d υποκατηγορίες</string>
+    <string name="siq_recently_viewed_articles_title">Προβλήθηκαν πρόσφατα</string>
+    <string name="siq_related_articles">Σχετικά άρθρα</string>
+    <string name="siq_title_articles">Άρθρα</string>
+    <string name="siq_title_sub_category">Υποκατηγορίες</string>
+    <string name="size_bytes"> Byte</string>
+    <string name="size_kilo_bytes"> KB</string>
+    <string name="size_mega_bytes"> MB</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_unit_day_d">η</string>
+    <string name="time_unit_hour_h">ω</string>
+    <string name="time_unit_minute_m">λεπτό</string>
+    <string name="time_unit_month_m">μ</string>
+    <string name="time_unit_second_s">δ</string>
+    <string name="time_unit_week_w">ε</string>
+    <string name="time_unit_year_y">έ</string>
+</resources>

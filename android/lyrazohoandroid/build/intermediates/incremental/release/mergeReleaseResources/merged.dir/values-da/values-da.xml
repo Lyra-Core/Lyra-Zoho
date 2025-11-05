@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d ny notifikation</item>
+    <item quantity="other">%d nye notifikationer</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Find hjem"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Gå op"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Flere valgmuligheder"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Udfør"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Se alle"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Vælg en app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"FRA"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"TIL"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"slet"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"mellemrum"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Søg…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Ryd forespørgsel"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Søgeforespørgsel"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Søg"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Indsend forespørgsel"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Talesøgning"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Del med"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Del med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Skjul"</string>
+    <string name="app_logs_txt_file_name">app_logs.txt</string>
+    <string name="articles.browse">Søg efter en artikel</string>
+    <string name="articles.counts.many">%1$d artikel</string>
+    <string name="articles.counts.one">%1$d artikel</string>
+    <string name="articles.emptystate">Vores sektion med ofte stillede spørgsmål er ikke færdig endnu! Kom tilbage senere!</string>
+    <string name="articles.feedback.thanks">Tak for din feedback!</string>
+    <string name="articles.pursuechat">Chat</string>
+    <string name="articles.recent.search">Seneste søgninger</string>
+    <string name="articles.recent.viewed">Senest vist</string>
+    <string name="articles.search.text">Det ser ud til, at der ikke er nogen resultater for det indtastede søgeord!</string>
+    <string name="articles.startchat">Start chat</string>
+    <string name="articles.views.many">%1$d visninger</string>
+    <string name="articles.views.one">%1$d visninger</string>
+    <string name="articles_updated_time">Opdateret for %1$s siden</string>
+    <string name="bottomsheet_action_collapse">Skjul feltet i bunden</string>
+    <string name="bottomsheet_action_expand">Udvid feltet i bunden</string>
+    <string name="bottomsheet_action_expand_halfway">Udvid halvdelen</string>
+    <string name="bottomsheet_drag_handle_clicked">Du har trykket to gange på håndtaget</string>
+    <string name="bottomsheet_drag_handle_content_description">Håndtag</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Besvar"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Afvis"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Læg på"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Indgående opkald"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Igangværende opkald"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Et indgående opkald screenes"</string>
+    <string name="character_counter_content_description">Du har brugt %1$d ud af %2$d tegn</string>
+    <string name="character_counter_overflowed_content_description">Du har brugt %1$d tegn og dermed overskredet tegnbegrænsningen på %2$d.</string>
+    <string name="clear_text_end_icon_content_description">Ryd tekst</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Aktivér</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Du skal aktivere Google Play-tjenester, for at %1$s kan fungere.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Aktivér Google Play-tjenester</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Installer</string>
+    <string name="common_google_play_services_install_text">Du skal installere Google Play-tjenester, før %1$s kan køre på din enhed.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Hent Google Play-tjenester</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play-tjenesters tilgængelighed</string>
+    <string name="common_google_play_services_notification_ticker">Fejl i Google Play-tjenester</string>
+    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv igen.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s fungerer ikke uden Google Play-tjenester, som ikke understøttes på din enhed.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Opdater</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s kan ikke køre, medmindre du opdaterer Google Play-tjenester.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Opdater Google Play-tjenester</string>
+    <string name="common_google_play_services_updating_text">%1$s kan ikke køre uden Google Play-tjenester, som i øjeblikket opdateres.</string>
+    <string name="common_google_play_services_wear_update_text">Du skal bruge en ny version af Google Play-tjenester. Opdateringen gennemføres automatisk om et øjeblik.</string>
+    <string name="common_open_on_phone">Åbn på telefonen</string>
+    <string name="common_signin_button_text">Log ind</string>
+    <string name="common_signin_button_text_long">Log ind med Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Linket er kopieret til udklipsholderen"</string>
+    <string name="duration_few_seconds">få sekunder</string>
+    <string name="error_icon_content_description">Fejl</string>
+    <string name="exposed_dropdown_menu_content_description">Vis rullemenuen</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopiér link"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Åbn i browser"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Del link"</string>
+    <string name="icon_content_description">Ikon for dialogboks</string>
+    <string name="item_view_role_description">Fane</string>
+    <string name="live_chat_no_application_to_handle_uri">Du har ikke tilladelse til at åbne til denne webside</string>
+    <string name="livechat.article.title">Ofte stillede spørgsmål</string>
+    <string name="livechat.bot.action.pending.wait">Vent venligst.</string>
+    <string name="livechat.bot.connectwithhuman">Brug for hjælp fra en person?</string>
+    <string name="livechat.bot.input.hint">Vælg mellem ovenstående indtastninger</string>
+    <string name="livechat.chat.queue.banner.calculating">Beregner ventetid...</string>
+    <string name="livechat.chat.queue.banner.position.subtitle">Plads</string>
+    <string name="livechat.chat.queue.banner.timeremaining">Den forventede ventetid er ca. %1$s</string>
+    <string name="livechat.chat.queue.banner.title">Du er i en chat-kø</string>
+    <string name="livechat.chat.sender.profanity.alert">Misbrugsalarm</string>
+    <string name="livechat.common.article">artikel</string>
+    <string name="livechat.common.loading">Indlæser...</string>
+    <string name="livechat.common.no">NEJ</string>
+    <string name="livechat.common.nointernet">Kontroller din internetforbindelse.</string>
+    <string name="livechat.common.ok">OK</string>
+    <string name="livechat.common.yes">JA</string>
+    <string name="livechat.conversation.emptystate">Hos %1$s er vi glade for at kunne hjælpe dig! Chat med vores eksperter nu.</string>
+    <string name="livechat.conversation.endchat.timer">Denne chatsession skal til at slutte</string>
+    <string name="livechat.conversation.filetype.audio">lyd</string>
+    <string name="livechat.conversation.filetype.image">billede</string>
+    <string name="livechat.conversation.filetype.others">Fil</string>
+    <string name="livechat.conversation.filetype.video">video</string>
+    <string name="livechat.conversation.in.dept">I %1$s</string>
+    <string name="livechat.conversation.search.emptystate">Det ser ud til, at der ikke er nogen resultater for det indtastede søgeord!</string>
+    <string name="livechat.conversation.startchat">Start chat</string>
+    <string name="livechat.conversation.status">Åben</string>
+    <string name="livechat.conversation.subtitle.missed">Ingen operatører er tilgængelige</string>
+    <string name="livechat.conversation.subtitle.queue.position">Plads i køen: %1$s</string>
+    <string name="livechat.conversation.subtitle.waiting.details">Venter på dine oplysninger</string>
+    <string name="livechat.conversation.title">Samtaler med os</string>
+    <string name="livechat.conversation.with.attender"> med %1$s</string>
+    <string name="livechat.day.evening">Aften</string>
+    <string name="livechat.day.friday">Fredag</string>
+    <string name="livechat.day.monday">Mandag</string>
+    <string name="livechat.day.morning">Morgen</string>
+    <string name="livechat.day.night">Nat</string>
+    <string name="livechat.day.noon">Middag</string>
+    <string name="livechat.day.saturday">Lørdag</string>
+    <string name="livechat.day.sunday">Søndag</string>
+    <string name="livechat.day.thursday">Torsdag</string>
+    <string name="livechat.day.today">I dag</string>
+    <string name="livechat.day.tuesday">Tirsdag</string>
+    <string name="livechat.day.wednesday">Onsdag</string>
+    <string name="livechat.day.yesterday">I går</string>
+    <string name="livechat.feedback.ask.rating">Det er mig en fornøjelse at chatte med dig i dag. Brug venligst et øjeblik på at afgive din \'bedømmelse\'.</string>
+    <string name="livechat.feedback.button.msg">Send feedback</string>
+    <string name="livechat.feedback.hint">Indtast din feedback</string>
+    <string name="livechat.feedback.rate.happy">Wow, tak skal du have!  Vi er glade for at hjælpe dig</string>
+    <string name="livechat.feedback.rate.neutral">Tak for din bedømmelse! Du er velkommen til at ping os for hjælp.</string>
+    <string name="livechat.feedback.rate.sad">Vi beklager, at vi ikke kunne hjælpe. Vi vil forbedre vores support.</string>
+    <string name="livechat.feedback.submit">INDSEND</string>
+    <string name="livechat.feedback.subtitle">Brug venligst et øjeblik på at afgive din bedømmelse</string>
+    <string name="livechat.feedback.thankingmsg">Tak for dit feedback.</string>
+    <string name="livechat.feedback.title">Var denne chatsession til hjælp?</string>
+    <string name="livechat.gdpr.chatconsent">Ved at klikke på Accepter accepterer du hermed vores vilkår og betingelser som angivet i dokumentet.</string>
+    <string name="livechat.gdpr.chatconsent.accept">Accepter</string>
+    <string name="livechat.gdpr.chatconsent.decline">Afvis</string>
+    <string name="livechat.gdpr.chatconsent.title">Chat-godkendelse</string>
+    <string name="livechat.gdpr.creditcardmask">Dit kortnummer er ret følsomme data. Vil du have os til at maskere de første 12 cifre i dit kortnummer?</string>
+    <string name="livechat.gdpr.creditcardmask.cancel">Annuller</string>
+    <string name="livechat.gdpr.creditcardmask.ok">Masker</string>
+    <string name="livechat.gdpr.emailconfirm">Du er i gang med at e-maile denne chat-transskribering til %1$s.</string>
+    <string name="livechat.gdpr.emailconfirm.change">Skift e-mailadresse</string>
+    <string name="livechat.gdpr.emailconfirm.send">Send</string>
+    <string name="livechat.gdpr.googletranslate.concent">Denne service kan indeholde oversættelser drevet af Google. Google fraskriver sig alle garantier i forbindelse med oversættelserne, udtrykkelige eller underforståede, inklusive garantier for nøjagtighed, pålidelighed og enhver underforstået garanti for salgbarhed, egnethed til et bestemt formål og ikke-krænkelse.</string>
+    <string name="livechat.gdpr.googletranslate.concent.title">Oversættelsesgodkendelse</string>
+    <string name="livechat.gdpr.learnmore">Læs mere</string>
+    <string name="livechat.gdpr.trackingconsent.donttrack">Spor ikke</string>
+    <string name="livechat.gdpr.trackingconsent.gotit">Forstået!</string>
+    <string name="livechat.gdpr.trackingconsent.notify">Hej! Vi sporer dine aktiviteter i vores app for at forbedre din oplevelse i appen.</string>
+    <string name="livechat.gdpr.trackingconsent.notifywithoptout">Hej! Vi sporer dine aktiviteter i vores app for at forbedre din oplevelse i appen. Men vil du vil fravælge dette, skal du klikke på indstillingen "Spor ikke".</string>
+    <string name="livechat.message.download">Download</string>
+    <string name="livechat.message.input.hint">Indtast din meddelelse her</string>
+    <string name="livechat.message.noresults">Ingen resultater fundet</string>
+    <string name="livechat.message.saved">Gemt</string>
+    <string name="livechat.message.search">Søg</string>
+    <string name="livechat.message.status.copy">Kopier</string>
+    <string name="livechat.message.status.delete">Slet</string>
+    <string name="livechat.message.status.resend">Send igen</string>
+    <string name="livechat.message.status.sending">Sender</string>
+    <string name="livechat.message.status.sent">Sendt</string>
+    <string name="livechat.message.time.justnow">Lige nu</string>
+    <string name="livechat.message.timedout">Udløbet</string>
+    <string name="livechat.message.typingindicator">skriver</string>
+    <string name="livechat.message.waitingforconnection">Venter på netværksforbindelse</string>
+    <string name="livechat.messages.action.copy.success">Kopieret til udklipsholder</string>
+    <string name="livechat.messages.alert.chatreqfailure">Øv, surt! Det ser ud til, at du ikke kan sende denne chatanmodning!</string>
+    <string name="livechat.messages.alert.upload.filesizeexceed">Maksimal upload-størrelse er overskredet</string>
+    <string name="livechat.messages.attachment.notopen">Kan ikke åbne vedhæftet fil, fordi din enhed ikke har en app, som understøtter filer i dette format!</string>
+    <string name="livechat.messages.camera.notopen">Kan ikke åbne kamera, fordi din enhed ikke har et kamera</string>
+    <string name="livechat.messages.continuechat.info">Din chatsession med os er afsluttet. Har du yderligere forespørgsler, der kræver svar? Klik på Fortsæt for at chatte med os.</string>
+    <string name="livechat.messages.department">Vælg en afdeling</string>
+    <string name="livechat.messages.email.dialog.title">Indtast din e-mailadresse</string>
+    <string name="livechat.messages.email.failure">E-mail afsendelse lykkedes ikke</string>
+    <string name="livechat.messages.email.send">Send</string>
+    <string name="livechat.messages.email.success">Mail blev sendt</string>
+    <string name="livechat.messages.email.title">Send chat-transskribering via e-mail</string>
+    <string name="livechat.messages.email.wrong">Indtast gyldig e-mailadresse</string>
+    <string name="livechat.messages.endchat.confirmation">Vil du afslutte denne chat?</string>
+    <string name="livechat.messages.endchattimer">Denne chatsession har været inaktiv i lang tid og afsluttes automatisk om %1$s sek. Hvis du vil fortsætte denne session, skal du skrive en besked.</string>
+    <string name="livechat.messages.file.defaultextn">Fil</string>
+    <string name="livechat.messages.form.alert.message">Udfyld formularen i den forrige chat, før du starter en ny chat!</string>
+    <string name="livechat.messages.info.acceptforward">Chatten er blevet videresendt til %1$s.</string>
+    <string name="livechat.messages.info.agenttransfer">%1$s overfører denne chat til %2$s.</string>
+    <string name="livechat.messages.info.endchat">Session afsluttet</string>
+    <string name="livechat.messages.info.forward">%1$s videresender chatten.</string>
+    <string name="livechat.messages.info.missedchat">Vi gik glip af din chatanmodning</string>
+    <string name="livechat.messages.info.operator.joined">%1$s har tilsluttet sig denne samtale.</string>
+    <string name="livechat.messages.info.reopen">Du har genåbnet chatten</string>
+    <string name="livechat.messages.info.transfer.accept">Chat overført. Hej, det er %1$s! Jeg vil meget gerne hjælpe dig yderligere.</string>
+    <string name="livechat.messages.offline">Hej! Det ser ud til, at der ikke er en ledig medarbejder til at hjælpe dig i øjeblikket. Send os en besked, og vi vender tilbage snarest muligt.</string>
+    <string name="livechat.messages.operator.typing">skriver...</string>
+    <string name="livechat.messages.option.endchat">Afslut chat</string>
+    <string name="livechat.messages.option.sharefile">Del fil</string>
+    <string name="livechat.messages.option.takephoto">Tag billede</string>
+    <string name="livechat.messages.option.takescreenshot">Tag skærmbillede</string>
+    <string name="livechat.messages.prechatform.conversation.campaign">Vil du abonnere på vores nyhedsbrev?</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.no">NEJ</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.yes">Ja, selvfølgelig</string>
+    <string name="livechat.messages.prechatform.conversation.dept">Vælg venligst afdelingen hvortil din anmodning skal sendes</string>
+    <string name="livechat.messages.prechatform.conversation.email">Vi kan sende dig en e-mail på?</string>
+    <string name="livechat.messages.prechatform.conversation.name">Hvordan vil du tiltales?</string>
+    <string name="livechat.messages.prechatform.conversation.phone">Må vi bede om dit kontakttelefonnummer?</string>
+    <string name="livechat.messages.prechatform.inline.button">Udfyld formular</string>
+    <string name="livechat.messages.prechatform.inline.message">Giv os et par oplysninger for at starte en chat.</string>
+    <string name="livechat.messages.prechatform.introduction.greeting.message">Hjælp os med at finde ud af, hvem vi taler med.</string>
+    <string name="livechat.messages.prechatform.introduction.name">Operatør</string>
+    <string name="livechat.messages.prechatform.traditional.campaign.label">Vil du abonnere på vores nyhedsbrev?</string>
+    <string name="livechat.messages.prechatform.traditional.department.label">Afdeling</string>
+    <string name="livechat.messages.prechatform.traditional.dept.error">Vælg en gyldig afdeling</string>
+    <string name="livechat.messages.prechatform.traditional.dept.hint">Vælg en afdeling</string>
+    <string name="livechat.messages.prechatform.traditional.email.error">Indtast en gyldig e-mailadresse</string>
+    <string name="livechat.messages.prechatform.traditional.email.hint">Indtast din e-mailadresse</string>
+    <string name="livechat.messages.prechatform.traditional.email.label">E-mail</string>
+    <string name="livechat.messages.prechatform.traditional.name.error">Indtast et gyldigt navn</string>
+    <string name="livechat.messages.prechatform.traditional.name.hint">Indtast dit navn</string>
+    <string name="livechat.messages.prechatform.traditional.name.label">Navn</string>
+    <string name="livechat.messages.prechatform.traditional.phone.error">Indtast et gyldigt telefonnummer</string>
+    <string name="livechat.messages.prechatform.traditional.phone.hint">Indtast dit kontakttelefonnummer</string>
+    <string name="livechat.messages.prechatform.traditional.phone.label">Telefon</string>
+    <string name="livechat.messages.prechatform.traditional.question.error">Indtast spørgsmål</string>
+    <string name="livechat.messages.record.slidetocancel">Skub til venstre for at stoppe optagelse</string>
+    <string name="livechat.messages.sharefile.ques">Delte en fil</string>
+    <string name="livechat.messages.shareimage">Del billede</string>
+    <string name="livechat.messages.sharescreenshot">Del skærmbillede</string>
+    <string name="livechat.messages.title">Chat med os nu!</string>
+    <string name="livechat.messages.you">Du</string>
+    <string name="livechat.notification.messages.shared.file">%1$s har delt en fil</string>
+    <string name="livechat.notification.messages.shared.image">%1$s har delt et billede</string>
+    <string name="livechat.notification.messages.shared.video">%1$s sendte dig en video</string>
+    <string name="livechat.operator.waiting.response">Operatøren kommer snart</string>
+    <string name="livechat.permission.camera">For at klikke på et billede skal du give tilladelse til at få adgang til dit mobilkamera.</string>
+    <string name="livechat.permission.file">For at sende en fil skal du give tilladelse til at få adgang til dit mobillager.</string>
+    <string name="livechat.permission.locationdenied">Placeringstilladelse nægtet</string>
+    <string name="livechat.permission.microphone">For at optage en stemmemeddelelse skal du give tilladelse til at få adgang til din mikrofon.</string>
+    <string name="livechat.permission.negative">Ikke nu</string>
+    <string name="livechat.permission.positive">Indstillinger</string>
+    <string name="livechat.permission.storagedenied">Lagringstilladelse nægtet.</string>
+    <string name="livechat.prechatform.submit">INDSEND</string>
+    <string name="livechat.rating.skip">Spring over</string>
+    <string name="livechat.reopen.title">Genåbne chat</string>
+    <string name="livechat.requestlog.info">Medarbejder har anmodet om adgang til din applikationslog</string>
+    <string name="livechat.requestlog.negative.button">Annuller</string>
+    <string name="livechat.requestlog.positive.button">Send</string>
+    <string name="livechat.requestlog.title">Applikationslog</string>
+    <string name="livechat.widgets.articles.related">Relaterede artikler:</string>
+    <string name="livechat.widgets.calendar.fromdate">Fra dato</string>
+    <string name="livechat.widgets.calendar.fromtime">Fra tid</string>
+    <string name="livechat.widgets.calendar.schedule">Planlæg nu</string>
+    <string name="livechat.widgets.calendar.setdate">Vælg en dato</string>
+    <string name="livechat.widgets.calendar.settime">Vælg et tidspunkt</string>
+    <string name="livechat.widgets.calendar.timezone">Tidszone</string>
+    <string name="livechat.widgets.calendar.todate">Til dato</string>
+    <string name="livechat.widgets.calendar.totime">Til tid</string>
+    <string name="livechat.widgets.done">Færdig</string>
+    <string name="livechat.widgets.input.password.error">Indtast en gyldig værdi</string>
+    <string name="livechat.widgets.input.phone.search.hint">Søg efter land</string>
+    <string name="livechat.widgets.input.url.error">Indtast en gyldig URL</string>
+    <string name="livechat.widgets.location.accuracy">Med %1$d meters nøjagtighed</string>
+    <string name="livechat.widgets.location.radius.float">%1$.1f km</string>
+    <string name="livechat.widgets.location.radius.integer">%1$d km</string>
+    <string name="livechat.widgets.location.select">Vælg et sted</string>
+    <string name="livechat.widgets.location.send.current">Send det aktuelle sted</string>
+    <string name="livechat.widgets.location.send.selected">Send det valgte sted</string>
+    <string name="livechat.widgets.location.suggestions">Forslag</string>
+    <string name="livechat.widgets.rating.dislike">Synes ikke godt om</string>
+    <string name="livechat.widgets.rating.happy.angry">Vred</string>
+    <string name="livechat.widgets.rating.happy.excited">Fint</string>
+    <string name="livechat.widgets.rating.happy.happy">God</string>
+    <string name="livechat.widgets.rating.happy.neutral">Neutral</string>
+    <string name="livechat.widgets.rating.happy.sad">Bedrøvet</string>
+    <string name="livechat.widgets.rating.like">Synes godt om</string>
+    <string name="livechat.widgets.select.limit.exceed">Valg-grænse nået</string>
+    <string name="livechat.widgets.skip">Spring over</string>
+    <string name="livechat.widgets.timeslot.button">Vælg en tid</string>
+    <string name="livechat.widgets.timezone.current">%1$s (aktuel)</string>
+    <string name="livechat_conversation_filetype_gif">GIF</string>
+    <string name="material_clock_toggle_content_description">Vælg AM eller PM</string>
+    <string name="material_hour_24h_suffix">%1$s timer</string>
+    <string name="material_hour_selection">Vælg time</string>
+    <string name="material_hour_suffix">klokken %1$s</string>
+    <string name="material_minute_selection">Vælg minutter</string>
+    <string name="material_minute_suffix">%1$s minutter</string>
+    <string name="material_timepicker_am">f.m.</string>
+    <string name="material_timepicker_clock_mode_description">Skift til urtilstand for at angive klokkeslæt.</string>
+    <string name="material_timepicker_hour">Time</string>
+    <string name="material_timepicker_minute">Minut</string>
+    <string name="material_timepicker_pm">e.m.</string>
+    <string name="material_timepicker_select_time">Vælg tidspunkt</string>
+    <string name="material_timepicker_text_input_mode_description">Skift til teksttilstand for at angive klokkeslæt.</string>
+    <string name="minimum_selection_is_required">Vælg mindst én indstilling</string>
+    <string name="minimum_selections_is_required">Mindst %1$d valg er påkrævet</string>
+    <string name="mobilisten_article_choose_a_department">Vælg afdeling</string>
+    <string name="mobilisten_article_departments">Afdelinger</string>
+    <string name="mobilisten_article_has_been_deleted_or_disabled">Artikel utilgængelig</string>
+    <string name="mobilisten_article_no_views">Ingen visninger</string>
+    <string name="mobilisten_articles_general_error">@string/mobilisten_general_failure_error</string>
+    <string name="mobilisten_chat_connected_to_operator_or_bot">Tilsluttet til %1$s</string>
+    <string name="mobilisten_common_okay">OK</string>
+    <string name="mobilisten_conversation_deleted">Denne samtale er slettet af operatøren</string>
+    <string name="mobilisten_conversation_error_access_denied_to_initiate_chat">Adgang nægtet til at starte chat</string>
+    <string name="mobilisten_conversation_error_email_field_is_mandatory">E-mail-feltet er obligatorisk</string>
+    <string name="mobilisten_conversation_error_error_unable_to_initiate_chat_outside_business_hours">Kan ikke oprette samtale i løbet af offline-timer</string>
+    <string name="mobilisten_conversation_error_invalid_chat_user_id">Ugyldig besøger-id</string>
+    <string name="mobilisten_conversation_error_mentioned_department_is_not_mapped_to_the_brand">Den nævnte afdeling er ikke tilknyttet brandet</string>
+    <string name="mobilisten_conversation_error_name_field_is_mandatory">Navn er obligatorisk</string>
+    <string name="mobilisten_conversation_error_operation_not_available_for_mentioned_operator">Denne operatør er ikke tilgængelig for chat</string>
+    <string name="mobilisten_conversation_error_phone_number_field_is_mandatory">Telefonnummeret er obligatorisk</string>
+    <string name="mobilisten_conversation_error_resource_limit_reached">Ressourcegrænsen er nået for nuværende plan</string>
+    <string name="mobilisten_conversation_general_error">Kan ikke hente samtaledetaljer</string>
+    <string name="mobilisten_error_chat_transfer_already_in_progress_failure">Chatoverførsel er allerede i gang! Vent et stykke tid.</string>
+    <string name="mobilisten_error_chat_transfer_no_online_user_failure">Beklager, ingen online bruger er tilgængelig i afdelingen</string>
+    <string name="mobilisten_file_upload_size_limit_exceeded">Maksimal filstørrelse (50 MB) er overskredet.</string>
+    <string name="mobilisten_general_failure_error">Beklager, men noget gik galt. Prøv igen senere.</string>
+    <string name="mobilisten_load_more_messages">Indlæs flere meddelelser</string>
+    <string name="mobilisten_loading_messages">Indlæser meddelelser...</string>
+    <string name="mobilisten_notification_multiple_messages">%1$d nye beskeder</string>
+    <string name="mobilisten_notification_single_message">%1$d ny besked</string>
+    <string name="mobilisten_operator_has_requested_for_app_log">Operatøren har anmodet om app-logfiler.</string>
+    <string name="mobilisten_test_push_notifications">Test pushmeddelelser</string>
+    <string name="mobilisten_unable_to_load_message_transcript">Beklager, kan ikke hente meddelelser</string>
+    <string name="mtrl_badge_numberless_content_description">Ny notifikation</string>
+    <string name="mtrl_chip_close_icon_content_description">Fjern %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Flere end %1$d nye notifikationer</string>
+    <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
+    <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
+    <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_cancel">Annuller</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Vælg dato</string>
+    <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolonne med dage: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ugyldigt format.</string>
+    <string name="mtrl_picker_invalid_format_example">Eksempel: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Brug: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ugyldigt interval.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Gå til år %1$s</string>
+    <string name="mtrl_picker_out_of_range">Uden for interval: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdato – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – slutdato</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Vælg interval</string>
+    <string name="mtrl_picker_range_header_unselected">Startdato – slutdato</string>
+    <string name="mtrl_picker_save">Gem</string>
+    <string name="mtrl_picker_text_input_date_hint">Dato</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Slutdato</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdato</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">å</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Skift til input-tilstand for kalender</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tryk for at gå til valg af dag</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Skift til input-tilstand for tekst</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tryk for at gå til valg af år</string>
+    <string name="mtrl_timepicker_cancel">Annuller</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="password_toggle_content_description">Vis adgangskode</string>
+    <string name="salesiq.advertisebadge.content">Drevet af SalesIQ Mobilisten</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Søg"</string>
+    <string name="siq_articles_count_many">%1$d artikler</string>
+    <string name="siq_articles_count_single">1 artikel</string>
+    <string name="siq_articles_sub_categories_count_one">1 underkategori</string>
+    <string name="siq_articles_sub_categories_counts">%1$d underkategorier</string>
+    <string name="siq_recently_viewed_articles_title">Senest viste</string>
+    <string name="siq_related_articles">Relaterede artikler</string>
+    <string name="siq_title_articles">Artikler</string>
+    <string name="siq_title_sub_category">Underkategorier</string>
+    <string name="size_bytes"> Bytes</string>
+    <string name="size_kilo_bytes"> KB</string>
+    <string name="size_mega_bytes"> MB</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_unit_day_d">d</string>
+    <string name="time_unit_hour_h">t</string>
+    <string name="time_unit_minute_m">min</string>
+    <string name="time_unit_month_m">m</string>
+    <string name="time_unit_second_s">s</string>
+    <string name="time_unit_week_w">u</string>
+    <string name="time_unit_year_y">å</string>
+</resources>

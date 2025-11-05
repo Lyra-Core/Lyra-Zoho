@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="200dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    android:background="?attr/siq_backgroundcolor">
+
+    <LinearLayout
+        android:id="@+id/siq_resend_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/siq_16">
+
+        <ImageView
+            android:id="@+id/siq_resend_imageview"
+            android:layout_width="@dimen/siq_24"
+            android:layout_height="@dimen/siq_24"
+            app:srcCompat="@drawable/salesiq_replay_icon" />
+
+        <TextView
+            android:id="@+id/siq_resend_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/siq_32"
+            android:layout_marginStart="@dimen/siq_32"
+            android:layout_gravity="center_vertical"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="@dimen/siq_text_16"
+            android:text="@string/livechat.message.status.resend"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/siq_copy_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/siq_16">
+
+        <ImageView
+            android:id="@+id/siq_copy_imageview"
+            android:layout_width="@dimen/siq_24"
+            android:layout_height="@dimen/siq_24"
+            app:srcCompat="@drawable/salesiq_copy_icon"/>
+
+        <TextView
+            android:id="@+id/siq_copy_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/siq_32"
+            android:layout_marginStart="@dimen/siq_32"
+            android:layout_gravity="center_vertical"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="@dimen/siq_text_16"
+            android:text="@string/livechat.message.status.copy"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/siq_delete_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/siq_16">
+
+        <ImageView
+            android:id="@+id/siq_delete_imageview"
+            android:layout_width="@dimen/siq_24"
+            android:layout_height="@dimen/siq_24"
+            app:srcCompat="@drawable/salesiq_delete_icon"/>
+
+        <TextView
+            android:id="@+id/siq_delete_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/siq_32"
+            android:layout_marginStart="@dimen/siq_32"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/siq_text_16"
+            android:textColor="#ff0000"
+            android:text="@string/livechat.message.status.delete"/>
+    </LinearLayout>
+
+</LinearLayout>

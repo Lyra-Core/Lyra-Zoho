@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d новое уведомление</item>
+    <item quantity="few">%d новых уведомления</item>
+    <item quantity="many">%d новых уведомлений</item>
+    <item quantity="other">%d нового уведомления</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Ещё"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Выберите приложение"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ВЫКЛ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ВКЛ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Ввод"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Пробел"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Меню +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Введите запрос"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Поделиться с помощью"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Поделиться с помощью <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string name="app_logs_txt_file_name">app_logs.txt</string>
+    <string name="articles.browse">Поиск статьи</string>
+    <string name="articles.counts.many">%1$d Статьи</string>
+    <string name="articles.counts.one">%1$d Статья</string>
+    <string name="articles.emptystate">Раздел вопросов и ответов еще не готов. Попробуйте позже.</string>
+    <string name="articles.feedback.thanks">Благодарим за отзыв!</string>
+    <string name="articles.pursuechat">Чат</string>
+    <string name="articles.recent.search">Предыдущие поисковые запросы</string>
+    <string name="articles.recent.viewed">Недавно просмотренные</string>
+    <string name="articles.search.text">Поиск введенного слова не дал результатов.</string>
+    <string name="articles.startchat">Начать чат</string>
+    <string name="articles.views.many">%1$d просмотры</string>
+    <string name="articles.views.one">%1$d просмотры</string>
+    <string name="articles_updated_time">Обновлено %1$s назад</string>
+    <string name="bottomsheet_action_collapse">Свернуть нижний экран</string>
+    <string name="bottomsheet_action_expand">Развернуть нижний экран</string>
+    <string name="bottomsheet_action_expand_halfway">Развернуть наполовину</string>
+    <string name="bottomsheet_drag_handle_clicked">Двойное нажатие на маркер перемещения</string>
+    <string name="bottomsheet_drag_handle_content_description">Маркер перемещения</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Ответить"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Видео"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Отклонить"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Завершить"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Входящий вызов"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Текущий вызов"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Фильтрация входящего вызова"</string>
+    <string name="character_counter_content_description">Введено символов: %1$d из %2$d</string>
+    <string name="character_counter_overflowed_content_description">Превышено ограничение на количество символов (%1$d из %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Очистить текстовое поле</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Включить</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Для работы приложения \"%1$s\" требуется включить сервисы Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Включите сервисы Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Установить</string>
+    <string name="common_google_play_services_install_text">Для работы приложения \"%1$s\" требуется установить сервисы Google Play.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Установите сервисы Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Доступность сервисов Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Ошибка сервисов Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Приложению \"%1$s\" не удается подключиться к сервисам Google Play. Повторите попытку.</string>
+    <string name="common_google_play_services_unsupported_text">Для работы с приложением \"%1$s\" требуются сервисы Google Play. Они не поддерживаются на вашем устройстве.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Обновить</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Чтобы запустить приложение \"%1$s\", обновите сервисы Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Обновите сервисы Google Play</string>
+    <string name="common_google_play_services_updating_text">Сервисы Google Play, необходимые для работы приложения \"%1$s\", в настоящий момент обновляются.</string>
+    <string name="common_google_play_services_wear_update_text">Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время.</string>
+    <string name="common_open_on_phone">Открыть на телефоне</string>
+    <string name="common_signin_button_text">Войти</string>
+    <string name="common_signin_button_text_long">Войти через аккаунт Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Ссылка скопирована в буфер обмена."</string>
+    <string name="duration_few_seconds">несколько секунд</string>
+    <string name="error_icon_content_description">Ошибка</string>
+    <string name="exposed_dropdown_menu_content_description">Показать раскрывающееся меню</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Копировать ссылку"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Открыть в браузере"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Отправить ссылку"</string>
+    <string name="icon_content_description">Значок диалогового окна</string>
+    <string name="item_view_role_description">Вкладка</string>
+    <string name="live_chat_no_application_to_handle_uri">Отсутствует приложение для открытия этой веб-страницы</string>
+    <string name="livechat.article.title">Вопросы и ответы</string>
+    <string name="livechat.bot.action.pending.wait">Подождите.</string>
+    <string name="livechat.bot.connectwithhuman">Нужна помощь специалиста?</string>
+    <string name="livechat.bot.input.hint">Выбрать из вариантов выше</string>
+    <string name="livechat.chat.queue.banner.calculating">Вычисление времени ожидания...</string>
+    <string name="livechat.chat.queue.banner.position.subtitle">Позиция</string>
+    <string name="livechat.chat.queue.banner.timeremaining">Осталось приблизительно %1$s</string>
+    <string name="livechat.chat.queue.banner.title">Вы в очереди чата</string>
+    <string name="livechat.chat.sender.profanity.alert">Оповещение об оскорбительном содержимом</string>
+    <string name="livechat.common.article">Статья</string>
+    <string name="livechat.common.loading">Загрузка…</string>
+    <string name="livechat.common.no">Нет</string>
+    <string name="livechat.common.nointernet">Проверьте подключение к Интернету.</string>
+    <string name="livechat.common.ok">ОК</string>
+    <string name="livechat.common.yes">Да</string>
+    <string name="livechat.conversation.emptystate">Специалисты %1$s всегда рады помочь вам! Начните чат с нашими сотрудниками.</string>
+    <string name="livechat.conversation.endchat.timer">Этот сеанс чата близится к завершению</string>
+    <string name="livechat.conversation.filetype.audio">звук</string>
+    <string name="livechat.conversation.filetype.image">изображение</string>
+    <string name="livechat.conversation.filetype.others">Файл</string>
+    <string name="livechat.conversation.filetype.video">видео</string>
+    <string name="livechat.conversation.in.dept">В %1$s</string>
+    <string name="livechat.conversation.search.emptystate">Поиск введенного слова не дал результатов.</string>
+    <string name="livechat.conversation.startchat">Начать чат</string>
+    <string name="livechat.conversation.status">Открытые</string>
+    <string name="livechat.conversation.subtitle.missed">Нет операторов</string>
+    <string name="livechat.conversation.subtitle.queue.position">Позиция в очереди: %1$s</string>
+    <string name="livechat.conversation.subtitle.waiting.details">От вас ожидаются сведения</string>
+    <string name="livechat.conversation.title">Разговоры с нами</string>
+    <string name="livechat.conversation.with.attender"> с %1$s</string>
+    <string name="livechat.day.evening">Вечер</string>
+    <string name="livechat.day.friday">Пятница</string>
+    <string name="livechat.day.monday">Понедельник</string>
+    <string name="livechat.day.morning">Утро</string>
+    <string name="livechat.day.night">Ночь</string>
+    <string name="livechat.day.noon">День</string>
+    <string name="livechat.day.saturday">Суббота</string>
+    <string name="livechat.day.sunday">Воскресенье</string>
+    <string name="livechat.day.thursday">Четверг</string>
+    <string name="livechat.day.today">Сегодня</string>
+    <string name="livechat.day.tuesday">Вторник</string>
+    <string name="livechat.day.wednesday">Среда</string>
+    <string name="livechat.day.yesterday">Вчера</string>
+    <string name="livechat.feedback.ask.rating">Благодарю вас за приятное общение в чате. Пожалуйста, уделите минуту и поставьте нам оценку.</string>
+    <string name="livechat.feedback.button.msg">Отправить отзыв</string>
+    <string name="livechat.feedback.hint">Введите отзыв</string>
+    <string name="livechat.feedback.rate.happy">Спасибо!  Мы всегда рады помочь вам</string>
+    <string name="livechat.feedback.rate.neutral">Спасибо за оценку! Если вам требуется помощь, смело обращайтесь к нам.</string>
+    <string name="livechat.feedback.rate.sad">Жаль, что мы не смогли вам помочь. Мы постараемся улучшить работу службы поддержки.</string>
+    <string name="livechat.feedback.submit">ОТПРАВИТЬ</string>
+    <string name="livechat.feedback.subtitle">Пожалуйста, уделите минуту и поставьте свою оценку</string>
+    <string name="livechat.feedback.thankingmsg">Благодарим за отзыв.</string>
+    <string name="livechat.feedback.title">Был ли этот сеанс чата полезным?</string>
+    <string name="livechat.gdpr.chatconsent">Нажимая «Принять», вы соглашаетесь с нашими условиями и положениями, изложенными в документе.</string>
+    <string name="livechat.gdpr.chatconsent.accept">Принять</string>
+    <string name="livechat.gdpr.chatconsent.decline">Отклонить</string>
+    <string name="livechat.gdpr.chatconsent.title">Согласие на чат</string>
+    <string name="livechat.gdpr.creditcardmask">Сведения о номере кредитной карты носят характер персональных данных. Скрыть первые 12 цифр в номере карты?</string>
+    <string name="livechat.gdpr.creditcardmask.cancel">Отмена</string>
+    <string name="livechat.gdpr.creditcardmask.ok">Скрыть</string>
+    <string name="livechat.gdpr.emailconfirm">Вы собираетесь отправить эту запись разговора по эл. почте пользователю %1$s.</string>
+    <string name="livechat.gdpr.emailconfirm.change">Изменить адрес электронной почты</string>
+    <string name="livechat.gdpr.emailconfirm.send">Отправить</string>
+    <string name="livechat.gdpr.googletranslate.concent">В данной службе может встречаться текст, переведенный с помощью Google. Компания Google отказывается от каких-либо гарантий в отношении переводов, как прямых, так и косвенных, включая любые гарантии точности, надежности, а также любые подразумеваемые гарантии товарного состояния, пригодности для использования по назначению и отсутствия нарушений авторских прав.</string>
+    <string name="livechat.gdpr.googletranslate.concent.title">Согласие на перевод</string>
+    <string name="livechat.gdpr.learnmore">Подробнее</string>
+    <string name="livechat.gdpr.trackingconsent.donttrack">Не отслеживать</string>
+    <string name="livechat.gdpr.trackingconsent.gotit">Ясно!</string>
+    <string name="livechat.gdpr.trackingconsent.notify">Здравствуйте! Мы отслеживаем ваши действия в приложении, чтобы улучшить работу с ним.</string>
+    <string name="livechat.gdpr.trackingconsent.notifywithoptout">Здравствуйте! Мы отслеживаем ваши действия в приложении, чтобы улучшить работу с ним. Чтобы отказаться от этого, нажмите «Не отслеживать».</string>
+    <string name="livechat.message.download">Загрузить</string>
+    <string name="livechat.message.input.hint">Введите свое сообщение</string>
+    <string name="livechat.message.noresults">Нет результатов</string>
+    <string name="livechat.message.saved">Сохранено</string>
+    <string name="livechat.message.search">Поиск</string>
+    <string name="livechat.message.status.copy">Копировать</string>
+    <string name="livechat.message.status.delete">Удалить</string>
+    <string name="livechat.message.status.resend">Отправить повторно</string>
+    <string name="livechat.message.status.sending">Идет отправка</string>
+    <string name="livechat.message.status.sent">Отправлено</string>
+    <string name="livechat.message.time.justnow">Только что</string>
+    <string name="livechat.message.timedout">Время ожидания истекло</string>
+    <string name="livechat.message.typingindicator">печатает</string>
+    <string name="livechat.message.waitingforconnection">Ожидание подключения к сети</string>
+    <string name="livechat.messages.action.copy.success">Скопировано в буфер</string>
+    <string name="livechat.messages.alert.chatreqfailure">Ошибка! Невозможно разместить заявку на общение в чате!</string>
+    <string name="livechat.messages.alert.upload.filesizeexceed">Превышен максимальный размер для отправки</string>
+    <string name="livechat.messages.attachment.notopen">Невозможно открыть вложение, поскольку на устройстве отсутствует приложение, поддерживающее файлы в этом формате.</string>
+    <string name="livechat.messages.camera.notopen">Невозможно открыть камеру, поскольку устройство не оснащено камерой</string>
+    <string name="livechat.messages.continuechat.info">Ваш сеанс чата с нами завершен. У вас есть другие вопросы? Нажмите «Продолжить», чтобы открыть чат с нами.</string>
+    <string name="livechat.messages.department">Выберите отдел</string>
+    <string name="livechat.messages.email.dialog.title">Введите свой адрес электронной почты</string>
+    <string name="livechat.messages.email.failure">Не удалось отправить письмо</string>
+    <string name="livechat.messages.email.send">Отправить</string>
+    <string name="livechat.messages.email.success">Письмо успешно отправлено</string>
+    <string name="livechat.messages.email.title">Отправить запись чата по эл. почте</string>
+    <string name="livechat.messages.email.wrong">Введите допустимый адрес электронной почты</string>
+    <string name="livechat.messages.endchat.confirmation">Завершить этот чат?</string>
+    <string name="livechat.messages.endchattimer">Поскольку этот сеанс чата был неактивен длительное время, он будет автоматически завершен через %1$s с. Чтобы продолжить его, напишите сообщение в чат.</string>
+    <string name="livechat.messages.file.defaultextn">Файл</string>
+    <string name="livechat.messages.form.alert.message">Заполните форму в предыдущем чате, прежде чем начинать новый чат!</string>
+    <string name="livechat.messages.info.acceptforward">Этот час успешно переслан пользователю %1$s.</string>
+    <string name="livechat.messages.info.agenttransfer">%1$s пересылает этот чат пользователю %2$s.</string>
+    <string name="livechat.messages.info.endchat">Сеанс завершен</string>
+    <string name="livechat.messages.info.forward">Пользователь %1$s передает чат.</string>
+    <string name="livechat.messages.info.missedchat">Мы пропустили вашу заявку на общение в чате.</string>
+    <string name="livechat.messages.info.operator.joined">Пользователь %1$s присоединился к этому разговору.</string>
+    <string name="livechat.messages.info.reopen">Вы повторно открыли чат</string>
+    <string name="livechat.messages.info.transfer.accept">Чат переведен. Здравствуйте! %1$s на связи, и я хочу помочь вам!</string>
+    <string name="livechat.messages.offline">Здравствуйте! В данный момент все операторы заняты. Оставьте сообщение, и мы свяжемся с вами в ближайшее время.</string>
+    <string name="livechat.messages.operator.typing">печатает...</string>
+    <string name="livechat.messages.option.endchat">Завершить чат</string>
+    <string name="livechat.messages.option.sharefile">Поделиться файлом</string>
+    <string name="livechat.messages.option.takephoto">Сделать фото</string>
+    <string name="livechat.messages.option.takescreenshot">Сделать снимок экрана</string>
+    <string name="livechat.messages.prechatform.conversation.campaign">Хотите подписаться на наши новости?</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.no">Нет</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.yes">Конечно</string>
+    <string name="livechat.messages.prechatform.conversation.dept">Выберите отдел, в который следует направить запрос</string>
+    <string name="livechat.messages.prechatform.conversation.email">Можно прислать письмо на ваш эл. адрес?</string>
+    <string name="livechat.messages.prechatform.conversation.name">Как к вам обращаться?</string>
+    <string name="livechat.messages.prechatform.conversation.phone">Можно ли узнать ваш контактный номер телефона?</string>
+    <string name="livechat.messages.prechatform.inline.button">Заполнить форму</string>
+    <string name="livechat.messages.prechatform.inline.message">Чтобы начать общение, нам требуются некоторые данные.</string>
+    <string name="livechat.messages.prechatform.introduction.greeting.message">Помогите нам узнать, с кем мы общаемся.</string>
+    <string name="livechat.messages.prechatform.introduction.name">Оператор</string>
+    <string name="livechat.messages.prechatform.traditional.campaign.label">Хотите подписаться на наши новости?</string>
+    <string name="livechat.messages.prechatform.traditional.department.label">Отдел</string>
+    <string name="livechat.messages.prechatform.traditional.dept.error">Выберите допустимый отдел</string>
+    <string name="livechat.messages.prechatform.traditional.dept.hint">Выберите отдел</string>
+    <string name="livechat.messages.prechatform.traditional.email.error">Введите допустимый адрес эл. почты</string>
+    <string name="livechat.messages.prechatform.traditional.email.hint">Введите свой адрес электронной почты</string>
+    <string name="livechat.messages.prechatform.traditional.email.label">Адрес электронной почты</string>
+    <string name="livechat.messages.prechatform.traditional.name.error">Введите допустимое имя</string>
+    <string name="livechat.messages.prechatform.traditional.name.hint">Введите имя</string>
+    <string name="livechat.messages.prechatform.traditional.name.label">Имя</string>
+    <string name="livechat.messages.prechatform.traditional.phone.error">Введите допустимый номер телефона</string>
+    <string name="livechat.messages.prechatform.traditional.phone.hint">Введите свой контактный номер</string>
+    <string name="livechat.messages.prechatform.traditional.phone.label">Телефон</string>
+    <string name="livechat.messages.prechatform.traditional.question.error">Введите вопрос</string>
+    <string name="livechat.messages.record.slidetocancel">Проведите по экрану влево, чтобы остановить запись</string>
+    <string name="livechat.messages.sharefile.ques">Посетитель поделился файлом</string>
+    <string name="livechat.messages.shareimage">Поделиться изображением</string>
+    <string name="livechat.messages.sharescreenshot">Поделиться снимком экрана</string>
+    <string name="livechat.messages.title">Поговорите с нами в чате!</string>
+    <string name="livechat.messages.you">Вы</string>
+    <string name="livechat.notification.messages.shared.file">Пользователь %1$s поделился файлом</string>
+    <string name="livechat.notification.messages.shared.image">Посетитель %1$s поделился изображением</string>
+    <string name="livechat.notification.messages.shared.video">Пользователь %1$s отправил вам видео</string>
+    <string name="livechat.operator.waiting.response">Оператор присоединится в ближайшее время</string>
+    <string name="livechat.permission.camera">Чтобы сделать снимок, предоставьте разрешение на доступ к камере мобильного устройства.</string>
+    <string name="livechat.permission.file">Чтобы отправить файл, предоставьте разрешение на доступ к памяти мобильного устройства.</string>
+    <string name="livechat.permission.locationdenied">Доступ к сведениям о местоположении запрещен</string>
+    <string name="livechat.permission.microphone">Чтобы записать голосовое сообщение, предоставьте разрешение на доступ к микрофону.</string>
+    <string name="livechat.permission.negative">Не сейчас</string>
+    <string name="livechat.permission.positive">Настройки</string>
+    <string name="livechat.permission.storagedenied">Доступ к хранилищу запрещен.</string>
+    <string name="livechat.prechatform.submit">ОТПРАВИТЬ</string>
+    <string name="livechat.rating.skip">Пропустить</string>
+    <string name="livechat.reopen.title">Открыть чат повторно</string>
+    <string name="livechat.requestlog.info">Оператору требуется доступ к вашему журналу приложения</string>
+    <string name="livechat.requestlog.negative.button">Отмена</string>
+    <string name="livechat.requestlog.positive.button">Отправить</string>
+    <string name="livechat.requestlog.title">Журнал приложения</string>
+    <string name="livechat.widgets.articles.related">Похожие статьи:</string>
+    <string name="livechat.widgets.calendar.fromdate">С</string>
+    <string name="livechat.widgets.calendar.fromtime">Время начала</string>
+    <string name="livechat.widgets.calendar.schedule">Запланировать</string>
+    <string name="livechat.widgets.calendar.setdate">Выберите дату</string>
+    <string name="livechat.widgets.calendar.settime">Выберите время</string>
+    <string name="livechat.widgets.calendar.timezone">Часовой пояс</string>
+    <string name="livechat.widgets.calendar.todate">По</string>
+    <string name="livechat.widgets.calendar.totime">Время окончания</string>
+    <string name="livechat.widgets.done">Готово</string>
+    <string name="livechat.widgets.input.password.error">Введите допустимое значение</string>
+    <string name="livechat.widgets.input.phone.search.hint">Поиск по странам</string>
+    <string name="livechat.widgets.input.url.error">Введите допустимый URL-адрес</string>
+    <string name="livechat.widgets.location.accuracy">С точностью до %1$d м</string>
+    <string name="livechat.widgets.location.radius.float">%1$.1f км</string>
+    <string name="livechat.widgets.location.radius.integer">%1$d км</string>
+    <string name="livechat.widgets.location.select">Выберите расположение</string>
+    <string name="livechat.widgets.location.send.current">Отправить текущее расположение</string>
+    <string name="livechat.widgets.location.send.selected">Отправить выбранное расположение</string>
+    <string name="livechat.widgets.location.suggestions">Варианты</string>
+    <string name="livechat.widgets.rating.dislike">Не нравится</string>
+    <string name="livechat.widgets.rating.happy.angry">Сердитый</string>
+    <string name="livechat.widgets.rating.happy.excited">Отлично</string>
+    <string name="livechat.widgets.rating.happy.happy">Хорошо</string>
+    <string name="livechat.widgets.rating.happy.neutral">Нейтральный</string>
+    <string name="livechat.widgets.rating.happy.sad">Грустный</string>
+    <string name="livechat.widgets.rating.like">Нравится</string>
+    <string name="livechat.widgets.select.limit.exceed">Достигнут лимит на число выбранных элементов</string>
+    <string name="livechat.widgets.skip">Пропустить</string>
+    <string name="livechat.widgets.timeslot.button">Выберите временной интервал</string>
+    <string name="livechat.widgets.timezone.current">%1$s (текущий)</string>
+    <string name="livechat_conversation_filetype_gif">GIF-файл</string>
+    <string name="material_clock_toggle_content_description">Выберите AM (до полудня) или PM (после полудня)</string>
+    <string name="material_hour_24h_suffix">%1$s ч.</string>
+    <string name="material_hour_selection">Выберите час</string>
+    <string name="material_hour_suffix">%1$s ч.</string>
+    <string name="material_minute_selection">Выберите минуты</string>
+    <string name="material_minute_suffix">%1$s мин.</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Чтобы ввести время, перейдите в режим часов.</string>
+    <string name="material_timepicker_hour">Час</string>
+    <string name="material_timepicker_minute">Минуты</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Выбор времени</string>
+    <string name="material_timepicker_text_input_mode_description">Чтобы ввести время, перейдите в режим ввода текста.</string>
+    <string name="minimum_selection_is_required">Выберите хотя бы один параметр</string>
+    <string name="minimum_selections_is_required">Требуется выбрать несколько элементов (не менее %1$d)</string>
+    <string name="mobilisten_article_choose_a_department">Выберите отдел</string>
+    <string name="mobilisten_article_departments">Отделы</string>
+    <string name="mobilisten_article_has_been_deleted_or_disabled">Статья недоступна</string>
+    <string name="mobilisten_article_no_views">Нет просмотров</string>
+    <string name="mobilisten_articles_general_error">@string/mobilisten_general_failure_error</string>
+    <string name="mobilisten_chat_connected_to_operator_or_bot">Подключено к %1$s</string>
+    <string name="mobilisten_common_okay">ОК</string>
+    <string name="mobilisten_conversation_deleted">Эта беседа была удалена оператором</string>
+    <string name="mobilisten_conversation_error_access_denied_to_initiate_chat">Отказано в доступе для начала чата</string>
+    <string name="mobilisten_conversation_error_email_field_is_mandatory">Укажите адрес эл. почты</string>
+    <string name="mobilisten_conversation_error_error_unable_to_initiate_chat_outside_business_hours">Не удалось создать беседу в нерабочее время</string>
+    <string name="mobilisten_conversation_error_invalid_chat_user_id">Недопустимый идентификатор пользователя посетителя</string>
+    <string name="mobilisten_conversation_error_mentioned_department_is_not_mapped_to_the_brand">Указанный отдел не связан с брендом</string>
+    <string name="mobilisten_conversation_error_name_field_is_mandatory">Укажите имя</string>
+    <string name="mobilisten_conversation_error_operation_not_available_for_mentioned_operator">Этот оператор недоступен для общения в чате</string>
+    <string name="mobilisten_conversation_error_phone_number_field_is_mandatory">Укажите номер телефона</string>
+    <string name="mobilisten_conversation_error_resource_limit_reached">Достигнуто предельное количество ресурсов в рамках текущего тарифного плана</string>
+    <string name="mobilisten_conversation_general_error">Не удалось получить сведения о беседе</string>
+    <string name="mobilisten_error_chat_transfer_already_in_progress_failure">Уже выполняется операция передачи чата! Пожалуйста, подождите.</string>
+    <string name="mobilisten_error_chat_transfer_no_online_user_failure">Ошибка! Нет пользователей в сети в этом отделе</string>
+    <string name="mobilisten_file_upload_size_limit_exceeded">Превышен максимальный размер файла (не более 50 МБ).</string>
+    <string name="mobilisten_general_failure_error">К сожалению, что-то пошло не так. Повторите попытку позже.</string>
+    <string name="mobilisten_load_more_messages">Загрузить еще сообщения</string>
+    <string name="mobilisten_loading_messages">Идет загрузка сообщений...</string>
+    <string name="mobilisten_notification_multiple_messages">Новые сообщения: %1$d</string>
+    <string name="mobilisten_notification_single_message">%1$d новое сообщение</string>
+    <string name="mobilisten_operator_has_requested_for_app_log">Оператор запросил доступ к журналу приложения.</string>
+    <string name="mobilisten_test_push_notifications">Тест push-уведомлений</string>
+    <string name="mobilisten_unable_to_load_message_transcript">Ошибка! Не удалось получить сообщения</string>
+    <string name="mtrl_badge_numberless_content_description">Новое уведомление</string>
+    <string name="mtrl_chip_close_icon_content_description">Удалить \"%1$s\"</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Новых уведомлений больше %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Перейти к следующему месяцу</string>
+    <string name="mtrl_picker_a11y_prev_month">Перейти к предыдущему месяцу</string>
+    <string name="mtrl_picker_announce_current_selection">Выбранный элемент: %1$s</string>
+    <string name="mtrl_picker_cancel">Отмена</string>
+    <string name="mtrl_picker_confirm">ОК</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Выберите дату</string>
+    <string name="mtrl_picker_date_header_unselected">Выбранная дата</string>
+    <string name="mtrl_picker_day_of_week_column_header">Столбец со днями недели: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Недействительный формат.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Используйте: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Недопустимый диапазон.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Перейти к %1$s году</string>
+    <string name="mtrl_picker_out_of_range">Вне диапазона: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Дата начала – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – дата окончания</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Выберите диапазон дат</string>
+    <string name="mtrl_picker_range_header_unselected">Дата начала – дата окончания</string>
+    <string name="mtrl_picker_save">Сохранить</string>
+    <string name="mtrl_picker_text_input_date_hint">Дата</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Дата окончания</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Дата начала</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Перейти в режим выбора дней</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Нажмите, чтобы перейти к выбору дня</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим ввода текста</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Нажмите, чтобы перейти к выбору года</string>
+    <string name="mtrl_timepicker_cancel">Отмена</string>
+    <string name="mtrl_timepicker_confirm">ОК</string>
+    <string name="password_toggle_content_description">Показать пароль</string>
+    <string name="salesiq.advertisebadge.content">На платформе SalesIQ Mobilisten</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Поиск"</string>
+    <string name="siq_articles_count_many">Статьи: %1$d</string>
+    <string name="siq_articles_count_single">1 статья</string>
+    <string name="siq_articles_sub_categories_count_one">1 подкатегория</string>
+    <string name="siq_articles_sub_categories_counts">Подкатегории: %1$d</string>
+    <string name="siq_recently_viewed_articles_title">Недавно просмотренные</string>
+    <string name="siq_related_articles">Похожие статьи</string>
+    <string name="siq_title_articles">Статьи</string>
+    <string name="siq_title_sub_category">Подкатегории</string>
+    <string name="size_bytes"> Байты</string>
+    <string name="size_kilo_bytes"> КБ</string>
+    <string name="size_mega_bytes"> МБ</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="time_unit_day_d">д</string>
+    <string name="time_unit_hour_h">ч</string>
+    <string name="time_unit_minute_m">мин</string>
+    <string name="time_unit_month_m">м</string>
+    <string name="time_unit_second_s">с</string>
+    <string name="time_unit_week_w">н</string>
+    <string name="time_unit_year_y">г</string>
+</resources>

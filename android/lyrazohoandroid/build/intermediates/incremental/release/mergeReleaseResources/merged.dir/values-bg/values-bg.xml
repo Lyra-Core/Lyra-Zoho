@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d ново известие</item>
+    <item quantity="other">%d нови известия</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Навигиране към началния екран"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Навигиране нагоре"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Още опции"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Преглед на всички"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Изберете приложение"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ИЗКЛ."</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ВКЛ."</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"клавиша за интервал"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Търсете…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Изчистване на заявката"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Заявка за търсене"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Търсене"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Изпращане на заявката"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Гласово търсене"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Споделяне със:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Споделяне със: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Свиване"</string>
+    <string name="app_logs_txt_file_name">app_logs.txt</string>
+    <string name="articles.browse">Търсене на статия</string>
+    <string name="articles.counts.many">%1$d статии</string>
+    <string name="articles.counts.one">%1$d статия</string>
+    <string name="articles.emptystate">Нашият раздел „База знания” все още не работи. Моля, влезте по-късно.</string>
+    <string name="articles.feedback.thanks">Благодарим ви за обратната връзка!</string>
+    <string name="articles.pursuechat">Чат</string>
+    <string name="articles.recent.search">Скорошни търсения</string>
+    <string name="articles.recent.viewed">Наскоро прегледани</string>
+    <string name="articles.search.text">Изглежда няма никакви съвпадения за търсене на въведената от вас дума!</string>
+    <string name="articles.startchat">Започване на чат</string>
+    <string name="articles.views.many">%1$d гледания</string>
+    <string name="articles.views.one">%1$d Преглед</string>
+    <string name="articles_updated_time">Актуализирано преди %1$s</string>
+    <string name="bottomsheet_action_collapse">Свиване на долния лист</string>
+    <string name="bottomsheet_action_expand">Разгъване на долния лист</string>
+    <string name="bottomsheet_action_expand_halfway">Разгъване наполовина</string>
+    <string name="bottomsheet_drag_handle_clicked">Двукратно докосване на манипулатора за преместване с плъзгане</string>
+    <string name="bottomsheet_drag_handle_content_description">Манипулатор за преместване с плъзгане</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Отговор"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Видеообаждане"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Отхвърляне"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Затваряне"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Входящо обаждане"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Текущо обаждане"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Преглежда се входящо обаждане"</string>
+    <string name="character_counter_content_description">Въведени знаци: %1$d от %2$d</string>
+    <string name="character_counter_overflowed_content_description">Максималният брой знаци е надхвърлен с(ъс) %1$d от %2$d</string>
+    <string name="clear_text_end_icon_content_description">Изчистване на текста</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Активиране</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s няма да работи, освен ако не активирате услугите за Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Активиране на услугите за Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Инсталиране</string>
+    <string name="common_google_play_services_install_text">%1$s няма да се изпълнява, тъй като услугите за Google Play не са инсталирани на устройството ви.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Изтегляне на услугите за Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Наличност на услугите за Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Грешка в услугите за Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблеми с услугите за Google Play. Моля, опитайте отново.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s няма да се изпълнява, тъй като услугите за Google Play не се поддържат от устройството ви.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Актуализиране</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s няма да се изпълнява, освен ако не актуализирате услугите за Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Актуализиране на услугите за Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s няма да се изпълнява без услугите за Google Play. Понастоящем те се актуализират.</string>
+    <string name="common_google_play_services_wear_update_text">Необходима е нова версия на услугите за Google Play. Скоро тя ще се актуализира автоматично.</string>
+    <string name="common_open_on_phone">Отваряне на телефона</string>
+    <string name="common_signin_button_text">Вход</string>
+    <string name="common_signin_button_text_long">Вход с Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Връзката е копирана в буферната памет"</string>
+    <string name="duration_few_seconds">няколко секунди</string>
+    <string name="error_icon_content_description">Грешка</string>
+    <string name="exposed_dropdown_menu_content_description">Показване на падащото меню</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Копиране на връзката"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Отваряне в браузър"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Споделяне на връзката"</string>
+    <string name="icon_content_description">Икона за диалогов прозорец</string>
+    <string name="item_view_role_description">Раздел</string>
+    <string name="live_chat_no_application_to_handle_uri">Нямате приложение за отваряне на тази уебстраница</string>
+    <string name="livechat.article.title">База знания</string>
+    <string name="livechat.bot.action.pending.wait">Моля, изчакайте.</string>
+    <string name="livechat.bot.connectwithhuman">Имате нужда от човешка помощ?</string>
+    <string name="livechat.bot.input.hint">Изберете от записите по-горе</string>
+    <string name="livechat.chat.queue.banner.calculating">Изчисляване на време на изчакване...</string>
+    <string name="livechat.chat.queue.banner.position.subtitle">Място</string>
+    <string name="livechat.chat.queue.banner.timeremaining">Прогнозното време на изчакване е около ~%1$s</string>
+    <string name="livechat.chat.queue.banner.title">Вие сте в опашка на чат</string>
+    <string name="livechat.chat.sender.profanity.alert">Предупреждение за злоупотреба</string>
+    <string name="livechat.common.article">Статия</string>
+    <string name="livechat.common.loading">Зареждане...</string>
+    <string name="livechat.common.no">Не</string>
+    <string name="livechat.common.nointernet">Моля, проверете вашата интернет връзка.</string>
+    <string name="livechat.common.ok">Ok</string>
+    <string name="livechat.common.yes">Да</string>
+    <string name="livechat.conversation.emptystate">Грешка! Изглежда, че нямате никакви разговори! Знаете ли, че ви дели само едно щракване, за да се свържете с нашите експерти?</string>
+    <string name="livechat.conversation.endchat.timer">Сесията на чат ще приключи след %1$s</string>
+    <string name="livechat.conversation.filetype.audio">Аудио</string>
+    <string name="livechat.conversation.filetype.image">Изображение</string>
+    <string name="livechat.conversation.filetype.others">Файл</string>
+    <string name="livechat.conversation.filetype.video">Видео</string>
+    <string name="livechat.conversation.in.dept">В %1$s</string>
+    <string name="livechat.conversation.search.emptystate">Грешка! Изглежда нито един от съществуващите разговори не съвпада с термина, който сте въвели. Опитайте с друга заявка!</string>
+    <string name="livechat.conversation.startchat">Започване на чат</string>
+    <string name="livechat.conversation.status">Отворено</string>
+    <string name="livechat.conversation.subtitle.missed">Няма налични оператори</string>
+    <string name="livechat.conversation.subtitle.queue.position">Място в заявка: %1$s</string>
+    <string name="livechat.conversation.subtitle.waiting.details">Изчакваме вашите данни</string>
+    <string name="livechat.conversation.title">Разговори</string>
+    <string name="livechat.conversation.with.attender">с %1$s</string>
+    <string name="livechat.day.evening">Вечер</string>
+    <string name="livechat.day.friday">Петък</string>
+    <string name="livechat.day.monday">Понеделник</string>
+    <string name="livechat.day.morning">Сутрин</string>
+    <string name="livechat.day.night">Нощ</string>
+    <string name="livechat.day.noon">Следобед</string>
+    <string name="livechat.day.saturday">Събота</string>
+    <string name="livechat.day.sunday">Неделя</string>
+    <string name="livechat.day.thursday">Четвъртък</string>
+    <string name="livechat.day.today">Днес</string>
+    <string name="livechat.day.tuesday">Вторник</string>
+    <string name="livechat.day.wednesday">Сряда</string>
+    <string name="livechat.day.yesterday">Вчера</string>
+    <string name="livechat.feedback.ask.rating">За мен е удоволствие да разговарям с вас днес. Моля, отделете малко време, за да оставите вашата „Оценка”.</string>
+    <string name="livechat.feedback.button.msg">Изпращане на обратна връзка</string>
+    <string name="livechat.feedback.hint">Въведете обратната си връзка тук...</string>
+    <string name="livechat.feedback.rate.happy">Благодарим ви!  Радваме се да ви помогнем</string>
+    <string name="livechat.feedback.rate.neutral">Благодарим ви за оценката! Не се колебайте да ни потърсите за помощ.</string>
+    <string name="livechat.feedback.rate.sad">Съжаляваме, че не можем да ви помогнем. Ще подобрим нашето обслужване.</string>
+    <string name="livechat.feedback.submit">Изпращане</string>
+    <string name="livechat.feedback.subtitle">Моля, отделете малко време, за да оставите вашата оценка.</string>
+    <string name="livechat.feedback.thankingmsg">Благодарим ви за ценната обратна връзка.</string>
+    <string name="livechat.feedback.title">Как беше разговора с нас?</string>
+    <string name="livechat.gdpr.chatconsent">Когато щракнете върху „Приемане”, вие се съгласявате с нашите правила и условия, посочени в документа.</string>
+    <string name="livechat.gdpr.chatconsent.accept">Приемане</string>
+    <string name="livechat.gdpr.chatconsent.decline">Отказ</string>
+    <string name="livechat.gdpr.chatconsent.title">Съгласие за чат</string>
+    <string name="livechat.gdpr.creditcardmask">Тъй като номерът на вашата карта е доста поверителна информация, бихте ли искали да маскирате първите 12 цифри от номера на картата ви?</string>
+    <string name="livechat.gdpr.creditcardmask.cancel">Отмяна</string>
+    <string name="livechat.gdpr.creditcardmask.ok">Маска</string>
+    <string name="livechat.gdpr.emailconfirm">Вие сте на път да изпратите по имейл този запис на чат до %1$s.</string>
+    <string name="livechat.gdpr.emailconfirm.change">Промяна на имейл адрес</string>
+    <string name="livechat.gdpr.emailconfirm.send">Изпращане</string>
+    <string name="livechat.gdpr.googletranslate.concent">Тази услуга може да съдържа преводи, поддържани от Google. Google отхвърля всички гаранции, свързани с преводите, преки или косвени, включително всякакви гаранции на точност, надеждност и всякакви подразбиращи се гаранции за продаваемост, годност за определена цел и ненарушение.</string>
+    <string name="livechat.gdpr.googletranslate.concent.title">Съгласие за превод</string>
+    <string name="livechat.gdpr.learnmore">Научете повече</string>
+    <string name="livechat.gdpr.trackingconsent.donttrack">Не проследявай</string>
+    <string name="livechat.gdpr.trackingconsent.gotit">Разбрах!</string>
+    <string name="livechat.gdpr.trackingconsent.notify">Здравейте! Ние проследяваме вашите дейности на нашето приложение, за да подобрим работата ви в приложението.</string>
+    <string name="livechat.gdpr.trackingconsent.notifywithoptout">Здравейте! Ние проследяваме вашите дейности на нашето приложение, за да подобрим работата ви в приложението. Но ако желаете да се отпишете, щракнете върху опцията „Не проследявай”.</string>
+    <string name="livechat.message.download">Изтегляне</string>
+    <string name="livechat.message.input.hint">Въведете съобщението си тук...</string>
+    <string name="livechat.message.noresults">Не са намерени резултати</string>
+    <string name="livechat.message.saved">Запазено</string>
+    <string name="livechat.message.search">Търсене</string>
+    <string name="livechat.message.status.copy">Копиране</string>
+    <string name="livechat.message.status.delete">Изтриване</string>
+    <string name="livechat.message.status.resend">Изпращане отново</string>
+    <string name="livechat.message.status.sending">Изпращане</string>
+    <string name="livechat.message.status.sent">Изпратенo</string>
+    <string name="livechat.message.time.justnow">Току-що</string>
+    <string name="livechat.message.timedout">Изтичане на времето</string>
+    <string name="livechat.message.typingindicator">въвеждане</string>
+    <string name="livechat.message.waitingforconnection">Изчакване на мрежова връзка</string>
+    <string name="livechat.messages.action.copy.success">Копирано в клипборда</string>
+    <string name="livechat.messages.alert.chatreqfailure">Грешка! Възникна някакъв проблем. Моля, опитайте отново</string>
+    <string name="livechat.messages.alert.upload.filesizeexceed">Надвишен максимален размер на качване</string>
+    <string name="livechat.messages.attachment.notopen">Не можете да отворите прикачен файл, тъй като вашето устройство не разполага с приложение, което поддържа файлове в този формат!</string>
+    <string name="livechat.messages.camera.notopen">Не можете да отворите камерата, тъй като вашето устройство няма камера</string>
+    <string name="livechat.messages.continuechat.info">Вашата сесия за чат с нас приключи. Имате ли други запитвания? Щракнете „Продължи”, за да чатите с нас.</string>
+    <string name="livechat.messages.department">Избор на отдел</string>
+    <string name="livechat.messages.email.dialog.title">Въведете вашия имейл адрес</string>
+    <string name="livechat.messages.email.failure">Неуспешно изпращане на имейл</string>
+    <string name="livechat.messages.email.send">Изпращане</string>
+    <string name="livechat.messages.email.success">Имейлът е изпратен успешно</string>
+    <string name="livechat.messages.email.title">Запис на чат по имейл</string>
+    <string name="livechat.messages.email.wrong">Въведете валиден имейл адрес</string>
+    <string name="livechat.messages.endchat.confirmation">Желаете ли да прекратите този чат?</string>
+    <string name="livechat.messages.endchattimer">Сесията за чат ще приключи след %1$s секунди</string>
+    <string name="livechat.messages.file.defaultextn">Файл</string>
+    <string name="livechat.messages.form.alert.message">Моля, попълнете формуляра в предишния чат, преди да инициирате нов чат!</string>
+    <string name="livechat.messages.info.acceptforward">Чатът беше успешно препратен към %1$s.</string>
+    <string name="livechat.messages.info.agenttransfer">%1$s прехвърля чата към %2$s.</string>
+    <string name="livechat.messages.info.endchat">Сесията приключи</string>
+    <string name="livechat.messages.info.forward">%1$s препраща чата</string>
+    <string name="livechat.messages.info.missedchat">Пропуснахме вашата заявка за чат</string>
+    <string name="livechat.messages.info.operator.joined">%1$s се присъедини към този разговор.</string>
+    <string name="livechat.messages.info.reopen">Вие отворихте повторно чата</string>
+    <string name="livechat.messages.info.transfer.accept">Чатът е прехвърлен. Здравейте, %1$s!! С удоволствие ще ви помогнем.</string>
+    <string name="livechat.messages.offline">В момента ни няма. Моля, оставете ни съобщение и скоро ще се свържем с вас.</string>
+    <string name="livechat.messages.operator.typing">въвеждане...</string>
+    <string name="livechat.messages.option.endchat">Край на сесията</string>
+    <string name="livechat.messages.option.sharefile">Споделяне на файл</string>
+    <string name="livechat.messages.option.takephoto">Направете снимка</string>
+    <string name="livechat.messages.option.takescreenshot">Направете екранна снимка</string>
+    <string name="livechat.messages.prechatform.conversation.campaign">Желаете ли да се абонирате за нашия бюлетин?</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.no">Не</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.yes">Разбира се</string>
+    <string name="livechat.messages.prechatform.conversation.dept">Моля, изберете отдела, към който трябва да се изпрати вашата заявка</string>
+    <string name="livechat.messages.prechatform.conversation.email">Може ли да ви изпратим имейл?</string>
+    <string name="livechat.messages.prechatform.conversation.name">Как бихте желали да се обръщаме към вас?</string>
+    <string name="livechat.messages.prechatform.conversation.phone">Може ли номерът ви за контакт?</string>
+    <string name="livechat.messages.prechatform.inline.button">Попълване като формуляр</string>
+    <string name="livechat.messages.prechatform.inline.message">Моля, посочете ни някои подробности, за да инициирате чат.</string>
+    <string name="livechat.messages.prechatform.introduction.greeting.message">Помогнете ни да разберем с кого разговаряме.</string>
+    <string name="livechat.messages.prechatform.introduction.name">Оператор</string>
+    <string name="livechat.messages.prechatform.traditional.campaign.label">Желаете ли да се абонирате за нашия бюлетин?</string>
+    <string name="livechat.messages.prechatform.traditional.department.label">Отдел</string>
+    <string name="livechat.messages.prechatform.traditional.dept.error">Изберете валиден отдел</string>
+    <string name="livechat.messages.prechatform.traditional.dept.hint">Избор на отдел</string>
+    <string name="livechat.messages.prechatform.traditional.email.error">Въведете валиден имейл адрес</string>
+    <string name="livechat.messages.prechatform.traditional.email.hint">Въведете вашия имейл адрес</string>
+    <string name="livechat.messages.prechatform.traditional.email.label">Имейл</string>
+    <string name="livechat.messages.prechatform.traditional.name.error">Въведете валидно име</string>
+    <string name="livechat.messages.prechatform.traditional.name.hint">Въведете вашето име</string>
+    <string name="livechat.messages.prechatform.traditional.name.label">Име</string>
+    <string name="livechat.messages.prechatform.traditional.phone.error">Въведете валиден номер за контакт</string>
+    <string name="livechat.messages.prechatform.traditional.phone.hint">Въведете своя номер за контакт</string>
+    <string name="livechat.messages.prechatform.traditional.phone.label">Телефон</string>
+    <string name="livechat.messages.prechatform.traditional.question.error">Въведете въпрос</string>
+    <string name="livechat.messages.record.slidetocancel">Плъзнете за отмяна</string>
+    <string name="livechat.messages.sharefile.ques">Сподели файл</string>
+    <string name="livechat.messages.shareimage">Споделяне на изображение</string>
+    <string name="livechat.messages.sharescreenshot">Споделяне на екранна снимка</string>
+    <string name="livechat.messages.title">Пишете ни сега!</string>
+    <string name="livechat.messages.you">Вие</string>
+    <string name="livechat.notification.messages.shared.file">%1$s ви изпрати файл</string>
+    <string name="livechat.notification.messages.shared.image">%1$s ви изпрати изображение</string>
+    <string name="livechat.notification.messages.shared.video">%1$s ви изпрати видеоклип</string>
+    <string name="livechat.operator.waiting.response">Операторът ще се присъедини скоро</string>
+    <string name="livechat.permission.camera">За да направите снимка, разрешете достъпа до камерата на вашето устройство.</string>
+    <string name="livechat.permission.file">За да изпратите файл, разрешете достъпа до мястото за съхранение на вашето устройство.</string>
+    <string name="livechat.permission.locationdenied">Разрешението за местоположение е отказано.</string>
+    <string name="livechat.permission.microphone">Разрешете достъпа до микрофона на вашето устройство, за да записвате и изпращате гласови съобщения.</string>
+    <string name="livechat.permission.negative">Не сега</string>
+    <string name="livechat.permission.positive">Настройки</string>
+    <string name="livechat.permission.storagedenied">Разрешението за съхранение е отказано.</string>
+    <string name="livechat.prechatform.submit">Изпращане</string>
+    <string name="livechat.rating.skip">Пропускане</string>
+    <string name="livechat.reopen.title">Повторно отваряне на чат</string>
+    <string name="livechat.requestlog.info">Операторът е заявил достъп до регистъра на вашето приложение</string>
+    <string name="livechat.requestlog.negative.button">Отмяна</string>
+    <string name="livechat.requestlog.positive.button">Изпращане</string>
+    <string name="livechat.requestlog.title">Регистър на приложение</string>
+    <string name="livechat.widgets.articles.related">Свързани статии:</string>
+    <string name="livechat.widgets.calendar.fromdate">Дата „От”</string>
+    <string name="livechat.widgets.calendar.fromtime">Време „От”</string>
+    <string name="livechat.widgets.calendar.schedule">Планиране сега</string>
+    <string name="livechat.widgets.calendar.setdate">Избор на дата</string>
+    <string name="livechat.widgets.calendar.settime">Изберете час</string>
+    <string name="livechat.widgets.calendar.timezone">Часова зона</string>
+    <string name="livechat.widgets.calendar.todate">Дата „До”</string>
+    <string name="livechat.widgets.calendar.totime">Време „До”</string>
+    <string name="livechat.widgets.done">Готово</string>
+    <string name="livechat.widgets.input.password.error">Моля, въведете валидна стойност</string>
+    <string name="livechat.widgets.input.phone.search.hint">Търсене на държава</string>
+    <string name="livechat.widgets.input.url.error">Въведете валиден URL адрес</string>
+    <string name="livechat.widgets.location.accuracy">Точно до %1$d метра</string>
+    <string name="livechat.widgets.location.radius.float">%1$.1f kms</string>
+    <string name="livechat.widgets.location.radius.integer">%1$d kms</string>
+    <string name="livechat.widgets.location.select">Изберете местоположение</string>
+    <string name="livechat.widgets.location.send.current">Изпращане на текущо местоположение</string>
+    <string name="livechat.widgets.location.send.selected">Изпращане на избрано местоположение</string>
+    <string name="livechat.widgets.location.suggestions">Предложения</string>
+    <string name="livechat.widgets.rating.dislike">Не харесвам</string>
+    <string name="livechat.widgets.rating.happy.angry">Яд</string>
+    <string name="livechat.widgets.rating.happy.excited">Чудесно</string>
+    <string name="livechat.widgets.rating.happy.happy">Добро</string>
+    <string name="livechat.widgets.rating.happy.neutral">Неутрално</string>
+    <string name="livechat.widgets.rating.happy.sad">Тъга</string>
+    <string name="livechat.widgets.rating.like">Харесване</string>
+    <string name="livechat.widgets.select.limit.exceed">Достигнато е ограничението за множествен избор</string>
+    <string name="livechat.widgets.skip">Пропускане</string>
+    <string name="livechat.widgets.timeslot.button">Изберете времеви слот</string>
+    <string name="livechat.widgets.timezone.current">%1$s (текущ)</string>
+    <string name="livechat_conversation_filetype_gif">GIF</string>
+    <string name="material_clock_toggle_content_description">Изберете AM или PM</string>
+    <string name="material_hour_24h_suffix">%1$s часа</string>
+    <string name="material_hour_selection">Изберете час</string>
+    <string name="material_hour_suffix">%1$s часа</string>
+    <string name="material_minute_selection">Избиране на минути</string>
+    <string name="material_minute_suffix">%1$s минути</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Превключете към режима за часовник, за да въведете часа.</string>
+    <string name="material_timepicker_hour">Час</string>
+    <string name="material_timepicker_minute">Минута</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Избор на час</string>
+    <string name="material_timepicker_text_input_mode_description">Превключете към режима за въвеждане на текст, за да въведете часа.</string>
+    <string name="minimum_selection_is_required">Моля, изберете най-малко една опция</string>
+    <string name="minimum_selections_is_required">Трябва да изберете минимум %1$d</string>
+    <string name="mobilisten_article_choose_a_department">Избор на отдел</string>
+    <string name="mobilisten_article_departments">Отдели</string>
+    <string name="mobilisten_article_has_been_deleted_or_disabled">Статията не е налична</string>
+    <string name="mobilisten_article_no_views">Няма преглеждания</string>
+    <string name="mobilisten_articles_general_error">@string/mobilisten_general_failure_error</string>
+    <string name="mobilisten_chat_connected_to_operator_or_bot">Свързани към %1$s</string>
+    <string name="mobilisten_common_okay">OK</string>
+    <string name="mobilisten_conversation_deleted">Този разговор е изтрит от оператора</string>
+    <string name="mobilisten_conversation_error_access_denied_to_initiate_chat">Отказан достъп за започване на чат</string>
+    <string name="mobilisten_conversation_error_email_field_is_mandatory">Полето за имейл е задължително</string>
+    <string name="mobilisten_conversation_error_error_unable_to_initiate_chat_outside_business_hours">Неуспешно създаване на разговор по време на офлайн часовете</string>
+    <string name="mobilisten_conversation_error_invalid_chat_user_id">Невалиден ИД на потребител посетител</string>
+    <string name="mobilisten_conversation_error_mentioned_department_is_not_mapped_to_the_brand">Посоченият отдел не е свързан с марката</string>
+    <string name="mobilisten_conversation_error_name_field_is_mandatory">Името е задължително</string>
+    <string name="mobilisten_conversation_error_operation_not_available_for_mentioned_operator">Този оператор не е наличен за чат</string>
+    <string name="mobilisten_conversation_error_phone_number_field_is_mandatory">Телефонният номер е задължителен</string>
+    <string name="mobilisten_conversation_error_resource_limit_reached">Ограничението за ресурси е достигнато за текущия план</string>
+    <string name="mobilisten_conversation_general_error">Неуспешно извличане на данни за разговор</string>
+    <string name="mobilisten_error_chat_transfer_already_in_progress_failure">Вече се извършва прехвърляне на чата! Моля, изчакайте известно време.</string>
+    <string name="mobilisten_error_chat_transfer_no_online_user_failure">За съжаление няма наличен онлайн потребител в отдела</string>
+    <string name="mobilisten_file_upload_size_limit_exceeded">Надвишен максимален размер на файл (50 MB).</string>
+    <string name="mobilisten_general_failure_error">Съжаляваме, възникна грешка. Моля, опитайте отново по-късно.</string>
+    <string name="mobilisten_load_more_messages">Зареждане на още съобщения</string>
+    <string name="mobilisten_loading_messages">Зареждане на съобщения...</string>
+    <string name="mobilisten_notification_multiple_messages">%1$d нови съобщения</string>
+    <string name="mobilisten_notification_single_message">%1$d ново съобщение</string>
+    <string name="mobilisten_operator_has_requested_for_app_log">Операторът е заявил регистър на приложение.</string>
+    <string name="mobilisten_test_push_notifications">Тестване на насочени известия</string>
+    <string name="mobilisten_unable_to_load_message_transcript">За съжаление извличането на съобщения беше неуспешно</string>
+    <string name="mtrl_badge_numberless_content_description">Ново известие</string>
+    <string name="mtrl_chip_close_icon_content_description">Премахване на %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Повече от %1$d нови известия</string>
+    <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
+    <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
+    <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_cancel">Отказ</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Избиране на дата</string>
+    <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
+    <string name="mtrl_picker_day_of_week_column_header">Колона за дни: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Форматът е невалиден.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Използвайте: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Невалиден диапазон.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Навигиране до %1$s г.</string>
+    <string name="mtrl_picker_out_of_range">Извън диапазона: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Начална дата – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – крайна дата</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Избиране на период от време</string>
+    <string name="mtrl_picker_range_header_unselected">Начална дата – крайна дата</string>
+    <string name="mtrl_picker_save">Запазване</string>
+    <string name="mtrl_picker_text_input_date_hint">Дата</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Крайна дата</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Начална дата</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Превключване към режим на въвеждане в календар</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Докоснете, за да превключите към избиране на ден</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Превключване към режим за въвеждане на текст</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Докоснете, за да превключите към избиране на година</string>
+    <string name="mtrl_timepicker_cancel">Отказ</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="password_toggle_content_description">Показване на паролата</string>
+    <string name="salesiq.advertisebadge.content">Поддържано от SalesIQ Mobilisten</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Търсене"</string>
+    <string name="siq_articles_count_many">%1$d статии</string>
+    <string name="siq_articles_count_single">1 статия</string>
+    <string name="siq_articles_sub_categories_count_one">1 подкатегория</string>
+    <string name="siq_articles_sub_categories_counts">%1$d подкатегории</string>
+    <string name="siq_recently_viewed_articles_title">Наскоро прегледани</string>
+    <string name="siq_related_articles">Свързани статии</string>
+    <string name="siq_title_articles">Статии</string>
+    <string name="siq_title_sub_category">Подкатегории</string>
+    <string name="size_bytes"> Байта</string>
+    <string name="size_kilo_bytes"> KB</string>
+    <string name="size_mega_bytes"> MB</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_unit_day_d">д</string>
+    <string name="time_unit_hour_h">ч</string>
+    <string name="time_unit_minute_m">мин</string>
+    <string name="time_unit_month_m">м</string>
+    <string name="time_unit_second_s">сек</string>
+    <string name="time_unit_week_w">с</string>
+    <string name="time_unit_year_y">г</string>
+</resources>

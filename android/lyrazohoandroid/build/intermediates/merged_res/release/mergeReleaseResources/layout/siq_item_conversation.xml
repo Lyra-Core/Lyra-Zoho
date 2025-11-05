@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/siq_conversationlist_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="8dp"
+    android:paddingEnd="@dimen/siq_16">
+
+    <ImageView
+        android:id="@+id/siq_conversation_imageview"
+        style="@style/SalesIQ.Style.conversation_operatorimage"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/siq_8"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/siq_conversation_status"
+        style="@style/SalesIQ.Style.conversationstatus_text"
+        app:layout_constraintEnd_toEndOf="@+id/siq_conversation_imageview"
+        app:layout_constraintStart_toStartOf="@+id/siq_conversation_imageview"
+        app:layout_constraintTop_toTopOf="@+id/siq_conversation_imageview" />
+
+    <TextView
+        android:id="@+id/siq_conversation_title"
+        style="@style/SalesIQ.Style.conversation_title"
+        android:layout_marginStart="@dimen/siq_12"
+        app:layout_constraintBottom_toTopOf="@+id/siq_conversation_subtext"
+        app:layout_constraintEnd_toStartOf="@+id/siq_conversation_time"
+        app:layout_constraintStart_toEndOf="@+id/siq_conversation_imageview"
+        app:layout_constraintTop_toTopOf="@id/siq_conversation_imageview"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="Test Conversation" />
+
+    <ImageView
+        android:id="@+id/sessionclock"
+        style="@style/SalesIQ.Style.SessionClock"
+        android:layout_marginStart="@dimen/siq_12"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="@dimen/siq_6"
+        android:layout_marginRight="@dimen/siq_6"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/siq_conversation_progressbar"
+        app:layout_constraintStart_toEndOf="@+id/siq_conversation_imageview"
+        app:layout_constraintTop_toBottomOf="@id/siq_conversation_title"
+        app:srcCompat="@drawable/salesiq_timer_sdk"
+        tools:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/siq_conversation_progressbar"
+        android:layout_width="@dimen/siq_14"
+        android:layout_height="@dimen/siq_14"
+        android:layout_marginStart="@dimen/siq_12"
+        android:layout_marginTop="@dimen/siq_4"
+        android:layout_marginEnd="@dimen/siq_8"
+        android:layout_marginRight="@dimen/siq_8"
+        android:indeterminate="true"
+        app:layout_constraintEnd_toStartOf="@+id/siq_conversation_subtext"
+        app:layout_constraintStart_toEndOf="@+id/sessionclock"
+        app:layout_constraintTop_toBottomOf="@id/siq_conversation_title" />
+
+    <TextView
+        android:id="@+id/siq_conversation_subtext"
+        style="@style/SalesIQ.Style.conversation_subtext"
+        android:layout_width="0dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/siq_conversation_imageview"
+        app:layout_constraintEnd_toStartOf="@+id/siq_conversation_time"
+        app:layout_constraintStart_toEndOf="@+id/siq_conversation_progressbar"
+        app:layout_constraintTop_toBottomOf="@id/siq_conversation_title"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="Sub Title" />
+
+    <TextView
+        android:id="@+id/siq_conversation_time"
+        style="@style/SalesIQ.Style.conversation_timer_text"
+        android:layout_marginBottom="@dimen/siq_2"
+        app:layout_constraintBottom_toBottomOf="@+id/siq_conversation_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="12:30PM" />
+
+    <TextView
+        android:id="@+id/siq_conversation_badge"
+        style="@style/SalesIQ.Style.conversation_badge_text"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/siq_conversation_subtext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/siq_conversation_subtext"
+        tools:text="SIQ"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/siq_conversation_statusIcon"
+        android:layout_width="@dimen/siq_20"
+        android:layout_height="@dimen/siq_20"
+        android:gravity="center"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/siq_conversation_subtext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/siq_conversation_subtext"
+        app:srcCompat="@drawable/salesiq_deliver"
+        tools:visibility="gone" />
+
+    <View
+        android:id="@+id/siq_conversation_divider"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/siq_1"
+        android:layout_marginTop="@dimen/siq_16"
+        android:background="?attr/siq_conversation_item_separator"
+        app:layout_constraintEnd_toEndOf="@id/siq_conversation_time"
+        app:layout_constraintStart_toStartOf="@id/siq_conversation_title"
+        app:layout_constraintTop_toBottomOf="@id/siq_conversation_subtext" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notificación nueva</item>
+    <item quantity="other">%d notificaciones nuevas</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Ir a inicio"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Hecho"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Suprimir"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Intro"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Función +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Mayús +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Espacio"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menú +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de búsqueda"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ocultar"</string>
+    <string name="app_logs_txt_file_name">app_logs.txt</string>
+    <string name="articles.browse">Buscar un artículo</string>
+    <string name="articles.counts.many">%1$d artículos</string>
+    <string name="articles.counts.one">%1$d artículos</string>
+    <string name="articles.emptystate">¡Nuestra sección de preguntas frecuentes aún está en construcción! ¡Regrese más tarde!</string>
+    <string name="articles.feedback.thanks">Gracias por sus comentarios.</string>
+    <string name="articles.pursuechat">Chat</string>
+    <string name="articles.recent.search">Búsquedas recientes</string>
+    <string name="articles.recent.viewed">Visto recientemente</string>
+    <string name="articles.search.text">¡Parece que no hay coincidencias con la palabra de búsqueda que escribió!</string>
+    <string name="articles.startchat">Iniciar chat</string>
+    <string name="articles.views.many">%1$d vistas</string>
+    <string name="articles.views.one">%1$d vistas</string>
+    <string name="articles_updated_time">Actualizado hace %1$s</string>
+    <string name="bottomsheet_action_collapse">Ocultar la hoja inferior</string>
+    <string name="bottomsheet_action_expand">Mostrar la hoja inferior</string>
+    <string name="bottomsheet_action_expand_halfway">Desplegar hasta la mitad</string>
+    <string name="bottomsheet_drag_handle_clicked">Controlador de arrastre tocado dos veces</string>
+    <string name="bottomsheet_drag_handle_content_description">Controlador de arrastre</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Responder"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vídeo"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Rechazar"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Colgar"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Llamada entrante"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Llamada en curso"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Filtrando una llamada entrante"</string>
+    <string name="character_counter_content_description">Caracteres introducidos: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">Límite de caracteres superado (%1$d de %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Borrar texto</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Habilitar</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s no funcionará hasta que no habilites Servicios de Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Habilita Servicios de Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Instalar</string>
+    <string name="common_google_play_services_install_text">%1$s no se ejecutará si los Servicios de Google Play no están instalados en tu dispositivo.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Descargar Servicios de Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Disponibilidad Servicios de Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Error de Servicios de Google Play</string>
+    <string name="common_google_play_services_unknown_issue">La aplicación %1$s tiene problemas con los Servicios de Google Play. Vuelve a intentarlo.</string>
+    <string name="common_google_play_services_unsupported_text">No es posible ejecutar la aplicación %1$s sin los Servicios de Google Play, que no son compatibles con tu dispositivo.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Actualizar</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s no funcionará hasta que no actualices Servicios de Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Actualiza Servicios de Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s no se ejecutará hasta que finalice la actualización en curso de Servicios de Google Play.</string>
+    <string name="common_google_play_services_wear_update_text">Se necesita una nueva versión de Servicios de Google Play. Se actualizará en breve.</string>
+    <string name="common_open_on_phone">Abrir en teléfono</string>
+    <string name="common_signin_button_text">Iniciar sesión</string>
+    <string name="common_signin_button_text_long">Iniciar sesión con Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Enlace copiado en el portapapeles"</string>
+    <string name="duration_few_seconds">pocos segundos</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copiar enlace"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Abrir en el navegador"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Compartir enlace"</string>
+    <string name="icon_content_description">Icono del cuadro de diálogo</string>
+    <string name="item_view_role_description">Pestaña</string>
+    <string name="live_chat_no_application_to_handle_uri">No tiene una aplicación definida para abrir esta página web</string>
+    <string name="livechat.article.title">Preguntas frecuentes</string>
+    <string name="livechat.bot.action.pending.wait">Espere, por favor.</string>
+    <string name="livechat.bot.connectwithhuman">¿Necesita ayuda humana?</string>
+    <string name="livechat.bot.input.hint">Elija de la información anterior</string>
+    <string name="livechat.chat.queue.banner.calculating">Calculando el tiempo de espera...</string>
+    <string name="livechat.chat.queue.banner.position.subtitle">Posición</string>
+    <string name="livechat.chat.queue.banner.timeremaining">El tiempo de espera estimado es de aproximadamente ~ %1$s</string>
+    <string name="livechat.chat.queue.banner.title">Está en la cola de chat</string>
+    <string name="livechat.chat.sender.profanity.alert">Alerta de abuso</string>
+    <string name="livechat.common.article">artículos</string>
+    <string name="livechat.common.loading">Cargando…</string>
+    <string name="livechat.common.no">NO</string>
+    <string name="livechat.common.nointernet">Compruebe su conexión a Internet.</string>
+    <string name="livechat.common.ok">Aceptar</string>
+    <string name="livechat.common.yes">SÍ</string>
+    <string name="livechat.conversation.emptystate">El personal de %1$s estamos siempre encantados de ayudarle. Chatee con nuestros expertos ahora.</string>
+    <string name="livechat.conversation.endchat.timer">Esta sesión de chat terminará en</string>
+    <string name="livechat.conversation.filetype.audio">audio</string>
+    <string name="livechat.conversation.filetype.image">imagen</string>
+    <string name="livechat.conversation.filetype.others">Archivo</string>
+    <string name="livechat.conversation.filetype.video">vídeo</string>
+    <string name="livechat.conversation.in.dept">En %1$s</string>
+    <string name="livechat.conversation.search.emptystate">¡Parece que no hay coincidencias con la palabra de búsqueda que escribió!</string>
+    <string name="livechat.conversation.startchat">Iniciar chat</string>
+    <string name="livechat.conversation.status">Abrir</string>
+    <string name="livechat.conversation.subtitle.missed">No hay operadores disponibles</string>
+    <string name="livechat.conversation.subtitle.queue.position">Posición en la cola: %1$s</string>
+    <string name="livechat.conversation.subtitle.waiting.details">En espera de sus datos</string>
+    <string name="livechat.conversation.title">Conversaciones</string>
+    <string name="livechat.conversation.with.attender"> con %1$s</string>
+    <string name="livechat.day.evening">Tarde</string>
+    <string name="livechat.day.friday">Viernes</string>
+    <string name="livechat.day.monday">Lunes</string>
+    <string name="livechat.day.morning">Mañana</string>
+    <string name="livechat.day.night">Noche</string>
+    <string name="livechat.day.noon">Mediodía</string>
+    <string name="livechat.day.saturday">Sábado</string>
+    <string name="livechat.day.sunday">Domingo</string>
+    <string name="livechat.day.thursday">Jueves</string>
+    <string name="livechat.day.today">Hoy</string>
+    <string name="livechat.day.tuesday">Martes</string>
+    <string name="livechat.day.wednesday">Miércoles</string>
+    <string name="livechat.day.yesterday">Ayer</string>
+    <string name="livechat.feedback.ask.rating">Es un placer chatear con usted hoy. Le pedimos que se tome un momento para calificarnos.</string>
+    <string name="livechat.feedback.button.msg">Enviar comentarios</string>
+    <string name="livechat.feedback.hint">Introducir comentarios</string>
+    <string name="livechat.feedback.rate.happy">¡Vaya, gracias!  Estamos encantados de ayudarle</string>
+    <string name="livechat.feedback.rate.neutral">¡Gracias por su evaluación! Póngase en contacto con nosotros si necesita ayuda.</string>
+    <string name="livechat.feedback.rate.sad">Lamentamos no haber podido ayudarle. Mejoraremos nuestro soporte técnico.</string>
+    <string name="livechat.feedback.submit">ENVIAR</string>
+    <string name="livechat.feedback.subtitle">Le pedimos que se tome un momento para clasificarnos</string>
+    <string name="livechat.feedback.thankingmsg">"Gracias por sus comentarios.</string>
+    <string name="livechat.feedback.title">¿La sesión de chat ha sido útil?</string>
+    <string name="livechat.gdpr.chatconsent">Al hacer clic en Aceptar, acepta los términos y condiciones especificados en el documento.</string>
+    <string name="livechat.gdpr.chatconsent.accept">Aceptar</string>
+    <string name="livechat.gdpr.chatconsent.decline">Rechazar</string>
+    <string name="livechat.gdpr.chatconsent.title">Consentimiento de chat</string>
+    <string name="livechat.gdpr.creditcardmask">Como su número de tarjeta es una información bastante sensible, ¿quiere que enmascaremos los primeros 12 dígitos de su número de tarjeta?</string>
+    <string name="livechat.gdpr.creditcardmask.cancel">Cancelar</string>
+    <string name="livechat.gdpr.creditcardmask.ok">Enmascarar</string>
+    <string name="livechat.gdpr.emailconfirm">Está a punto de enviar por correo electrónico una transcripción de este chat a %1$s.</string>
+    <string name="livechat.gdpr.emailconfirm.change">Cambiar dirección de correo electrónico</string>
+    <string name="livechat.gdpr.emailconfirm.send">Enviar</string>
+    <string name="livechat.gdpr.googletranslate.concent">Este servicio puede contener traducciones con tecnología de Google. Google no da ningún tipo de garantía, expresa o implícita, respecto a las traducciones, incluidas las garantías de precisión, fiabilidad y garantías implícitas de comerciabilidad, idoneidad para un propósito particular y ausencia de infracción.</string>
+    <string name="livechat.gdpr.googletranslate.concent.title">Consentimiento de traducción</string>
+    <string name="livechat.gdpr.learnmore">Más información</string>
+    <string name="livechat.gdpr.trackingconsent.donttrack">No realizar seguimiento</string>
+    <string name="livechat.gdpr.trackingconsent.gotit">Entendido.</string>
+    <string name="livechat.gdpr.trackingconsent.notify">Hola: Realizamos un seguimiento de sus actividades en nuestra aplicación para mejorar su experiencia en la aplicación.</string>
+    <string name="livechat.gdpr.trackingconsent.notifywithoptout">Hola: Realizamos un seguimiento de sus actividades en nuestra aplicación para mejorar su experiencia en la aplicación. Pero si desea optar por no participar, haga clic en la opción «No realizar seguimiento».</string>
+    <string name="livechat.message.download">Descargar</string>
+    <string name="livechat.message.input.hint">Escriba su mensaje aquí</string>
+    <string name="livechat.message.noresults">No se han encontrado resultados</string>
+    <string name="livechat.message.saved">Guardado</string>
+    <string name="livechat.message.search">Buscar</string>
+    <string name="livechat.message.status.copy">Copiar</string>
+    <string name="livechat.message.status.delete">Eliminar</string>
+    <string name="livechat.message.status.resend">Reenviar</string>
+    <string name="livechat.message.status.sending">Enviando</string>
+    <string name="livechat.message.status.sent">Enviado</string>
+    <string name="livechat.message.time.justnow">Justo ahora</string>
+    <string name="livechat.message.timedout">Tiempo agotado</string>
+    <string name="livechat.message.typingindicator">escribiendo</string>
+    <string name="livechat.message.waitingforconnection">Esperando conexión de red</string>
+    <string name="livechat.messages.action.copy.success">Copiado al portapapeles</string>
+    <string name="livechat.messages.alert.chatreqfailure">¡Vaya! Parece que no puede realizar esta solicitud de chat!</string>
+    <string name="livechat.messages.alert.upload.filesizeexceed">Se ha excedido el tamaño máximo de carga</string>
+    <string name="livechat.messages.attachment.notopen">No se puede abrir el archivo adjunto porque su dispositivo no tiene una aplicación que admita archivos de este formato.</string>
+    <string name="livechat.messages.camera.notopen">No se puede abrir la cámara porque su dispositivo no tiene cámara</string>
+    <string name="livechat.messages.continuechat.info">Su sesión de chat con nosotros concluyó. ¿Tiene alguna pregunta adicional que necesite aclaración? Haga clic en Continuar para chatear con nosotros.</string>
+    <string name="livechat.messages.department">Seleccione un departamento</string>
+    <string name="livechat.messages.email.dialog.title">Introduzca su dirección de correo electrónico</string>
+    <string name="livechat.messages.email.failure">El envío de correo ha fallado</string>
+    <string name="livechat.messages.email.send">Enviar</string>
+    <string name="livechat.messages.email.success">Correo enviado correctamente</string>
+    <string name="livechat.messages.email.title">Transcripción de correo electrónico</string>
+    <string name="livechat.messages.email.wrong">Introduzca una dirección de correo electrónico válida</string>
+    <string name="livechat.messages.endchat.confirmation">¿Desea terminar este chat?</string>
+    <string name="livechat.messages.endchattimer">Como esta sesión de chat ha estado inactiva durante mucho tiempo, concluirá automáticamente en %1$s segundos. Si desea continuar con esta sesión, escriba un mensaje.</string>
+    <string name="livechat.messages.file.defaultextn">Archivo</string>
+    <string name="livechat.messages.form.alert.message">¡Complete el formulario en el chat anterior antes de iniciar un nuevo chat!</string>
+    <string name="livechat.messages.info.acceptforward">El chat se ha reenviado a %1$s correctamente.</string>
+    <string name="livechat.messages.info.agenttransfer">%1$s está transfiriendo este chat a %2$s.</string>
+    <string name="livechat.messages.info.endchat">La sesión terminó</string>
+    <string name="livechat.messages.info.forward">%1$s está reenviando el chat.</string>
+    <string name="livechat.messages.info.missedchat">No hemos recibido su solicitud de chat</string>
+    <string name="livechat.messages.info.operator.joined">%1$s se ha unido a esta conversación.</string>
+    <string name="livechat.messages.info.reopen">Ha vuelto a abrir el chat</string>
+    <string name="livechat.messages.info.transfer.accept">Chat transferido. Hola, soy %1$s, Estaré encantado de ayudarle.</string>
+    <string name="livechat.messages.offline">Hola: Parece que ninguno de nuestros operadores está disponible ahora para ayudarlo. Déjenos un mensaje y nos pondremos en contacto con usted tan pronto como sea posible.</string>
+    <string name="livechat.messages.operator.typing">escribiendo...</string>
+    <string name="livechat.messages.option.endchat">Finalizar chat</string>
+    <string name="livechat.messages.option.sharefile">Compartir archivo</string>
+    <string name="livechat.messages.option.takephoto">Tomar fotografía</string>
+    <string name="livechat.messages.option.takescreenshot">Tomar captura de pantalla</string>
+    <string name="livechat.messages.prechatform.conversation.campaign">¿Le gustaría suscribirse a nuestro boletín informativo?</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.no">NO</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.yes">Por supuesto</string>
+    <string name="livechat.messages.prechatform.conversation.dept">Seleccione el departamento al que debe dirigirse su solicitud</string>
+    <string name="livechat.messages.prechatform.conversation.email">¿Podemos enviarle un correo electrónico a?</string>
+    <string name="livechat.messages.prechatform.conversation.name">¿Cómo desearía ser tratado?</string>
+    <string name="livechat.messages.prechatform.conversation.phone">¿Nos puede dar su número de contacto?</string>
+    <string name="livechat.messages.prechatform.inline.button">Complete el formulario</string>
+    <string name="livechat.messages.prechatform.inline.message">Proporcione un par de detalles para iniciar un chat.</string>
+    <string name="livechat.messages.prechatform.introduction.greeting.message">Ayúdenos a saber con quién estamos hablando.</string>
+    <string name="livechat.messages.prechatform.introduction.name">Operador</string>
+    <string name="livechat.messages.prechatform.traditional.campaign.label">¿Le gustaría suscribirse a nuestro boletín informativo?</string>
+    <string name="livechat.messages.prechatform.traditional.department.label">Departamento</string>
+    <string name="livechat.messages.prechatform.traditional.dept.error">Seleccione un departamento válido</string>
+    <string name="livechat.messages.prechatform.traditional.dept.hint">Seleccione un departamento</string>
+    <string name="livechat.messages.prechatform.traditional.email.error">Escriba una dirección de correo electrónico válida</string>
+    <string name="livechat.messages.prechatform.traditional.email.hint">Escriba su dirección de correo electrónico</string>
+    <string name="livechat.messages.prechatform.traditional.email.label">Correo electrónico</string>
+    <string name="livechat.messages.prechatform.traditional.name.error">Escriba un nombre válido</string>
+    <string name="livechat.messages.prechatform.traditional.name.hint">Escriba su nombre</string>
+    <string name="livechat.messages.prechatform.traditional.name.label">Nombre</string>
+    <string name="livechat.messages.prechatform.traditional.phone.error">Escriba un número de teléfono válido</string>
+    <string name="livechat.messages.prechatform.traditional.phone.hint">Escriba su número de contacto</string>
+    <string name="livechat.messages.prechatform.traditional.phone.label">Teléfono</string>
+    <string name="livechat.messages.prechatform.traditional.question.error">Escriba la pregunta</string>
+    <string name="livechat.messages.record.slidetocancel">Deslice hacia la izquierda para detener la grabación</string>
+    <string name="livechat.messages.sharefile.ques">Compartió un archivo</string>
+    <string name="livechat.messages.shareimage">Compartir imagen</string>
+    <string name="livechat.messages.sharescreenshot">Compartir captura de pantalla</string>
+    <string name="livechat.messages.title">¡Chatee con nosotros ahora!</string>
+    <string name="livechat.messages.you">Usted</string>
+    <string name="livechat.notification.messages.shared.file">%1$s ha compartido un archivo</string>
+    <string name="livechat.notification.messages.shared.image">%1$s ha compartido una imagen</string>
+    <string name="livechat.notification.messages.shared.video">%1$s le ha enviado un vídeo</string>
+    <string name="livechat.operator.waiting.response">El operador se unirá en breve</string>
+    <string name="livechat.permission.camera">Para hacer clic en una imagen, conceda permiso para acceder a la cámara de su móvil.</string>
+    <string name="livechat.permission.file">Para enviar un archivo, conceda permiso para acceder a su almacenamiento móvil.</string>
+    <string name="livechat.permission.locationdenied">Permiso de ubicación denegado</string>
+    <string name="livechat.permission.microphone">Para grabar un mensaje de voz, conceda permiso para acceder a su micrófono.</string>
+    <string name="livechat.permission.negative">Ahora no</string>
+    <string name="livechat.permission.positive">Configuración</string>
+    <string name="livechat.permission.storagedenied">Permiso de almacenamiento denegado.</string>
+    <string name="livechat.prechatform.submit">ENVIAR</string>
+    <string name="livechat.rating.skip">Omitir</string>
+    <string name="livechat.reopen.title">Reabrir chat</string>
+    <string name="livechat.requestlog.info">El operador ha solicitado acceso al registro de la aplicación</string>
+    <string name="livechat.requestlog.negative.button">Cancelar</string>
+    <string name="livechat.requestlog.positive.button">Enviar</string>
+    <string name="livechat.requestlog.title">Registro de la aplicación</string>
+    <string name="livechat.widgets.articles.related">Artículos relacionados:</string>
+    <string name="livechat.widgets.calendar.fromdate">Desde la fecha</string>
+    <string name="livechat.widgets.calendar.fromtime">Hora Desde</string>
+    <string name="livechat.widgets.calendar.schedule">Programar ahora</string>
+    <string name="livechat.widgets.calendar.setdate">Seleccione una fecha</string>
+    <string name="livechat.widgets.calendar.settime">Seleccionar una hora</string>
+    <string name="livechat.widgets.calendar.timezone">Zona horaria</string>
+    <string name="livechat.widgets.calendar.todate">Fecha de finalización</string>
+    <string name="livechat.widgets.calendar.totime">Hora Hasta</string>
+    <string name="livechat.widgets.done">Listo</string>
+    <string name="livechat.widgets.input.password.error">Introduzca un valor válido</string>
+    <string name="livechat.widgets.input.phone.search.hint">Buscar país</string>
+    <string name="livechat.widgets.input.url.error">Escriba una URL válida</string>
+    <string name="livechat.widgets.location.accuracy">Preciso hasta %1$d metros</string>
+    <string name="livechat.widgets.location.radius.float">%1$.1f kms</string>
+    <string name="livechat.widgets.location.radius.integer">%1$d kms</string>
+    <string name="livechat.widgets.location.select">Seleccionar una ubicación</string>
+    <string name="livechat.widgets.location.send.current">Enviar la ubicación actual</string>
+    <string name="livechat.widgets.location.send.selected">Enviar la ubicación seleccionada</string>
+    <string name="livechat.widgets.location.suggestions">Sugerencias</string>
+    <string name="livechat.widgets.rating.dislike">No me gusta</string>
+    <string name="livechat.widgets.rating.happy.angry">Enojado</string>
+    <string name="livechat.widgets.rating.happy.excited">Excelente</string>
+    <string name="livechat.widgets.rating.happy.happy">Bueno</string>
+    <string name="livechat.widgets.rating.happy.neutral">Neutro</string>
+    <string name="livechat.widgets.rating.happy.sad">Triste</string>
+    <string name="livechat.widgets.rating.like">Me gusta</string>
+    <string name="livechat.widgets.select.limit.exceed">Se ha alcanzado el límite de selección</string>
+    <string name="livechat.widgets.skip">Omitir</string>
+    <string name="livechat.widgets.timeslot.button">Elija un intervalo de tiempo</string>
+    <string name="livechat.widgets.timezone.current">%1$s (Actual)</string>
+    <string name="livechat_conversation_filetype_gif">GIF</string>
+    <string name="material_clock_toggle_content_description">Selecciona AM o PM</string>
+    <string name="material_hour_24h_suffix">%1$s horas</string>
+    <string name="material_hour_selection">Seleccionar hora</string>
+    <string name="material_hour_suffix">%1$s en punto</string>
+    <string name="material_minute_selection">Seleccionar minutos</string>
+    <string name="material_minute_suffix">%1$s minutos</string>
+    <string name="material_timepicker_am">A.M.</string>
+    <string name="material_timepicker_clock_mode_description">Cambia al modo de reloj para escribir la hora.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">P.M.</string>
+    <string name="material_timepicker_select_time">Seleccionar la hora</string>
+    <string name="material_timepicker_text_input_mode_description">Cambia al modo de introducción de texto para escribir la hora.</string>
+    <string name="minimum_selection_is_required">Elija al menos una opción</string>
+    <string name="minimum_selections_is_required">Son necesarios un mínimo de %1$d selecciones</string>
+    <string name="mobilisten_article_choose_a_department">Seleccionar departamento</string>
+    <string name="mobilisten_article_departments">Departamentos</string>
+    <string name="mobilisten_article_has_been_deleted_or_disabled">Artículo no disponible</string>
+    <string name="mobilisten_article_no_views">No hay vistas</string>
+    <string name="mobilisten_articles_general_error">@string/mobilisten_general_failure_error</string>
+    <string name="mobilisten_chat_connected_to_operator_or_bot">Conectado a %1$s</string>
+    <string name="mobilisten_common_okay">Aceptar</string>
+    <string name="mobilisten_conversation_deleted">Esta conversación ha sido eliminada por el propietario.</string>
+    <string name="mobilisten_conversation_error_access_denied_to_initiate_chat">Acceso denegado para iniciar chat</string>
+    <string name="mobilisten_conversation_error_email_field_is_mandatory">El campo de correo electrónico es obligatorio</string>
+    <string name="mobilisten_conversation_error_error_unable_to_initiate_chat_outside_business_hours">No se puede crear una conversación durante las horas sin conexión</string>
+    <string name="mobilisten_conversation_error_invalid_chat_user_id">ID de usuario de visitante no válido</string>
+    <string name="mobilisten_conversation_error_mentioned_department_is_not_mapped_to_the_brand">El departamento mencionado no está asociado con la marca.</string>
+    <string name="mobilisten_conversation_error_name_field_is_mandatory">El nombre es obligatorio</string>
+    <string name="mobilisten_conversation_error_operation_not_available_for_mentioned_operator">Este operador no está disponible para chatear</string>
+    <string name="mobilisten_conversation_error_phone_number_field_is_mandatory">El número de teléfono no es válido</string>
+    <string name="mobilisten_conversation_error_resource_limit_reached">Se alcanzó el límite de recursos para el plan de suscripción actual</string>
+    <string name="mobilisten_conversation_general_error">No se pueden obtener los detalles de la conversación</string>
+    <string name="mobilisten_error_chat_transfer_already_in_progress_failure">La transferencia de chat ya está en curso. Espere un tiempo.</string>
+    <string name="mobilisten_error_chat_transfer_no_online_user_failure">Lo sentimos. No hay ningún usuario en línea disponible en el departamento</string>
+    <string name="mobilisten_file_upload_size_limit_exceeded">Se excedió el tamaño máximo de archivo (50 MB).</string>
+    <string name="mobilisten_general_failure_error">Se produjo un error. Repita la operación más tarde.</string>
+    <string name="mobilisten_load_more_messages">Cargar más mensajes</string>
+    <string name="mobilisten_loading_messages">Se están cargando mensajes...</string>
+    <string name="mobilisten_notification_multiple_messages">%1$d mensajes nuevos</string>
+    <string name="mobilisten_notification_single_message">%1$d mensaje nuevo</string>
+    <string name="mobilisten_operator_has_requested_for_app_log">El operador ha solicitado el registro de la aplicación.</string>
+    <string name="mobilisten_test_push_notifications">Probar notificaciones automáticas</string>
+    <string name="mobilisten_unable_to_load_message_transcript">Lo sentimos, no se pueden recuperar los mensajes</string>
+    <string name="mtrl_badge_numberless_content_description">Notificación nueva</string>
+    <string name="mtrl_chip_close_icon_content_description">Retirar %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Más de %1$d notificaciones nuevas</string>
+    <string name="mtrl_picker_a11y_next_month">Cambiar al mes siguiente</string>
+    <string name="mtrl_picker_a11y_prev_month">Cambiar al mes anterior</string>
+    <string name="mtrl_picker_announce_current_selection">Selección actual: %1$s</string>
+    <string name="mtrl_picker_cancel">Cancelar</string>
+    <string name="mtrl_picker_confirm">Aceptar</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecciona una fecha</string>
+    <string name="mtrl_picker_date_header_unselected">Fecha seleccionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">Columna de días: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato no válido.</string>
+    <string name="mtrl_picker_invalid_format_example">Ejemplo: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usar: %1$s</string>
+    <string name="mtrl_picker_invalid_range">El periodo no es válido.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Ir al año %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fuera del periodo válido: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Fecha de inicio–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–Fecha de finalización</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecciona un periodo</string>
+    <string name="mtrl_picker_range_header_unselected">Fecha de inicio–Fecha de finalización</string>
+    <string name="mtrl_picker_save">Guardar</string>
+    <string name="mtrl_picker_text_input_date_hint">Fecha</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Fecha de finalización</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Fecha de inicio</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Cambiar al modo de introducción Calendario</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toca para seleccionar un día</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Cambiar al modo de introducción Texto</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Toca para seleccionar un año</string>
+    <string name="mtrl_timepicker_cancel">Cancelar</string>
+    <string name="mtrl_timepicker_confirm">Aceptar</string>
+    <string name="password_toggle_content_description">Mostrar contraseña</string>
+    <string name="salesiq.advertisebadge.content">Con tecnología SalesIQ Mobilisten</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Buscar"</string>
+    <string name="siq_articles_count_many">%1$d artículos</string>
+    <string name="siq_articles_count_single">1 artículo</string>
+    <string name="siq_articles_sub_categories_count_one">1 subcategoría</string>
+    <string name="siq_articles_sub_categories_counts">%1$d subcategorías</string>
+    <string name="siq_recently_viewed_articles_title">Visto recientemente</string>
+    <string name="siq_related_articles">Artículos relacionados</string>
+    <string name="siq_title_articles">Artículos</string>
+    <string name="siq_title_sub_category">Subcategorías</string>
+    <string name="size_bytes"> Bytes</string>
+    <string name="size_kilo_bytes"> KB</string>
+    <string name="size_mega_bytes"> MB</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_unit_day_d">d</string>
+    <string name="time_unit_hour_h">h</string>
+    <string name="time_unit_minute_m">min</string>
+    <string name="time_unit_month_m">m</string>
+    <string name="time_unit_second_s">s</string>
+    <string name="time_unit_week_w">s</string>
+    <string name="time_unit_year_y">a</string>
+</resources>

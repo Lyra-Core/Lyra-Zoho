@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/siq_dialog_dropdown_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/siq_dialog_dropdown_searchview_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/siq_20"
+        android:paddingLeft="@dimen/siq_20"
+        android:paddingEnd="@dimen/siq_20"
+        android:paddingRight="@dimen/siq_20"
+        android:paddingTop="@dimen/siq_13"
+        android:paddingBottom="@dimen/siq_18"
+        android:background="?attr/siq_dialog_background_color">
+
+        <EditText
+            android:id="@+id/siq_dialog_dropdown_searchview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/siq_dialog_background_color"
+            android:textColorHint="?android:attr/textColorTertiary"
+            android:hint="@string/livechat.message.search"
+            android:maxLines="1"
+            android:lines="1"
+            android:singleLine="true"
+            android:textSize="@dimen/siq_text_18"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/siq_dialog_dropdown_separatorview"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/siq_divider_color"
+        android:layout_below="@+id/siq_dialog_dropdown_searchview_parent" />
+
+    <com.zoho.livechat.android.ui.customviews.FlowLayout
+        android:id="@+id/siq_dropdown_flowlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/siq_12"
+        android:paddingStart="@dimen/siq_12"
+        android:paddingRight="@dimen/siq_12"
+        android:paddingEnd="@dimen/siq_12"
+        android:paddingTop="@dimen/siq_12"
+        android:paddingBottom="@dimen/siq_12"
+        android:background="?attr/siq_dropdown_flowlayout_backgroundcolor"
+        android:layout_below="@+id/siq_dialog_dropdown_separatorview"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/siq_dialog_dropdown_recyclerview_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/siq_dropdown_flowlayout"
+        android:layout_above="@+id/siq_dialog_dropdown_submit_parent"
+        android:paddingTop="@dimen/siq_5"
+        android:paddingStart="@dimen/siq_5"
+        android:paddingEnd="@dimen/siq_5">
+        <TextView
+            android:id="@+id/siq_dropdown_emptyview_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/livechat.message.noresults"
+            android:textSize="@dimen/siq_text_16"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/siq_dialog_dropdown_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <View
+        android:id="@+id/siq_dialog_dropdown_separatorview_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/siq_divider_color"
+        android:layout_below="@+id/siq_dialog_dropdown_recyclerview_parent" />
+
+    <RelativeLayout
+        android:id="@+id/siq_dialog_dropdown_submit_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/salesiq_links_list_bg"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/siq_18"
+        android:layout_marginTop="@dimen/siq_1">
+
+        <TextView
+            android:id="@+id/siq_dialog_dropdown_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/livechat.feedback.submit"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="@dimen/siq_10"
+            android:textSize="@dimen/siq_text_14"
+            android:layout_marginEnd="@dimen/siq_10"
+            android:textAllCaps="true"
+            android:lineSpacingExtra="6sp"
+            android:letterSpacing="0.01">
+        </TextView>
+
+        <TextView
+            android:id="@+id/siq_dialog_dropdown_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/livechat.requestlog.negative.button"
+            android:textSize="@dimen/siq_text_14"
+            android:layout_toLeftOf="@+id/siq_dialog_dropdown_submit"
+            android:layout_toStartOf="@+id/siq_dialog_dropdown_submit"
+            android:layout_marginRight="@dimen/siq_20"
+            android:layout_marginEnd="@dimen/siq_20"
+            android:textAllCaps="true"
+            android:lineSpacingExtra="6sp"
+            android:letterSpacing="0.01">
+        </TextView>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d nieuwe melding</item>
+    <item quantity="other">%d nieuwe meldingen</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navigeren naar startpositie"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Omhoog navigeren"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Meer opties"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Klaar"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Alles tonen"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Een app selecteren"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"UIT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AAN"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Functie +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"spatie"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Zoeken…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Zoekopdracht wissen"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Zoekopdracht"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Zoeken"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Zoekopdracht verzenden"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Gesproken zoekopdracht"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Delen met"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Delen met <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Samenvouwen"</string>
+    <string name="app_logs_txt_file_name">app_logs.txt</string>
+    <string name="articles.browse">Een artikel zoeken</string>
+    <string name="articles.counts.many">%1$d artikelen</string>
+    <string name="articles.counts.one">%1$d artikelen</string>
+    <string name="articles.emptystate">Ons onderdeel Knowledge Base is in de maak. Kom later nog eens terug.</string>
+    <string name="articles.feedback.thanks">Hartelijk dank voor uw feedback.</string>
+    <string name="articles.pursuechat">Chat</string>
+    <string name="articles.recent.search">Recente zoekopdrachten</string>
+    <string name="articles.recent.viewed">Recent weergegeven</string>
+    <string name="articles.search.text">Het lijkt erop dat er geen overeenkomsten zijn met het zoekwoord dat u heeft ingevoerd!</string>
+    <string name="articles.startchat">Chat starten</string>
+    <string name="articles.views.many">%1$d weergaven</string>
+    <string name="articles.views.one">%1$d weergaven</string>
+    <string name="articles_updated_time">%1$s geleden bijgewerkt</string>
+    <string name="bottomsheet_action_collapse">Het blad onderaan samenvouwen</string>
+    <string name="bottomsheet_action_expand">Het blad onderaan uitvouwen</string>
+    <string name="bottomsheet_action_expand_halfway">Half uitvouwen</string>
+    <string name="bottomsheet_drag_handle_clicked">Dubbelgetikt op handgreep voor slepen</string>
+    <string name="bottomsheet_drag_handle_content_description">Handgreep voor slepen</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Beantwoorden"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Weigeren"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Ophangen"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Inkomend gesprek"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Actief gesprek"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Een inkomend gesprek screenen"</string>
+    <string name="character_counter_content_description">%1$d van %2$d tekens opgegeven</string>
+    <string name="character_counter_overflowed_content_description">Tekenlimiet heeft %1$d van %2$d overschreden</string>
+    <string name="clear_text_end_icon_content_description">Tekst wissen</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Aanzetten</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s werkt niet, tenzij je Google Play-services aanzet.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play-services aanzetten</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Installeren</string>
+    <string name="common_google_play_services_install_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die je nog niet op je apparaat hebt.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play-services ophalen</string>
+    <string name="common_google_play_services_notification_channel_name">Beschikbaarheid van Google Play-services</string>
+    <string name="common_google_play_services_notification_ticker">Fout met Google Play-services</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ondervindt problemen met Google Play-services. Probeer het opnieuw.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die niet worden ondersteund op je apparaat.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Updaten</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s kan niet worden uitgevoerd, tenzij je Google Play-services updatet.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play-services updaten</string>
+    <string name="common_google_play_services_updating_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die momenteel worden geüpdatet.</string>
+    <string name="common_google_play_services_wear_update_text">Er is een nieuwe versie van Google Play-services vereist. De update wordt binnenkort automatisch uitgevoerd.</string>
+    <string name="common_open_on_phone">Openen op telefoon</string>
+    <string name="common_signin_button_text">Inloggen</string>
+    <string name="common_signin_button_text_long">Inloggen met Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Link naar klembord gekopieerd"</string>
+    <string name="duration_few_seconds">enkele seconden</string>
+    <string name="error_icon_content_description">Fout</string>
+    <string name="exposed_dropdown_menu_content_description">Dropdownmenu tonen</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Link kopiëren"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Openen in browser"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Link delen"</string>
+    <string name="icon_content_description">Icoon voor dialoogvenster</string>
+    <string name="item_view_role_description">Tabblad</string>
+    <string name="live_chat_no_application_to_handle_uri">U hebt geen toepassing om deze webpagina te openen</string>
+    <string name="livechat.article.title">Veelgestelde vragen</string>
+    <string name="livechat.bot.action.pending.wait">Een ogenblik geduld.</string>
+    <string name="livechat.bot.connectwithhuman">Hulp van een persoon nodig?</string>
+    <string name="livechat.bot.input.hint">Kies uit de bovenstaande invoer</string>
+    <string name="livechat.chat.queue.banner.calculating">Wachttijd wordt berekend...</string>
+    <string name="livechat.chat.queue.banner.position.subtitle">Plaats</string>
+    <string name="livechat.chat.queue.banner.timeremaining">De geschatte wachttijd is ongeveer %1$s</string>
+    <string name="livechat.chat.queue.banner.title">U bent in de wachtrij voor chats</string>
+    <string name="livechat.chat.sender.profanity.alert">Waarschuwing over misbruik</string>
+    <string name="livechat.common.article">artikelen</string>
+    <string name="livechat.common.loading">Laden...</string>
+    <string name="livechat.common.no">NEE</string>
+    <string name="livechat.common.nointernet">Controleer a.u.b. uw internetverbinding.</string>
+    <string name="livechat.common.ok">OK</string>
+    <string name="livechat.common.yes">JA</string>
+    <string name="livechat.conversation.emptystate">Wij van %1$s helpen u graag! Chat nu met onze experts.</string>
+    <string name="livechat.conversation.endchat.timer">Deze chatsessie staat op het punt beëindigd te worden</string>
+    <string name="livechat.conversation.filetype.audio">audio</string>
+    <string name="livechat.conversation.filetype.image">afbeelding</string>
+    <string name="livechat.conversation.filetype.others">Bestand</string>
+    <string name="livechat.conversation.filetype.video">video</string>
+    <string name="livechat.conversation.in.dept">In %1$s</string>
+    <string name="livechat.conversation.search.emptystate">Het lijkt erop dat er geen overeenkomsten zijn met het zoekwoord dat u heeft ingevoerd!</string>
+    <string name="livechat.conversation.startchat">Chat starten</string>
+    <string name="livechat.conversation.status">Open</string>
+    <string name="livechat.conversation.subtitle.missed">Geen medewerkers beschikbaar</string>
+    <string name="livechat.conversation.subtitle.queue.position">Plek in wachtrij: %1$s</string>
+    <string name="livechat.conversation.subtitle.waiting.details">In afwachting van uw gegevens</string>
+    <string name="livechat.conversation.title">Gesprekken</string>
+    <string name="livechat.conversation.with.attender"> met %1$s</string>
+    <string name="livechat.day.evening">Avond</string>
+    <string name="livechat.day.friday">Vrijdag</string>
+    <string name="livechat.day.monday">Maandag</string>
+    <string name="livechat.day.morning">Ochtend</string>
+    <string name="livechat.day.night">Nacht</string>
+    <string name="livechat.day.noon">Middag</string>
+    <string name="livechat.day.saturday">Zaterdag</string>
+    <string name="livechat.day.sunday">Zondag</string>
+    <string name="livechat.day.thursday">Donderdag</string>
+    <string name="livechat.day.today">Vandaag</string>
+    <string name="livechat.day.tuesday">Dinsdag</string>
+    <string name="livechat.day.wednesday">Woensdag</string>
+    <string name="livechat.day.yesterday">Gisteren</string>
+    <string name="livechat.feedback.ask.rating">Het was aangenaam chatten met u vandaag. Neemt u even de tijd voor uw \'beoordeling\'.</string>
+    <string name="livechat.feedback.button.msg">Feedback verzenden</string>
+    <string name="livechat.feedback.hint">Voer uw feedback in</string>
+    <string name="livechat.feedback.rate.happy">Wow, bedankt!  We helpen u graag</string>
+    <string name="livechat.feedback.rate.neutral">Bedankt voor de beoordeling! Neem gerust contact met ons op als u hulp nodig heeft.</string>
+    <string name="livechat.feedback.rate.sad">Het spijt ons dat niet konden helpen. We zullen onze ondersteuning verbeteren.</string>
+    <string name="livechat.feedback.submit">INDIENEN</string>
+    <string name="livechat.feedback.subtitle">Neemt u even de tijd voor een beoordeling?</string>
+    <string name="livechat.feedback.thankingmsg">Hartelijk dank voor uw feedback.</string>
+    <string name="livechat.feedback.title">Was de chatsessie nuttig?</string>
+    <string name="livechat.gdpr.chatconsent">Door te klikken op Accepteren gaat u akkoord met onze voorwaarden en bepalingen zoals gespecificeerd in het document.</string>
+    <string name="livechat.gdpr.chatconsent.accept">Accepteren</string>
+    <string name="livechat.gdpr.chatconsent.decline">Afwijzen</string>
+    <string name="livechat.gdpr.chatconsent.title">Instemming voor chat</string>
+    <string name="livechat.gdpr.creditcardmask">Uw kaartnummer is gevoelige informatie. Wilt u dat wij de eerste 12 cijfers ervan maskeren?</string>
+    <string name="livechat.gdpr.creditcardmask.cancel">Annuleren</string>
+    <string name="livechat.gdpr.creditcardmask.ok">Maskeren</string>
+    <string name="livechat.gdpr.emailconfirm">U gaat dit afschrift van de chatsessie e-mailen naar “%1$s”.</string>
+    <string name="livechat.gdpr.emailconfirm.change">E-mailadres wijzigen</string>
+    <string name="livechat.gdpr.emailconfirm.send">Verzenden</string>
+    <string name="livechat.gdpr.googletranslate.concent">Deze service kan vertalingen hebben van Google. Google wijst alle garanties af met betrekking tot de vertalingen, expliciet of impliciet, inclusief garanties van nauwkeurigheid, betrouwbaarheid en impliciete garanties van verkoopbaarheid, geschiktheid voor een bepaald doel en niet-inbreuk.</string>
+    <string name="livechat.gdpr.googletranslate.concent.title">Vertaling Toestemming</string>
+    <string name="livechat.gdpr.learnmore">Meer informatie</string>
+    <string name="livechat.gdpr.trackingconsent.donttrack">Niet volgen</string>
+    <string name="livechat.gdpr.trackingconsent.gotit">Ik begrijp het.</string>
+    <string name="livechat.gdpr.trackingconsent.notify">Hallo. Wij volgen uw activiteiten in onze app om uw ervaring ermee te verbeteren.</string>
+    <string name="livechat.gdpr.trackingconsent.notifywithoptout">Hallo. Wij volgen uw activiteiten in onze app om uw ervaring ermee te verbeteren. Als u dit niet meer wilt, kunt u kiezen voor de optie “Niet volgen”.</string>
+    <string name="livechat.message.download">Downloaden</string>
+    <string name="livechat.message.input.hint">Typ hier uw bericht</string>
+    <string name="livechat.message.noresults">Geen resultaten gevonden</string>
+    <string name="livechat.message.saved">Opgeslagen</string>
+    <string name="livechat.message.search">Zoeken</string>
+    <string name="livechat.message.status.copy">Kopiëren</string>
+    <string name="livechat.message.status.delete">Verwijderen</string>
+    <string name="livechat.message.status.resend">Opnieuw verzenden</string>
+    <string name="livechat.message.status.sending">Bezig met verzenden</string>
+    <string name="livechat.message.status.sent">Verzonden</string>
+    <string name="livechat.message.time.justnow">Zojuist</string>
+    <string name="livechat.message.timedout">Onderbroken</string>
+    <string name="livechat.message.typingindicator">bezig met typen</string>
+    <string name="livechat.message.waitingforconnection">Wachten op netwerkverbinding</string>
+    <string name="livechat.messages.action.copy.success">Gekopieerd naar klembord</string>
+    <string name="livechat.messages.alert.chatreqfailure">Oei! Het lijkt erop alsof u deze chataanvraag niet kunt indienen!</string>
+    <string name="livechat.messages.alert.upload.filesizeexceed">Maximale uploadgrootte overschreden</string>
+    <string name="livechat.messages.attachment.notopen">Kan bijlage niet openen, omdat uw apparaat geen app heeft die bestanden met deze indeling ondersteunt!</string>
+    <string name="livechat.messages.camera.notopen">Kan camera niet openen, omdat uw apparaat geen camera heeft</string>
+    <string name="livechat.messages.continuechat.info">Uw chatsessie met ons is beëindigd. Heeft u nog meer vragen? Klik op Doorgaan om met ons te chatten.</string>
+    <string name="livechat.messages.department">Kies een afdeling</string>
+    <string name="livechat.messages.email.dialog.title">Voer uw e-mailadres in</string>
+    <string name="livechat.messages.email.failure">Verzenden van mail mislukt</string>
+    <string name="livechat.messages.email.send">Verzenden</string>
+    <string name="livechat.messages.email.success">E-mail is met succes verzonden</string>
+    <string name="livechat.messages.email.title">Afschrift per e-mail verzenden</string>
+    <string name="livechat.messages.email.wrong">Voer geldig e-mailadres in</string>
+    <string name="livechat.messages.endchat.confirmation">Wilt u deze chat beëindigen?</string>
+    <string name="livechat.messages.endchattimer">Omdat deze chatsessie lang inactief is geweest, wordt deze over %1$s sec. automatisch beëindigd. Als u wilt doorgaan met deze sessie, stuur ons dan een bericht.</string>
+    <string name="livechat.messages.file.defaultextn">Bestand</string>
+    <string name="livechat.messages.form.alert.message">Vul het formulier in de vorige chat in voordat u een nieuwe chat begint!</string>
+    <string name="livechat.messages.info.acceptforward">De chat is met succes doorgestuurd naar %1$s.</string>
+    <string name="livechat.messages.info.agenttransfer">%1$s draagt deze chat over naar %2$s.</string>
+    <string name="livechat.messages.info.endchat">Sessie beëindigd</string>
+    <string name="livechat.messages.info.forward">%1$s stuurt de chat door.</string>
+    <string name="livechat.messages.info.missedchat">We hebben uw chatverzoek gemist</string>
+    <string name="livechat.messages.info.operator.joined">%1$s is toegetreden tot dit gesprek.</string>
+    <string name="livechat.messages.info.reopen">U heeft de chat opnieuw geopend</string>
+    <string name="livechat.messages.info.transfer.accept">Chat overgedragen. Hallo, met %1$s! Ik help u graag verder.</string>
+    <string name="livechat.messages.offline">Hallo. Het lijkt erop dat geen van onze operators nu beschikbaar is om u te helpen. Laat een bericht achter en we nemen z.s.m. contact met u op.</string>
+    <string name="livechat.messages.operator.typing">bezig met typen...</string>
+    <string name="livechat.messages.option.endchat">Chat beëindigen</string>
+    <string name="livechat.messages.option.sharefile">Bestand delen</string>
+    <string name="livechat.messages.option.takephoto">Foto namen</string>
+    <string name="livechat.messages.option.takescreenshot">Schermopname maken</string>
+    <string name="livechat.messages.prechatform.conversation.campaign">Wilt u zich abonneren op onze nieuwsbrief?</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.no">NEE</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.yes">Zeker</string>
+    <string name="livechat.messages.prechatform.conversation.dept">Selecteer de afdeling waarnaar uw aanvraag moet worden doorgestuurd</string>
+    <string name="livechat.messages.prechatform.conversation.email">We kunnen u e-mail verzenden via?</string>
+    <string name="livechat.messages.prechatform.conversation.name">Hoe wilt u aangesproken worden?</string>
+    <string name="livechat.messages.prechatform.conversation.phone">Mogen we om uw nummer van uw contactpersoon vragen?</string>
+    <string name="livechat.messages.prechatform.inline.button">Formulier invullen</string>
+    <string name="livechat.messages.prechatform.inline.message">Verstrek ons wat gegevens zodat we een chat kunnen starten.</string>
+    <string name="livechat.messages.prechatform.introduction.greeting.message">Help ons te begrijpen met wie we spreken.</string>
+    <string name="livechat.messages.prechatform.introduction.name">Operator</string>
+    <string name="livechat.messages.prechatform.traditional.campaign.label">Wilt u zich abonneren op onze nieuwsbrief?</string>
+    <string name="livechat.messages.prechatform.traditional.department.label">Afdeling</string>
+    <string name="livechat.messages.prechatform.traditional.dept.error">Kies een geldige afdeling</string>
+    <string name="livechat.messages.prechatform.traditional.dept.hint">Kies een afdeling</string>
+    <string name="livechat.messages.prechatform.traditional.email.error">Voer een geldig e-mailadres in</string>
+    <string name="livechat.messages.prechatform.traditional.email.hint">Voer uw e-mailadres in</string>
+    <string name="livechat.messages.prechatform.traditional.email.label">E-mailadres</string>
+    <string name="livechat.messages.prechatform.traditional.name.error">Voer een geldige naam in</string>
+    <string name="livechat.messages.prechatform.traditional.name.hint">Voer uw naam in</string>
+    <string name="livechat.messages.prechatform.traditional.name.label">Naam</string>
+    <string name="livechat.messages.prechatform.traditional.phone.error">Voer een geldig telefoonnummer in</string>
+    <string name="livechat.messages.prechatform.traditional.phone.hint">Voer het nummer van uw contactpersoon in</string>
+    <string name="livechat.messages.prechatform.traditional.phone.label">Telefoonnummer</string>
+    <string name="livechat.messages.prechatform.traditional.question.error">Vraag invoeren</string>
+    <string name="livechat.messages.record.slidetocancel">Schuif naar links om te stoppen met opnemen</string>
+    <string name="livechat.messages.sharefile.ques">Heeft een bestand gedeeld</string>
+    <string name="livechat.messages.shareimage">Afbeelding delen</string>
+    <string name="livechat.messages.sharescreenshot">Schermopname delen</string>
+    <string name="livechat.messages.title">Nu met ons chatten!</string>
+    <string name="livechat.messages.you">U</string>
+    <string name="livechat.notification.messages.shared.file">%1$s heeft een bestand gedeeld</string>
+    <string name="livechat.notification.messages.shared.image">%1$s heeft een afbeelding gedeeld</string>
+    <string name="livechat.notification.messages.shared.video">%1$s heeft u een video gestuurd</string>
+    <string name="livechat.operator.waiting.response">Medewerker komt binnenkort</string>
+    <string name="livechat.permission.camera">Geef toestemming voor toegang tot uw mobiele camera om op een foto te kunnen klikken.</string>
+    <string name="livechat.permission.file">Geef toestemming voor toegang tot uw mobiele opslag om een bestand te kunnen verzenden.</string>
+    <string name="livechat.permission.locationdenied">Locatiemachtiging geweigerd</string>
+    <string name="livechat.permission.microphone">Geef toestemming voor toegang tot uw microfoon om een spraakbericht op te kunnen nemen.</string>
+    <string name="livechat.permission.negative">Niet nu</string>
+    <string name="livechat.permission.positive">Instellingen</string>
+    <string name="livechat.permission.storagedenied">Machtiging voor opslag is geweigerd.</string>
+    <string name="livechat.prechatform.submit">INDIENEN</string>
+    <string name="livechat.rating.skip">Overslaan</string>
+    <string name="livechat.reopen.title">Chat opnieuw openen</string>
+    <string name="livechat.requestlog.info">De operator heeft toegang tot het logboek van uw app aangevraagd</string>
+    <string name="livechat.requestlog.negative.button">Annuleren</string>
+    <string name="livechat.requestlog.positive.button">Verzenden</string>
+    <string name="livechat.requestlog.title">Logboek van app</string>
+    <string name="livechat.widgets.articles.related">Verwante artikelen:</string>
+    <string name="livechat.widgets.calendar.fromdate">Startdatum</string>
+    <string name="livechat.widgets.calendar.fromtime">Starttijd</string>
+    <string name="livechat.widgets.calendar.schedule">Nu plannen</string>
+    <string name="livechat.widgets.calendar.setdate">Een datum kiezen</string>
+    <string name="livechat.widgets.calendar.settime">Kies een tijd</string>
+    <string name="livechat.widgets.calendar.timezone">Tijdzone</string>
+    <string name="livechat.widgets.calendar.todate">Einddatum</string>
+    <string name="livechat.widgets.calendar.totime">Eindtijd</string>
+    <string name="livechat.widgets.done">Voltooid</string>
+    <string name="livechat.widgets.input.password.error">Voer een geldige waarde in</string>
+    <string name="livechat.widgets.input.phone.search.hint">Land zoeken</string>
+    <string name="livechat.widgets.input.url.error">Voer een geldige URL in</string>
+    <string name="livechat.widgets.location.accuracy">Nauwkeurig op %1$d meter</string>
+    <string name="livechat.widgets.location.radius.float">%1$.1f km</string>
+    <string name="livechat.widgets.location.radius.integer">%1$d km</string>
+    <string name="livechat.widgets.location.select">Kies een locatie</string>
+    <string name="livechat.widgets.location.send.current">Verstuur de huidige locatie</string>
+    <string name="livechat.widgets.location.send.selected">Verstuur de geselecteerde locatie</string>
+    <string name="livechat.widgets.location.suggestions">Suggesties</string>
+    <string name="livechat.widgets.rating.dislike">Niet leuk vinden</string>
+    <string name="livechat.widgets.rating.happy.angry">Boos</string>
+    <string name="livechat.widgets.rating.happy.excited">Geweldig</string>
+    <string name="livechat.widgets.rating.happy.happy">Goed</string>
+    <string name="livechat.widgets.rating.happy.neutral">Neutraal</string>
+    <string name="livechat.widgets.rating.happy.sad">Bedroefd</string>
+    <string name="livechat.widgets.rating.like">Vind-ik-leuk</string>
+    <string name="livechat.widgets.select.limit.exceed">Selectielimiet overschreden</string>
+    <string name="livechat.widgets.skip">Overslaan</string>
+    <string name="livechat.widgets.timeslot.button">Kies een periode</string>
+    <string name="livechat.widgets.timezone.current">%1$s (huidig)</string>
+    <string name="livechat_conversation_filetype_gif">GIF</string>
+    <string name="material_clock_toggle_content_description">Selecteer a.m. of p.m.</string>
+    <string name="material_hour_24h_suffix">%1$s uur</string>
+    <string name="material_hour_selection">Selecteer uur</string>
+    <string name="material_hour_suffix">%1$s uur</string>
+    <string name="material_minute_selection">Minuten selecteren</string>
+    <string name="material_minute_suffix">%1$s minuten</string>
+    <string name="material_timepicker_am">a.m.</string>
+    <string name="material_timepicker_clock_mode_description">Schakel naar de klokmodus om de tijd in te voeren.</string>
+    <string name="material_timepicker_hour">Uur</string>
+    <string name="material_timepicker_minute">Minuut</string>
+    <string name="material_timepicker_pm">p.m.</string>
+    <string name="material_timepicker_select_time">Tijd selecteren</string>
+    <string name="material_timepicker_text_input_mode_description">Schakel naar de tekstinvoermodus om de tijd in te voeren.</string>
+    <string name="minimum_selection_is_required">Kies ten minste één optie</string>
+    <string name="minimum_selections_is_required">Er zijn minimaal %1$d selecties vereist</string>
+    <string name="mobilisten_article_choose_a_department">Afdeling kiezen</string>
+    <string name="mobilisten_article_departments">Afdelingen</string>
+    <string name="mobilisten_article_has_been_deleted_or_disabled">Artikel niet beschikbaar</string>
+    <string name="mobilisten_article_no_views">Geen weergaven</string>
+    <string name="mobilisten_articles_general_error">@string/mobilisten_general_failure_error</string>
+    <string name="mobilisten_chat_connected_to_operator_or_bot">Verbonden met %1$s</string>
+    <string name="mobilisten_common_okay">Oké</string>
+    <string name="mobilisten_conversation_deleted">Dit gesprek is verwijderd door de operator</string>
+    <string name="mobilisten_conversation_error_access_denied_to_initiate_chat">Toegang geweigerd om chat te starten</string>
+    <string name="mobilisten_conversation_error_email_field_is_mandatory">E-mailveld is verplicht</string>
+    <string name="mobilisten_conversation_error_error_unable_to_initiate_chat_outside_business_hours">Kan gesprek niet aanmaken tijdens offline uren</string>
+    <string name="mobilisten_conversation_error_invalid_chat_user_id">Ongeldige gebruikers-ID van bezoeker</string>
+    <string name="mobilisten_conversation_error_mentioned_department_is_not_mapped_to_the_brand">De vermelde afdeling is niet gekoppeld aan het merk</string>
+    <string name="mobilisten_conversation_error_name_field_is_mandatory">Naam is verplicht</string>
+    <string name="mobilisten_conversation_error_operation_not_available_for_mentioned_operator">Deze operator is niet beschikbaar voor chat</string>
+    <string name="mobilisten_conversation_error_phone_number_field_is_mandatory">Telefoonnummer is verplicht</string>
+    <string name="mobilisten_conversation_error_resource_limit_reached">Bronlimiet bereikt voor het huidige abonnement</string>
+    <string name="mobilisten_conversation_general_error">Kan gespreksgegevens niet ophalen</string>
+    <string name="mobilisten_error_chat_transfer_already_in_progress_failure">Overdracht van chat wordt al uitgevoerd! Een ogenblik geduld.</string>
+    <string name="mobilisten_error_chat_transfer_no_online_user_failure">Er is helaas geen online gebruiker beschikbaar in de afdeling</string>
+    <string name="mobilisten_file_upload_size_limit_exceeded">Maximale bestandsgrootte (50MB) is overschreden.</string>
+    <string name="mobilisten_general_failure_error">Er is helaas iets mis gegaan. Probeer het later nog eens.</string>
+    <string name="mobilisten_load_more_messages">Meer berichten laden</string>
+    <string name="mobilisten_loading_messages">Berichten worden geladen...</string>
+    <string name="mobilisten_notification_multiple_messages">%1$d nieuwe berichten</string>
+    <string name="mobilisten_notification_single_message">%1$d nieuw bericht</string>
+    <string name="mobilisten_operator_has_requested_for_app_log">De operator heeft app-logboek aangevraagd.</string>
+    <string name="mobilisten_test_push_notifications">Pushmeldingen testen</string>
+    <string name="mobilisten_unable_to_load_message_transcript">Kan helaas geen berichten ophalen</string>
+    <string name="mtrl_badge_numberless_content_description">Nieuwe melding</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s verwijderen</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Meer dan %1$d nieuwe meldingen</string>
+    <string name="mtrl_picker_a11y_next_month">Naar volgende maand gaan</string>
+    <string name="mtrl_picker_a11y_prev_month">Naar vorige maand gaan</string>
+    <string name="mtrl_picker_announce_current_selection">Huidige selectie: %1$s</string>
+    <string name="mtrl_picker_cancel">Annuleren</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecteer een datum</string>
+    <string name="mtrl_picker_date_header_unselected">Geselecteerde datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolom met dagen: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ongeldige indeling.</string>
+    <string name="mtrl_picker_invalid_format_example">Voorbeeld: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Gebruik: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ongeldig bereik.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Naar jaar %1$s navigeren</string>
+    <string name="mtrl_picker_out_of_range">Valt buiten bereik: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdatum - %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – einddatum</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecteer een periode</string>
+    <string name="mtrl_picker_range_header_unselected">Startdatum - einddatum</string>
+    <string name="mtrl_picker_save">Opslaan</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Einddatum</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">j</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Overschakelen naar agenda-invoermodus</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tik om naar dagselectie te schakelen</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Overschakelen naar tekstinvoermodus</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tik om naar jaarselectie te schakelen</string>
+    <string name="mtrl_timepicker_cancel">Annuleren</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="password_toggle_content_description">Wachtwoord tonen</string>
+    <string name="salesiq.advertisebadge.content">Aangestuurd door SalesIQ Mobilisten</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Zoeken"</string>
+    <string name="siq_articles_count_many">%1$d artikelen</string>
+    <string name="siq_articles_count_single">Eén artikel</string>
+    <string name="siq_articles_sub_categories_count_one">Eén subcategorie</string>
+    <string name="siq_articles_sub_categories_counts">%1$d subcategorieën</string>
+    <string name="siq_recently_viewed_articles_title">Recent weergegeven</string>
+    <string name="siq_related_articles">Verwante artikelen</string>
+    <string name="siq_title_articles">Artikelen</string>
+    <string name="siq_title_sub_category">Subcategorieën</string>
+    <string name="size_bytes"> Bytes</string>
+    <string name="size_kilo_bytes"> KB</string>
+    <string name="size_mega_bytes"> MB</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_unit_day_d">d</string>
+    <string name="time_unit_hour_h">u</string>
+    <string name="time_unit_minute_m">min</string>
+    <string name="time_unit_month_m">m</string>
+    <string name="time_unit_second_s">s</string>
+    <string name="time_unit_week_w">w</string>
+    <string name="time_unit_year_y">y</string>
+</resources>

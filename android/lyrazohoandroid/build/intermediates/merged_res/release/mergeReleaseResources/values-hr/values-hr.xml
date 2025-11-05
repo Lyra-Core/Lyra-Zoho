@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d nova obavijest</item>
+    <item quantity="few">%d nove obavijesti</item>
+    <item quantity="other">%d novih obavijesti</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Idi na početnu"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Natrag"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Više opcija"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Gotovo"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Prikaži sve"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Odabir aplikacije"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ISKLJUČENO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"UKLJUČENO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"svemir"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Pretražite…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Izbriši upit"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Upit za pretraživanje"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Pretraži"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Pošalji upit"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Glasovno pretraživanje"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Dijeli s"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Dijeli putem aplikacije <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Sažmi"</string>
+    <string name="app_logs_txt_file_name">app_logs.txt</string>
+    <string name="articles.browse">Pretraži članak</string>
+    <string name="articles.counts.many">%1$d Članci</string>
+    <string name="articles.counts.one">%1$d Članak</string>
+    <string name="articles.emptystate">Naš dio Česta pitanja još je u izradi. Navratite nešto kasnije!</string>
+    <string name="articles.feedback.thanks">Zahvaljujemo se na povratnim informacijama!</string>
+    <string name="articles.pursuechat">Razgovor</string>
+    <string name="articles.recent.search">Nedavna pretraživanja</string>
+    <string name="articles.recent.viewed">Nedavno prikazano</string>
+    <string name="articles.search.text">Izgleda da nema podudarnosti s traženom riječi koju ste unijeli!</string>
+    <string name="articles.startchat">Počni razgovor</string>
+    <string name="articles.views.many">%1$d razgovora</string>
+    <string name="articles.views.one">%1$d razgovora</string>
+    <string name="articles_updated_time">Ažurirano prije %1$s</string>
+    <string name="bottomsheet_action_collapse">Sažmite donju tablicu</string>
+    <string name="bottomsheet_action_expand">Proširite donju tablicu</string>
+    <string name="bottomsheet_action_expand_halfway">Proširi donju polovicu</string>
+    <string name="bottomsheet_drag_handle_clicked">Dvaput dodirnut marker za povlačenje</string>
+    <string name="bottomsheet_drag_handle_content_description">Marker za povlačenje</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Odgovori"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Videozapis"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Odbij"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Prekini"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Dolazni poziv"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Poziv u tijeku"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Filtriranje dolaznog poziva"</string>
+    <string name="character_counter_content_description">Uneseno znakova: %1$d od %2$d</string>
+    <string name="character_counter_overflowed_content_description">Premašeno je ograničenje broja znakova: %1$d od %2$d</string>
+    <string name="clear_text_end_icon_content_description">Brisanje teksta</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Omogući</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s neće funkcionirati ako ne omogućite usluge Google Playa.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Omogućivanje usluga Google Playa</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Instaliraj</string>
+    <string name="common_google_play_services_install_text">%1$s neće funkcionirati bez usluga Google Playa koje nisu instalirane na vašem uređaju.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Preuzimanje usluga Google Playa</string>
+    <string name="common_google_play_services_notification_channel_name">Dostupnost usluga za Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Pogreška Usluga za Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ima poteškoća s uslugama Google Playa. Pokušajte ponovo.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s neće funkcionirati bez usluga Google Playa koje vaš uređaj ne podržava.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Ažuriraj</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s neće funkcionirati ako ne ažurirate Google Play usluge.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Ažuriranje usluga Google Playa</string>
+    <string name="common_google_play_services_updating_text">%1$s neće se pokrenuti bez usluga Google Playa koje se trenutačno ažuriraju.</string>
+    <string name="common_google_play_services_wear_update_text">Potrebna je nova verzija usluga Google Playa. Uskoro će se ažurirati.</string>
+    <string name="common_open_on_phone">Otvori na telefonu</string>
+    <string name="common_signin_button_text">Prijava</string>
+    <string name="common_signin_button_text_long">Prijava putem Googlea</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Veza je kopirana u međuspremnik"</string>
+    <string name="duration_few_seconds">nekoliko sekundi</string>
+    <string name="error_icon_content_description">Pogreška</string>
+    <string name="exposed_dropdown_menu_content_description">Prikaži padajući izbornik</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopiraj vezu"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Otvori u pregledniku"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Podijeli vezu"</string>
+    <string name="icon_content_description">Ikona dijaloga</string>
+    <string name="item_view_role_description">Kartica</string>
+    <string name="live_chat_no_application_to_handle_uri">Nemate aplikaciju za otvaranje ove internetske stranice</string>
+    <string name="livechat.article.title">Česta pitanja</string>
+    <string name="livechat.bot.action.pending.wait">Pričekajte.</string>
+    <string name="livechat.bot.connectwithhuman">Trebate ljudsku pomoć?</string>
+    <string name="livechat.bot.input.hint">Odaberite jedan od gornjih unosa</string>
+    <string name="livechat.chat.queue.banner.calculating">Izračunavam vrijeme čekanja...</string>
+    <string name="livechat.chat.queue.banner.position.subtitle">Mjesto</string>
+    <string name="livechat.chat.queue.banner.timeremaining">Procijenjeno vrijeme čekanja je otprilike ~ %1$s</string>
+    <string name="livechat.chat.queue.banner.title">U redu ste za čavrljanje</string>
+    <string name="livechat.chat.sender.profanity.alert">Upozorenje na zlouporabu</string>
+    <string name="livechat.common.article">Članak</string>
+    <string name="livechat.common.loading">Učitavanje...</string>
+    <string name="livechat.common.no">NE</string>
+    <string name="livechat.common.nointernet">Provjerite svoju internetsku vezu.</string>
+    <string name="livechat.common.ok">U redu</string>
+    <string name="livechat.common.yes">DA</string>
+    <string name="livechat.conversation.emptystate">Mi, %1$s, jedva čekamo pomoći vam! Sada razgovarajte s našim stručnjacima.</string>
+    <string name="livechat.conversation.endchat.timer">Ova sesija razgovora uskoro će završiti</string>
+    <string name="livechat.conversation.filetype.audio">audiozapis</string>
+    <string name="livechat.conversation.filetype.image">slika</string>
+    <string name="livechat.conversation.filetype.others">Datoteka</string>
+    <string name="livechat.conversation.filetype.video">videozapis</string>
+    <string name="livechat.conversation.in.dept">U %1$s</string>
+    <string name="livechat.conversation.search.emptystate">Izgleda da nema podudarnosti s traženom riječi koju ste unijeli!</string>
+    <string name="livechat.conversation.startchat">Počni razgovor</string>
+    <string name="livechat.conversation.status">Otvoreno</string>
+    <string name="livechat.conversation.subtitle.missed">Nema dostupnih operatera</string>
+    <string name="livechat.conversation.subtitle.queue.position">Mjesto u redu: %1$s</string>
+    <string name="livechat.conversation.subtitle.waiting.details">Čekaju se vaše pojedinosti</string>
+    <string name="livechat.conversation.title">Razgovori s nama</string>
+    <string name="livechat.conversation.with.attender"> s %1$s</string>
+    <string name="livechat.day.evening">Večer</string>
+    <string name="livechat.day.friday">Petak</string>
+    <string name="livechat.day.monday">Ponedjeljak</string>
+    <string name="livechat.day.morning">Jutro</string>
+    <string name="livechat.day.night">Noć</string>
+    <string name="livechat.day.noon">Podne</string>
+    <string name="livechat.day.saturday">Subota</string>
+    <string name="livechat.day.sunday">Nedjelja</string>
+    <string name="livechat.day.thursday">Četvrtak</string>
+    <string name="livechat.day.today">Danas</string>
+    <string name="livechat.day.tuesday">Utorak</string>
+    <string name="livechat.day.wednesday">Srijeda</string>
+    <string name="livechat.day.yesterday">Jučer</string>
+    <string name="livechat.feedback.ask.rating">Drago mi je što mogu s vama danas razgovarati. Odvojite trenutak da biste nam dali \'Ocjenu\'.</string>
+    <string name="livechat.feedback.button.msg">Pošalji povratne informacije</string>
+    <string name="livechat.feedback.hint">Unesite svoje povratne informacije</string>
+    <string name="livechat.feedback.rate.happy">Super, hvala!  Rado smo vam na raspolaganju</string>
+    <string name="livechat.feedback.rate.neutral">Hvala na ocjeni! Slobodno nam se obratite za pomoć.</string>
+    <string name="livechat.feedback.rate.sad">Žao nam je što vam nismo mogli pomoći. Poboljšat ćemo svoju podršku.</string>
+    <string name="livechat.feedback.submit">POŠALJI</string>
+    <string name="livechat.feedback.subtitle">Odvojite trenutak vremena za ocjenjivanje</string>
+    <string name="livechat.feedback.thankingmsg">Hvala na povratnim informacijama.</string>
+    <string name="livechat.feedback.title">Je li vam koristila sesija razgovora?</string>
+    <string name="livechat.gdpr.chatconsent">Klikanjem na Prihvati pristajete na sve naše uvjete i odredbe navedene u dokumentu.</string>
+    <string name="livechat.gdpr.chatconsent.accept">Prihvati</string>
+    <string name="livechat.gdpr.chatconsent.decline">Odbij</string>
+    <string name="livechat.gdpr.chatconsent.title">Pristanak na razgovor</string>
+    <string name="livechat.gdpr.creditcardmask">Budući da broj vaše kartice sadrži osjetljive podatke, želite li sakriti prvih 12 znamenki broja vaše kartice?</string>
+    <string name="livechat.gdpr.creditcardmask.cancel">Otkaži</string>
+    <string name="livechat.gdpr.creditcardmask.ok">Sakrij</string>
+    <string name="livechat.gdpr.emailconfirm">Upravo ćete poslati prijepis ovog razgovora e-poštom na %1$s.</string>
+    <string name="livechat.gdpr.emailconfirm.change">Promijeni adresu e-pošte</string>
+    <string name="livechat.gdpr.emailconfirm.send">Pošalji</string>
+    <string name="livechat.gdpr.googletranslate.concent">Ova usluga može sadržavati prijevode koje je omogućio Google. Google ne daje nikakva jamstva za prijevode, izričita ni implicirana, uključujući sva jamstva za točnost, pouzdanost te bilo koja podrazumijevana jamstva isplativosti te podobnosti za određenu svrhu i nekršenje prava.</string>
+    <string name="livechat.gdpr.googletranslate.concent.title">Odobrenje prijevoda</string>
+    <string name="livechat.gdpr.learnmore">Saznajte više</string>
+    <string name="livechat.gdpr.trackingconsent.donttrack">Nemoj pratiti</string>
+    <string name="livechat.gdpr.trackingconsent.gotit">Primljeno na znanje!</string>
+    <string name="livechat.gdpr.trackingconsent.notify">Hej! Pratimo vaše aktivnosti na našoj aplikaciji kako bismo poboljšali vaše iskustvo s aplikacijom.</string>
+    <string name="livechat.gdpr.trackingconsent.notifywithoptout">Hej! Pratimo vaše aktivnosti na našoj aplikaciji kako bismo poboljšali vaše iskustvo s aplikacijom. No ako se želite odjaviti, kliknite na opciju "Nemoj pratiti".</string>
+    <string name="livechat.message.download">Preuzmi</string>
+    <string name="livechat.message.input.hint">Utipkajte ovdje vašu poruku</string>
+    <string name="livechat.message.noresults">Nema rezultata</string>
+    <string name="livechat.message.saved">Spremljeno</string>
+    <string name="livechat.message.search">Pretraži</string>
+    <string name="livechat.message.status.copy">Kopiraj</string>
+    <string name="livechat.message.status.delete">Izbriši</string>
+    <string name="livechat.message.status.resend">Pošalji ponovno</string>
+    <string name="livechat.message.status.sending">Slanje u tijeku</string>
+    <string name="livechat.message.status.sent">Poslano</string>
+    <string name="livechat.message.time.justnow">Upravo sad</string>
+    <string name="livechat.message.timedout">Isteklo vrijeme</string>
+    <string name="livechat.message.typingindicator">utipkava se</string>
+    <string name="livechat.message.waitingforconnection">Čekanje mrežne veze</string>
+    <string name="livechat.messages.action.copy.success">Kopirano u međuspremnik</string>
+    <string name="livechat.messages.alert.chatreqfailure">Uhvati! Izgleda da ne možete poslati ovaj zahtjev za razgovor!</string>
+    <string name="livechat.messages.alert.upload.filesizeexceed">Prekoračena maksimalna veličina učitavanja</string>
+    <string name="livechat.messages.attachment.notopen">Ne mogu otvoriti prilog jer vaš uređaj nema aplikaciju koja podržava datoteke ovog formata!</string>
+    <string name="livechat.messages.camera.notopen">Ne može se otvoriti kamera, jer vaš uređaj nema kameru</string>
+    <string name="livechat.messages.continuechat.info">Zaključena je vaša sesija razgovora s nama. Imate li kakvih dodatnih pitanja? Kliknite Nastavi za razgovor s nama.</string>
+    <string name="livechat.messages.department">Odaberi odjel</string>
+    <string name="livechat.messages.email.dialog.title">Unesite svoju adresu e-pošte</string>
+    <string name="livechat.messages.email.failure">Slanje pošte nije uspjelo</string>
+    <string name="livechat.messages.email.send">Pošalji</string>
+    <string name="livechat.messages.email.success">E-pošta je uspješno poslana</string>
+    <string name="livechat.messages.email.title">Prijepis razgovora e-poštom</string>
+    <string name="livechat.messages.email.wrong">Unesite valjanu adresu e-pošte</string>
+    <string name="livechat.messages.endchat.confirmation">Želite li završiti ovaj razgovor?</string>
+    <string name="livechat.messages.endchattimer">Budući da ova sesija razgovora dugo nema promjena, završit će automatski za %1$s s. Želite li nastaviti ovu sesiju, ostavite poruku.</string>
+    <string name="livechat.messages.file.defaultextn">Datoteka</string>
+    <string name="livechat.messages.form.alert.message">Popunite obrazac u prethodnom razgovoru prije pokretanja novog razgovora!</string>
+    <string name="livechat.messages.info.acceptforward">Razgovor je uspješno proslijeđen %1$s.</string>
+    <string name="livechat.messages.info.agenttransfer">%1$s prenosi ovaj razgovor na %2$s.</string>
+    <string name="livechat.messages.info.endchat">Završena sesija</string>
+    <string name="livechat.messages.info.forward">Korisnik %1$s prosljeđuje razgovor.</string>
+    <string name="livechat.messages.info.missedchat">Propustili smo vaš zahtjev za čavrljanje</string>
+    <string name="livechat.messages.info.operator.joined">%1$s se pridružio/la ovom razgovoru.</string>
+    <string name="livechat.messages.info.reopen">Ponovno ste otvorili čavrljanje</string>
+    <string name="livechat.messages.info.transfer.accept">Razgovor je prenesen. Dobar dan, ovdje %1$s! Stojim na raspolaganju za pomoć.</string>
+    <string name="livechat.messages.offline">Hej! Izgleda da nijedan naš operater sada nije dostupan da vam pomogne. Ostavite nam poruku i što prije ćemo vam se obratiti.</string>
+    <string name="livechat.messages.operator.typing">utipkava se...</string>
+    <string name="livechat.messages.option.endchat">Završi čavrljanje</string>
+    <string name="livechat.messages.option.sharefile">Dijeli datoteku</string>
+    <string name="livechat.messages.option.takephoto">Fotografiraj</string>
+    <string name="livechat.messages.option.takescreenshot">Snimi zaslon</string>
+    <string name="livechat.messages.prechatform.conversation.campaign">Želite li se pretplatiti na naš e-bilten?</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.no">NE</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.yes">Sigurno</string>
+    <string name="livechat.messages.prechatform.conversation.dept">Odaberite odjel kojem treba usmjeriti vaš zahtjev</string>
+    <string name="livechat.messages.prechatform.conversation.email">Možemo li vam poslati e-poštu?</string>
+    <string name="livechat.messages.prechatform.conversation.name">Kako biste htjeli da vas oslovimo?</string>
+    <string name="livechat.messages.prechatform.conversation.phone">Možemo li dobiti vaš broj za kontakt?</string>
+    <string name="livechat.messages.prechatform.inline.button">Popuni obrazac</string>
+    <string name="livechat.messages.prechatform.inline.message">Za početak razgovora navedite nam nekoliko podataka.</string>
+    <string name="livechat.messages.prechatform.introduction.greeting.message">Otkrijte nam s kime kontaktiramo.</string>
+    <string name="livechat.messages.prechatform.introduction.name">Operater</string>
+    <string name="livechat.messages.prechatform.traditional.campaign.label">Želite li se pretplatiti na naš e-bilten?</string>
+    <string name="livechat.messages.prechatform.traditional.department.label">Odjel</string>
+    <string name="livechat.messages.prechatform.traditional.dept.error">Odaberite valjani odjel</string>
+    <string name="livechat.messages.prechatform.traditional.dept.hint">Odaberite odjel</string>
+    <string name="livechat.messages.prechatform.traditional.email.error">Unesite valjanu adresu e-pošte</string>
+    <string name="livechat.messages.prechatform.traditional.email.hint">Unesite svoju adresu e-pošte</string>
+    <string name="livechat.messages.prechatform.traditional.email.label">E-pošta</string>
+    <string name="livechat.messages.prechatform.traditional.name.error">Unesite točno ime i prezime</string>
+    <string name="livechat.messages.prechatform.traditional.name.hint">Unesite svoje ime i prezime</string>
+    <string name="livechat.messages.prechatform.traditional.name.label">Ime</string>
+    <string name="livechat.messages.prechatform.traditional.phone.error">Unesite valjani telefonski broj</string>
+    <string name="livechat.messages.prechatform.traditional.phone.hint">Unesite broj za kontakt</string>
+    <string name="livechat.messages.prechatform.traditional.phone.label">Telefon</string>
+    <string name="livechat.messages.prechatform.traditional.question.error">Unesite pitanje</string>
+    <string name="livechat.messages.record.slidetocancel">Kliznite lijevo da biste prekinuli snimati</string>
+    <string name="livechat.messages.sharefile.ques">Dijelio datoteku</string>
+    <string name="livechat.messages.shareimage">Dijeli sliku</string>
+    <string name="livechat.messages.sharescreenshot">Dijeli snimku zaslona</string>
+    <string name="livechat.messages.title">Razgovarajte s nama!</string>
+    <string name="livechat.messages.you">Vi</string>
+    <string name="livechat.notification.messages.shared.file">%1$s je dijelio datoteku</string>
+    <string name="livechat.notification.messages.shared.image">%1$s je dijelio sliku</string>
+    <string name="livechat.notification.messages.shared.video">%1$s vam je poslao/la videozapis</string>
+    <string name="livechat.operator.waiting.response">Operater će se uskoro pridružiti</string>
+    <string name="livechat.permission.camera">Da biste kliknuli na sliku, dajte dozvolu za pristup vašoj mobilnoj kameri.</string>
+    <string name="livechat.permission.file">Da biste poslali datoteku, dajte dozvolu za pristup memoriji na vašem mobilnom uređaju.</string>
+    <string name="livechat.permission.locationdenied">Odbijena je dozvola za lokaciju</string>
+    <string name="livechat.permission.microphone">Za snimanje glasovne poruke dajte dozvolu za pristup vašem mikrofonu.</string>
+    <string name="livechat.permission.negative">Ne sada</string>
+    <string name="livechat.permission.positive">Postavke</string>
+    <string name="livechat.permission.storagedenied">Odbijena je dozvola pohrane.</string>
+    <string name="livechat.prechatform.submit">POŠALJI</string>
+    <string name="livechat.rating.skip">Preskoči</string>
+    <string name="livechat.reopen.title">Ponovno otvori čavrljanje</string>
+    <string name="livechat.requestlog.info">Operater je zatražio pristup zapisniku vaše aplikacije</string>
+    <string name="livechat.requestlog.negative.button">Otkaži</string>
+    <string name="livechat.requestlog.positive.button">Pošalji</string>
+    <string name="livechat.requestlog.title">Zapisnik aplikacije</string>
+    <string name="livechat.widgets.articles.related">Povezani članci:</string>
+    <string name="livechat.widgets.calendar.fromdate">Od datuma</string>
+    <string name="livechat.widgets.calendar.fromtime">Vrijeme Od</string>
+    <string name="livechat.widgets.calendar.schedule">Isplaniraj sada</string>
+    <string name="livechat.widgets.calendar.setdate">Odaberite datum</string>
+    <string name="livechat.widgets.calendar.settime">Odaberite vrijeme</string>
+    <string name="livechat.widgets.calendar.timezone">Vremenska zona</string>
+    <string name="livechat.widgets.calendar.todate">Do datuma</string>
+    <string name="livechat.widgets.calendar.totime">Vrijeme Do</string>
+    <string name="livechat.widgets.done">Gotovo</string>
+    <string name="livechat.widgets.input.password.error">Unesite valjanu vrijednost</string>
+    <string name="livechat.widgets.input.phone.search.hint">Potraži zemlju</string>
+    <string name="livechat.widgets.input.url.error">Unesite valjani URL</string>
+    <string name="livechat.widgets.location.accuracy">Točno u %1$d metara</string>
+    <string name="livechat.widgets.location.radius.float">%1$.1f kms</string>
+    <string name="livechat.widgets.location.radius.integer">%1$d kms</string>
+    <string name="livechat.widgets.location.select">Odaberi lokaciju</string>
+    <string name="livechat.widgets.location.send.current">Pošalji trenutačnu lokaciju</string>
+    <string name="livechat.widgets.location.send.selected">Pošalji odabranu lokaciju</string>
+    <string name="livechat.widgets.location.suggestions">Prijedlozi</string>
+    <string name="livechat.widgets.rating.dislike">Ne sviđa mi se</string>
+    <string name="livechat.widgets.rating.happy.angry">Ljutito</string>
+    <string name="livechat.widgets.rating.happy.excited">Odlično</string>
+    <string name="livechat.widgets.rating.happy.happy">Dobro</string>
+    <string name="livechat.widgets.rating.happy.neutral">Neutralan</string>
+    <string name="livechat.widgets.rating.happy.sad">Tužno</string>
+    <string name="livechat.widgets.rating.like">Sviđa mi se</string>
+    <string name="livechat.widgets.select.limit.exceed">Dostignuto je ograničenje odabira</string>
+    <string name="livechat.widgets.skip">Preskoči</string>
+    <string name="livechat.widgets.timeslot.button">Odaberite termin</string>
+    <string name="livechat.widgets.timezone.current">%1$s (trenutačno)</string>
+    <string name="livechat_conversation_filetype_gif">GIF</string>
+    <string name="material_clock_toggle_content_description">Odaberite prijepodne ili poslijepodne</string>
+    <string name="material_hour_24h_suffix">%1$s h</string>
+    <string name="material_hour_selection">Odaberite sat</string>
+    <string name="material_hour_suffix">%1$s h</string>
+    <string name="material_minute_selection">Odaberite minute</string>
+    <string name="material_minute_suffix">%1$s min</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Prijeđite na način rada sata da biste unijeli vrijeme.</string>
+    <string name="material_timepicker_hour">Sat</string>
+    <string name="material_timepicker_minute">Minuta</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Odabir vremena</string>
+    <string name="material_timepicker_text_input_mode_description">Prijeđite na način unosa teksta da biste unijeli vrijeme.</string>
+    <string name="minimum_selection_is_required">Odaberite barem jednu opciju</string>
+    <string name="minimum_selections_is_required">Treba odabrati barem %1$d opcija</string>
+    <string name="mobilisten_article_choose_a_department">Odaberite odjel</string>
+    <string name="mobilisten_article_departments">Odjeli</string>
+    <string name="mobilisten_article_has_been_deleted_or_disabled">Članak nije dostupan</string>
+    <string name="mobilisten_article_no_views">Nema prikaza</string>
+    <string name="mobilisten_articles_general_error">@string/mobilisten_general_failure_error</string>
+    <string name="mobilisten_chat_connected_to_operator_or_bot">Povezano na %1$s</string>
+    <string name="mobilisten_common_okay">U redu</string>
+    <string name="mobilisten_conversation_deleted">Ovaj razgovor izbrisao je operater</string>
+    <string name="mobilisten_conversation_error_access_denied_to_initiate_chat">Pristup odbijen za pokretanje čavrljanja</string>
+    <string name="mobilisten_conversation_error_email_field_is_mandatory">Polje e-pošte je obvezno</string>
+    <string name="mobilisten_conversation_error_error_unable_to_initiate_chat_outside_business_hours">Ne može se kreirati razgovor tijekom sati izvan mreže</string>
+    <string name="mobilisten_conversation_error_invalid_chat_user_id">Neispravno korisničko ime posjetitelja</string>
+    <string name="mobilisten_conversation_error_mentioned_department_is_not_mapped_to_the_brand">Ovaj odjel nije pridružen brendu</string>
+    <string name="mobilisten_conversation_error_name_field_is_mandatory">Naziv je obvezan</string>
+    <string name="mobilisten_conversation_error_operation_not_available_for_mentioned_operator">Ovaj operater nije dostupan za čavrljanje</string>
+    <string name="mobilisten_conversation_error_phone_number_field_is_mandatory">Telefonski broj je obvezan</string>
+    <string name="mobilisten_conversation_error_resource_limit_reached">Ograničenje resursa dostignuto je za trenutačnu tarifu</string>
+    <string name="mobilisten_conversation_general_error">Ne mogu se dohvatiti pojedinosti o razgovoru</string>
+    <string name="mobilisten_error_chat_transfer_already_in_progress_failure">U tijeku je prijenos čavrljanja! Pričekajte malo.</string>
+    <string name="mobilisten_error_chat_transfer_no_online_user_failure">Žao nam je, nema dostupnih korisnika na mreži u vašem odjelu</string>
+    <string name="mobilisten_file_upload_size_limit_exceeded">Maksimalna veličina datoteke (50 MB) je prekoračena.</string>
+    <string name="mobilisten_general_failure_error">Nažalost, dogodio se problem. Pokušajte ponovno kasnije.</string>
+    <string name="mobilisten_load_more_messages">Učitaj više poruka</string>
+    <string name="mobilisten_loading_messages">Učitavanje poruka...</string>
+    <string name="mobilisten_notification_multiple_messages">Novih poruka: %1$d</string>
+    <string name="mobilisten_notification_single_message">%1$d nova poruka</string>
+    <string name="mobilisten_operator_has_requested_for_app_log">Operater je zatražio zapisnik aplikacije.</string>
+    <string name="mobilisten_test_push_notifications">Testiraj proslijeđene obavijesti</string>
+    <string name="mobilisten_unable_to_load_message_transcript">Nažalost, ne mogu se pribaviti poruke</string>
+    <string name="mtrl_badge_numberless_content_description">Nova obavijest</string>
+    <string name="mtrl_chip_close_icon_content_description">Ukloni %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Više od %1$d novih obavijesti</string>
+    <string name="mtrl_picker_a11y_next_month">Prijelaz na sljedeći mjesec</string>
+    <string name="mtrl_picker_a11y_prev_month">Pomicanje na prethodni mjesec</string>
+    <string name="mtrl_picker_announce_current_selection">Trenutačan odabir: %1$s</string>
+    <string name="mtrl_picker_cancel">Odustani</string>
+    <string name="mtrl_picker_confirm">U redu</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Odaberite datum</string>
+    <string name="mtrl_picker_date_header_unselected">Odabrani datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Stupac s danima: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Nevažeći format.</string>
+    <string name="mtrl_picker_invalid_format_example">Primjer: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Koristi format: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Raspon nije važeći.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Prijelaz na godinu %1$s</string>
+    <string name="mtrl_picker_out_of_range">Izvan raspona: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Datum početka – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – datum završetka</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Odaberite raspon</string>
+    <string name="mtrl_picker_range_header_unselected">Datum početka – datum završetka</string>
+    <string name="mtrl_picker_save">Spremi</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Datum završetka</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Datum početka</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">g</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Prijelaz na način unosa u Kalendaru</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Dodirnite za prijelaz na odabir dana</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Prijelaz na način unosa teksta</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Dodirnite za prijelaz na odabir godine</string>
+    <string name="mtrl_timepicker_cancel">Odustani</string>
+    <string name="mtrl_timepicker_confirm">U redu</string>
+    <string name="password_toggle_content_description">Prikaži zaporku</string>
+    <string name="salesiq.advertisebadge.content">Pokreće SalesIQ Mobilisten</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Pretraži"</string>
+    <string name="siq_articles_count_many">%1$d članaka</string>
+    <string name="siq_articles_count_single">1 članak</string>
+    <string name="siq_articles_sub_categories_count_one">1 potkategorija</string>
+    <string name="siq_articles_sub_categories_counts">%1$d potkategorija</string>
+    <string name="siq_recently_viewed_articles_title">Nedavno prikazano</string>
+    <string name="siq_related_articles">Povezani članci</string>
+    <string name="siq_title_articles">Članci</string>
+    <string name="siq_title_sub_category">Potkategorije</string>
+    <string name="size_bytes"> Bajtova</string>
+    <string name="size_kilo_bytes"> KB</string>
+    <string name="size_mega_bytes"> MB</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_unit_day_d">d</string>
+    <string name="time_unit_hour_h">h</string>
+    <string name="time_unit_minute_m">min</string>
+    <string name="time_unit_month_m">m</string>
+    <string name="time_unit_second_s">s</string>
+    <string name="time_unit_week_w">t</string>
+    <string name="time_unit_year_y">g</string>
+</resources>

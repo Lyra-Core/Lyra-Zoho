@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d uusi ilmoitus</item>
+    <item quantity="other">%d uutta ilmoitusta</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Siirry etusivulle"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Siirry ylös"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Lisäasetukset"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Valmis"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Näytä kaikki"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Valitse sovellus"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"POIS PÄÄLTÄ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"PÄÄLLÄ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Vaihto+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"välilyönti"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Valikko+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Haku…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Tyhjennä kysely"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Hakukysely"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Haku"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Lähetä kysely"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Puhehaku"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Jaa…"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Jaa: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Tiivistä"</string>
+    <string name="app_logs_txt_file_name">app_logs.txt</string>
+    <string name="articles.browse">Etsi artikkelia</string>
+    <string name="articles.counts.many">%1$d artikkelia</string>
+    <string name="articles.counts.one">%1$d artikkeli</string>
+    <string name="articles.emptystate">Tietämyskantaosiomme on rakenteilla. Tule takaisin jonkin ajan kuluttua.</string>
+    <string name="articles.feedback.thanks">Kiitos palautteestasi!</string>
+    <string name="articles.pursuechat">Chat</string>
+    <string name="articles.recent.search">Viimeaikaiset haut</string>
+    <string name="articles.recent.viewed">Äskettäin katsellut</string>
+    <string name="articles.search.text">Näyttää siltä, että antamallesi hakusanalle ei löydy vastineita!</string>
+    <string name="articles.startchat">Aloita chat</string>
+    <string name="articles.views.many">%1$d katselut</string>
+    <string name="articles.views.one">%1$d Näkymä</string>
+    <string name="articles_updated_time">Päivitetty %1$s sitten</string>
+    <string name="bottomsheet_action_collapse">Tiivistä alapaneeli</string>
+    <string name="bottomsheet_action_expand">Laajenna alapaneeli</string>
+    <string name="bottomsheet_action_expand_halfway">Laajenna puoliväliin</string>
+    <string name="bottomsheet_drag_handle_clicked">Vetokahvaa kaksoisnapautettu</string>
+    <string name="bottomsheet_drag_handle_content_description">Vetokahva</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Vastaa"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Hylkää"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Lopeta puhelu"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Saapuva puhelu"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Käynnissä oleva puhelu"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Seulotaan saapuvaa puhelua"</string>
+    <string name="character_counter_content_description">%1$d/%2$d merkkiä kirjoitettu</string>
+    <string name="character_counter_overflowed_content_description">Merkkiraja ylitetty: %1$d/%2$d</string>
+    <string name="clear_text_end_icon_content_description">Tyhjennä teksti</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Ota käyttöön</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s ei toimi, ellet ota Google Play Palveluita käyttöön.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Ota Google Play Palvelut käyttöön</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Asenna</string>
+    <string name="common_google_play_services_install_text">%1$s ei toimi ilman Google Play Palveluita, jotka puuttuvat laitteeltasi.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Asenna Google Play Palvelut</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play Palveluiden saatavuus</string>
+    <string name="common_google_play_services_notification_ticker">Virhe Google Play -palveluissa</string>
+    <string name="common_google_play_services_unknown_issue">Sovelluksella %1$s on ongelmia Google Play Palveluiden kanssa. Yritä uudelleen.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ei toimi ilman Google Play Palveluita, joita laitteesi ei tue.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Päivitä</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s ei toimi, ellet päivitä Google Play Palveluita.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Päivitä Google Play Palvelut</string>
+    <string name="common_google_play_services_updating_text">%1$s ei toimi ilman Google Play Palveluita, joita päivitetään tällä hetkellä.</string>
+    <string name="common_google_play_services_wear_update_text">Uusi Google Play Palveluiden versio tarvitaan. Se päivittyy pian.</string>
+    <string name="common_open_on_phone">Avaa puhelimessa</string>
+    <string name="common_signin_button_text">Kirjaudu sisään</string>
+    <string name="common_signin_button_text_long">Kirjaudu Google-tilille</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Linkki kopioitu leikepöydälle"</string>
+    <string name="duration_few_seconds">muutama sekunti</string>
+    <string name="error_icon_content_description">Virhe</string>
+    <string name="exposed_dropdown_menu_content_description">Näytä avattava valikko</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopioi linkki"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Avaa selaimessa"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Jaa linkki"</string>
+    <string name="icon_content_description">Valintaikkunan kuvake</string>
+    <string name="item_view_role_description">Välilehti</string>
+    <string name="live_chat_no_application_to_handle_uri">Sinulla ei ole sovellusta tämän verkkosivun avaamiseen</string>
+    <string name="livechat.article.title">Tietämyskanta</string>
+    <string name="livechat.bot.action.pending.wait">Odota.</string>
+    <string name="livechat.bot.connectwithhuman">Tarvitsetko ihmisen apua?</string>
+    <string name="livechat.bot.input.hint">Valitse yllä olevasta syötteestä</string>
+    <string name="livechat.chat.queue.banner.calculating">Lasketaan odotusaikaa...</string>
+    <string name="livechat.chat.queue.banner.position.subtitle">Kohta</string>
+    <string name="livechat.chat.queue.banner.timeremaining">Arvioitu odotusaika on noin ~%1$s</string>
+    <string name="livechat.chat.queue.banner.title">Olet chat-jonossa</string>
+    <string name="livechat.chat.sender.profanity.alert">Häirintähälytys</string>
+    <string name="livechat.common.article">artikkeli</string>
+    <string name="livechat.common.loading">Ladataan...</string>
+    <string name="livechat.common.no">Ei</string>
+    <string name="livechat.common.nointernet">Tarkista internet-yhteytesi.</string>
+    <string name="livechat.common.ok">OK</string>
+    <string name="livechat.common.yes">Kyllä</string>
+    <string name="livechat.conversation.emptystate">Hups! Näyttää siltä, että sinulla ei ole vielä keskusteluja! Tiesitkö, että olet vain napsautuksen päässä yhteydestä asiantuntijoihimme?</string>
+    <string name="livechat.conversation.endchat.timer">Chat-istunto päättyy %1$s</string>
+    <string name="livechat.conversation.filetype.audio">Audio</string>
+    <string name="livechat.conversation.filetype.image">Kuva</string>
+    <string name="livechat.conversation.filetype.others">Tiedosto</string>
+    <string name="livechat.conversation.filetype.video">Video</string>
+    <string name="livechat.conversation.in.dept">Kohteessa %1$s</string>
+    <string name="livechat.conversation.search.emptystate">Hups! Näyttää siltä, että mikään olemassa olevista keskusteluista ei täsmää juuri antamaasi hakusanaan. Kokeile esimerkiksi toista kyselyä!</string>
+    <string name="livechat.conversation.startchat">Aloita chat</string>
+    <string name="livechat.conversation.status">Avaa</string>
+    <string name="livechat.conversation.subtitle.missed">Ei operaattoreita saatavana</string>
+    <string name="livechat.conversation.subtitle.queue.position">Kohta jonossa: %1$s</string>
+    <string name="livechat.conversation.subtitle.waiting.details">Odotetaan tietojasi</string>
+    <string name="livechat.conversation.title">Keskusteluita</string>
+    <string name="livechat.conversation.with.attender">osapuolen %1$s kanssa</string>
+    <string name="livechat.day.evening">Illalla</string>
+    <string name="livechat.day.friday">Perjantai</string>
+    <string name="livechat.day.monday">Maanantai</string>
+    <string name="livechat.day.morning">Aamulla</string>
+    <string name="livechat.day.night">Yöllä</string>
+    <string name="livechat.day.noon">Iltapäivällä</string>
+    <string name="livechat.day.saturday">Lauantai</string>
+    <string name="livechat.day.sunday">Sunnuntai</string>
+    <string name="livechat.day.thursday">Torstai</string>
+    <string name="livechat.day.today">Tänään</string>
+    <string name="livechat.day.tuesday">Tiistai</string>
+    <string name="livechat.day.wednesday">Keskiviikko</string>
+    <string name="livechat.day.yesterday">Eilen</string>
+    <string name="livechat.feedback.ask.rating">On ilo chattailla kanssasi tänään. Ole hyvä ja käytä hetki antaaksesi arvioinnin.</string>
+    <string name="livechat.feedback.button.msg">Lähetä palautetta</string>
+    <string name="livechat.feedback.hint">Kirjoita palautteesi tähän...</string>
+    <string name="livechat.feedback.rate.happy">Vau, kiitoksia!  Olemme iloisia voidessamme auttaa sinua</string>
+    <string name="livechat.feedback.rate.neutral">Kiitos arvioinnistasi! Pingaa meitä aina, jos haluat lisäapua.</string>
+    <string name="livechat.feedback.rate.sad">Pahoittelemme, että emme voineet auttaa. Tulemme parantamaan tukeamme.</string>
+    <string name="livechat.feedback.submit">Lähetä</string>
+    <string name="livechat.feedback.subtitle">Ole hyvä ja käytä hetki arvioinnin antamiseen.</string>
+    <string name="livechat.feedback.thankingmsg">Kiitos arvokkaasta palautteestasi.</string>
+    <string name="livechat.feedback.title">Millainen oli keskustelukokemuksesi meillä?</string>
+    <string name="livechat.gdpr.chatconsent">Napsauttamalla Hyväksy hyväksyt kaikki asiakirjassa määritetyt palvelun käyttöehtomme.</string>
+    <string name="livechat.gdpr.chatconsent.accept">Hyväksy</string>
+    <string name="livechat.gdpr.chatconsent.decline">Hylkää</string>
+    <string name="livechat.gdpr.chatconsent.title">Chat-suostumus</string>
+    <string name="livechat.gdpr.creditcardmask">Koska korttisi numero on varsin arkaluontoista tietoa, haluatko, että peitämme korttisi numeron 12 ensimmäistä numeroa?</string>
+    <string name="livechat.gdpr.creditcardmask.cancel">Peruuta</string>
+    <string name="livechat.gdpr.creditcardmask.ok">Maski</string>
+    <string name="livechat.gdpr.emailconfirm">Olet lähettämässä tämän chatin transkriptiota sähköpostilla osoitteeseen %1$s.</string>
+    <string name="livechat.gdpr.emailconfirm.change">Vaihda sähköpostiosoite</string>
+    <string name="livechat.gdpr.emailconfirm.send">Lähetä</string>
+    <string name="livechat.gdpr.googletranslate.concent">Palvelu voi sisältää Googlen tarjoamia käännöksiä. Google kiistää kaikki käännöksiin liittyvät välittömät tai epäsuorat takuut, mukaan lukien kaikki tarkkuutta ja luotettavuutta koskevat takuut, sekä kaikki implisiittiset takuut kaupallisuudesta, soveltuvuudesta tiettyyn tarkoitukseen ja vapauden rikkomuksista.</string>
+    <string name="livechat.gdpr.googletranslate.concent.title">Käännössuostumus</string>
+    <string name="livechat.gdpr.learnmore">Lue lisätietoja</string>
+    <string name="livechat.gdpr.trackingconsent.donttrack">Älä seuraa</string>
+    <string name="livechat.gdpr.trackingconsent.gotit">Selvä!</string>
+    <string name="livechat.gdpr.trackingconsent.notify">Hei siellä! Seuraamme aktiviteettejasi sovelluksessamme parantaaksemme sovelluskokemustasi.</string>
+    <string name="livechat.gdpr.trackingconsent.notifywithoptout">Hei siellä! Seuraamme aktiviteettejasi sovelluksessamme parantaaksemme sovelluskokemustasi. Mutta jos haluat jättäytyä pois tästä, napsauta ”Älä seuraa”-valintaa.</string>
+    <string name="livechat.message.download">Lataa</string>
+    <string name="livechat.message.input.hint">Kirjoita viestisi tähän...</string>
+    <string name="livechat.message.noresults">Tuloksia ei löytynyt</string>
+    <string name="livechat.message.saved">Tallennettu</string>
+    <string name="livechat.message.search">Haku</string>
+    <string name="livechat.message.status.copy">Kopioi</string>
+    <string name="livechat.message.status.delete">Poista</string>
+    <string name="livechat.message.status.resend">Lähetä uudelleen</string>
+    <string name="livechat.message.status.sending">Lähetetään</string>
+    <string name="livechat.message.status.sent">Lähetetty</string>
+    <string name="livechat.message.time.justnow">Juuri nyt</string>
+    <string name="livechat.message.timedout">Aikakatkaistu</string>
+    <string name="livechat.message.typingindicator">kirjoittaa</string>
+    <string name="livechat.message.waitingforconnection">Odotetaan yhteyttä verkkoon</string>
+    <string name="livechat.messages.action.copy.success">Kopioitu leikepöydälle</string>
+    <string name="livechat.messages.alert.chatreqfailure">Hups! Jokin meni vikaan. Yritä uudelleen</string>
+    <string name="livechat.messages.alert.upload.filesizeexceed">Latauksen enimmäiskoko ylitetty</string>
+    <string name="livechat.messages.attachment.notopen">Liitettä ei voi avata, koska laitteessasi ei ole sovellusta, joka tukee tätä tiedostomuotoa!</string>
+    <string name="livechat.messages.camera.notopen">Ei voi avata kameraa, koska laitteessasi ei ole kameraa</string>
+    <string name="livechat.messages.continuechat.info">Chat-istuntosi kanssamme päättyi. Onko sinulla vielä muita kysymyksiä selvitettävänä? Napsauta Jatka chattaillaksesi kanssamme.</string>
+    <string name="livechat.messages.department">Valitse osasto</string>
+    <string name="livechat.messages.email.dialog.title">Anna sähköpostiosoitteesi</string>
+    <string name="livechat.messages.email.failure">Sähköpostin lähetys epäonnistui</string>
+    <string name="livechat.messages.email.send">Lähetä</string>
+    <string name="livechat.messages.email.success">Sähköpostin lähetys onnistui</string>
+    <string name="livechat.messages.email.title">Lähetä sähköpostilla chatin transkriptio</string>
+    <string name="livechat.messages.email.wrong">Anna kelvollinen sähköpostiosoite</string>
+    <string name="livechat.messages.endchat.confirmation">Haluatko lopettaa tämän chatin?</string>
+    <string name="livechat.messages.endchattimer">Chat-istunto päättyy %1$s sekunnin kuluttua</string>
+    <string name="livechat.messages.file.defaultextn">Tiedosto</string>
+    <string name="livechat.messages.form.alert.message">Täytä aiemman chatin lomake valmiiksi ennen uuden chatin aloittamista!</string>
+    <string name="livechat.messages.info.acceptforward">Chatin uudelleenohjaus kohteeseen %1$s onnistui.</string>
+    <string name="livechat.messages.info.agenttransfer">%1$s siirtää tätä keskustelua vastaanottajalle %2$s.</string>
+    <string name="livechat.messages.info.endchat">Istunto päättyi</string>
+    <string name="livechat.messages.info.forward">%1$s ohjaa chatin edelleen</string>
+    <string name="livechat.messages.info.missedchat">Jätimme chat-pyyntösi huomiotta</string>
+    <string name="livechat.messages.info.operator.joined">%1$s liittyi keskusteluun.</string>
+    <string name="livechat.messages.info.reopen">Olet avannut chatin uudelleen</string>
+    <string name="livechat.messages.info.transfer.accept">Chat siirretty. Hei, %1$s tss!! Autan sinua mielellni eteenpin.</string>
+    <string name="livechat.messages.offline">Emme ole paikalla tällä hetkellä. Lähetä meille viesti, niin otamme sinuun yhteyttä mahdollisimman pian.</string>
+    <string name="livechat.messages.operator.typing">kirjoittaa...</string>
+    <string name="livechat.messages.option.endchat">Lopeta istunto</string>
+    <string name="livechat.messages.option.sharefile">Jaa tiedosto</string>
+    <string name="livechat.messages.option.takephoto">Ota valokuva</string>
+    <string name="livechat.messages.option.takescreenshot">Ota kuvakaappaus</string>
+    <string name="livechat.messages.prechatform.conversation.campaign">Haluatko tilata uutiskirjeemme?</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.no">Ei</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.yes">Varmasti</string>
+    <string name="livechat.messages.prechatform.conversation.dept">Valitse osasto, jolle pyyntösi on reititettävä</string>
+    <string name="livechat.messages.prechatform.conversation.email">Voimmehan lähettää sinulle sähköpostin?</string>
+    <string name="livechat.messages.prechatform.conversation.name">Miten haluat nimitt\\u00e4\\u00e4 minua?</string>
+    <string name="livechat.messages.prechatform.conversation.phone">Voimmeko saada yhteystietonumerosi?</string>
+    <string name="livechat.messages.prechatform.inline.button">Täytä lomake</string>
+    <string name="livechat.messages.prechatform.inline.message">Anna meille muutamia tietoja aloittaaksesi chatin.</string>
+    <string name="livechat.messages.prechatform.introduction.greeting.message">Auta meitä tietämään, kenelle puhumme.</string>
+    <string name="livechat.messages.prechatform.introduction.name">Operaattori</string>
+    <string name="livechat.messages.prechatform.traditional.campaign.label">Haluatko tilata uutiskirjeemme?</string>
+    <string name="livechat.messages.prechatform.traditional.department.label">Osasto</string>
+    <string name="livechat.messages.prechatform.traditional.dept.error">Valitse kelvollinen osasto</string>
+    <string name="livechat.messages.prechatform.traditional.dept.hint">Valitse osasto</string>
+    <string name="livechat.messages.prechatform.traditional.email.error">Anna kelvollinen sähköpostiosoite</string>
+    <string name="livechat.messages.prechatform.traditional.email.hint">Anna sähköpostiosoitteesi</string>
+    <string name="livechat.messages.prechatform.traditional.email.label">Sähköposti</string>
+    <string name="livechat.messages.prechatform.traditional.name.error">Anna kelvollinen nimi</string>
+    <string name="livechat.messages.prechatform.traditional.name.hint">Anna nimesi</string>
+    <string name="livechat.messages.prechatform.traditional.name.label">Nimi</string>
+    <string name="livechat.messages.prechatform.traditional.phone.error">Anna kelvollinen yhteystietonumero</string>
+    <string name="livechat.messages.prechatform.traditional.phone.hint">Anna yhteystietonumerosi</string>
+    <string name="livechat.messages.prechatform.traditional.phone.label">Puhelin</string>
+    <string name="livechat.messages.prechatform.traditional.question.error">Syötä kysymys</string>
+    <string name="livechat.messages.record.slidetocancel">Liu’uta peruuttaaksesi</string>
+    <string name="livechat.messages.sharefile.ques">Jaettu tiedosto</string>
+    <string name="livechat.messages.shareimage">Jaa kuva</string>
+    <string name="livechat.messages.sharescreenshot">Jaa kuvakaappaus</string>
+    <string name="livechat.messages.title">Chattaa kanssamme nyt!</string>
+    <string name="livechat.messages.you">sinä</string>
+    <string name="livechat.notification.messages.shared.file">%1$s lähetti sinulle tiedoston</string>
+    <string name="livechat.notification.messages.shared.image">%1$s lähetti sinulle kuvan</string>
+    <string name="livechat.notification.messages.shared.video">%1$s lähetti sinulle videon</string>
+    <string name="livechat.operator.waiting.response">Operaattori tulee mukaan pian</string>
+    <string name="livechat.permission.camera">Ottaaksesi kuvan salli pääsy laitteesi kameraan.</string>
+    <string name="livechat.permission.file">Lähettääksesi tiedoston salli pääsy laitteesi tallennustilaan.</string>
+    <string name="livechat.permission.locationdenied">Sijainnin käyttöoikeus estetty</string>
+    <string name="livechat.permission.microphone">Salli laitteen mikrofonin käyttö ääniviestien tallentamiseen ja lähettämiseen.</string>
+    <string name="livechat.permission.negative">Ei nyt</string>
+    <string name="livechat.permission.positive">Asetukset</string>
+    <string name="livechat.permission.storagedenied">Tallennustilan käyttöoikeus estetty.</string>
+    <string name="livechat.prechatform.submit">Lähetä</string>
+    <string name="livechat.rating.skip">Ohita</string>
+    <string name="livechat.reopen.title">Avaa chat uudelleen</string>
+    <string name="livechat.requestlog.info">Operaattori on pyytänyt pääsyä sovelluslokiisi</string>
+    <string name="livechat.requestlog.negative.button">Peruuta</string>
+    <string name="livechat.requestlog.positive.button">Lähetä</string>
+    <string name="livechat.requestlog.title">Sovellusloki</string>
+    <string name="livechat.widgets.articles.related">Liittyvät artikkelit:</string>
+    <string name="livechat.widgets.calendar.fromdate">Alkaen päivästä</string>
+    <string name="livechat.widgets.calendar.fromtime">Alkaen ajasta</string>
+    <string name="livechat.widgets.calendar.schedule">Ajoita nyt</string>
+    <string name="livechat.widgets.calendar.setdate">Valitse päivämäärä</string>
+    <string name="livechat.widgets.calendar.settime">Valitse aika</string>
+    <string name="livechat.widgets.calendar.timezone">Aikavyöhyke</string>
+    <string name="livechat.widgets.calendar.todate">Päivään saakka</string>
+    <string name="livechat.widgets.calendar.totime">Päättyen aikaan</string>
+    <string name="livechat.widgets.done">Valmis</string>
+    <string name="livechat.widgets.input.password.error">Anna käypä arvo</string>
+    <string name="livechat.widgets.input.phone.search.hint">Hae maata</string>
+    <string name="livechat.widgets.input.url.error">Anna kelvollinen URL</string>
+    <string name="livechat.widgets.location.accuracy">Tarkka %1$d metriin saakka</string>
+    <string name="livechat.widgets.location.radius.float">%1$.1f km</string>
+    <string name="livechat.widgets.location.radius.integer">%1$d km</string>
+    <string name="livechat.widgets.location.select">Valitse sijainti</string>
+    <string name="livechat.widgets.location.send.current">Lähetä tämänhetkinen sijainti</string>
+    <string name="livechat.widgets.location.send.selected">Lähetä valittu sijainti</string>
+    <string name="livechat.widgets.location.suggestions">Ehdotukset</string>
+    <string name="livechat.widgets.rating.dislike">Ei tykkää</string>
+    <string name="livechat.widgets.rating.happy.angry">Vihainen</string>
+    <string name="livechat.widgets.rating.happy.excited">Hieno</string>
+    <string name="livechat.widgets.rating.happy.happy">Hyvä</string>
+    <string name="livechat.widgets.rating.happy.neutral">Neutraali</string>
+    <string name="livechat.widgets.rating.happy.sad">Surullinen</string>
+    <string name="livechat.widgets.rating.like">Tykkäys</string>
+    <string name="livechat.widgets.select.limit.exceed">Usean valinnan raja saavutettu</string>
+    <string name="livechat.widgets.skip">Ohita</string>
+    <string name="livechat.widgets.timeslot.button">Valitse aikaväli</string>
+    <string name="livechat.widgets.timezone.current">%1$s (nykyinen)</string>
+    <string name="livechat_conversation_filetype_gif">GIF</string>
+    <string name="material_clock_toggle_content_description">Valitse AP tai IP</string>
+    <string name="material_hour_24h_suffix">%1$s tuntia</string>
+    <string name="material_hour_selection">Valitse tunti</string>
+    <string name="material_hour_suffix">klo %1$s</string>
+    <string name="material_minute_selection">Valitse minuutit</string>
+    <string name="material_minute_suffix">%1$s minuuttia</string>
+    <string name="material_timepicker_am">ap</string>
+    <string name="material_timepicker_clock_mode_description">Vaihda ajan syöttämiseen kellotilassa.</string>
+    <string name="material_timepicker_hour">Tunnit</string>
+    <string name="material_timepicker_minute">Minuutti</string>
+    <string name="material_timepicker_pm">ip</string>
+    <string name="material_timepicker_select_time">Valitse aika</string>
+    <string name="material_timepicker_text_input_mode_description">Vaihda ajan syöttämiseen tekstitilassa.</string>
+    <string name="minimum_selection_is_required">Valitse vähintään yksi vaihtoehto</string>
+    <string name="minimum_selections_is_required">Vähintään %1$d valintaa vaaditaan</string>
+    <string name="mobilisten_article_choose_a_department">Valitse osasto</string>
+    <string name="mobilisten_article_departments">Osastot</string>
+    <string name="mobilisten_article_has_been_deleted_or_disabled">Artikkeli ei saatavana</string>
+    <string name="mobilisten_article_no_views">Ei katseluja</string>
+    <string name="mobilisten_articles_general_error">@string/mobilisten_general_failure_error</string>
+    <string name="mobilisten_chat_connected_to_operator_or_bot">Yhdistetty kohteeseen %1$s</string>
+    <string name="mobilisten_common_okay">OK</string>
+    <string name="mobilisten_conversation_deleted">Operaattori on poistanut tämän keskustelun</string>
+    <string name="mobilisten_conversation_error_access_denied_to_initiate_chat">Chatin aloituksen käyttöoikeus estetty</string>
+    <string name="mobilisten_conversation_error_email_field_is_mandatory">Sähköpostikenttä on pakollinen</string>
+    <string name="mobilisten_conversation_error_error_unable_to_initiate_chat_outside_business_hours">Ei voi luoda keskustelua offline-ajan aikana</string>
+    <string name="mobilisten_conversation_error_invalid_chat_user_id">Virheellinen käyttäjän käyttäjätunnus</string>
+    <string name="mobilisten_conversation_error_mentioned_department_is_not_mapped_to_the_brand">Mainittua osastoa ei ole liitetty tuotemerkkiin</string>
+    <string name="mobilisten_conversation_error_name_field_is_mandatory">Nimi on pakollinen</string>
+    <string name="mobilisten_conversation_error_operation_not_available_for_mentioned_operator">Tämä operaattori ei ole käytettävissä chattia varten</string>
+    <string name="mobilisten_conversation_error_phone_number_field_is_mandatory">Puhelinnumero on pakollinen</string>
+    <string name="mobilisten_conversation_error_resource_limit_reached">Resurssiraja saavutettu nykyiselle sopimukselle</string>
+    <string name="mobilisten_conversation_general_error">Ei voi noutaa keskustelun tietoja</string>
+    <string name="mobilisten_error_chat_transfer_already_in_progress_failure">Chatin siirto on jo käynnissä! Odota vähän aikaa.</string>
+    <string name="mobilisten_error_chat_transfer_no_online_user_failure">Pahoittelut, osaston käyttäjiä ei ole saatavilla online</string>
+    <string name="mobilisten_file_upload_size_limit_exceeded">Tiedoston enimmäiskoko (50 Mt) ylitetty.</string>
+    <string name="mobilisten_general_failure_error">ahoittelut, jokin meni pieleen. Yritä myöhemmin uudelleen.</string>
+    <string name="mobilisten_load_more_messages">Lataa lisää viestejä</string>
+    <string name="mobilisten_loading_messages">Ladataan viestejä...</string>
+    <string name="mobilisten_notification_multiple_messages">%1$d uutta viestiä</string>
+    <string name="mobilisten_notification_single_message">%1$d uusi viesti</string>
+    <string name="mobilisten_operator_has_requested_for_app_log">Operaattori on pyytänyt pääsyä sovelluslokiin.</string>
+    <string name="mobilisten_test_push_notifications">Testaa push-ilmoitukset</string>
+    <string name="mobilisten_unable_to_load_message_transcript">Pahoittelut, ei voi noutaa viestejä</string>
+    <string name="mtrl_badge_numberless_content_description">Uusi ilmoitus</string>
+    <string name="mtrl_chip_close_icon_content_description">Poista %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Yli %1$d uutta ilmoitusta</string>
+    <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
+    <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
+    <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_cancel">Peru</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
+    <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
+    <string name="mtrl_picker_day_of_week_column_header">Päiväsarake: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Virheellinen muoto</string>
+    <string name="mtrl_picker_invalid_format_example">Esimerkki: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Käytä muotoa %1$s</string>
+    <string name="mtrl_picker_invalid_range">Virheellinen alue</string>
+    <string name="mtrl_picker_navigate_to_year_description">Siirry vuoteen %1$s</string>
+    <string name="mtrl_picker_out_of_range">Aikavälin ulkop.: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Alkamispäivä – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – päättymispäivä</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Valitse jakso</string>
+    <string name="mtrl_picker_range_header_unselected">Alkamispäivä – päättymispäivä</string>
+    <string name="mtrl_picker_save">Tallenna</string>
+    <string name="mtrl_picker_text_input_date_hint">Päivämäärä</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Päättymispäivä</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Alkamispäivä</string>
+    <string name="mtrl_picker_text_input_day_abbr">p</string>
+    <string name="mtrl_picker_text_input_month_abbr">k</string>
+    <string name="mtrl_picker_text_input_year_abbr">v</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Vaihda syöttötavaksi kalenteri</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Siirry päivän valintaan napauttamalla</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Valitse syöttötavaksi teksti</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Siirry vuoden valintaan napauttamalla</string>
+    <string name="mtrl_timepicker_cancel">Peru</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="password_toggle_content_description">Näytä salasana</string>
+    <string name="salesiq.advertisebadge.content">Käyttövoimana SalesIQ Mobilisten</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Haku"</string>
+    <string name="siq_articles_count_many">%1$d artikkelia</string>
+    <string name="siq_articles_count_single">1 artikkeli</string>
+    <string name="siq_articles_sub_categories_count_one">1 alakategoria</string>
+    <string name="siq_articles_sub_categories_counts">%1$d alakategoriaa</string>
+    <string name="siq_recently_viewed_articles_title">Äskettäin katsellut</string>
+    <string name="siq_related_articles">Liittyvät artikkelit</string>
+    <string name="siq_title_articles">Artikkelit</string>
+    <string name="siq_title_sub_category">Alakategoriat</string>
+    <string name="size_bytes"> Tavua</string>
+    <string name="size_kilo_bytes"> kt</string>
+    <string name="size_mega_bytes"> Mt</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_unit_day_d">p</string>
+    <string name="time_unit_hour_h">h</string>
+    <string name="time_unit_minute_m">min</string>
+    <string name="time_unit_month_m">k</string>
+    <string name="time_unit_second_s">s</string>
+    <string name="time_unit_week_w">vk</string>
+    <string name="time_unit_year_y">v</string>
+</resources>

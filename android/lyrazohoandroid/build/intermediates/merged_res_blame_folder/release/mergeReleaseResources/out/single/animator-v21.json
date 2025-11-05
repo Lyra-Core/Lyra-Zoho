@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.lyracore.zoho.lyrazohoandroid-release-51:/animator-v21/design_appbar_state_list_animator.xml",
+        "source": "com.lyracore.zoho.lyrazohoandroid-material-1.9.0-22:/animator-v21/design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "com.lyracore.zoho.lyrazohoandroid-release-51:/animator-v21/m3_appbar_state_list_animator.xml",
+        "source": "com.lyracore.zoho.lyrazohoandroid-material-1.9.0-22:/animator-v21/m3_appbar_state_list_animator.xml"
+    }
+]

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notificare nouă</item>
+    <item quantity="few">%d notificări noi</item>
+    <item quantity="other">%d de notificări noi</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navighează la ecranul de pornire"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navighează în sus"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Mai multe opțiuni"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Gata"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Afișează tot"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Alege o aplicație"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DEZACTIVAT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVAT"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Meniu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Caută…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Șterge interogarea"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Termen de căutare"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Caută"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Trimite interogarea"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Căutare vocală"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Trimite la"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Trimite folosind <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Restrânge"</string>
+    <string name="app_logs_txt_file_name">app_logs.txt</string>
+    <string name="articles.browse">Căutare articol</string>
+    <string name="articles.counts.many">%1$d articole</string>
+    <string name="articles.counts.one">%1$d articole</string>
+    <string name="articles.emptystate">Secțiunea noastră de Întrebări frecvente se află încă în construcție. Reveniți puțin mai târziu!</string>
+    <string name="articles.feedback.thanks">Vă mulțumim pentru feedback!</string>
+    <string name="articles.pursuechat">Chat</string>
+    <string name="articles.recent.search">Căutări recente</string>
+    <string name="articles.recent.viewed">Recent vizualizate</string>
+    <string name="articles.search.text">Se pare că nu există nicio potrivire la cuvântul căutat introdus!</string>
+    <string name="articles.startchat">Începeți chatul</string>
+    <string name="articles.views.many">%1$d vizualizări</string>
+    <string name="articles.views.one">%1$d vizualizări</string>
+    <string name="articles_updated_time">Actualizat cu %1$s în urmă</string>
+    <string name="bottomsheet_action_collapse">Restrângeți foaia din partea de jos</string>
+    <string name="bottomsheet_action_expand">Extindeți foaia din partea de jos</string>
+    <string name="bottomsheet_action_expand_halfway">Extinde pe ecran complet</string>
+    <string name="bottomsheet_drag_handle_clicked">Ghidaj de tragere atins de două ori</string>
+    <string name="bottomsheet_drag_handle_content_description">Ghidaj de tragere</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Răspunde"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Respinge"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Închide"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Apel primit"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Apel în desfășurare"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Se filtrează un apel primit"</string>
+    <string name="character_counter_content_description">Caractere introduse: %1$d din %2$d</string>
+    <string name="character_counter_overflowed_content_description">Limita de caractere a depășit %1$d din %2$d</string>
+    <string name="clear_text_end_icon_content_description">Ștergeți textul</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Activați</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s nu va funcționa decât dacă activați serviciile Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Activați serviciile Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Instalați</string>
+    <string name="common_google_play_services_install_text">%1$s nu va rula fără serviciile Google Play, care lipsesc de pe dispozitivul dvs.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Descărcați serviciile Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Disponibilitatea serviciilor Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Eroare a serviciilor Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s întâmpină probleme privind serviciile Google Play. Încercați din nou.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s nu va rula fără serviciile Google Play, care nu sunt acceptate de dispozitivul dvs.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Actualizați</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s nu va rula decât dacă actualizați serviciile Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Actualizați serviciile Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s nu va rula fără serviciile Google Play, care momentan se actualizează.</string>
+    <string name="common_google_play_services_wear_update_text">Este necesară o nouă versiune a serviciilor Google Play. Se vor actualiza automat în curând.</string>
+    <string name="common_open_on_phone">Deschideți pe telefon</string>
+    <string name="common_signin_button_text">Conectați-vă</string>
+    <string name="common_signin_button_text_long">Conectați-vă cu Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Linkul a fost copiat în clipboard"</string>
+    <string name="duration_few_seconds">câteva secunde</string>
+    <string name="error_icon_content_description">Eroare</string>
+    <string name="exposed_dropdown_menu_content_description">Afișați meniul drop-down</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copiază linkul"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Deschide în browser"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Trimite linkul"</string>
+    <string name="icon_content_description">Pictogramă de dialog</string>
+    <string name="item_view_role_description">Filă</string>
+    <string name="live_chat_no_application_to_handle_uri">Nu aveți o aplicație care să deschidă această pagină web</string>
+    <string name="livechat.article.title">Întrebări frecvente</string>
+    <string name="livechat.bot.action.pending.wait">Vă rugăm să așteptați.</string>
+    <string name="livechat.bot.connectwithhuman">Aveți nevoie de ajutor de la o persoană?</string>
+    <string name="livechat.bot.input.hint">Alegeți din intrarea de mai sus</string>
+    <string name="livechat.chat.queue.banner.calculating">Se calculează timpul de așteptare...</string>
+    <string name="livechat.chat.queue.banner.position.subtitle">Loc</string>
+    <string name="livechat.chat.queue.banner.timeremaining">Timpul de așteptare estimat este circa %1$s</string>
+    <string name="livechat.chat.queue.banner.title">Sunteți în coada de așteptare</string>
+    <string name="livechat.chat.sender.profanity.alert">Alertă abuz</string>
+    <string name="livechat.common.article">articole</string>
+    <string name="livechat.common.loading">Loading…</string>
+    <string name="livechat.common.no">NU</string>
+    <string name="livechat.common.nointernet">Verificați conexiunea de internet.</string>
+    <string name="livechat.common.ok">OK</string>
+    <string name="livechat.common.yes">DA</string>
+    <string name="livechat.conversation.emptystate">Aici la %1$s suntem încântaţi să vă ajutăm! Staţi de vorbă cu experţii noştri acum.</string>
+    <string name="livechat.conversation.endchat.timer">Sesiunea de chat este pe cale să se încheie</string>
+    <string name="livechat.conversation.filetype.audio">audio</string>
+    <string name="livechat.conversation.filetype.image">image</string>
+    <string name="livechat.conversation.filetype.others">Fișier</string>
+    <string name="livechat.conversation.filetype.video">video</string>
+    <string name="livechat.conversation.in.dept">În %1$s</string>
+    <string name="livechat.conversation.search.emptystate">Se pare că nu există nicio potrivire la cuvântul căutat introdus!</string>
+    <string name="livechat.conversation.startchat">Începeți chatul</string>
+    <string name="livechat.conversation.status">Deschidere</string>
+    <string name="livechat.conversation.subtitle.missed">Niciun operator disponibil</string>
+    <string name="livechat.conversation.subtitle.queue.position">Loc în coadă: %1$s</string>
+    <string name="livechat.conversation.subtitle.waiting.details">Se așteaptă detaliile dvs.</string>
+    <string name="livechat.conversation.title">Conversații cu noi</string>
+    <string name="livechat.conversation.with.attender"> cu %1$s</string>
+    <string name="livechat.day.evening">Seara</string>
+    <string name="livechat.day.friday">Vineri</string>
+    <string name="livechat.day.monday">Luni</string>
+    <string name="livechat.day.morning">Dimineața</string>
+    <string name="livechat.day.night">Noaptea</string>
+    <string name="livechat.day.noon">Prânz</string>
+    <string name="livechat.day.saturday">Sâmbătă</string>
+    <string name="livechat.day.sunday">Duminică</string>
+    <string name="livechat.day.thursday">Joi</string>
+    <string name="livechat.day.today">Astăzi</string>
+    <string name="livechat.day.tuesday">Marți</string>
+    <string name="livechat.day.wednesday">Miercuri</string>
+    <string name="livechat.day.yesterday">Ieri</string>
+    <string name="livechat.feedback.ask.rating">E plăcerea mea să discut azi cu dvs. Acordați-ne un moment şi dați-ne o evaluare.</string>
+    <string name="livechat.feedback.button.msg">Trimiteți feedback</string>
+    <string name="livechat.feedback.hint">Introduceţi feedbackul dvs.</string>
+    <string name="livechat.feedback.rate.happy">Uau, vă mulțumim!  Suntem bucuroși să vă ajutăm</string>
+    <string name="livechat.feedback.rate.neutral">Vă mulțumim pentru evaluare! Nu ezitați să ne contactați dacă mai aveți nevoie de asistență.</string>
+    <string name="livechat.feedback.rate.sad">Ne pare rău că nu v-am putut ajuta. Ne vom îmbunătății asistența.</string>
+    <string name="livechat.feedback.submit">TRIMITERE</string>
+    <string name="livechat.feedback.subtitle">Acordați-ne un moment și dați-ne o evaluare</string>
+    <string name="livechat.feedback.thankingmsg">Vă mulțumim pentru feedback.</string>
+    <string name="livechat.feedback.title">A fost utilă sesiunea de chat?</string>
+    <string name="livechat.gdpr.chatconsent">Făcând clic pe Accept, sunteți de acord cu termenii și condițiile specificate în acest document.</string>
+    <string name="livechat.gdpr.chatconsent.accept">Accept</string>
+    <string name="livechat.gdpr.chatconsent.decline">Refuz</string>
+    <string name="livechat.gdpr.chatconsent.title">Consimțământ chat</string>
+    <string name="livechat.gdpr.creditcardmask">Deoarece numărul de card este o informație destul de personală, doriți să mascăm primele 12 cifre din numărul de card?</string>
+    <string name="livechat.gdpr.creditcardmask.cancel">Revocare</string>
+    <string name="livechat.gdpr.creditcardmask.ok">Mascare</string>
+    <string name="livechat.gdpr.emailconfirm">Sunteți pe cale să trimiteți pe e-mail transcrierea acestei conversații la %1$s.</string>
+    <string name="livechat.gdpr.emailconfirm.change">Modificare adresă de e-mail</string>
+    <string name="livechat.gdpr.emailconfirm.send">Trimitere</string>
+    <string name="livechat.gdpr.googletranslate.concent">Acest serviciu poate să conțină traduceri oferite de Google. Google exclude orice fel de garanții referitoare la traduceri, explicite sau implicite, inclusiv orice fel de garanții privind acuratețea, fiabilitatea și orice garanții implicite de vandabilitate sau de oportunitate în raport cu un anumit scop și garanții de neîncălcare a drepturilor.</string>
+    <string name="livechat.gdpr.googletranslate.concent.title">Translation Consent</string>
+    <string name="livechat.gdpr.learnmore">Aflați mai multe</string>
+    <string name="livechat.gdpr.trackingconsent.donttrack">Nu urmări</string>
+    <string name="livechat.gdpr.trackingconsent.gotit">Am înţeles!</string>
+    <string name="livechat.gdpr.trackingconsent.notify">Bună! Urmărim activitățile pe care le faceți în aplicație pentru a vă oferi o experiență mai bună cu aplicația.</string>
+    <string name="livechat.gdpr.trackingconsent.notifywithoptout">Bună! Urmărim activitățile pe care le faceți în aplicație pentru a vă oferi o experiență mai bună cu aplicația. Dar dacă nu mai doriți acest lucru, faceți clic pe opțiunea "Nu urmări".</string>
+    <string name="livechat.message.download">Descărcare</string>
+    <string name="livechat.message.input.hint">Tastați aici mesajul dvs</string>
+    <string name="livechat.message.noresults">Nu s-au găsit rezultate</string>
+    <string name="livechat.message.saved">Salvate</string>
+    <string name="livechat.message.search">Căutare</string>
+    <string name="livechat.message.status.copy">Copiere</string>
+    <string name="livechat.message.status.delete">Ștergere</string>
+    <string name="livechat.message.status.resend">Retrimitere</string>
+    <string name="livechat.message.status.sending">Se trimite</string>
+    <string name="livechat.message.status.sent">Trimise</string>
+    <string name="livechat.message.time.justnow">Chiar acum</string>
+    <string name="livechat.message.timedout">Expirat</string>
+    <string name="livechat.message.typingindicator">tastează</string>
+    <string name="livechat.message.waitingforconnection">Se așteaptă conexiunea de rețea</string>
+    <string name="livechat.messages.action.copy.success">Copiat în clipboard</string>
+    <string name="livechat.messages.alert.chatreqfailure">Snap! Se pare că nu puteți plasa această solicitare de chat!</string>
+    <string name="livechat.messages.alert.upload.filesizeexceed">Dimens. maximă încărcare depășită</string>
+    <string name="livechat.messages.attachment.notopen">Imposibil de deschis fișierul atașat, deoarece dispozitivul nu are o aplicație care suportă fișiere în acest format!</string>
+    <string name="livechat.messages.camera.notopen">Imposibil de deschis camera, deoarece dispozitivul dvs. nu are cameră</string>
+    <string name="livechat.messages.continuechat.info">Sesiunea dvs. de chat cu noi s-a încheiat. Mai aveți nelămuriri care trebuie clarificate? Faceți clic pe Continuare pentru a discuta cu noi.</string>
+    <string name="livechat.messages.department">Alegeți un departament</string>
+    <string name="livechat.messages.email.dialog.title">Introduceți adresa dvs. de e-mail</string>
+    <string name="livechat.messages.email.failure">Trimiterea mesajului nu a reușit</string>
+    <string name="livechat.messages.email.send">Trimitere</string>
+    <string name="livechat.messages.email.success">E-mail trimis cu succes</string>
+    <string name="livechat.messages.email.title">Trimitere transcriere chat pe e-mail</string>
+    <string name="livechat.messages.email.wrong">Introduceți o adresă de e-mail validă</string>
+    <string name="livechat.messages.endchat.confirmation">Doriți să încheiați acest chat?</string>
+    <string name="livechat.messages.endchattimer">Deoarece sesiunea de chat a fost inactivă mult timp, aceasta se va încheia în %1$s sec. Dacă doriți să continuați această sesiune, scrieți un mesaj.</string>
+    <string name="livechat.messages.file.defaultextn">Fișier</string>
+    <string name="livechat.messages.form.alert.message">Completați formularul din chatul anterior înainte de a iniția un nou chat!</string>
+    <string name="livechat.messages.info.acceptforward">Chat-ul a fost redirecționat la %1$s cu succes.</string>
+    <string name="livechat.messages.info.agenttransfer">%1$s transferă acest chat la %2$s.</string>
+    <string name="livechat.messages.info.endchat">Sesiune încheiată</string>
+    <string name="livechat.messages.info.forward">%1$s redirecționează chatul.</string>
+    <string name="livechat.messages.info.missedchat">Am ratat cererea dvs. din chat</string>
+    <string name="livechat.messages.info.operator.joined">%1$s s-a alăturat conversației.</string>
+    <string name="livechat.messages.info.reopen">Ați redeschis chatul</string>
+    <string name="livechat.messages.info.transfer.accept">Chat transferat. Bună ziua,%1$s aici!! Aș fi încântat să vă ajut în continuare.</string>
+    <string name="livechat.messages.offline">Bună! Se pare că niciunul dintre operatorii noştri nu este disponibil momentan pentru a vă ajuta. Lăsați-ne un mesaj și vă căutăm noi cât de repede.</string>
+    <string name="livechat.messages.operator.typing">tastează...</string>
+    <string name="livechat.messages.option.endchat">Terminare chat</string>
+    <string name="livechat.messages.option.sharefile">Partajare fișier</string>
+    <string name="livechat.messages.option.takephoto">Fotografiere</string>
+    <string name="livechat.messages.option.takescreenshot">Efectuare captură de ecran</string>
+    <string name="livechat.messages.prechatform.conversation.campaign">Doriți să vă abonați la buletinul nostru informativ?</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.no">NU</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.yes">Sigur</string>
+    <string name="livechat.messages.prechatform.conversation.dept">Selectați departamentul la care să fie trimisă solicitarea dvs.</string>
+    <string name="livechat.messages.prechatform.conversation.email">Putem să vă trimitem un e-mail la?</string>
+    <string name="livechat.messages.prechatform.conversation.name">Care este adresarea dorită?</string>
+    <string name="livechat.messages.prechatform.conversation.phone">Puteți să ne spuneți numărul dvs. de contact?</string>
+    <string name="livechat.messages.prechatform.inline.button">Completare formular</string>
+    <string name="livechat.messages.prechatform.inline.message">Oferiți-ne câteva detalii pentru a începe o conversație.</string>
+    <string name="livechat.messages.prechatform.introduction.greeting.message">Ajutați-ne să știm cu cine discutăm.</string>
+    <string name="livechat.messages.prechatform.introduction.name">Operator</string>
+    <string name="livechat.messages.prechatform.traditional.campaign.label">Doriți să vă abonați la buletinul nostru informativ?</string>
+    <string name="livechat.messages.prechatform.traditional.department.label">Departament</string>
+    <string name="livechat.messages.prechatform.traditional.dept.error">Alegeți un departament valid</string>
+    <string name="livechat.messages.prechatform.traditional.dept.hint">Alegeți un departament</string>
+    <string name="livechat.messages.prechatform.traditional.email.error">Introduceți o adresă de e-mail validă</string>
+    <string name="livechat.messages.prechatform.traditional.email.hint">Introduceți adresa dvs. de e-mail</string>
+    <string name="livechat.messages.prechatform.traditional.email.label">E-mail</string>
+    <string name="livechat.messages.prechatform.traditional.name.error">Introduceți un nume valid</string>
+    <string name="livechat.messages.prechatform.traditional.name.hint">Introduceți-vă numele</string>
+    <string name="livechat.messages.prechatform.traditional.name.label">Nume</string>
+    <string name="livechat.messages.prechatform.traditional.phone.error">Introduceți un număr de telefon valid</string>
+    <string name="livechat.messages.prechatform.traditional.phone.hint">Introduceți numărul dvs. de contact</string>
+    <string name="livechat.messages.prechatform.traditional.phone.label">Telefon</string>
+    <string name="livechat.messages.prechatform.traditional.question.error">Introduceți întrebarea</string>
+    <string name="livechat.messages.record.slidetocancel">Glisați la stânga pentru a opri înregistrarea</string>
+    <string name="livechat.messages.sharefile.ques">A partajat un fișier</string>
+    <string name="livechat.messages.shareimage">Partajare imagine</string>
+    <string name="livechat.messages.sharescreenshot">Partajare captură ecran</string>
+    <string name="livechat.messages.title">Conversați cu noi acum!</string>
+    <string name="livechat.messages.you">Dvs</string>
+    <string name="livechat.notification.messages.shared.file">%1$s a partajat un fișier</string>
+    <string name="livechat.notification.messages.shared.image">%1$s a partajat o imagine</string>
+    <string name="livechat.notification.messages.shared.video">%1$s v-a trimis un video</string>
+    <string name="livechat.operator.waiting.response">Operatorul va intra imediat</string>
+    <string name="livechat.permission.camera">Pentru a face clic pe o poză, permiteți accesul la camera disp. mobil.</string>
+    <string name="livechat.permission.file">Pentru a trimite un fișier, permiteți accesul la stocarea disp. mobil.</string>
+    <string name="livechat.permission.locationdenied">Permisiuni de accesare a locației refuzate</string>
+    <string name="livechat.permission.microphone">Pentru a înregistra un mesaj vocal, permiteți accesul la microfonul dvs.</string>
+    <string name="livechat.permission.negative">Nu acum</string>
+    <string name="livechat.permission.positive">Setări</string>
+    <string name="livechat.permission.storagedenied">Permisiuni de stocare refuzate.</string>
+    <string name="livechat.prechatform.submit">TRIMITERE</string>
+    <string name="livechat.rating.skip">Omite</string>
+    <string name="livechat.reopen.title">Redeschidere chat</string>
+    <string name="livechat.requestlog.info">Operatorul a solicitat acces la jurnalul aplicației</string>
+    <string name="livechat.requestlog.negative.button">Revocare</string>
+    <string name="livechat.requestlog.positive.button">Trimitere</string>
+    <string name="livechat.requestlog.title">Jurnal aplicație</string>
+    <string name="livechat.widgets.articles.related">Articole înrudite:</string>
+    <string name="livechat.widgets.calendar.fromdate">De la data</string>
+    <string name="livechat.widgets.calendar.fromtime">De la ora</string>
+    <string name="livechat.widgets.calendar.schedule">Planificați acum</string>
+    <string name="livechat.widgets.calendar.setdate">Alegeți o dată</string>
+    <string name="livechat.widgets.calendar.settime">Alegeți o oră</string>
+    <string name="livechat.widgets.calendar.timezone">Fus orar</string>
+    <string name="livechat.widgets.calendar.todate">La data</string>
+    <string name="livechat.widgets.calendar.totime">La ora</string>
+    <string name="livechat.widgets.done">Finalizat</string>
+    <string name="livechat.widgets.input.password.error">Introduceți o valoare validă</string>
+    <string name="livechat.widgets.input.phone.search.hint">Căutare țară</string>
+    <string name="livechat.widgets.input.url.error">Introduceți o adresă URL validă</string>
+    <string name="livechat.widgets.location.accuracy">Precizie la %1$d metri</string>
+    <string name="livechat.widgets.location.radius.float">%1$.1f kms</string>
+    <string name="livechat.widgets.location.radius.integer">%1$d kms</string>
+    <string name="livechat.widgets.location.select">Alegeți o locație</string>
+    <string name="livechat.widgets.location.send.current">Trimiteți locația curentă</string>
+    <string name="livechat.widgets.location.send.selected">Trimiteți locația selectată</string>
+    <string name="livechat.widgets.location.suggestions">Sugestii</string>
+    <string name="livechat.widgets.rating.dislike">Nu-mi place</string>
+    <string name="livechat.widgets.rating.happy.angry">Mânios</string>
+    <string name="livechat.widgets.rating.happy.excited">Minunat</string>
+    <string name="livechat.widgets.rating.happy.happy">Bun</string>
+    <string name="livechat.widgets.rating.happy.neutral">Neutru</string>
+    <string name="livechat.widgets.rating.happy.sad">Trist</string>
+    <string name="livechat.widgets.rating.like">Apreciere</string>
+    <string name="livechat.widgets.select.limit.exceed">Limită selecții atinsă</string>
+    <string name="livechat.widgets.skip">Omite</string>
+    <string name="livechat.widgets.timeslot.button">Alegeți un interval de timp</string>
+    <string name="livechat.widgets.timezone.current">%1$s (curent)</string>
+    <string name="livechat_conversation_filetype_gif">GIF</string>
+    <string name="material_clock_toggle_content_description">Selectați ora</string>
+    <string name="material_hour_24h_suffix">%1$s ore</string>
+    <string name="material_hour_selection">Selectați ora</string>
+    <string name="material_hour_suffix">Ora %1$s</string>
+    <string name="material_minute_selection">Selectați minutele</string>
+    <string name="material_minute_suffix">%1$s minute</string>
+    <string name="material_timepicker_am">a.m.</string>
+    <string name="material_timepicker_clock_mode_description">Pentru a introduce ora, comutați la modul ceas.</string>
+    <string name="material_timepicker_hour">Ora</string>
+    <string name="material_timepicker_minute">Minut</string>
+    <string name="material_timepicker_pm">p.m.</string>
+    <string name="material_timepicker_select_time">Selectați ora</string>
+    <string name="material_timepicker_text_input_mode_description">Pentru a introduce ora, comutați la modul de introducere a textului.</string>
+    <string name="minimum_selection_is_required">Alegeți cel puțin o opțiune</string>
+    <string name="minimum_selections_is_required">Sunt necesare minimum %1$d selecții</string>
+    <string name="mobilisten_article_choose_a_department">Alegeți departamentul</string>
+    <string name="mobilisten_article_departments">Departamente</string>
+    <string name="mobilisten_article_has_been_deleted_or_disabled">Articol indisponibil</string>
+    <string name="mobilisten_article_no_views">Nicio vizualizare</string>
+    <string name="mobilisten_articles_general_error">@string/mobilisten_general_failure_error</string>
+    <string name="mobilisten_chat_connected_to_operator_or_bot">Conectat la %1$s</string>
+    <string name="mobilisten_common_okay">OK</string>
+    <string name="mobilisten_conversation_deleted">Această conversație a fost ștearsă de operator</string>
+    <string name="mobilisten_conversation_error_access_denied_to_initiate_chat">Acces refuzat pentru inițiere chat</string>
+    <string name="mobilisten_conversation_error_email_field_is_mandatory">Câmpul e-mail este obligatoriu</string>
+    <string name="mobilisten_conversation_error_error_unable_to_initiate_chat_outside_business_hours">Imposibil de creat conversația în afara programului de lucru</string>
+    <string name="mobilisten_conversation_error_invalid_chat_user_id">ID utilizator vizitator nevalid</string>
+    <string name="mobilisten_conversation_error_mentioned_department_is_not_mapped_to_the_brand">Departamentul menționat nu este asociat cu brandul</string>
+    <string name="mobilisten_conversation_error_name_field_is_mandatory">Numele este obligatoriu</string>
+    <string name="mobilisten_conversation_error_operation_not_available_for_mentioned_operator">Acest operator nu este disponibil pentru chat</string>
+    <string name="mobilisten_conversation_error_phone_number_field_is_mandatory">Numărul de telefon este obligatoriu</string>
+    <string name="mobilisten_conversation_error_resource_limit_reached">S-a atins limita pentru planul curent</string>
+    <string name="mobilisten_conversation_general_error">Nu se pot prelua detaliile conversației</string>
+    <string name="mobilisten_error_chat_transfer_already_in_progress_failure">Transferul chatului este deja în curs! Așteptați puțin.</string>
+    <string name="mobilisten_error_chat_transfer_no_online_user_failure">Ne pare rău, niciun utilizator online disponibil în departament</string>
+    <string name="mobilisten_file_upload_size_limit_exceeded">Dimensiune maximă fișier (50 MB) depășită.</string>
+    <string name="mobilisten_general_failure_error">Ne pare rău, ceva nu a mers cum trebuie. Încercați din nou mai târziu.</string>
+    <string name="mobilisten_load_more_messages">Încărcare mai multe mesaje</string>
+    <string name="mobilisten_loading_messages">Se încarcă mesajele...</string>
+    <string name="mobilisten_notification_multiple_messages">%1$d mesaje noi</string>
+    <string name="mobilisten_notification_single_message">%1$d mesaj nou</string>
+    <string name="mobilisten_operator_has_requested_for_app_log">Operatorul a solicitat acces la jurnalul aplicației.</string>
+    <string name="mobilisten_test_push_notifications">Testare notificări push</string>
+    <string name="mobilisten_unable_to_load_message_transcript">Ne pare rău, imposibil de preluat mesajele</string>
+    <string name="mtrl_badge_numberless_content_description">Notificare nouă</string>
+    <string name="mtrl_chip_close_icon_content_description">Eliminați %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Peste %1$d notificări noi</string>
+    <string name="mtrl_picker_a11y_next_month">Treceți la luna următoare</string>
+    <string name="mtrl_picker_a11y_prev_month">Treceți la luna anterioară</string>
+    <string name="mtrl_picker_announce_current_selection">Selecția actuală: %1$s</string>
+    <string name="mtrl_picker_cancel">Anulați</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selectați data</string>
+    <string name="mtrl_picker_date_header_unselected">Data selectată</string>
+    <string name="mtrl_picker_day_of_week_column_header">Coloana cu zile: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Format nevalid.</string>
+    <string name="mtrl_picker_invalid_format_example">Exemplu: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Folosiți: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Interval nevalid.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigați la anul %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fără acoperire: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Data de începere – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – data de încheiere</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selectați intervalul</string>
+    <string name="mtrl_picker_range_header_unselected">Data de începere – data de încheiere</string>
+    <string name="mtrl_picker_save">Salvați</string>
+    <string name="mtrl_picker_text_input_date_hint">Dată</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Data de încheiere</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Data de începere</string>
+    <string name="mtrl_picker_text_input_day_abbr">z</string>
+    <string name="mtrl_picker_text_input_month_abbr">l</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Comutați la modul introducere în calendar</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Atingeți pentru a comuta la selectarea unei zile</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Comutați la modul de introducere a textului</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Atingeți pentru a comuta la selectarea unui an</string>
+    <string name="mtrl_timepicker_cancel">Anulați</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="password_toggle_content_description">Afișați parola</string>
+    <string name="salesiq.advertisebadge.content">Bazată pe SalesIQ Mobilisten</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Caută"</string>
+    <string name="siq_articles_count_many">%1$d articole</string>
+    <string name="siq_articles_count_single">1 articol</string>
+    <string name="siq_articles_sub_categories_count_one">1 sub-categorie</string>
+    <string name="siq_articles_sub_categories_counts">%1$d sub-categorii</string>
+    <string name="siq_recently_viewed_articles_title">Recent vizualizate</string>
+    <string name="siq_related_articles">Articole înrudite</string>
+    <string name="siq_title_articles">Articole</string>
+    <string name="siq_title_sub_category">Sub-categorii</string>
+    <string name="size_bytes"> Octeți</string>
+    <string name="size_kilo_bytes"> KB</string>
+    <string name="size_mega_bytes"> MB</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_unit_day_d">z</string>
+    <string name="time_unit_hour_h">o</string>
+    <string name="time_unit_minute_m">min.</string>
+    <string name="time_unit_month_m">l</string>
+    <string name="time_unit_second_s">s</string>
+    <string name="time_unit_week_w">s</string>
+    <string name="time_unit_year_y">a</string>
+</resources>

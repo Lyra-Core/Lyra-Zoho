@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d yeni bildirim</item>
+    <item quantity="other">%d yeni bildirim</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Eve gidiş yolunu göster"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Yukarı git"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Diğer seçenekler"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Bitti"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Tümünü göster"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Bir uygulama seçin"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"KAPAT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AÇ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"sil"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Üst Karakter+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"boşluk"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menü+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Ara…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Sorguyu temizle"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Arama sorgusu"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Ara"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Sorguyu gönder"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Sesli arama"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Şununla paylaş:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ile paylaş"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Daralt"</string>
+    <string name="app_logs_txt_file_name">app_logs.txt</string>
+    <string name="articles.browse">Bir makale ara</string>
+    <string name="articles.counts.many">%1$d makale</string>
+    <string name="articles.counts.one">%1$d makale</string>
+    <string name="articles.emptystate">SSS bölümümüz henüz yapım aşamasında! Daha sonra tekrar kontrol edin!</string>
+    <string name="articles.feedback.thanks">Geribildiriminiz için teşekkürler!</string>
+    <string name="articles.pursuechat">Sohbet</string>
+    <string name="articles.recent.search">Son Aramalar</string>
+    <string name="articles.recent.viewed">En Son Görüntülenen</string>
+    <string name="articles.search.text">Girdiğiniz arama sözcüğüyle hiçbir eşleşme olmadığı görülüyor!</string>
+    <string name="articles.startchat">Sohbet Başlat</string>
+    <string name="articles.views.many">%1$d görünümler</string>
+    <string name="articles.views.one">%1$d görünümler</string>
+    <string name="articles_updated_time">%1$s önce güncellendi</string>
+    <string name="bottomsheet_action_collapse">Alt sayfayı daralt</string>
+    <string name="bottomsheet_action_expand">Alt sayfayı genişlet</string>
+    <string name="bottomsheet_action_expand_halfway">Yarım genişlet</string>
+    <string name="bottomsheet_drag_handle_clicked">Sürükleme tutamacına iki kez dokunuldu</string>
+    <string name="bottomsheet_drag_handle_content_description">Sürükleme tutamacı</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Yanıtla"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Reddet"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Kapat"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Gelen arama"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Devam eden arama"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Gelen arama süzülüyor"</string>
+    <string name="character_counter_content_description">Girilen karakter: %1$d / %2$d</string>
+    <string name="character_counter_overflowed_content_description">Karakter sınırı aşıldı %1$d / %2$d</string>
+    <string name="clear_text_end_icon_content_description">Metni temizle</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Etkinleştir</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Google Play hizmetlerini etkinleştirmezseniz %1$s çalışmaz.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play hizmetlerini etkinleştirin</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Yükle</string>
+    <string name="common_google_play_services_install_text">%1$s, şu anda cihazınızda bulunmayan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play hizmetlerini edinin</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play hizmetlerinin kullanılabilirliği</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Hizmetleri hatası</string>
+    <string name="common_google_play_services_unknown_issue">%1$s, Google Play hizmetleriyle ilgili sorun yaşıyor. Lütfen tekrar deneyin.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s, Google Play hizmetleri olmadan çalışmaz ve bu hizmetler cihazınız tarafından desteklenmiyor.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Güncelle</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Google Play hizmetlerini güncellemezseniz %1$s çalışmayacak.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play hizmetlerini güncelleyin</string>
+    <string name="common_google_play_services_updating_text">%1$s, şu anda güncellenmekte olan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play hizmetlerinin yeni sürümü gerekiyor. Kendisini kısa süre içinde güncelleyecektir.</string>
+    <string name="common_open_on_phone">Telefonda aç</string>
+    <string name="common_signin_button_text">Oturum aç</string>
+    <string name="common_signin_button_text_long">Google\'da oturum aç</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Bağlantı panoya kopyalandı"</string>
+    <string name="duration_few_seconds">birkaç saniye</string>
+    <string name="error_icon_content_description">Hata</string>
+    <string name="exposed_dropdown_menu_content_description">Açılır menüyü göster</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Bağlantıyı kopyala"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Tarayıcıda aç"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Bağlantıyı paylaş"</string>
+    <string name="icon_content_description">İletişim kutusu simgesi</string>
+    <string name="item_view_role_description">Sekme</string>
+    <string name="live_chat_no_application_to_handle_uri">Bu web sayfasını açmak için bir uygulamanız yok</string>
+    <string name="livechat.article.title">SSS</string>
+    <string name="livechat.bot.action.pending.wait">Lütfen Bekleyin.</string>
+    <string name="livechat.bot.connectwithhuman">Yardıma mı ihtiyacınız var?</string>
+    <string name="livechat.bot.input.hint">Yukarıdaki girişten seçin</string>
+    <string name="livechat.chat.queue.banner.calculating">Bekleme süresi hesaplanıyor...</string>
+    <string name="livechat.chat.queue.banner.position.subtitle">Sıra</string>
+    <string name="livechat.chat.queue.banner.timeremaining">Tahmini bekleme süresi yaklaşık %1$s</string>
+    <string name="livechat.chat.queue.banner.title">Sohbet kuyruğundasınız</string>
+    <string name="livechat.chat.sender.profanity.alert">Uygunsuz Kullanım Uyarısı</string>
+    <string name="livechat.common.article">makale</string>
+    <string name="livechat.common.loading">Yükleniyor…</string>
+    <string name="livechat.common.no">HAYIR</string>
+    <string name="livechat.common.nointernet">Lütfen internet bağlantınızı kontrol edin.</string>
+    <string name="livechat.common.ok">Tamam</string>
+    <string name="livechat.common.yes">EVET</string>
+    <string name="livechat.conversation.emptystate">%1$s’da size yardımcı olmaktan memnuniyet duyacağız! Uzmanlarımızla şimdi görüşün.</string>
+    <string name="livechat.conversation.endchat.timer">Bu sohbet oturumu sonlandırılmak üzere</string>
+    <string name="livechat.conversation.filetype.audio">ses</string>
+    <string name="livechat.conversation.filetype.image">resim</string>
+    <string name="livechat.conversation.filetype.others">Dosya</string>
+    <string name="livechat.conversation.filetype.video">video</string>
+    <string name="livechat.conversation.in.dept">%1$s içinde</string>
+    <string name="livechat.conversation.search.emptystate">Girdiğiniz arama sözcüğüyle hiçbir eşleşme olmadığı görülüyor!</string>
+    <string name="livechat.conversation.startchat">Sohbet Başlat</string>
+    <string name="livechat.conversation.status">Aç</string>
+    <string name="livechat.conversation.subtitle.missed">Hiçbir operatör müsait değil</string>
+    <string name="livechat.conversation.subtitle.queue.position">Kuyruktaki nokta: %1$s</string>
+    <string name="livechat.conversation.subtitle.waiting.details">Ayrıntılarınız bekleniyor</string>
+    <string name="livechat.conversation.title">Bizimle görüşmeler</string>
+    <string name="livechat.conversation.with.attender"> şununla: %1$s</string>
+    <string name="livechat.day.evening">Akşam</string>
+    <string name="livechat.day.friday">Cuma</string>
+    <string name="livechat.day.monday">Pazartesi</string>
+    <string name="livechat.day.morning">Sabah</string>
+    <string name="livechat.day.night">Gece</string>
+    <string name="livechat.day.noon">Öğle</string>
+    <string name="livechat.day.saturday">Cumartesi</string>
+    <string name="livechat.day.sunday">Pazar</string>
+    <string name="livechat.day.thursday">Perşembe</string>
+    <string name="livechat.day.today">Bugün</string>
+    <string name="livechat.day.tuesday">Salı</string>
+    <string name="livechat.day.wednesday">Çarşamba</string>
+    <string name="livechat.day.yesterday">Dün</string>
+    <string name="livechat.feedback.ask.rating">Bugün sizinle sohbet etmek benim için bir zevk. Lütfen değerli zamanınızı ayırıp bizi ‘değerlendirin’.</string>
+    <string name="livechat.feedback.button.msg">Geri bildirim gönder</string>
+    <string name="livechat.feedback.hint">Geri bildiriminizi girin</string>
+    <string name="livechat.feedback.rate.happy">Ooo, teşekkürler!  Size yardımcı olmaktan memnuniyet duyarız</string>
+    <string name="livechat.feedback.rate.neutral">Değerlendirme için teşekkürler! Herhangi bir yardıma ihtiyaç duyduğunuzda, bize bir mesaj atmanız yeterli.</string>
+    <string name="livechat.feedback.rate.sad">Yardım edemediğimiz için üzgünüz. Destek hizmetlerimizi daha da iyileştireceğiz.</string>
+    <string name="livechat.feedback.submit">GÖNDER</string>
+    <string name="livechat.feedback.subtitle">Lütfen değerli zamanınızı ayırıp bana derece verin.</string>
+    <string name="livechat.feedback.thankingmsg">Geri bildiriminiz için teşekkürler.</string>
+    <string name="livechat.feedback.title">Sohbet oturumu yardımcı oldu mu?</string>
+    <string name="livechat.gdpr.chatconsent">Kabul Et’e tıklayarak, belgede belirtilen tüm hüküm ve koşulları kabul edersiniz.</string>
+    <string name="livechat.gdpr.chatconsent.accept">Kabul Et</string>
+    <string name="livechat.gdpr.chatconsent.decline">Reddet</string>
+    <string name="livechat.gdpr.chatconsent.title">Sohbet izni</string>
+    <string name="livechat.gdpr.creditcardmask">Kart numaranız oldukça hassas bir veri olduğundan, kartınızın ilk 12 rakamını maskelememizi ister misiniz?</string>
+    <string name="livechat.gdpr.creditcardmask.cancel">İptal</string>
+    <string name="livechat.gdpr.creditcardmask.ok">Maskele</string>
+    <string name="livechat.gdpr.emailconfirm">Bu sohbet dökümünü %1$s kişisine e-postala göndermek üzeresiniz.</string>
+    <string name="livechat.gdpr.emailconfirm.change">E-posta Adresini Değiştir</string>
+    <string name="livechat.gdpr.emailconfirm.send">Gönder</string>
+    <string name="livechat.gdpr.googletranslate.concent">Bu hizmet, Google tarafından desteklenen çeviriler içerebilir. Google, çevirilerle ilgili her türlü doğruluk, güvenilirlik garantileri ve her türlü zımni ticarete elverişlilik, özel bir amaca uygunluk ve ihlal etmeme garantileri dahil açık veya zımni hiçbir garantiyi kabul etmez.</string>
+    <string name="livechat.gdpr.googletranslate.concent.title">Çeviri Onayı</string>
+    <string name="livechat.gdpr.learnmore">Daha fazla bilgi edin</string>
+    <string name="livechat.gdpr.trackingconsent.donttrack">İzleme</string>
+    <string name="livechat.gdpr.trackingconsent.gotit">Anladım!</string>
+    <string name="livechat.gdpr.trackingconsent.notify">Selam! Uygulama içi deneyiminizi geliştirmek için uygulamamızdaki faaliyetlerinizi izliyoruz.</string>
+    <string name="livechat.gdpr.trackingconsent.notifywithoptout">Selam! Uygulama içi deneyiminizi geliştirmek için uygulamamızdaki faaliyetlerinizi izliyoruz. Ancak bunu kabul etmiyorsanız, "İzleme" seçeneğine tıklayın.</string>
+    <string name="livechat.message.download">İndir</string>
+    <string name="livechat.message.input.hint">Mesajınızı buraya yazın...</string>
+    <string name="livechat.message.noresults">Sonuç Bulunamadı</string>
+    <string name="livechat.message.saved">Kaydedildi</string>
+    <string name="livechat.message.search">Ara</string>
+    <string name="livechat.message.status.copy">Kopyala</string>
+    <string name="livechat.message.status.delete">Sil</string>
+    <string name="livechat.message.status.resend">Yeniden Gönder</string>
+    <string name="livechat.message.status.sending">Gönderiliyor</string>
+    <string name="livechat.message.status.sent">Gönderildi</string>
+    <string name="livechat.message.time.justnow">Şu an</string>
+    <string name="livechat.message.timedout">Zaman aşımı</string>
+    <string name="livechat.message.typingindicator">yazıyor</string>
+    <string name="livechat.message.waitingforconnection">Ağ bağlantısı için bekleniyor</string>
+    <string name="livechat.messages.action.copy.success">Panoya Kopyalandı</string>
+    <string name="livechat.messages.alert.chatreqfailure">Tüh! Bu sohbet talebinde bulunmanız mümkün görünmüyor!</string>
+    <string name="livechat.messages.alert.upload.filesizeexceed">Karşıya yüklenebilecek en büyük boyut aşıldı</string>
+    <string name="livechat.messages.attachment.notopen">Cihazınızda bu biçimdeki dosyaları destekleyen bir uygulama bulunmadığından Ek açılamıyor.</string>
+    <string name="livechat.messages.camera.notopen">Cihazınızda kamera bulunmadığından kamera açılamıyor</string>
+    <string name="livechat.messages.continuechat.info">Bizimle sohbet oturumunuz sonuçlandı. Aydınlatılması gereken başka bir konu var mı? Bizimle sohbet etmek için Devam Et’e tıklayın.</string>
+    <string name="livechat.messages.department">Bir departman seç</string>
+    <string name="livechat.messages.email.dialog.title">E-posta adresinizi girin</string>
+    <string name="livechat.messages.email.failure">Posta gönderme başarısız oldu</string>
+    <string name="livechat.messages.email.send">Gönder</string>
+    <string name="livechat.messages.email.success">E-posta başarıyla gönderildi</string>
+    <string name="livechat.messages.email.title">Sohbet dökümünü e-postayla gönder</string>
+    <string name="livechat.messages.email.wrong">Geçerli e-posta adresi gir</string>
+    <string name="livechat.messages.endchat.confirmation">Bu sohbeti sonlandırmak ister misiniz?</string>
+    <string name="livechat.messages.endchattimer">Bu sohbet oturumunda uzun süre boyunca eylemde bulunulmadığından, oturum %1$s saniye içinde otomatik olarak kapatılacaktır. Bu oturuma devam etmek isterseniz, lütfen bir mesaj bırakın.</string>
+    <string name="livechat.messages.file.defaultextn">Dosya</string>
+    <string name="livechat.messages.form.alert.message">Yeni bir sohbet başlatmadan önce lütfen önceki sohbetteki formu tamamlayın!</string>
+    <string name="livechat.messages.info.acceptforward">Bu sohbet başarıyla %1$s iletildi.</string>
+    <string name="livechat.messages.info.agenttransfer">%1$s bu sohbeti şuraya %2$s aktarıyor.</string>
+    <string name="livechat.messages.info.endchat">Oturum Sona Erdi</string>
+    <string name="livechat.messages.info.forward">%1$s sohbeti yönlendiriyor.</string>
+    <string name="livechat.messages.info.missedchat">Sohbet isteğinizi kaçırdık</string>
+    <string name="livechat.messages.info.operator.joined">%1$s bu konuşmaya katıldı.</string>
+    <string name="livechat.messages.info.reopen">Sohbeti yeniden açtınız</string>
+    <string name="livechat.messages.info.transfer.accept">Sohbet Aktarıldı. Merhaba, %1$s burada! Size daha fazla yardımcı olmaktan memnuniyet duyacağım.</string>
+    <string name="livechat.messages.offline">Selam! Şu an operatörlerden hiçbirinin size yardımcı olmak için müsait olmadığı görülüyor. Bize bir mesaj bırakın; kısa süre sonra size geri döneceğiz.</string>
+    <string name="livechat.messages.operator.typing">yazıyor...</string>
+    <string name="livechat.messages.option.endchat">Sohbeti Bitir</string>
+    <string name="livechat.messages.option.sharefile">Dosya Paylaş</string>
+    <string name="livechat.messages.option.takephoto">Fotoğraf Çek</string>
+    <string name="livechat.messages.option.takescreenshot">Ekran Görüntüsü Al</string>
+    <string name="livechat.messages.prechatform.conversation.campaign">Haber bültenimize abone olmak ister misiniz?</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.no">HAYIR</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.yes">Tabii ki</string>
+    <string name="livechat.messages.prechatform.conversation.dept">Lütfen talebiniz yönlendirilmesini gereken departmanı seçin</string>
+    <string name="livechat.messages.prechatform.conversation.email">Size bir e-posta bırakabilir miyiz?</string>
+    <string name="livechat.messages.prechatform.conversation.name">Size nasıl hitap edilmesini istersiniz?</string>
+    <string name="livechat.messages.prechatform.conversation.phone">İletişim numaranızı alabilir miyiz?</string>
+    <string name="livechat.messages.prechatform.inline.button">Formu doldur</string>
+    <string name="livechat.messages.prechatform.inline.message">Lütfen sohbeti başlatmak için bize birkaç ayrıntı sağlayın.</string>
+    <string name="livechat.messages.prechatform.introduction.greeting.message">Kiminle konuştuğumuzu bilmemize yardımcı olun.</string>
+    <string name="livechat.messages.prechatform.introduction.name">Operatör</string>
+    <string name="livechat.messages.prechatform.traditional.campaign.label">Haber bültenimize abone olmak ister misiniz?</string>
+    <string name="livechat.messages.prechatform.traditional.department.label">Departman</string>
+    <string name="livechat.messages.prechatform.traditional.dept.error">Geçerli bir departman seçin</string>
+    <string name="livechat.messages.prechatform.traditional.dept.hint">Bir departman seçin</string>
+    <string name="livechat.messages.prechatform.traditional.email.error">Geçerli bir e-posta adresi girin</string>
+    <string name="livechat.messages.prechatform.traditional.email.hint">E-posta adresinizi girin</string>
+    <string name="livechat.messages.prechatform.traditional.email.label">E-posta</string>
+    <string name="livechat.messages.prechatform.traditional.name.error">Geçerli bir ad girin</string>
+    <string name="livechat.messages.prechatform.traditional.name.hint">Adınızı girin</string>
+    <string name="livechat.messages.prechatform.traditional.name.label">Ad</string>
+    <string name="livechat.messages.prechatform.traditional.phone.error">Geçerli bir telefon numarası girin</string>
+    <string name="livechat.messages.prechatform.traditional.phone.hint">İletişim numaranızı girin</string>
+    <string name="livechat.messages.prechatform.traditional.phone.label">Telefon</string>
+    <string name="livechat.messages.prechatform.traditional.question.error">Soru Gir</string>
+    <string name="livechat.messages.record.slidetocancel">Kaydı durdurmak için sola kaydırın</string>
+    <string name="livechat.messages.sharefile.ques">bir dosya paylaştı</string>
+    <string name="livechat.messages.shareimage">Görüntüyü Paylaş</string>
+    <string name="livechat.messages.sharescreenshot">Ekran Görüntüsünü Paylaş</string>
+    <string name="livechat.messages.title">Şimdi bizimle sohbet edin!</string>
+    <string name="livechat.messages.you">Siz</string>
+    <string name="livechat.notification.messages.shared.file">%1$s bir dosya paylaştı</string>
+    <string name="livechat.notification.messages.shared.image">%1$s bir görüntü paylaştı</string>
+    <string name="livechat.notification.messages.shared.video">%1$s size bir video gönderdi</string>
+    <string name="livechat.operator.waiting.response">Operatör birazdan katılacak</string>
+    <string name="livechat.permission.camera">Bir resme tıklamak için mobil kameranıza erişilmesine izin verin.</string>
+    <string name="livechat.permission.file">Bir dosya göndermek için mobil depolama alanınıza erişilmesine izin verin.</string>
+    <string name="livechat.permission.locationdenied">Konum izni reddedildi</string>
+    <string name="livechat.permission.microphone">Bir sesli mesaj kaydetmek için, mikrofonunuza erişilmesine izin verin.</string>
+    <string name="livechat.permission.negative">Şimdi Değil</string>
+    <string name="livechat.permission.positive">Ayarlar</string>
+    <string name="livechat.permission.storagedenied">Depolama izni reddedildi.</string>
+    <string name="livechat.prechatform.submit">GÖNDER</string>
+    <string name="livechat.rating.skip">Atla</string>
+    <string name="livechat.reopen.title">Sohbeti yeniden aç</string>
+    <string name="livechat.requestlog.info">Operatör, uygulama günlüğünüze erişim istedi</string>
+    <string name="livechat.requestlog.negative.button">İptal</string>
+    <string name="livechat.requestlog.positive.button">Gönder</string>
+    <string name="livechat.requestlog.title">Uygulama günlüğü</string>
+    <string name="livechat.widgets.articles.related">İlgili makaleler:</string>
+    <string name="livechat.widgets.calendar.fromdate">Başlangıç tarihi</string>
+    <string name="livechat.widgets.calendar.fromtime">Başlangıç saati</string>
+    <string name="livechat.widgets.calendar.schedule">Şimdi Planla</string>
+    <string name="livechat.widgets.calendar.setdate">Bir Tarih Seç</string>
+    <string name="livechat.widgets.calendar.settime">Bir saat seçin</string>
+    <string name="livechat.widgets.calendar.timezone">Zaman Dilimi</string>
+    <string name="livechat.widgets.calendar.todate">Bitiş tarihi</string>
+    <string name="livechat.widgets.calendar.totime">Bitiş saati</string>
+    <string name="livechat.widgets.done">Bitti</string>
+    <string name="livechat.widgets.input.password.error">Lütfen geçerli bir değer girin</string>
+    <string name="livechat.widgets.input.phone.search.hint">Ülke Ara</string>
+    <string name="livechat.widgets.input.url.error">Geçerli bir URL girin</string>
+    <string name="livechat.widgets.location.accuracy">%1$d metreye doğru</string>
+    <string name="livechat.widgets.location.radius.float">%1$.1f kms</string>
+    <string name="livechat.widgets.location.radius.integer">%1$d kms</string>
+    <string name="livechat.widgets.location.select">Bir konum seçin</string>
+    <string name="livechat.widgets.location.send.current">Mevcut konumu gönderin</string>
+    <string name="livechat.widgets.location.send.selected">Seçtiğiniz konumu gönderin</string>
+    <string name="livechat.widgets.location.suggestions">Öneriler</string>
+    <string name="livechat.widgets.rating.dislike">Beğenme</string>
+    <string name="livechat.widgets.rating.happy.angry">Öfkeli</string>
+    <string name="livechat.widgets.rating.happy.excited">Harika</string>
+    <string name="livechat.widgets.rating.happy.happy">İyi</string>
+    <string name="livechat.widgets.rating.happy.neutral">Nötr</string>
+    <string name="livechat.widgets.rating.happy.sad">Hüzünlü</string>
+    <string name="livechat.widgets.rating.like">Beğen</string>
+    <string name="livechat.widgets.select.limit.exceed">Seçim sınırı aşıldı</string>
+    <string name="livechat.widgets.skip">Atla</string>
+    <string name="livechat.widgets.timeslot.button">Bir saat aralığı seçin</string>
+    <string name="livechat.widgets.timezone.current">%1$s (Mevcut)</string>
+    <string name="livechat_conversation_filetype_gif">GIF</string>
+    <string name="material_clock_toggle_content_description">ÖÖ veya ÖS\'yi seçin</string>
+    <string name="material_hour_24h_suffix">%1$s saat</string>
+    <string name="material_hour_selection">Saat seçin</string>
+    <string name="material_hour_suffix">Saat %1$s</string>
+    <string name="material_minute_selection">Dakikayı seçin</string>
+    <string name="material_minute_suffix">%1$s dakika</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Zaman girişi için saat moduna geçin.</string>
+    <string name="material_timepicker_hour">Saat</string>
+    <string name="material_timepicker_minute">Dakika</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Zamanı seçin</string>
+    <string name="material_timepicker_text_input_mode_description">Zaman girişi için metin girişi moduna geçin.</string>
+    <string name="minimum_selection_is_required">Lütfen en az bir seçenek seçin</string>
+    <string name="minimum_selections_is_required">En az %1$d seçim gereklidir</string>
+    <string name="mobilisten_article_choose_a_department">Departman seç</string>
+    <string name="mobilisten_article_departments">Departmanlar</string>
+    <string name="mobilisten_article_has_been_deleted_or_disabled">Makale mevcut değil</string>
+    <string name="mobilisten_article_no_views">Görünüm yok</string>
+    <string name="mobilisten_articles_general_error">@string/mobilisten_general_failure_error</string>
+    <string name="mobilisten_chat_connected_to_operator_or_bot">%1$s öğesine bağlandı</string>
+    <string name="mobilisten_common_okay">TAMAM</string>
+    <string name="mobilisten_conversation_deleted">Bu sohbet operatör tarafından taşındı</string>
+    <string name="mobilisten_conversation_error_access_denied_to_initiate_chat">Sohbet başlatmak için erişim reddedildi</string>
+    <string name="mobilisten_conversation_error_email_field_is_mandatory">E-posta alanı zorunludur</string>
+    <string name="mobilisten_conversation_error_error_unable_to_initiate_chat_outside_business_hours">Çevrimdışı saatlerde görüşme oluşturulamaz</string>
+    <string name="mobilisten_conversation_error_invalid_chat_user_id">Geçersiz ziyaretçi kullanıcı kimliği</string>
+    <string name="mobilisten_conversation_error_mentioned_department_is_not_mapped_to_the_brand">Bahsedilen departman, markayla ilişkilendirilmedi</string>
+    <string name="mobilisten_conversation_error_name_field_is_mandatory">Ad zorunludur</string>
+    <string name="mobilisten_conversation_error_operation_not_available_for_mentioned_operator">Bu operatör, sohbet için müsait değil</string>
+    <string name="mobilisten_conversation_error_phone_number_field_is_mandatory">Telefon numarası zorunludur</string>
+    <string name="mobilisten_conversation_error_resource_limit_reached">Geçerli plan için kaynak sınırına ulaşıldı</string>
+    <string name="mobilisten_conversation_general_error">Görüşme ayrıntıları getirilemedi</string>
+    <string name="mobilisten_error_chat_transfer_already_in_progress_failure">Sohbet aktarımı zaten sürüyor! Lütfen biraz bekleyin.</string>
+    <string name="mobilisten_error_chat_transfer_no_online_user_failure">Üzgünüz, departmanınızda çevrimiçi kullanıcı yok</string>
+    <string name="mobilisten_file_upload_size_limit_exceeded">Maksimum dosya boyutu (50MB) aşıldı.</string>
+    <string name="mobilisten_general_failure_error">Üzgünüz, bir sorun oluştu. Lütfen daha sonra yeniden deneyin.</string>
+    <string name="mobilisten_load_more_messages">Daha fazla ileti yükle</string>
+    <string name="mobilisten_loading_messages">İletiler yükleniyor...</string>
+    <string name="mobilisten_notification_multiple_messages">%1$d yeni ileti</string>
+    <string name="mobilisten_notification_single_message">%1$d yeni ileti</string>
+    <string name="mobilisten_operator_has_requested_for_app_log">Operatör, uygulama günlüğünüzü talep etti.</string>
+    <string name="mobilisten_test_push_notifications">Anında iletme bildirimlerini test et</string>
+    <string name="mobilisten_unable_to_load_message_transcript">Üzgünüz, İletiler getirilemiyor</string>
+    <string name="mtrl_badge_numberless_content_description">Yeni bildirim</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s içeriğini kaldır</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d adetten fazla yeni bildirim</string>
+    <string name="mtrl_picker_a11y_next_month">Sonraki aya değiştir</string>
+    <string name="mtrl_picker_a11y_prev_month">Önceki aya değiştir</string>
+    <string name="mtrl_picker_announce_current_selection">Geçerli seçim: %1$s</string>
+    <string name="mtrl_picker_cancel">İptal</string>
+    <string name="mtrl_picker_confirm">Tamam</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Tarih Seçin</string>
+    <string name="mtrl_picker_date_header_unselected">Seçilen tarih</string>
+    <string name="mtrl_picker_day_of_week_column_header">Gün sütunu: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Geçersiz biçim.</string>
+    <string name="mtrl_picker_invalid_format_example">Örnek: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Tarih biçimi: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Geçersiz aralık.</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s yılına git</string>
+    <string name="mtrl_picker_out_of_range">İzin verilen aralığın dışında: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Başlangıç tarihi – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Bitiş tarihi</string>
+    <string name="mtrl_picker_range_header_selected">%1$s-%2$s</string>
+    <string name="mtrl_picker_range_header_title">Aralık Seçin</string>
+    <string name="mtrl_picker_range_header_unselected">Başlangıç tarihi - Bitiş tarihi</string>
+    <string name="mtrl_picker_save">Kaydet</string>
+    <string name="mtrl_picker_text_input_date_hint">Tarih</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Bitiş tarihi</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Başlangıç tarihi</string>
+    <string name="mtrl_picker_text_input_day_abbr">g</string>
+    <string name="mtrl_picker_text_input_month_abbr">a</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Takvim giriş moduna geç</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Gün seçmeye geçmek için dokunun</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Metin giriş moduna geç</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Yıl seçmeye geçmek için dokunun</string>
+    <string name="mtrl_timepicker_cancel">İptal</string>
+    <string name="mtrl_timepicker_confirm">Tamam</string>
+    <string name="password_toggle_content_description">Şifreyi göster</string>
+    <string name="salesiq.advertisebadge.content">SalesIQ Mobilisten tarafından desteklenir</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Ara"</string>
+    <string name="siq_articles_count_many">%1$d makaleler</string>
+    <string name="siq_articles_count_single">1 makale</string>
+    <string name="siq_articles_sub_categories_count_one">1 alt kategori</string>
+    <string name="siq_articles_sub_categories_counts">%1$D alt kategoriler</string>
+    <string name="siq_recently_viewed_articles_title">Son görüntülenen</string>
+    <string name="siq_related_articles">İlgili makaleler</string>
+    <string name="siq_title_articles">Makaleler</string>
+    <string name="siq_title_sub_category">Alt kategoriler</string>
+    <string name="size_bytes"> Bayt</string>
+    <string name="size_kilo_bytes"> KB</string>
+    <string name="size_mega_bytes"> MB</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_unit_day_d">g</string>
+    <string name="time_unit_hour_h">sa</string>
+    <string name="time_unit_minute_m">dak</string>
+    <string name="time_unit_month_m">a</string>
+    <string name="time_unit_second_s">s</string>
+    <string name="time_unit_week_w">h</string>
+    <string name="time_unit_year_y">y</string>
+</resources>

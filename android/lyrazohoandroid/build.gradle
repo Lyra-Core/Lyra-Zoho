@@ -1,0 +1,114 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
+    id 'org.jetbrains.kotlin.plugin.serialization'
+}
+
+configurations {
+    mockitoAgent
+}
+
+android {
+    namespace = 'com.lyracore.zoho'
+    compileSdkVersion 36
+
+    defaultConfig {
+        minSdk 21
+        targetSdk 36
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_21
+        targetCompatibility JavaVersion.VERSION_21
+    }
+
+    kotlinOptions {
+        jvmTarget = '21'
+    }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+        unitTests.all{
+            jvmArgs += "-javaagent:${configurations.mockitoAgent.asPath}"
+        }
+
+
+    }
+}
+
+dependencies {
+    implementation libs.core.ktx
+    implementation libs.appcompat
+    implementation libs.lifecycle.runtime.ktx
+    implementation libs.lifecycle.livedata.ktx
+    implementation libs.kotlinx.serialization.json
+
+    // Required -- JUnit 4 framework
+    testImplementation libs.junit
+    // Optional -- Robolectric environment
+    testImplementation libs.core
+    // Optional -- Mockito framework
+    testImplementation libs.mockito
+    // Optional -- mockito-kotlin
+    testImplementation libs.mockito.kotlin
+    // Optional -- Mockk framework
+    testImplementation libs.mockk
+
+    testImplementation libs.robolectric
+
+    // Zoho SalesIQ SDK for Chat functionality
+    implementation libs.mobilisten
+
+    mockitoAgent(libs.mockito) {
+        transitive = false
+    }
+}
+
+// Dynamically set version from latest git tag if available
+def getGitTagVersion() {
+    try {
+        def stdout = new ByteArrayOutputStream()
+        exec {
+            commandLine 'git', 'describe', '--tags', '--abbrev=0'
+            standardOutput = stdout
+        }
+        return stdout.toString().trim()
+    } catch (Exception ignored) {
+        return null
+    }
+}
+
+def libVersion = getGitTagVersion() ?: (project.hasProperty('VERSION_NAME') ? VERSION_NAME : '1.0.0')
+
+version = libVersion
+
+publishing {
+    publications {
+        release(MavenPublication) {
+            groupId 'com.github.Lyra-Core'
+            artifactId 'Lyra-Zoho'
+            version version
+
+            artifact("$buildDir/outputs/aar/${project.getName()}-release.aar")
+        }
+    }
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/Lyra-Core/Lyra-Zoho")
+            credentials {
+                username = System.getenv("GPR_USER")
+                password = System.getenv("GPR_KEY")
+            }
+        }
+    }
+}

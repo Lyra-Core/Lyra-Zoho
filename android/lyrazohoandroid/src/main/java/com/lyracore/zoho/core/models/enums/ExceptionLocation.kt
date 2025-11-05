@@ -1,0 +1,21 @@
+package com.lyracore.zoho.core.models.enums
+
+/** Enum representing different locations errors of events that can occur and be handled. */
+enum class ExceptionLocation {
+    CORE_INITIALIZE,
+    CHAT_START_LISTENERS,
+    CHAT_OPEN,
+    CHAT_SET_DEPARTMENT,
+    CHAT_SET_LANGUAGE,
+    CHAT_SET_ADDITIONAL_INFORMATION,
+    CHAT_SET_PAGE_TITLE,
+    CHAT_SET_QUESTION,
+    CHAT_GET_DEPARTMENTS,
+    CHAT_END_SESSION,
+    NOTIFICATION_ENABLE_PUSH,
+    NOTIFICATION_HANDLE_NOTIFICATION,
+    NOTIFICATION_IS_ZOHO_NOTIFICATION,
+    DEPARTMENT_GET_ALL,
+    DEPARTMENT_GET_DEFAULT,
+    DEPARTMENT_GET_BY_COUNTRY
+}

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d ಹೊಸ ಅಧಿಸೂಚನೆಗಳು</item>
+    <item quantity="other">%d ಹೊಸ ಅಧಿಸೂಚನೆಗಳು</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ಹೋಮ್‌ಗೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"ಮೇಲಕ್ಕೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳು"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"ಆಯಿತು"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"ಎಲ್ಲವನ್ನೂ ನೋಡಿ"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"ಆ್ಯಪ್‌ವೊಂದನ್ನು ಆಯ್ಕೆಮಾಡಿ"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ಆಫ್"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ಆನ್"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"ಹುಡುಕಿ…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"ಪ್ರಶ್ನೆಯನ್ನು ತೆರವುಗೊಳಿಸಿ"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"ಪ್ರಶ್ನೆಯನ್ನು ಹುಡುಕಿ"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"ಹುಡುಕಿ"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"ಪ್ರಶ್ನೆಯನ್ನು ಸಲ್ಲಿಸಿ"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"ಧ್ವನಿ ಹುಡುಕಾಟ"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"ಇವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ನೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ಕುಗ್ಗಿಸಿ"</string>
+    <string name="app_logs_txt_file_name">app_logs.txt</string>
+    <string name="articles.browse">ಒಂದು ಲೇಖನಕ್ಕಾಗಿ ಹುಡುಕಿ</string>
+    <string name="articles.counts.many">%1$d ಲೇಖನಗಳು</string>
+    <string name="articles.counts.one">%1$d ಲೇಖನ</string>
+    <string name="articles.emptystate">ನಮ್ಮ ಜ್ಞಾನ ಕೇಂದ್ರ ವಿಭಾಗ ನಿರ್ಮಾಣವಾಗುತ್ತಿದೆ. ದಯವಿಟ್ಟು ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮರಳಿ ಬನ್ನಿ.</string>
+    <string name="articles.feedback.thanks">ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಗೆ ಧನ್ಯವಾದಗಳು!</string>
+    <string name="articles.pursuechat">ಚಾಟ್ ಮಾಡಿ</string>
+    <string name="articles.recent.search">ಇತ್ತೀಚಿನ ಹುಡುಕಾಟಗಳು</string>
+    <string name="articles.recent.viewed">ಇತ್ತೀಚೆಗೆ ನೋಡಿರುವುದು</string>
+    <string name="articles.search.text">ನಿಮ್ಮ ಹುಡುಕಾಟಕ್ಕೆ ಹೋಲಿಕೆಯಾಗುವ ಯಾವುದೇ ಫಲಿತಾಂಶಗಳು ನಮಗೆ ಕಂಡುಬರಲಿಲ್ಲ</string>
+    <string name="articles.startchat">ಚಾಟ್ ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="articles.views.many">%1$d ವೀಕ್ಷಣೆಗಳು</string>
+    <string name="articles.views.one">%1$d ವೀಕ್ಷಣೆ</string>
+    <string name="articles_updated_time">%1$s ಹಿಂದೆ ಅಪ್‌ಡೇಟ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="bottomsheet_action_collapse">ಕೆಳಭಾಗದ ಶೀಟ್ ಅನ್ನು ಕುಗ್ಗಿಸಿ</string>
+    <string name="bottomsheet_action_expand">ಕೆಳಭಾಗದ ಶೀಟ್ ಅನ್ನು ವಿಸ್ತರಿಸಿ</string>
+    <string name="bottomsheet_action_expand_halfway">ಅರ್ಧದಷ್ಟು ವಿಸ್ತರಿಸಿ</string>
+    <string name="bottomsheet_drag_handle_clicked">ಹ್ಯಾಂಡಲ್ ಡ್ರ್ಯಾಗ್ ಮಾಡಿ ಎಂಬುದನ್ನು ಡಬಲ್-ಟ್ಯಾಪ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="bottomsheet_drag_handle_content_description">ಹ್ಯಾಂಡಲ್ ಡ್ರ್ಯಾಗ್ ಮಾಡಿ</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"ಉತ್ತರಿಸಿ"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"ವೀಡಿಯೊ"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"ನಿರಾಕರಿಸಿ"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"ಕರೆ ಕೊನೆಗೊಳಿಸಿ"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"ಒಳಬರುವ ಕರೆ"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"ಚಾಲ್ತಿಯಲ್ಲಿರುವ ಕರೆ"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"ಒಳಬರುವ ಕರೆಯನ್ನು ಸ್ಕ್ರೀನ್ ಮಾಡಲಾಗುತ್ತಿದೆ"</string>
+    <string name="character_counter_content_description">%2$d ರಲ್ಲಿ %1$d ಅಕ್ಷರಗಳನ್ನು ನಮೂದಿಸಲಾಗಿದೆ</string>
+    <string name="character_counter_overflowed_content_description">ಅಕ್ಷರ ಮಿತಿಯು %2$d ರಲ್ಲಿ %1$d ಮೀರಿದೆ</string>
+    <string name="clear_text_end_icon_content_description">ಪಠ್ಯ ತೆರವುಗೊಳಿಸಿ</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">ಸಕ್ರಿಯಗೊಳಿಸು</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Google Play ಸೇವೆಗಳನ್ನು ನೀವು ಸಕ್ರಿಯಗೊಳಿಸದ ಹೊರತು %1$s ಕಾರ್ಯನಿರ್ವಹಿಸುವುದಿಲ್ಲ.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play ಸೇವೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ</string>
+    <string name="common_google_play_services_install_text">ನಿಮ್ಮ ಸಾಧನದಿಂದ ಕಾಣೆಯಾಗಿರುವ %1$s, Google Play ಸೇವೆಗಳಿಲ್ಲದೆ ರನ್ ಆಗುವುದಿಲ್ಲ.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play ಸೇವೆಗಳನ್ನು ಪಡೆಯಿರಿ</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play ಸೇವೆಗಳ ಲಭ್ಯತೆ</string>
+    <string name="common_google_play_services_notification_ticker">Google Play ಸೇವೆಗಳ ದೋಷ</string>
+    <string name="common_google_play_services_unknown_issue">Google Play ಸೇವೆಗಳಲ್ಲಿ %1$s ಸಮಸ್ಯೆಯನ್ನು ಹೊಂದಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="common_google_play_services_unsupported_text">ನಿಮ್ಮ ಸಾಧನದ ಮೂಲಕ ಬೆಂಬಲಿಸದಿರುವ Google Play ಸೇವೆಗಳಿಲ್ಲದೆ %1$s ರನ್‌ ಆಗುವುದಿಲ್ಲ.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">ಅಪ್‌ಡೇಟ್‌ ಮಾಡಿ</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">ನೀವು Google Play ಸೇವೆಗಳನ್ನು ಅಪ್‍ಡೇಟ್ ಮಾಡದ ಹೊರತು %1$s ರನ್ ಆಗುವುದಿಲ್ಲ.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google ಪ್ಲೇ ಸೇವೆಗಳನ್ನು ಅಪ್‌ಡೇಟ್‌ ಮಾಡಿ</string>
+    <string name="common_google_play_services_updating_text">Google Play ಸೇವೆಗಳಿಲ್ಲದೆ ಪ್ರಸ್ತುತ ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತಿರುವ %1$s ರನ್ ಆಗುವುದಿಲ್ಲ.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play ಸೇವೆಗಳ ಹೊಸ ಆವೃತ್ತಿ ಅಗತ್ಯವಿದೆ. ಸದ್ಯದಲ್ಲೇ ಅದು ತಾನಾಗಿಯೇ ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತದೆ.</string>
+    <string name="common_open_on_phone">ಫೋನ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ</string>
+    <string name="common_signin_button_text">ಸೈನ್ ಇನ್</string>
+    <string name="common_signin_button_text_long">Google ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡಿ</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ಲಿಂಕ್ ಅನ್ನು ನಕಲಿಸಲಾಗಿದೆ"</string>
+    <string name="duration_few_seconds">ಕೆಲವು ಸೆಕೆಂಡುಗಳು</string>
+    <string name="error_icon_content_description">ದೋಷ</string>
+    <string name="exposed_dropdown_menu_content_description">ಡ್ರಾಪ್‌ಡೌನ್ ಮೆನು ತೋರಿಸಿ</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"ಲಿಂಕ್ ನಕಲಿಸಿ"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ಬ್ರೌಸರ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"ಲಿಂಕ್ ಹಂಚಿರಿ"</string>
+    <string name="icon_content_description">ಡೈಲಾಗ್ ಐಕಾನ್</string>
+    <string name="item_view_role_description">ಟ್ಯಾಬ್</string>
+    <string name="live_chat_no_application_to_handle_uri">ಈ ವೆಬ್ ಪುಟವನ್ನು ತೆರೆಯಲು ನೀವು ಅಪ್ಲಿಕೇಶನ್ ಹೊಂದಿಲ್ಲ</string>
+    <string name="livechat.article.title">ಜ್ಞಾನ ಕೇಂದ್ರ</string>
+    <string name="livechat.bot.action.pending.wait">ದಯವಿಟ್ಟು ಕಾಯಿರಿ.</string>
+    <string name="livechat.bot.connectwithhuman">ಮಾನವರ ಸಹಾಯ ಬೇಕಾಗಿದೆಯೇ?</string>
+    <string name="livechat.bot.input.hint">ಮೇಲಿನ ಇನ್‌ಪುಟ್‌ನಿಂದ ಆರಿಸಿ</string>
+    <string name="livechat.chat.queue.banner.calculating">ಕಾಯುವ ಸಮಯವನ್ನು ಲೆಕ್ಕಾಚಾರ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+    <string name="livechat.chat.queue.banner.position.subtitle">ಸ್ಪಾಟ್ ಮಾಡಿ</string>
+    <string name="livechat.chat.queue.banner.timeremaining">ಅಂದಾಜು ಕಾಯುವ ಸಮಯ ಸುಮಾರು ~%1$s</string>
+    <string name="livechat.chat.queue.banner.title">ನೀವು ಚಾಟ್ ಸರದಿಯಲ್ಲಿದ್ದೀರಿ</string>
+    <string name="livechat.chat.sender.profanity.alert">ನಿಂದನೆ ಎಚ್ಚರಿಕೆ</string>
+    <string name="livechat.common.article">ಲೇಖನ</string>
+    <string name="livechat.common.loading">ಲೋಡ್ ಆಗುತ್ತಿದೆ...</string>
+    <string name="livechat.common.no">ಇಲ್ಲ</string>
+    <string name="livechat.common.nointernet">ದಯವಿಟ್ಟು ನಿಮ್ಮ ಇಂಟರ್‌ನೆಟ್ ಸಂಪರ್ಕವನ್ನು ಪರೀಕ್ಷಿಸಿ.</string>
+    <string name="livechat.common.ok">ಸರಿ</string>
+    <string name="livechat.common.yes">ಹೌದು</string>
+    <string name="livechat.conversation.emptystate">ಊಪ್ಸ್! ನೀವು ಇನ್ನೂ ಯಾವುದೇ ಸಂಭಾಷಣೆಗಳನ್ನು ಹೊಂದಿಲ್ಲ ಎಂಬಂತೆ ಕಾಣುತ್ತಿದೆ! ನಮ್ಮ ತಜ್ಞರೊಂದಿಗೆ ಸಂಪರ್ಕ ಹೊಂದಲು ನೀವು ಒಂದು ಕ್ಲಿಕ್ ಅಂತರದಲ್ಲಿದ್ದೀರಿ ಎನ್ನುವುದು ನಿಮಗೆ ತಿಳಿದಿದೆಯೇ?</string>
+    <string name="livechat.conversation.endchat.timer">ಚಾಟ್ ಸೆಷನ್ %1$s ನಲ್ಲಿ ಮುಕ್ತಾಯವಾಗಲಿದೆ</string>
+    <string name="livechat.conversation.filetype.audio">ಆಡಿಯೊ</string>
+    <string name="livechat.conversation.filetype.image">ಚಿತ್ರ</string>
+    <string name="livechat.conversation.filetype.others">ಫೈಲ್</string>
+    <string name="livechat.conversation.filetype.video">ವೀಡಿಯೋ</string>
+    <string name="livechat.conversation.in.dept">%1$s ನಲ್ಲಿ</string>
+    <string name="livechat.conversation.search.emptystate">ಊಪ್ಸ್! ನೀವು ಈಗಷ್ಟೇ ನಮೂದಿಸಿದ ಪದಕ್ಕೆ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಯಾವುದೇ ಸಂಭಾಷಣೆಗಳು ಹೋಲಿಕೆಯಾಗುತ್ತಿಲ್ಲ ಎಂಬಂತೆ ಕಾಣುತ್ತಿದೆ. ಬಹುಶಃ ಇನ್ನೊಂದು ಪ್ರಶ್ನೆಯನ್ನು ಪ್ರಯತ್ನಿಸಿ!</string>
+    <string name="livechat.conversation.startchat">ಚಾಟ್ ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="livechat.conversation.status">ತೆರೆಯಿರಿ</string>
+    <string name="livechat.conversation.subtitle.missed">ಯಾವುದೇ ಆಪರೇಟರ್ ಲಭ್ಯರಿಲ್ಲ</string>
+    <string name="livechat.conversation.subtitle.queue.position">ಸರದಿಯಲ್ಲಿ ಸ್ಪಾಟ್ ಮಾಡಿ: %1$s</string>
+    <string name="livechat.conversation.subtitle.waiting.details">ನಿಮ್ಮ ವಿವರಗಳಿಗಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ</string>
+    <string name="livechat.conversation.title">ಸಂಭಾಷಣೆಗಳು</string>
+    <string name="livechat.conversation.with.attender"> %1$s ಜೊತೆಗೆ</string>
+    <string name="livechat.day.evening">ಸಂಜೆ</string>
+    <string name="livechat.day.friday">ಶುಕ್ರವಾರ</string>
+    <string name="livechat.day.monday">ಸೋಮವಾರ</string>
+    <string name="livechat.day.morning">ಬೆಳಗ್ಗೆ</string>
+    <string name="livechat.day.night">ರಾತ್ರಿ</string>
+    <string name="livechat.day.noon">ಮಧ್ಯಾಹ್ನ</string>
+    <string name="livechat.day.saturday">ಶನಿವಾರ</string>
+    <string name="livechat.day.sunday">ಭಾನುವಾರ</string>
+    <string name="livechat.day.thursday">ಗುರುವಾರ</string>
+    <string name="livechat.day.today">ಇಂದು</string>
+    <string name="livechat.day.tuesday">ಮಂಗಳವಾರ</string>
+    <string name="livechat.day.wednesday">ಬುಧವಾರ</string>
+    <string name="livechat.day.yesterday">ನಿನ್ನೆ</string>
+    <string name="livechat.feedback.ask.rating">ನಿಮ್ಮೊಂದಿಗೆ ಇಂದು ಚಾಟ್ ಮಾಡುತ್ತಿರುವುದು ಸಂತಸ ತಂದಿದೆ. ನಮಗೆ ನಿಮ್ಮ “ರೇಟಿಂಗ್” ನೀಡಲು ದಯವಿಟ್ಟು ಒಂದು ಕ್ಷಣ ತೆಗೆದುಕೊಳ್ಳಿ.</string>
+    <string name="livechat.feedback.button.msg">ಪ್ರತಿಕ್ರಿಯೆ ಕಳುಹಿಸಿ</string>
+    <string name="livechat.feedback.hint">ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಇಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ…</string>
+    <string name="livechat.feedback.rate.happy">ವಾವ್, ಧನ್ಯವಾದಗಳು!  ನಿಮಗೆ ಸಹಾಯ ಮಾಡಲು ನಾವು ಸಂತಸಪಡುತ್ತೇವೆ</string>
+    <string name="livechat.feedback.rate.neutral">ರೇಟಿಂಗ್‌ಗೆ ಧನ್ಯವಾದಗಳು! ಯಾವುದೇ ಸಹಾಯಕ್ಕಾಗಿ ನಮಗೆ ಕರೆ ಮಾಡಲು ಹಿಂಜರಿಯಬೇಡಿ.</string>
+    <string name="livechat.feedback.rate.sad">ನಾವು ನಿಮಗೆ ಸಹಾಯ ಮಾಡಲು ಸಾಧ್ಯವಾಗದ್ದಕ್ಕಾಗಿ ವಿಷಾದಿಸುತ್ತೇವೆ. ನಾವು ನಮ್ಮ ಬೆಂಬಲವನ್ನು ಸುಧಾರಿಸುತ್ತೇವೆ.</string>
+    <string name="livechat.feedback.submit">ಸಲ್ಲಿಸಿ</string>
+    <string name="livechat.feedback.thankingmsg">ನಿಮ್ಮ ಅಮೂಲ್ಯ ಪ್ರತಿಕ್ರಿಯೆಗೆ ಧನ್ಯವಾದಗಳು.</string>
+    <string name="livechat.feedback.title">ನಮ್ಮೊಂದಿಗೆ ನಿಮ್ಮ ಸಂಭಾಷಣೆ ಅನುಭವ ಹೇಗಿತ್ತು?</string>
+    <string name="livechat.gdpr.chatconsent">ಸ್ವೀಕರಿಸುತ್ತೇನೆ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ, ಡಾಕ್ಯುಮೆಂಟ್‌ನಲ್ಲಿ ಸೂಚಿಸಿರುವ ನಮ್ಮ ಎಲ್ಲ ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳಿಗೆ ನೀವು ಒಪ್ಪುತ್ತೀರಿ.</string>
+    <string name="livechat.gdpr.chatconsent.accept">ಸ್ವೀಕರಿಸಿ</string>
+    <string name="livechat.gdpr.chatconsent.decline">ತಿರಸ್ಕರಿಸಿ</string>
+    <string name="livechat.gdpr.chatconsent.title">ಚಾಟ್ ಸಮ್ಮತಿ</string>
+    <string name="livechat.gdpr.creditcardmask">ನಿಮ್ಮ ಕಾರ್ಡ್ ಸಂಖ್ಯೆ ಸಾಕಷ್ಟು ಸೂಕ್ಷ್ಮ ಡೇಟಾ ಆಗಿರುವುದರಿಂದ, ನಿಮ್ಮ ಕಾರ್ಡ್ ಸಂಖ್ಯೆಯ ಮೊದಲ 12 ಅಂಕಿಗಳನ್ನು ನಾವು ಮಾಸ್ಕ್ ಮಾಡಬೇಕು ಎಂದು ನೀವು ಬಯಸುತ್ತೀರಾ?</string>
+    <string name="livechat.gdpr.creditcardmask.cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="livechat.gdpr.creditcardmask.ok">ಮಾಸ್ಕ್ ಮಾಡಿ</string>
+    <string name="livechat.gdpr.emailconfirm">ನೀವು ಈ ಚಾಟ್ ಪ್ರತಿಲಿಪಿಯನ್ನು %1$s ಜೊತೆಗೆ ಹಂಚಿಕೊಳ್ಳಲಿದ್ದೀರಿ.</string>
+    <string name="livechat.gdpr.emailconfirm.change">ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ಬದಲಿಸಿ</string>
+    <string name="livechat.gdpr.emailconfirm.send">ಕಳುಹಿಸಿ</string>
+    <string name="livechat.gdpr.googletranslate.concent">ಈ ಸೇವೆಯು Google ನಿಂದ ಸಂಚಾಲಿತವಾದ ಅನುವಾದಗಳನ್ನು ಒಳಗೊಂಡಿರಬಹುದು. ನಿಖರತೆ, ವಿಶ್ವಾಸಾರ್ಹತೆಯ ಯಾವುದೇ ವಾರಂಟಿಗಳು ಹಾಗೂ ನಿರ್ದಿಷ್ಟ ಉದ್ದೇಶ ಮತ್ತು ಉಲ್ಲಂಘನೆ ಮಾಡದಿರುವಿಕೆಗಾಗಿ ವ್ಯಾಪಾರಾರ್ಹತೆ, ಸದೃಢತೆಯ ಯಾವುದೇ ಸೂಚ್ಯ ವಾರಂಟಿಗಳು ಸೇರಿದಂತೆ, ಸ್ಪಷ್ಟ ಅಥವಾ ಸೂಚ್ಯವಾದ, ಅನುವಾದಗಳಿಗೆ ಸಂಬಂಧಿಸಿದ ಎಲ್ಲ ವಾರಂಟಿಗಳನ್ನು Google ಹಕ್ಕುನಿರಾಕರಣೆ ಮಾಡುತ್ತದೆ.</string>
+    <string name="livechat.gdpr.googletranslate.concent.title">ಅನುವಾದ ಸಮ್ಮತಿ</string>
+    <string name="livechat.gdpr.learnmore">ಇನ್ನಷ್ಟು ತಿಳಿದುಕೊಳ್ಳಿ</string>
+    <string name="livechat.gdpr.trackingconsent.donttrack">ಟ್ರ್ಯಾಕ್ ಮಾಡಬೇಡಿ</string>
+    <string name="livechat.gdpr.trackingconsent.gotit">ಅರ್ಥವಾಯಿತು!</string>
+    <string name="livechat.gdpr.trackingconsent.notify">ನಮಸ್ಕಾರ! ನಿಮ್ಮ ಆ್ಯಪ್‌ನಲ್ಲಿನ ಅನುಭವವನ್ನು ಸುಧಾರಿಸಲು ನಮ್ಮ ಆ್ಯಪ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಚಟುವಟಿಕೆಗಳನ್ನು ನಾವು ಟ್ರ್ಯಾಕ್ ಮಾಡುತ್ತೇವೆ.</string>
+    <string name="livechat.gdpr.trackingconsent.notifywithoptout">ನಮಸ್ಕಾರ! ನಿಮ್ಮ ಆ್ಯಪ್‌ನಲ್ಲಿನ ಅನುಭವವನ್ನು ಸುಧಾರಿಸಲು ನಮ್ಮ ಆ್ಯಪ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಚಟುವಟಿಕೆಗಳನ್ನು ನಾವು ಟ್ರ್ಯಾಕ್ ಮಾಡುತ್ತೇವೆ. ಆದರೆ ಒಂದು ವೇಳೆ ನೀವು ಇದರಿಂದ ಹೊರಗುಳಿಯಲು ಬಯಸಿದರೆ, “ಟ್ರ್ಯಾಕ್ ಮಾಡಬೇಡಿ” ಅಯ್ಕೆ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.</string>
+    <string name="livechat.message.download">ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ</string>
+    <string name="livechat.message.input.hint">ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ಇಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ…</string>
+    <string name="livechat.message.noresults">ಯಾವುದೇ ಫಲಿತಾಂಶಗಳು ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="livechat.message.saved">ಉಳಿಸಲಾಗಿದೆ</string>
+    <string name="livechat.message.search">ಹುಡುಕಿ</string>
+    <string name="livechat.message.status.copy">ನಕಲಿಸಿ</string>
+    <string name="livechat.message.status.delete">ಅಳಿಸಿ</string>
+    <string name="livechat.message.status.resend">ಮರುಕಳುಹಿಸಿ</string>
+    <string name="livechat.message.status.sending">ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ</string>
+    <string name="livechat.message.status.sent">ಕಳುಹಿಸಲಾಗಿದೆ</string>
+    <string name="livechat.message.time.justnow">ಈಗ ತಾನೆ</string>
+    <string name="livechat.message.timedout">ಸಮಯ ಮೀರಿದೆ</string>
+    <string name="livechat.message.typingindicator">ಟೈಪ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
+    <string name="livechat.message.waitingforconnection">ನೆಟ್‌ವರ್ಕ್‌ ಸಂಪರ್ಕಕ್ಕಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ</string>
+    <string name="livechat.messages.action.copy.success">ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ</string>
+    <string name="livechat.messages.alert.chatreqfailure">ಊಪ್ಸ್! ಏನೋ ತಪ್ಪಾಗಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="livechat.messages.alert.upload.filesizeexceed">ಗರಿಷ್ಠ ಅಪ್‌ಲೋಡ್ ಗಾತ್ರ ಮೀರಿದೆ</string>
+    <string name="livechat.messages.attachment.notopen">ಈ ಫಾರ್ಮ್ಯಾಟ್‌ನ ಫೈಲ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸುವ ಒಂದು ಆ್ಯಪ್ ಅನ್ನು ನಿಮ್ಮ ಸಾಧನ ಹೊಂದಿಲ್ಲದಿರುವುದರಿಂದ, ಲಗತ್ತನ್ನು ತೆರೆಯಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ!</string>
+    <string name="livechat.messages.camera.notopen">ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಕ್ಯಾಮರಾ ಇಲ್ಲದಿರುವುದರಿಂದ, ಕ್ಯಾಮರಾ ತೆರೆಯಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ</string>
+    <string name="livechat.messages.continuechat.info">ನಮ್ಮೊಂದಿಗೆ ನಿಮ್ಮ ಚಾಟ್ ಸೆಷನ್ ಮುಕ್ತಾಯಗೊಂಡಿದೆ. ಸ್ಪಷ್ಟನೆ ಬೇಕಾಗಿರುವ ಇನ್ನೂ ಯಾವುದಾದರೂ ಪ್ರಶ್ನೆಗಳಿವೆಯೇ? ನಮ್ಮೊಂದಿಗೆ ಚಾಟ್ ಮಾಡಲು ಮುಂದುವರಿಸಿ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.</string>
+    <string name="livechat.messages.department">ಒಂದು ಇಲಾಖೆ ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="livechat.messages.email.dialog.title">ನಿಮ್ಮ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="livechat.messages.email.failure">ಮೇಲ್ ಕಳುಹಿಸುವಿಕೆ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="livechat.messages.email.send">ಕಳುಹಿಸಿ</string>
+    <string name="livechat.messages.email.success">ಮೇಲ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಕಳುಹಿಸಲಾಗಿದೆ</string>
+    <string name="livechat.messages.email.title">ಚಾಟ್ ಪ್ರತಿಲಿಪಿಯನ್ನು ಇಮೇಲ್ ಮಾಡಿ</string>
+    <string name="livechat.messages.email.wrong">ಮಾನ್ಯವಾದ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="livechat.messages.endchat.confirmation">ನೀವು ಈ ಚಾಟ್ ಮುಕ್ತಾಯಗೊಳಿಸಲು ಬಯಸುತ್ತೀರಾ?</string>
+    <string name="livechat.messages.endchattimer">ಚಾಟ್ ಸೆಷನ್ %1$s ಸೆಕೆಂಡ್‌ಗಳಲ್ಲಿ ಮುಕ್ತಾಯವಾಗಲಿದೆ</string>
+    <string name="livechat.messages.file.defaultextn">ಫೈಲ್</string>
+    <string name="livechat.messages.form.alert.message">ಹೊಸ ಚಾಟ್ ಆರಂಭಿಸುವುದಕ್ಕೆ ಮೊದಲು ದಯವಿಟ್ಟು ಹಿಂದಿನ ಚಾಟ್‌ನಲ್ಲಿ ಫಾರ್ಮ್ ಪೂರ್ಣಗೊಳಿಸಿ!</string>
+    <string name="livechat.messages.info.acceptforward">ಚಾಟ್ ಅನ್ನು %1$s ಗೆ ಯಶಸ್ವಿಯಾಗಿ ಫಾರ್ವರ್ಡ್ ಮಾಡಲಾಗಿದೆ.</string>
+    <string name="livechat.messages.info.agenttransfer">%1$s ಚಾಟ್ ಅನ್ನು %2$s ಗೆ ವರ್ಗಾಯಿಸುತ್ತಿದ್ದಾರೆ.</string>
+    <string name="livechat.messages.info.endchat">ಸೆಷನ್ ಮುಕ್ತಾಯವಾಗಿದೆ</string>
+    <string name="livechat.messages.info.forward">%1$s ಚಾಟ್ ಅನ್ನು ಫಾರ್ವರ್ಡ್ ಮಾಡುತ್ತಿದ್ದಾರೆ</string>
+    <string name="livechat.messages.info.missedchat">ನಾವು ನಿಮ್ಮ ಚಾಟ್ ವಿನಂತಿಯನ್ನು ತಪ್ಪಿಸಿಕೊಂಡೆವು</string>
+    <string name="livechat.messages.info.operator.joined">%1$s ಈ ಸಂಭಾಷಣೆಗೆ ಸೇರಿದ್ದಾರೆ.</string>
+    <string name="livechat.messages.info.reopen">ನೀವು ಚಾಟ್ ಅನ್ನು ಮರುತೆರೆದಿದ್ದೀರಿ</string>
+    <string name="livechat.messages.info.transfer.accept">ಚಾಟ್ ವರ್ಗಾಯಿಸಲಾಗಿದೆ. ನಮಸ್ಕಾರ, %1$s!! ನಿಮಗೆ ಇನ್ನಷ್ಟು ಸಹಾಯ ಮಾಡಲು ನಾನು ಸಂತೋಷಪಡುತ್ತೇನೆ.</string>
+    <string name="livechat.messages.offline">ಸದ್ಯಕ್ಕೆ ನಾವು ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತಿಲ್ಲ. ದಯವಿಟ್ಟು ನಮಗಾಗಿ ಒಂದು ಸಂದೇಶ ಉಳಿಸಿ ಮತ್ತು ಸಾಧ್ಯವಾದಷ್ಟು ಶೀಘ್ರ ನಾವು ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸುತ್ತೇವೆ.</string>
+    <string name="livechat.messages.operator.typing">ಟೈಪ್ ಮಾಡಲಾಗುತ್ತಿದೆ...</string>
+    <string name="livechat.messages.option.endchat">ಸೆಷನ್ ಮುಕ್ತಾಯಗೊಳಿಸಿ</string>
+    <string name="livechat.messages.option.sharefile">ಫೈಲ್ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="livechat.messages.option.takephoto">ಫೊಟೋ ತೆಗೆದುಕೊಳ್ಳಿ</string>
+    <string name="livechat.messages.option.takescreenshot">ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ತೆಗೆದುಕೊಳ್ಳಿ</string>
+    <string name="livechat.messages.prechatform.conversation.campaign">ನೀವು ನಮ್ಮ ವಾರ್ತಾಪತ್ರಕ್ಕೆ ಸಬ್‌ಸ್ಕ್ರೈಬ್ ಮಾಡಲು ಬಯಸುತ್ತೀರಾ?</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.no">ಇಲ್ಲ</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.yes">ಖಂಡಿತ</string>
+    <string name="livechat.messages.prechatform.conversation.dept">ದಯವಿಟ್ಟು ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು ಯಾವ ಇಲಾಖೆಗೆ ರೂಟ್ ಮಾಡಬೇಕು ಎನ್ನುವುದನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="livechat.messages.prechatform.conversation.email">ನಾವು ನಿಮಗೆ ಎಲ್ಲಿಗೆ ಇಮೇಲ್ ಕಳುಹಿಸಬಹುದು?</string>
+    <string name="livechat.messages.prechatform.conversation.name">ನಿಮ್ಮನ್ನು ಹೇಗೆ ಸಂಬೋಧಿಸಬೇಕು ಎಂದು ಬಯಸುತ್ತೀರಿ?</string>
+    <string name="livechat.messages.prechatform.conversation.phone">ನಾವು ನಿಮ್ಮ ಸಂಪರ್ಕ ಸಂಖ್ಯೆಯನ್ನು ಹೊಂದಬಹುದೇ?</string>
+    <string name="livechat.messages.prechatform.inline.button">ಫಾರ್ಮ್ ಭರ್ತಿ ಮಾಡಿ</string>
+    <string name="livechat.messages.prechatform.inline.message">ಚಾಟ್ ಆರಂಭಿಸಲು ದಯವಿಟ್ಟು ನಮಗೆ ಒಂದಿಷ್ಟು ವಿವರ ಒದಗಿಸಿ.</string>
+    <string name="livechat.messages.prechatform.introduction.greeting.message">ನಾವು ಯಾರೊಂದಿಗೆ ಮಾತನಾಡುತ್ತಿದ್ದೇವೆ ಎಂದು ತಿಳಿಯಲು ನಮಗೆ ಸಹಾಯ ಮಾಡಿ.</string>
+    <string name="livechat.messages.prechatform.introduction.name">ಆಪರೇಟರ್</string>
+    <string name="livechat.messages.prechatform.traditional.campaign.label">ನೀವು ನಮ್ಮ ವಾರ್ತಾಪತ್ರಕ್ಕೆ ಸಬ್‌ಸ್ಕ್ರೈಬ್ ಮಾಡಲು ಬಯಸುತ್ತೀರಾ?</string>
+    <string name="livechat.messages.prechatform.traditional.department.label">ಇಲಾಖೆ</string>
+    <string name="livechat.messages.prechatform.traditional.dept.error">ಮಾನ್ಯವಾದ ಇಲಾಖೆಯನ್ನು ಆರಿಸಿ</string>
+    <string name="livechat.messages.prechatform.traditional.dept.hint">ಒಂದು ಇಲಾಖೆ ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="livechat.messages.prechatform.traditional.email.error">ಮಾನ್ಯವಾದ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="livechat.messages.prechatform.traditional.email.hint">ನಿಮ್ಮ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="livechat.messages.prechatform.traditional.email.label">ಇಮೇಲ್</string>
+    <string name="livechat.messages.prechatform.traditional.name.error">ಮಾನ್ಯವಾದ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="livechat.messages.prechatform.traditional.name.hint">ನಿಮ್ಮ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="livechat.messages.prechatform.traditional.name.label">ಹೆಸರು</string>
+    <string name="livechat.messages.prechatform.traditional.phone.error">ಮಾನ್ಯವಾದ ಸಂಪರ್ಕ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="livechat.messages.prechatform.traditional.phone.hint">ನಿಮ್ಮ ಸಂಪರ್ಕ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="livechat.messages.prechatform.traditional.phone.label">ಫೋನ್</string>
+    <string name="livechat.messages.prechatform.traditional.question.error">ಒಂದು ಪ್ರಶ್ನೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="livechat.messages.record.slidetocancel">ರದ್ದು ಮಾಡಲು ಸ್ಲೈಡ್ ಮಾಡಿ</string>
+    <string name="livechat.messages.sharefile.ques">ಒಂದು ಫೈಲ್‌ ಹಂಚಿಕೊಂಡಿದ್ದಾರೆ</string>
+    <string name="livechat.messages.shareimage">ಚಿತ್ರ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="livechat.messages.sharescreenshot">ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="livechat.messages.title">ಈಗ ನಮ್ಮೊಂದಿಗೆ ಚಾಟ್ ಮಾಡಿ!</string>
+    <string name="livechat.messages.you">ನೀವು</string>
+    <string name="livechat.notification.messages.shared.file">%1$s ನಿಮಗೆ ಒಂದು ಫೈಲ್‌ ಅನ್ನು ಕಳುಹಿಸಿದ್ದಾರೆ</string>
+    <string name="livechat.notification.messages.shared.image">%1$s ನಿಮಗೆ ಒಂದು ಚಿತ್ರವನ್ನು ಕಳುಹಿಸಿದ್ದಾರೆ</string>
+    <string name="livechat.notification.messages.shared.video">%1$s ನಿಮಗೆ ಒಂದು ವೀಡಿಯೊವನ್ನು ಕಳುಹಿಸಿದ್ದಾರೆ</string>
+    <string name="livechat.operator.waiting.response">ಆಪರೇಟರ್ ಸದ್ಯದಲ್ಲೇ ಸೇರ್ಪಡೆಯಾಗಲಿದ್ದಾರೆ</string>
+    <string name="livechat.permission.camera">ಒಂದು ಚಿತ್ರ ತೆಗೆದುಕೊಳ್ಳಲು, ನಿಮ್ಮ ಸಾಧನದ ಕ್ಯಾಮರಾಗೆ ಪ್ರವೇಶ ಅನುಮತಿಸಿ.</string>
+    <string name="livechat.permission.file">ಒಂದು ಫೈಲ್ ಕಳುಹಿಸಲು, ನಿಮ್ಮ ಸಾಧನದ ಶೇಖರಣೆಗೆ ಪ್ರವೇಶ ಅನುಮತಿಸಿ.</string>
+    <string name="livechat.permission.locationdenied">ಸ್ಥಳ ಅನುಮತಿಯನ್ನು ನಿರಾಕರಿಸಲಾಗಿದೆ.</string>
+    <string name="livechat.permission.microphone">ಧ್ವನಿ ಸಂದೇಶಗಳನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಲು ಮತ್ತು ಕಳುಹಿಸಲು ನಿಮ್ಮ ಸಾಧನದ ಮೈಕ್ರೋಫೋನ್‌ಗೆ ಅವಕಾಶ ನೀಡಿ.</string>
+    <string name="livechat.permission.negative">ಈಗ ಬೇಡ</string>
+    <string name="livechat.permission.positive">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="livechat.permission.storagedenied">ಶೇಖರಣೆ ಅನುಮತಿಯನ್ನು ನಿರಾಕರಿಸಲಾಗಿದೆ.</string>
+    <string name="livechat.prechatform.submit">ಸಲ್ಲಿಸಿ</string>
+    <string name="livechat.rating.skip">ಸ್ಕಿಪ್ ಮಾಡಿ</string>
+    <string name="livechat.reopen.title">ಚಾಟ್ ಮರುತೆರೆಯಿರಿ</string>
+    <string name="livechat.requestlog.info">ಆಪರೇಟರ್ ನಿಮ್ಮ ಆ್ಯಪ್ ಲಾಗ್‌ಗೆ ಪ್ರವೇಶ ವಿನಂತಿಸಿದ್ದಾರೆ</string>
+    <string name="livechat.requestlog.negative.button">ರದ್ದುಮಾಡಿ</string>
+    <string name="livechat.requestlog.positive.button">ಕಳುಹಿಸಿ</string>
+    <string name="livechat.requestlog.title">ಆ್ಯಪ್ ಲಾಗ್</string>
+    <string name="livechat.widgets.articles.related">ಸಂಬಂಧಿಸಿದ ಲೇಖನಗಳು:</string>
+    <string name="livechat.widgets.calendar.fromdate">ರಿಂದ ದಿನಾಂಕ</string>
+    <string name="livechat.widgets.calendar.fromtime">ರಿಂದ ಸಮಯ</string>
+    <string name="livechat.widgets.calendar.schedule">ಈಗ ಶೆಡ್ಯೂಲ್ ಮಾಡಿ</string>
+    <string name="livechat.widgets.calendar.setdate">ಒಂದು ದಿನಾಂಕವನ್ನು ಆರಿಸಿ</string>
+    <string name="livechat.widgets.calendar.settime">ಒಂದು ಸಮಯ ಆರಿಸಿ</string>
+    <string name="livechat.widgets.calendar.timezone">ಸಮಯ ವಲಯ</string>
+    <string name="livechat.widgets.calendar.todate">ವರೆಗೆ ದಿನಾಂಕ</string>
+    <string name="livechat.widgets.calendar.totime">ಗೆ ಸಮಯ</string>
+    <string name="livechat.widgets.done">ಮುಗಿದಿದೆ</string>
+    <string name="livechat.widgets.input.password.error">ಮಾನ್ಯ ಮೌಲ್ಯವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="livechat.widgets.input.phone.search.hint">ದೇಶ ಹುಡುಕಿ</string>
+    <string name="livechat.widgets.input.url.error">ಮಾನ್ಯವಾದ URL ನಮೂದಿಸಿ</string>
+    <string name="livechat.widgets.location.accuracy">%1$d ಮೀಟರ್‌ಗಳಿಗೆ ನಿಖರವಾಗಿದೆ</string>
+    <string name="livechat.widgets.location.radius.float">%1$.1f ಕಿಮೀಗಳು</string>
+    <string name="livechat.widgets.location.radius.integer">%1$d ಕಿಮೀಗಳು</string>
+    <string name="livechat.widgets.location.select">ಒಂದು ಸ್ಥಳವನ್ನು ಆರಿಸಿ</string>
+    <string name="livechat.widgets.location.send.current">ಪ್ರಸ್ತುತ ಸ್ಥಳವನ್ನು ಕಳುಹಿಸಿ</string>
+    <string name="livechat.widgets.location.send.selected">ಆಯ್ಕೆ ಮಾಡಿದ ಸ್ಥಳವನ್ನು ಕಳುಹಿಸಿ</string>
+    <string name="livechat.widgets.location.suggestions">ಸಲಹೆಗಳು</string>
+    <string name="livechat.widgets.rating.dislike">ಇಷ್ಟವಿಲ್ಲ</string>
+    <string name="livechat.widgets.rating.happy.angry">ಕೋಪ</string>
+    <string name="livechat.widgets.rating.happy.excited">ಅದ್ಭುತ</string>
+    <string name="livechat.widgets.rating.happy.happy">ಉತ್ತಮ</string>
+    <string name="livechat.widgets.rating.happy.neutral">ತಟಸ್ಥ</string>
+    <string name="livechat.widgets.rating.happy.sad">ದುಃಖ</string>
+    <string name="livechat.widgets.rating.like">ಲೈಕ್ ಮಾಡಿ</string>
+    <string name="livechat.widgets.select.limit.exceed">ಬಹು ಆಯ್ಕೆ ಮಿತಿ ತಲುಪಿದೆ</string>
+    <string name="livechat.widgets.skip">ಸ್ಕಿಪ್ ಮಾಡಿ</string>
+    <string name="livechat.widgets.timeslot.button">ಒಂದು ಸಮಯ ಸ್ಲಾಟ್ ಆರಿಸಿ</string>
+    <string name="livechat.widgets.timezone.current">%1$s (ಪ್ರಸ್ತುತ)</string>
+    <string name="livechat_conversation_filetype_gif">GIF</string>
+    <string name="livechat_permission_camera_denied">ಕ್ಯಾಮರಾ ಅನುಮತಿಗಳನ್ನು ನಿರಾಕರಿಸಲಾಗಿದೆ.</string>
+    <string name="livechat_permission_location">ನಿಮ್ಮ ಸ್ಥಳ ಅಥವಾ ಸಮೀಪದ ಸ್ಥಳವನ್ನು ಹಂಚಿಕೊಳ್ಳಲು, ನಿಮ್ಮ ಸ್ಥಳ ಪ್ರವೇಶಿಸಲು %1$s ಗೆ ಅನುಮತಿಸಿ.</string>
+    <string name="livechat_permission_microphone_denied">ಮೈಕ್ರೋಫೋನ್ ಅನುಮತಿಯನ್ನು ನಿರಾಕರಿಸಲಾಗಿದೆ.</string>
+    <string name="material_clock_toggle_content_description">ಬೆಳಿಗ್ಗೆ ಅಥವಾ ಮಧ್ಯಾಹ್ನ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="material_hour_24h_suffix">%1$s ಗಂಟೆಗಳು</string>
+    <string name="material_hour_selection">ಸಮಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="material_hour_suffix">%1$s ಗಂಟೆ</string>
+    <string name="material_minute_selection">ನಿಮಿಷಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="material_minute_suffix">%1$s ನಿಮಿಷಗಳು</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">ಸಮಯವನ್ನು ನಮೂದಿಸಲು ಗಡಿಯಾರದ ನಮೂನೆಗೆ ಬದಲಿಸಿ.</string>
+    <string name="material_timepicker_hour">ಗಂಟೆ</string>
+    <string name="material_timepicker_minute">ನಿಮಿಷ</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">ಸಮಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="material_timepicker_text_input_mode_description">ಸಮಯವನ್ನು ನಮೂದಿಸಲು ಪಠ್ಯದ ನಮೂನೆಗೆ ಬದಲಿಸಿ.</string>
+    <string name="minimum_selection_is_required">ದಯವಿಟ್ಟು ಕನಿಷ್ಟ ಒಂದು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ</string>
+    <string name="minimum_selections_is_required">ಕನಿಷ್ಟ %1$d ಆಯ್ಕೆಗಳು ಅಗತ್ಯ ಇವೆ</string>
+    <string name="mobilisten_article_choose_a_department">ಇಲಾಖೆ ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="mobilisten_article_departments">ಇಲಾಖೆಗಳು</string>
+    <string name="mobilisten_article_has_been_deleted_or_disabled">ಲೇಖನ ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="mobilisten_article_no_views">ಯಾವುದೇ ವೀಕ್ಷಣೆಗಳಿಲ್ಲ</string>
+    <string name="mobilisten_articles_general_error">@string/mobilisten_general_failure_error</string>
+    <string name="mobilisten_chat_connected_to_operator_or_bot">%1$s ಗೆ ಸಂಪರ್ಕಿಸಲಾಗಿದೆ</string>
+    <string name="mobilisten_common_okay">ಸರಿ</string>
+    <string name="mobilisten_conversation_deleted">ಈ ಸಂಭಾಷಣೆಯನ್ನು ಆಪರೇಟರ್ ಅಳಿಸಿದ್ದಾರೆ</string>
+    <string name="mobilisten_conversation_error_access_denied_to_initiate_chat">ಚಾಟ್ ಆರಂಭಿಸಲು ಪ್ರವೇಶ ನಿರಾಕರಿಸಲಾಗಿದೆ</string>
+    <string name="mobilisten_conversation_error_email_field_is_mandatory">ಇಮೇಲ್ ಕ್ಷೇತ್ರ ಕಡ್ಡಾಯವಾಗಿದೆ</string>
+    <string name="mobilisten_conversation_error_error_unable_to_initiate_chat_outside_business_hours">ಆಫ್‌ಲೈನ್ ಸಮಯದ ಅವಧಿಯಲ್ಲಿ ಸಂಭಾಷಣೆಗಳನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ</string>
+    <string name="mobilisten_conversation_error_invalid_chat_user_id">ಅಮಾನ್ಯ ಸಂದರ್ಶಕ ಬಳಕೆದಾರ ID</string>
+    <string name="mobilisten_conversation_error_mentioned_department_is_not_mapped_to_the_brand">ಉಲ್ಲೇಖಿಸಿದ ಇಲಾಖೆ ಈ ಬ್ರ್ಯಾಂಡ್ ಜೊತೆಗೆ ಸಂಬಂಧಿಸಿಲ್ಲ</string>
+    <string name="mobilisten_conversation_error_name_field_is_mandatory">ಹೆಸರು ಕಡ್ಡಾಯವಾಗಿದೆ</string>
+    <string name="mobilisten_conversation_error_operation_not_available_for_mentioned_operator">ಈ ಆಪರೇಟರ್ ಚಾಟ್‌ಗೆ ಲಭ್ಯರಿಲ್ಲ</string>
+    <string name="mobilisten_conversation_error_phone_number_field_is_mandatory">ಫೋನ್ ಸಂಖ್ಯೆ ಕಡ್ಡಾಯವಾಗಿದೆ</string>
+    <string name="mobilisten_conversation_error_resource_limit_reached">ಪ್ರಸ್ತುತ ಪ್ಲ್ಯಾನ್‌ಗೆ ಸಂಪನ್ಮೂಲ ಮಿತಿ ತಲುಪಿದೆ</string>
+    <string name="mobilisten_conversation_general_error">ಸಂಭಾಷಣೆ ವಿವರಗಳನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ</string>
+    <string name="mobilisten_conversation_unavailable">ಚಾಟ್ ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="mobilisten_error_chat_transfer_already_in_progress_failure">ಚಾಟ್ ವರ್ಗಾವಣೆ ಈಗಾಗಲೇ ಪ್ರಗತಿಯಲ್ಲಿದೆ! ದಯವಿಟ್ಟು ಸ್ವಲ್ಪ ಸಮಯ ಕಾಯಿರಿ.</string>
+    <string name="mobilisten_error_chat_transfer_no_online_user_failure">ಕ್ಷಮಿಸಿ, ಇಲಾಖೆಯಲ್ಲಿ ಯಾವುದೇ ಆನ್‌ಲೈನ್ ಬಳಕೆದಾರರು ಲಭ್ಯರಿಲ್ಲ</string>
+    <string name="mobilisten_file_upload_size_limit_exceeded">ಗರಿಷ್ಠ ಫೈಲ್ ಗಾತ್ರ (50MB) ಮೀರಿದೆ.</string>
+    <string name="mobilisten_general_failure_error">ಓಹೋ ಏನೋ ತಪ್ಪಾಗಿದೆ. ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="mobilisten_load_more_messages">ಇನ್ನಷ್ಟು ಸಂದೇಶಗಳನ್ನು ಲೋಡ್ ಮಾಡಿ</string>
+    <string name="mobilisten_loading_messages">ಸಂದೇಶಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...</string>
+    <string name="mobilisten_notification_multiple_messages">%1$d ಹೊಸ ಸಂದೇಶಗಳು</string>
+    <string name="mobilisten_notification_single_message">%1$d ಹೊಸ ಸಂದೇಶ</string>
+    <string name="mobilisten_operator_has_requested_for_app_log">ಆಪರೇಟರ್ ಆ್ಯಪ್ ಲಾಗ್‌ಗಾಗಿ ವಿನಂತಿಸಿದ್ದಾರೆ.</string>
+    <string name="mobilisten_test_push_notifications">ಪುಶ್ ಅಧಿಸೂಚನೆಗಳನ್ನು ಪರೀಕ್ಷಿಸಿ</string>
+    <string name="mobilisten_unable_to_load_message_transcript">ಕ್ಷಮಿಸಿ, ಸಂದೇಶಗಳನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ</string>
+    <string name="mtrl_badge_numberless_content_description">ಹೊಸ ಅಧಿಸೂಚನೆ</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s ಅನ್ನು ತೆಗೆದುಹಾಕಿ</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d ಕ್ಕಿಂತ ಹೆಚ್ಚು ಹೊಸ ಅಧಿಸೂಚನೆಗಳು</string>
+    <string name="mtrl_picker_a11y_next_month">ಮುಂದಿನ ತಿಂಗಳಿಗೆ ಬದಲಿಸಿ</string>
+    <string name="mtrl_picker_a11y_prev_month">ಹಿಂದಿನ ತಿಂಗಳಿಗೆ ಬದಲಿಸಿ</string>
+    <string name="mtrl_picker_announce_current_selection">ಪ್ರಸ್ತುತ ಆಯ್ಕೆ: %1$s</string>
+    <string name="mtrl_picker_cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="mtrl_picker_confirm">ಸರಿ</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">ದಿನಾಂಕವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="mtrl_picker_date_header_unselected">ದಿನಾಂಕವನ್ನು ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ</string>
+    <string name="mtrl_picker_day_of_week_column_header">ದಿನಗಳ ಕಾಲಮ್: %1$s</string>
+    <string name="mtrl_picker_invalid_format">ಅಮಾನ್ಯವಾದ ಫಾರ್ಮ್ಯಾಟ್.</string>
+    <string name="mtrl_picker_invalid_format_example">ಉದಾಹರಣೆ: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">ಇದನ್ನು ಬಳಸಿ: %1$s</string>
+    <string name="mtrl_picker_invalid_range">ಅಮಾನ್ಯ ಶ್ರೇಣಿ.</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s ವರ್ಷಕ್ಕೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ</string>
+    <string name="mtrl_picker_out_of_range">ವ್ಯಾಪ್ತಿಯ ಹೊರಗಿದೆ: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">ಪ್ರಾರಂಭ ದಿನಾಂಕ – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – ಮುಕ್ತಾಯ ದಿನಾಂಕ</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">ಶ್ರೇಣಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="mtrl_picker_range_header_unselected">ಪ್ರಾರಂಭ ದಿನಾಂಕ – ಮುಕ್ತಾಯ ದಿನಾಂಕ</string>
+    <string name="mtrl_picker_save">ಉಳಿಸಿ</string>
+    <string name="mtrl_picker_text_input_date_hint">ದಿನಾಂಕ</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">ಮುಕ್ತಾಯ ದಿನಾಂಕ</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">ಪ್ರಾರಂಭ ದಿನಾಂಕ</string>
+    <string name="mtrl_picker_text_input_day_abbr">ದಿ</string>
+    <string name="mtrl_picker_text_input_month_abbr">ತಿ</string>
+    <string name="mtrl_picker_text_input_year_abbr">ವ</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">ಕ್ಯಾಲೆಂಡರ್ ಇನ್‌ಪುಟ್ ಮೋಡ್‌ಗೆ ಬದಲಿಸಿ</string>
+    <string name="mtrl_picker_toggle_to_day_selection">ದಿನವನ್ನು ಆಯ್ಕೆಗಾಗಿ ಬದಲಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">ಪಠ್ಯ ಇನ್‌ಪುಟ್ ಮೋಡ್‌ಗೆ ಬದಲಿಸಿ</string>
+    <string name="mtrl_picker_toggle_to_year_selection">ವರ್ಷವನ್ನು ಆಯ್ಕೆಗಾಗಿ ಬದಲಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+    <string name="mtrl_timepicker_cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="mtrl_timepicker_confirm">ಸರಿ</string>
+    <string name="password_toggle_content_description">ಪಾಸ್‌ವರ್ಡ್ ತೋರಿಸಿ</string>
+    <string name="salesiq.advertisebadge.content">SalesIQ Mobilisten ನಿಂದ ಸಂಚಾಲಿತವಾಗಿದೆ</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"ಹುಡುಕಿ"</string>
+    <string name="siq_articles_count_many">%1$d ಲೇಖನಗಳು</string>
+    <string name="siq_articles_count_single">1 ಲೇಖನ</string>
+    <string name="siq_articles_sub_categories_count_one">1 ಉಪ-ವರ್ಗ</string>
+    <string name="siq_articles_sub_categories_counts">%1$d ಉಪ-ವರ್ಗಗಳು</string>
+    <string name="siq_recently_viewed_articles_title">ಇತ್ತೀಚೆಗೆ ನೋಡಿರುವುದು</string>
+    <string name="siq_related_articles">ಸಂಬಂಧಿಸಿದ ಲೇಖನಗಳು</string>
+    <string name="siq_title_articles">ಲೇಖನಗಳು</string>
+    <string name="siq_title_sub_category">ಉಪ-ವರ್ಗಗಳು</string>
+    <string name="size_bytes"> ಬೈಟ್‌ಗಳು</string>
+    <string name="size_kilo_bytes"> KB</string>
+    <string name="size_mega_bytes"> MB</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_unit_day_d">ದಿ</string>
+    <string name="time_unit_hour_h">ಗಂ</string>
+    <string name="time_unit_minute_m">ನಿಮಿಷ</string>
+    <string name="time_unit_month_m">ತಿಂ</string>
+    <string name="time_unit_second_s">ಸೆ</string>
+    <string name="time_unit_week_w">ವಾ</string>
+    <string name="time_unit_year_y">ವ</string>
+</resources>

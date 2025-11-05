@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/siq_chat_feedback_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/siq_chat_feedback_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/siq_24"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/siq_chat_feedback_heading"
+                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
+                android:paddingRight="16dp"
+                android:paddingEnd="16dp"
+                style="@style/SalesIQ.Style.chatwindow_feedback_heading" />
+
+            <LinearLayout
+                android:id="@+id/siq_rating_parent"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginLeft="@dimen/siq_55"
+                android:layout_marginStart="@dimen/siq_55"
+                android:layout_marginRight="@dimen/siq_55"
+                android:layout_marginEnd="@dimen/siq_55"
+                android:layout_marginTop="@dimen/siq_10"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="1">
+                <RelativeLayout
+                    android:id="@+id/siq_rating_sad_parent"
+                    android:layout_width="@dimen/siq_80"
+                    android:layout_height="110dp"
+                    android:layout_weight="0.35"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_height="70dp"
+                        android:layout_width="70dp"
+                        android:id="@+id/siq_rating_sad"
+                        app:srcCompat="?attr/siq_feedback_rating_sad_icon"
+                        android:layout_centerHorizontal="true" />
+                    <TextView
+                        android:id="@+id/siq_rating_sad_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/livechat.widgets.rating.happy.sad"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/siq_8"
+                        android:layout_below="@+id/siq_rating_sad"
+                        android:textColor="?android:attr/textColorPrimary"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/siq_rating_neutral_parent"
+                    android:layout_width="@dimen/siq_80"
+                    android:layout_height="110dp"
+                    android:layout_weight="0.3"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_height="70dp"
+                        android:layout_width="70dp"
+                        android:id="@+id/siq_rating_neutral"
+                        app:srcCompat="?attr/siq_feedback_rating_neutral_icon"
+                        android:layout_centerHorizontal="true"/>
+                    <TextView
+                        android:id="@+id/siq_rating_neutral_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/livechat.widgets.rating.happy.neutral"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/siq_8"
+                        android:layout_below="@+id/siq_rating_neutral"
+                        android:textColor="?android:attr/textColorPrimary" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/siq_rating_happy_parent"
+                    android:layout_width="@dimen/siq_80"
+                    android:layout_height="110dp"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.35">
+
+                    <ImageView
+                        android:layout_height="70dp"
+                        android:layout_width="70dp"
+                        android:id="@+id/siq_rating_happy"
+                        app:srcCompat="?attr/siq_feedback_rating_happy_icon"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/siq_rating_happy_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/livechat.widgets.rating.happy.excited"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/siq_8"
+                        android:layout_below="@+id/siq_rating_happy"
+                        android:textColor="?android:attr/textColorPrimary" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/siq_chat_feedback_edittext"
+                style="@style/SalesIQ.Style.chatwindow_feedback_edittext"
+                tools:visibility="visible" />
+
+            <com.zoho.livechat.android.modules.common.ui.views.MobilistenTextView
+                android:id="@+id/siq_chat_feedback_submit_text"
+                style="@style/SalesIQ.Style.chatwindow_feedback_submit_text" />
+
+            <TextView
+                android:id="@+id/siq_chat_rating_skip_text"
+                style="@style/SalesIQ.Style.chatwindow_rating_skip_text" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

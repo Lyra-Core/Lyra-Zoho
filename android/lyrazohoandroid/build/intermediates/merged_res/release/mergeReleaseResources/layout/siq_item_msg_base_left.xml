@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/siq_grand_parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/time_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="siq_time_middle_layout_lineView, siq_time_middle_layout_textview" />
+
+    <View
+        android:id="@+id/siq_time_middle_layout_lineView"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/linebreak"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/siq_time_middle_layout_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="?attr/siq_backgroundcolor"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/siq_time_middle_layout_lineView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/siq_time_middle_layout_lineView"
+        tools:text="12:30PM" />
+
+    <TextView
+        android:id="@+id/siq_sender_name"
+        style="@style/SalesIQ.Style.chatwindow_sender_name_textcolor_operator"
+        android:gravity="top"
+        android:paddingStart="@dimen/siq_12"
+        android:paddingTop="@dimen/siq_4"
+        android:paddingEnd="@dimen/siq_12"
+        android:paddingBottom="@dimen/siq_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/siq_time_middle_layout_textview" />
+
+    <ImageView
+        android:id="@+id/siq_sender_avatar"
+        style="@style/SalesIQ.Style.chatwindow_sender_avatar_left"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/siq_sender_name" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/siq_suggestions_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.zoho.livechat.android.ui.customviews.FlowLayout
+        android:id="@+id/siq_suggestion_flowlayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingEnd="@dimen/siq_20"
+        android:paddingRight="@dimen/siq_20"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/siq_suggestions_list" />
+
+    <include
+        layout="@layout/siq_item_bot_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/siq_16"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/siq_suggestion_flowlayout" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/siq_chat_card_images_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/siq_4"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/siq_msg_container" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

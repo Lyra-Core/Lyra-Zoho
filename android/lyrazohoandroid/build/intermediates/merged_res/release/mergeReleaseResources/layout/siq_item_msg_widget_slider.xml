@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/siq_chat_card_type_slider"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/siq_chat_card_image"
+            style="@style/SalesIQ.Style.chatwindow_widget_image"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginTop="2dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/siq_slider_widget_flex_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.zoho.livechat.android.ui.customviews.MobilistenFlexboxLayout
+                android:id="@+id/siq_slider_flex_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="@dimen/siq_14"
+                android:paddingVertical="@dimen/siq_10"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <TextView
+                    android:id="@+id/siq_chat_card_text"
+                    style="@style/SalesIQ.Style.chatwindow_widget_text" />
+
+                <TextView
+                    android:id="@+id/siq_slider_widget_flex_timetextview"
+                    style="@style/SalesIQ.Style.chatwindow_time_textcolor_operator"
+                    android:gravity="bottom"
+                    android:paddingStart="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:text="12:30PM" />
+            </com.zoho.livechat.android.ui.customviews.MobilistenFlexboxLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/siq_chat_card_slider_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/siq_chat_card_slider_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/siq_chat_card_slider_indicator_text"
+                    style="@style/SalesIQ.Style.widget_slider_indicator_text" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <com.zoho.livechat.android.ui.customviews.slider.RangeSeekBar
+                    android:id="@+id/siq_slider_seekbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:paddingStart="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingEnd="@dimen/siq_8"
+                    android:paddingRight="@dimen/siq_8" />
+
+                <TextView
+                    android:id="@+id/siq_slider_seekbar_start"
+                    style="@style/SalesIQ.Style.widget_slider_seekbar_start_text"
+                    android:layout_below="@id/siq_slider_seekbar" />
+
+                <TextView
+                    android:id="@+id/siq_slider_seekbar_end"
+                    style="@style/SalesIQ.Style.widget_slider_seekbar_end_text"
+                    android:layout_below="@id/siq_slider_seekbar" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/siq_slider_widget_status_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+
+            <TextView
+                android:id="@+id/siq_slider_widget_timetextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/siq_12"
+                android:paddingLeft="@dimen/siq_12"
+                android:paddingEnd="@dimen/siq_12"
+                android:paddingRight="@dimen/siq_12"
+                android:paddingBottom="@dimen/siq_5"
+                android:text="12:30PM"
+                android:textSize="@dimen/siq_text_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/siq_chat_card_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/salesiq_links_list_bg"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/siq_chat_card_button_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginBottom="14dp"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

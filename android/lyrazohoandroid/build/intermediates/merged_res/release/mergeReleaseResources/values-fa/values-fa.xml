@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d اعلان جدید</item>
+    <item quantity="other">%d اعلان جدید</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"پیمایش به صفحه اصلی"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"رفتن به بالا"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"گزینه‌های بیشتر"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"تمام"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"دیدن همه"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"انتخاب برنامه"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"خاموش"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"روشن"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"‎Alt+‎"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"‎Ctrl+‎"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"حذف"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"‎Function+‎"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"‎Meta+‎"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"‎Shift+‎"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"فاصله"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"‎Sym+‎"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"منو+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"جستجو…‏"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"پاک کردن پُرسمان"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"درخواست جستجو"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"جستجو"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"ارسال پُرسمان"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"جستجوی گفتاری"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"هم‌رسانی با"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"هم‌رسانی با <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"کوچک کردن"</string>
+    <string name="app_logs_txt_file_name">app_logs.txt</string>
+    <string name="articles.browse">جستجو برای یک مقاله</string>
+    <string name="articles.counts.many">%1$d مقاله</string>
+    <string name="articles.counts.one">%1$d مقاله</string>
+    <string name="articles.emptystate">بخش پایگاه دانش ما در دست ساخت است. لطفاً چند وقت بعد برگردید.</string>
+    <string name="articles.feedback.thanks">از بازخورد شما سپاسگزاریم!</string>
+    <string name="articles.pursuechat">گپ</string>
+    <string name="articles.recent.search">جستجوهای اخیر</string>
+    <string name="articles.recent.viewed">اخیراً بازدید شده</string>
+    <string name="articles.search.text">نمی‌توانیم هیچ نتیجه‌ای را مطابق با جستجوی شما پیدا کنیم</string>
+    <string name="articles.startchat">@string/livechat.conversation.startchat</string>
+    <string name="articles.views.many">%1$d بازدید</string>
+    <string name="articles.views.one">%1$d بازدید</string>
+    <string name="articles_updated_time">%1$s قبل به‌روزرسانی شد</string>
+    <string name="bottomsheet_action_collapse">جمع کردن برگ زیرین</string>
+    <string name="bottomsheet_action_expand">ازهم بازکردن برگ زیرین</string>
+    <string name="bottomsheet_action_expand_halfway">گسترده کردن تا نیمه</string>
+    <string name="bottomsheet_drag_handle_clicked">روی دستگیره کشاندن دوضربه زده شد</string>
+    <string name="bottomsheet_drag_handle_content_description">دستگیره کشاندن</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"پاسخ دادن"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"ویدیو"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"رد کردن"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"قطع تماس"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"تماس ورودی"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"تماس درحال انجام"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"درحال غربال کردن تماس ورودی"</string>
+    <string name="character_counter_content_description">نویسه‌های واردشده %1$d از %2$d</string>
+    <string name="character_counter_overflowed_content_description">محدودیت نویسه از حد مجاز %1$d از %2$d بیشتر شده است</string>
+    <string name="clear_text_end_icon_content_description">پاک کردن نوشتار</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">فعال کردن</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">‏تا وقتی «خدمات Google Play» را فعال نکنید، %1$s کار نمی‌کند.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">‏‫فعال کردن «خدمات Google Play»</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">نصب</string>
+    <string name="common_google_play_services_install_text">‏%1$s بدون خدمات Google Play که در دستگاه شما وجود ندارد اجرا نمی‌شود.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">‏دریافت «خدمات Google Play»</string>
+    <string name="common_google_play_services_notification_channel_name">‏دردسترس بودن خدمات Google Play</string>
+    <string name="common_google_play_services_notification_ticker">‏خطا در خدمات Google Play</string>
+    <string name="common_google_play_services_unknown_issue">‏%1$s برای استفاده از خدمات Google Play با مشکل روبرو است. لطفاً دوباره امتحان کنید.</string>
+    <string name="common_google_play_services_unsupported_text">‏%1$s بدون خدمات Google Play که در دستگاه شما پشتیبانی نمی‌شود، اجرا نخواهد شد.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">به‌روزرسانی</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">‏تاز مانی که «خدمات Google Play» را به‌روزرسانی نکنید، %1$s اجرا نمی‌شود.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">‏‫به‌روزرسانی «خدمات Google Play»</string>
+    <string name="common_google_play_services_updating_text">‏%1$s بدون «خدمات Google Play» که درحال حاضر درحال به‌روزرسانی هستند، کار نمی‌کند.</string>
+    <string name="common_google_play_services_wear_update_text">‏نسخه جدید «خدمات Google Play» نیاز است. به‌زودی به‌طور خودکار به‌روزرسانی می‌شود.</string>
+    <string name="common_open_on_phone">باز کردن در تلفن</string>
+    <string name="common_signin_button_text">ورود به سیستم</string>
+    <string name="common_signin_button_text_long">‏ورود به سیستم با Google‎</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"پیوند در بریده‌دان کپی شد"</string>
+    <string name="duration_few_seconds">چند ثانیه</string>
+    <string name="error_icon_content_description">خطا</string>
+    <string name="exposed_dropdown_menu_content_description">نمایش منوی کرکره‌ای</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"کپی پیوند"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"بازکردن در مرورگر"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"هم‌رسانی پیوند"</string>
+    <string name="icon_content_description">نماد کادر گفتگو</string>
+    <string name="item_view_role_description">برگه</string>
+    <string name="live_chat_no_application_to_handle_uri">شما برنامه لازم را برای باز کردن این صفحه وب ندارید</string>
+    <string name="livechat.article.title">پایگاه دانش</string>
+    <string name="livechat.bot.action.pending.wait">لطفاً منتظر بمانید.</string>
+    <string name="livechat.bot.connectwithhuman">به کمک انسانی نیاز دارید؟</string>
+    <string name="livechat.bot.input.hint">از ورودی بالا انتخاب کنید</string>
+    <string name="livechat.chat.queue.banner.calculating">در حال محاسبه زمان انتظار…</string>
+    <string name="livechat.chat.queue.banner.position.subtitle">نقطه</string>
+    <string name="livechat.chat.queue.banner.timeremaining">زمان انتظار تقریبی حدود ~%1$s است</string>
+    <string name="livechat.chat.queue.banner.title">شما در صف گپ هستید</string>
+    <string name="livechat.chat.sender.profanity.alert">هشدار سوء استفاده</string>
+    <string name="livechat.common.article">مقاله</string>
+    <string name="livechat.common.loading">در حال بارگیری…</string>
+    <string name="livechat.common.no">خیر</string>
+    <string name="livechat.common.nointernet">لطفاً اتصال اینترنت خود را بررسی کنید.</string>
+    <string name="livechat.common.ok">تأیید</string>
+    <string name="livechat.common.yes">بله</string>
+    <string name="livechat.conversation.emptystate">ببخشید! ظاهراً هنوز هیچ گفتگویی ندارید! آیا می‌دانید که تنها یک کلیک تا ارتباط با کارشناسان ما فاصله دارید؟</string>
+    <string name="livechat.conversation.endchat.timer">جلسه گپ ظرف %1$s به پایان می‌رسد</string>
+    <string name="livechat.conversation.filetype.audio">صوت</string>
+    <string name="livechat.conversation.filetype.image">تصویر</string>
+    <string name="livechat.conversation.filetype.others">پرونده</string>
+    <string name="livechat.conversation.filetype.video">ویدیو</string>
+    <string name="livechat.conversation.in.dept">در %1$s</string>
+    <string name="livechat.conversation.search.emptystate">ببخشید! به نظر می‌رسد هیچ یک از گفتگوهای موجود با عبارتی که وارد کرده‌اید، مطابقت ندارد. شاید بهتر باشد پرس‌وجوی دیگری را امتحان کنید!</string>
+    <string name="livechat.conversation.startchat">شروع گپ</string>
+    <string name="livechat.conversation.status">باز کردن</string>
+    <string name="livechat.conversation.subtitle.missed">هیچ اپراتوری در دسترس نیست</string>
+    <string name="livechat.conversation.subtitle.queue.position">نقطه در صف: %1$s</string>
+    <string name="livechat.conversation.subtitle.waiting.details">منتظر مشخصات شما</string>
+    <string name="livechat.conversation.title">گفتگوها</string>
+    <string name="livechat.conversation.with.attender"> با %1$s</string>
+    <string name="livechat.day.evening">عصر</string>
+    <string name="livechat.day.friday">جمعه‌</string>
+    <string name="livechat.day.monday">دوشنبه</string>
+    <string name="livechat.day.morning">صبح</string>
+    <string name="livechat.day.night">شب</string>
+    <string name="livechat.day.noon">بعدازظهر</string>
+    <string name="livechat.day.saturday">شنبه</string>
+    <string name="livechat.day.sunday">یک‌شنبه</string>
+    <string name="livechat.day.thursday">پنج‌شنبه</string>
+    <string name="livechat.day.today">امروز</string>
+    <string name="livechat.day.tuesday">سه‌‍‌شنبه</string>
+    <string name="livechat.day.wednesday">چهارشنبه</string>
+    <string name="livechat.day.yesterday">دیروز</string>
+    <string name="livechat.feedback.ask.rating">خوشحالم که امروز با شما گپ می‌زنم. لطفاً با صرف یک دقیقه، «ارزیابی» خود را اعلام کنید.</string>
+    <string name="livechat.feedback.button.msg">ارسال بازخورد</string>
+    <string name="livechat.feedback.hint">بازخورد خود را اینجا تایپ کنید…</string>
+    <string name="livechat.feedback.rate.happy">وای، از شما سپاسگزاریم!  خوشحالیم که به شما کمک می‌کنیم</string>
+    <string name="livechat.feedback.rate.neutral">از ارزیابی شما سپاسگزاریم! هرگونه کمکی بخواهید، به ما پیام بدهید.</string>
+    <string name="livechat.feedback.rate.sad">متأسفیم که نتوانستیم کمکی کنیم. ما پشتیبانی خود را بهبود خواهیم داد.</string>
+    <string name="livechat.feedback.submit">@string/livechat.prechatform.submit</string>
+    <string name="livechat.feedback.thankingmsg">از بازخورد ارزشمند شما سپاسگزاریم.</string>
+    <string name="livechat.feedback.title">تجربه گفتگوی شما با ما چگونه بود؟</string>
+    <string name="livechat.gdpr.chatconsent">با کلیک روی «پذیرش»، بدین‌وسیله با تمام شرایط و ضوابط ما، که در این سند مشخص شده، موافقت می‌کنید.</string>
+    <string name="livechat.gdpr.chatconsent.accept">پذیرش</string>
+    <string name="livechat.gdpr.chatconsent.decline">نپذیرفتن</string>
+    <string name="livechat.gdpr.chatconsent.title">رضایت برای گپ</string>
+    <string name="livechat.gdpr.creditcardmask">چون شماره کارت شما یک داده کاملا حساس است، آیا می‌خواهید 12 رقم اول شماره کارت شما را مخفی کنیم؟</string>
+    <string name="livechat.gdpr.creditcardmask.cancel">@string/livechat.requestlog.negative.button</string>
+    <string name="livechat.gdpr.creditcardmask.ok">مخفی‌سازی</string>
+    <string name="livechat.gdpr.emailconfirm">در شرف ارسال ترانوشت این گپ به %1$s هستید.</string>
+    <string name="livechat.gdpr.emailconfirm.change">تغییر نشانی ایمیل</string>
+    <string name="livechat.gdpr.emailconfirm.send">@string/livechat.requestlog.positive.button</string>
+    <string name="livechat.gdpr.googletranslate.concent">این خدمت ممکن است حاوی ترجمه‌های تحت پشتیبانی Google باشد. Google هیچ گونه ضمانت یا تعهدی، اعم از صریح یا ضمنی، را در رابطه با ترجمه‌ها بر عهده نمی‌گیرد از جمله تضمین دقت، قابلیت فهم، و هر گونه ضمانت قابلیت فروش، تناسب برای یک هدف خاص، و عدم تخطی از قوانین و مقررات.</string>
+    <string name="livechat.gdpr.googletranslate.concent.title">رضایت برای ترجمه</string>
+    <string name="livechat.gdpr.learnmore">کسب اطلاعات بیشتر</string>
+    <string name="livechat.gdpr.trackingconsent.donttrack">ردیابی نشود</string>
+    <string name="livechat.gdpr.trackingconsent.gotit">فهمیدم!</string>
+    <string name="livechat.gdpr.trackingconsent.notify">سلام! به‌منظور بهبود تجربه‌های درون‌برنامه شما، فعالیت‌های شما را در برنامه خود ردیابی می‌کنیم.</string>
+    <string name="livechat.gdpr.trackingconsent.notifywithoptout">سلام! به‌منظور بهبود تجربه‌های درون‌برنامه شما، فعالیت‌های شما را در برنامه خود ردیابی می‌کنیم. اما اگر می‌خواهید از این گزینه انصراف دهید، روی گزینه «ردیابی نشود» کلیک کنید.</string>
+    <string name="livechat.message.download">دانلود</string>
+    <string name="livechat.message.input.hint">پیام خود را اینجا تایپ کنید…</string>
+    <string name="livechat.message.noresults">هیچ نتیجه‌ای یافت نشد</string>
+    <string name="livechat.message.saved">ذخیره شد</string>
+    <string name="livechat.message.search">جستجو</string>
+    <string name="livechat.message.status.copy">کپی کردن</string>
+    <string name="livechat.message.status.delete">حذف</string>
+    <string name="livechat.message.status.resend">ارسال مجدد</string>
+    <string name="livechat.message.status.sending">در حال ارسال</string>
+    <string name="livechat.message.status.sent">ارسال‌شده</string>
+    <string name="livechat.message.time.justnow">همین حالا</string>
+    <string name="livechat.message.timedout">زمان تمام شد</string>
+    <string name="livechat.message.typingindicator">تایپ کردن</string>
+    <string name="livechat.message.waitingforconnection">در انتظار اتصال به شبکه</string>
+    <string name="livechat.messages.action.copy.success">در حافظه موقت کپی شد</string>
+    <string name="livechat.messages.alert.chatreqfailure">ببخشید! مشکلی پیش آمده است. لطفاً دوباره امتحان کنید</string>
+    <string name="livechat.messages.alert.upload.filesizeexceed">از اندازه مجاز برای بارگذاری بیشتر است</string>
+    <string name="livechat.messages.attachment.notopen">نمی‌توان پیوست را باز کرد، زیرا دستگاه شما برنامه‌ای ندارد که از پرونده‌هایی با این فرمت پشتیبانی کند!</string>
+    <string name="livechat.messages.camera.notopen">نمی‌توان دوربین را باز کرد، زیرا دستگاه شما دوربین ندارد</string>
+    <string name="livechat.messages.continuechat.info">جلسه گپ شما با ما به پایان رسید. آیا پرسش‌های دیگری دارید که بخواهید توضیح بدهیم؟ برای گپ با ما، روی «ادامه» کلیک کنید.</string>
+    <string name="livechat.messages.department">@string/livechat.messages.prechatform.traditional.dept.hint</string>
+    <string name="livechat.messages.email.dialog.title">@string/livechat.messages.prechatform.traditional.email.hint</string>
+    <string name="livechat.messages.email.failure">ارسال ایمیل انجام نشد</string>
+    <string name="livechat.messages.email.send">@string/livechat.requestlog.positive.button</string>
+    <string name="livechat.messages.email.success">ایمیل با موفقیت ارسال شد</string>
+    <string name="livechat.messages.email.title">ترانوشت گپ را ایمیل کنید</string>
+    <string name="livechat.messages.email.wrong">@string/livechat.messages.prechatform.traditional.email.error</string>
+    <string name="livechat.messages.endchat.confirmation">آیا مایل به پایان دادن به این گفتگو هستید؟</string>
+    <string name="livechat.messages.endchattimer">جلسه گپ ظرف %1$s ثانیه به پایان می‌رسد</string>
+    <string name="livechat.messages.file.defaultextn">@string/livechat.conversation.filetype.others</string>
+    <string name="livechat.messages.form.alert.message">لطفاً قبل از شروع یک گپ جدید، فرم موجود در گپ قبلی را تکمیل کنید!</string>
+    <string name="livechat.messages.info.acceptforward">گپ با موفقیت به %1$s ارسال شده است.</string>
+    <string name="livechat.messages.info.agenttransfer">%1$s در حال انتقال گپ به %2$s است.</string>
+    <string name="livechat.messages.info.endchat">جلسه به پایان رسید</string>
+    <string name="livechat.messages.info.forward">%1$s در حال هدایت گپ است</string>
+    <string name="livechat.messages.info.missedchat">ما درخواست گپ شما را از دست دادیم</string>
+    <string name="livechat.messages.info.operator.joined">%1$s به این گفتگو پیوسته است.</string>
+    <string name="livechat.messages.info.reopen">شما گپ را دوباره باز کرده‌اید</string>
+    <string name="livechat.messages.info.transfer.accept">گپ منتقل شد. سلام، %1$s در خدمت شما است!! خوشحال خواهم شد که بیشتر به شما کمک کنم.</string>
+    <string name="livechat.messages.offline">ما فعلاً در دسترس نیستیم. لطفاً برای ما یک پیام بگذارید تا در اسرع وقت به شما پاسخ بدهیم.</string>
+    <string name="livechat.messages.operator.typing">در حال تایپ…</string>
+    <string name="livechat.messages.option.endchat">پایان جلسه</string>
+    <string name="livechat.messages.option.sharefile">اشتراک‌گذاری پرونده‌</string>
+    <string name="livechat.messages.option.takephoto">گرفتن عکس</string>
+    <string name="livechat.messages.option.takescreenshot">گرفتن اسکرین‌شات</string>
+    <string name="livechat.messages.prechatform.conversation.campaign">@string/livechat.messages.prechatform.traditional.campaign.label</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.no">خیر</string>
+    <string name="livechat.messages.prechatform.conversation.campaign.yes">حتماً</string>
+    <string name="livechat.messages.prechatform.conversation.dept">لطفاً بخشی را انتخاب کنید که درخواست شما باید به آن ارسال شود</string>
+    <string name="livechat.messages.prechatform.conversation.email">می‌توانیم یک ایمیل برای شما به نشانی زیر بفرستیم؟</string>
+    <string name="livechat.messages.prechatform.conversation.name">دوست دارید چگونه شما را خطاب کنیم؟</string>
+    <string name="livechat.messages.prechatform.conversation.phone">می‌توانیم شماره تماس شما را داشته باشیم؟</string>
+    <string name="livechat.messages.prechatform.inline.button">فرم را پر کنید</string>
+    <string name="livechat.messages.prechatform.inline.message">لطفاً یک سری جزئیات را برای شروع گپ ارائه دهید.</string>
+    <string name="livechat.messages.prechatform.introduction.greeting.message">بفرمایید مشغول گفتگو با چه کسی هستیم.</string>
+    <string name="livechat.messages.prechatform.introduction.name">اپراتور</string>
+    <string name="livechat.messages.prechatform.traditional.campaign.label">آیا مایل هستید مشترک خبرنامه ما شوید؟</string>
+    <string name="livechat.messages.prechatform.traditional.department.label">بخش</string>
+    <string name="livechat.messages.prechatform.traditional.dept.error">یک بخش معتبر را انتخاب کنید</string>
+    <string name="livechat.messages.prechatform.traditional.dept.hint">انتخاب یک بخش</string>
+    <string name="livechat.messages.prechatform.traditional.email.error">یک نشانی ایمیل معتبر را وارد کنید</string>
+    <string name="livechat.messages.prechatform.traditional.email.hint">نشانی ایمیل خود را وارد کنید</string>
+    <string name="livechat.messages.prechatform.traditional.email.label">ایمیل</string>
+    <string name="livechat.messages.prechatform.traditional.name.error">یک نام معتبر را وارد کنید</string>
+    <string name="livechat.messages.prechatform.traditional.name.hint">نام خود را وارد کنید</string>
+    <string name="livechat.messages.prechatform.traditional.name.label">نام</string>
+    <string name="livechat.messages.prechatform.traditional.phone.error">یک شماره تماس معتبر را وارد کنید</string>
+    <string name="livechat.messages.prechatform.traditional.phone.hint">شماره تماس خود را وارد کنید</string>
+    <string name="livechat.messages.prechatform.traditional.phone.label">تلفن</string>
+    <string name="livechat.messages.prechatform.traditional.question.error">یک پرسش را وارد کنید</string>
+    <string name="livechat.messages.record.slidetocancel">برای لغو، بلغزانید</string>
+    <string name="livechat.messages.sharefile.ques">پرونده‌ای را اشتراک‌گذاری کرد</string>
+    <string name="livechat.messages.shareimage">اشتراک‌گذاری تصویر</string>
+    <string name="livechat.messages.sharescreenshot">اشتراک‌گذاری اسکرین‌شات</string>
+    <string name="livechat.messages.title">حالا با ما گپ بزنید!</string>
+    <string name="livechat.messages.you">شما</string>
+    <string name="livechat.notification.messages.shared.file">%1$s یک پرونده را برای شما ارسال کرده است</string>
+    <string name="livechat.notification.messages.shared.image">%1$s یک تصویر را برای شما ارسال کرده است</string>
+    <string name="livechat.notification.messages.shared.video">%1$s یک ویدیو را برای شما ارسال کرده است</string>
+    <string name="livechat.operator.waiting.response">اپراتور به‌زودی ملحق خواهد شد</string>
+    <string name="livechat.permission.camera">برای گرفتن عکس، اجازه دسترسی به دوربین دستگاهتان را بدهید.</string>
+    <string name="livechat.permission.file">برای ارسال پرونده، اجازه دسترسی به فضای ذخیره‌سازی دستگاهتان را بدهید.</string>
+    <string name="livechat.permission.locationdenied">مجوز موقعیت مکانی داده نشد.</string>
+    <string name="livechat.permission.microphone">برای ضبط و ارسال پیام‌های صوتی، اجازه دسترسی به میکروفون دستگاهتان را بدهید.</string>
+    <string name="livechat.permission.negative">فعلاً نه</string>
+    <string name="livechat.permission.positive">تنظیمات</string>
+    <string name="livechat.permission.storagedenied">مجوز ذخیره داده نشد.</string>
+    <string name="livechat.prechatform.submit">ارسال</string>
+    <string name="livechat.rating.skip">@string/livechat.widgets.skip</string>
+    <string name="livechat.reopen.title">بازگشایی گپ</string>
+    <string name="livechat.requestlog.info">اپراتور درخواست شما برای دسترسی به واقعه‌نگار برنامه را کرده است</string>
+    <string name="livechat.requestlog.negative.button">لغو</string>
+    <string name="livechat.requestlog.positive.button">ارسال</string>
+    <string name="livechat.requestlog.title">واقعه‌نگار برنامه</string>
+    <string name="livechat.widgets.articles.related">مقالات مرتبط:</string>
+    <string name="livechat.widgets.calendar.fromdate">از تاریخ</string>
+    <string name="livechat.widgets.calendar.fromtime">از زمان</string>
+    <string name="livechat.widgets.calendar.schedule">اکنون برنامه‌ریزی کنید</string>
+    <string name="livechat.widgets.calendar.setdate">یک تاریخ را انتخاب کنید</string>
+    <string name="livechat.widgets.calendar.settime">یک زمان را انتخاب کنید</string>
+    <string name="livechat.widgets.calendar.timezone">منطقه زمانی</string>
+    <string name="livechat.widgets.calendar.todate">تا تاریخ</string>
+    <string name="livechat.widgets.calendar.totime">تا زمان</string>
+    <string name="livechat.widgets.done">انجام شد</string>
+    <string name="livechat.widgets.input.password.error">لطفاً یک مقدار معتبر وارد کنید</string>
+    <string name="livechat.widgets.input.phone.search.hint">جستجوی کشور</string>
+    <string name="livechat.widgets.input.url.error">یک URL معتبر را وارد کنید</string>
+    <string name="livechat.widgets.location.accuracy">دقیق بر حسب %1$d متر</string>
+    <string name="livechat.widgets.location.radius.float">%1$.1f کیلومتر</string>
+    <string name="livechat.widgets.location.radius.integer">%1$d کیلومتر</string>
+    <string name="livechat.widgets.location.select">یک موقعیت مکانی را انتخاب کنید</string>
+    <string name="livechat.widgets.location.send.current">موقعیت مکانی فعلی را ارسال کنید</string>
+    <string name="livechat.widgets.location.send.selected">ارسال موقعیت مکانی انتخاب‌شده</string>
+    <string name="livechat.widgets.location.suggestions">پیشنهادها</string>
+    <string name="livechat.widgets.rating.dislike">نپسندیدن</string>
+    <string name="livechat.widgets.rating.happy.angry">خشمگین</string>
+    <string name="livechat.widgets.rating.happy.excited">عالی است</string>
+    <string name="livechat.widgets.rating.happy.happy">خوب</string>
+    <string name="livechat.widgets.rating.happy.neutral">بی‌طرف</string>
+    <string name="livechat.widgets.rating.happy.sad">غمگین</string>
+    <string name="livechat.widgets.rating.like">پسند</string>
+    <string name="livechat.widgets.select.limit.exceed">به سقف مجاز انتخاب چندگانه رسیده‌اید</string>
+    <string name="livechat.widgets.skip">پرش</string>
+    <string name="livechat.widgets.timeslot.button">یک مقطع زمانی را انتخاب کنید</string>
+    <string name="livechat.widgets.timezone.current">%1$s (جاری)</string>
+    <string name="livechat_conversation_filetype_gif">GIF</string>
+    <string name="material_clock_toggle_content_description">انتخاب .ق.ظ. یا ب.ظ.</string>
+    <string name="material_hour_24h_suffix">%1$s ساعت</string>
+    <string name="material_hour_selection">انتخاب ساعت</string>
+    <string name="material_hour_suffix">ساعت %1$s</string>
+    <string name="material_minute_selection">انتخاب دقیقه</string>
+    <string name="material_minute_suffix">%1$s دقیقه</string>
+    <string name="material_timepicker_am">ق.ظ</string>
+    <string name="material_timepicker_clock_mode_description">برای وارد کردن زمان، به حالت ساعت تغییر وضعیت دهید.</string>
+    <string name="material_timepicker_hour">ساعت</string>
+    <string name="material_timepicker_minute">دقیقه</string>
+    <string name="material_timepicker_pm">ب.ظ</string>
+    <string name="material_timepicker_select_time">انتخاب زمان</string>
+    <string name="material_timepicker_text_input_mode_description">برای وارد کردن زمان، به حالت ورودی نوشتاری تغییر وضعیت دهید.</string>
+    <string name="minimum_selection_is_required">لطفا حداقل یک گزینه را انتخاب کنید</string>
+    <string name="minimum_selections_is_required">حداقل %1$d انتخاب الزامی است</string>
+    <string name="mobilisten_article_choose_a_department">انتخاب بخش</string>
+    <string name="mobilisten_article_departments">بخش‌ها</string>
+    <string name="mobilisten_article_has_been_deleted_or_disabled">مقاله موجود نیست</string>
+    <string name="mobilisten_article_no_views">بدون بازدید</string>
+    <string name="mobilisten_articles_general_error">@string/mobilisten_general_failure_error</string>
+    <string name="mobilisten_chat_connected_to_operator_or_bot">متصل شده به %1$s</string>
+    <string name="mobilisten_common_okay">تأیید</string>
+    <string name="mobilisten_conversation_deleted">این گفتگو توسط اپراتور حذف شده است</string>
+    <string name="mobilisten_conversation_error_access_denied_to_initiate_chat">دسترسی برای شروع گپ داده نشد</string>
+    <string name="mobilisten_conversation_error_email_field_is_mandatory">قسمت ایمیل الزامی است</string>
+    <string name="mobilisten_conversation_error_error_unable_to_initiate_chat_outside_business_hours">ایجاد گفتگو طی ساعات آفلاین امکان‌پذیر نیست</string>
+    <string name="mobilisten_conversation_error_invalid_chat_user_id">شناسه کاربری بازدیدکننده نامعتبر است</string>
+    <string name="mobilisten_conversation_error_mentioned_department_is_not_mapped_to_the_brand">بخش ذکر شده با برند مرتبط نیست</string>
+    <string name="mobilisten_conversation_error_name_field_is_mandatory">نام الزامی است</string>
+    <string name="mobilisten_conversation_error_operation_not_available_for_mentioned_operator">این اپراتور برای گپ در دسترس نیست</string>
+    <string name="mobilisten_conversation_error_phone_number_field_is_mandatory">شماره تلفن الزامی است</string>
+    <string name="mobilisten_conversation_error_resource_limit_reached">به سقف منابع مجاز برای طرح فعلی رسید</string>
+    <string name="mobilisten_conversation_general_error">واکشی جزئیات گفتگو امکان‌پذیر نیست</string>
+    <string name="mobilisten_error_chat_transfer_already_in_progress_failure">انتقال گپ از قبل در حال انجام است! لطفاً مدتی منتظر بمانید.</string>
+    <string name="mobilisten_error_chat_transfer_no_online_user_failure">با عرض پوزش، هیچ کاربر آنلاینی در بخش در دسترس نیست</string>
+    <string name="mobilisten_file_upload_size_limit_exceeded">اندازه پرونده از سقف مجاز (50مگابایت) بیشتر است.</string>
+    <string name="mobilisten_general_failure_error">متأسفیم، مشکلی پیش آمده است. لطفاً بعداً دوباره امتحان کنید.</string>
+    <string name="mobilisten_load_more_messages">بارگیری پیام‌های بیشتر</string>
+    <string name="mobilisten_loading_messages">در حال بارگیری پیام‌ها...</string>
+    <string name="mobilisten_notification_multiple_messages">%1$d پیام جدید</string>
+    <string name="mobilisten_notification_single_message">%1$d پیام جدید</string>
+    <string name="mobilisten_operator_has_requested_for_app_log">اپراتور برای واقعه‌نگار برنامه درخواست داده است.</string>
+    <string name="mobilisten_test_push_notifications">اعلان‌های فوری را آزمایش کنید</string>
+    <string name="mobilisten_unable_to_load_message_transcript">با عرض پوزش، واکشی پیام‌ها امکان‌پذیر نیست</string>
+    <string name="mtrl_badge_numberless_content_description">اعلان جدید</string>
+    <string name="mtrl_chip_close_icon_content_description">برداشتن %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">بیش از %1$d اعلان جدید</string>
+    <string name="mtrl_picker_a11y_next_month">تغییر به ماه بعدی</string>
+    <string name="mtrl_picker_a11y_prev_month">تغییر به ماه قبلی</string>
+    <string name="mtrl_picker_announce_current_selection">انتخاب کنونی: %1$s</string>
+    <string name="mtrl_picker_cancel">لغو</string>
+    <string name="mtrl_picker_confirm">تأیید</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">انتخاب تاریخ</string>
+    <string name="mtrl_picker_date_header_unselected">تاریخ انتخابی</string>
+    <string name="mtrl_picker_day_of_week_column_header">ستون روز: %1$s</string>
+    <string name="mtrl_picker_invalid_format">قالب نامعتبر است.</string>
+    <string name="mtrl_picker_invalid_format_example">مثال: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">قالب: %1$s</string>
+    <string name="mtrl_picker_invalid_range">محدوده نامعتبر است.</string>
+    <string name="mtrl_picker_navigate_to_year_description">رفتن به سال %1$s</string>
+    <string name="mtrl_picker_out_of_range">خارج از محدوده: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">تاریخ شروع – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – تاریخ پایان</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">انتخاب محدوده</string>
+    <string name="mtrl_picker_range_header_unselected">تاریخ شروع – تاریخ پایان</string>
+    <string name="mtrl_picker_save">ذخیره</string>
+    <string name="mtrl_picker_text_input_date_hint">تاریخ</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">تاریخ پایان</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">تاریخ شروع</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">رفتن به روش ورودی تقویم</string>
+    <string name="mtrl_picker_toggle_to_day_selection">رفتن به رفتن به حالت انتخاب روز ضربه بزنید</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">رفتن به حالت ورودی نوشتاری</string>
+    <string name="mtrl_picker_toggle_to_year_selection">برای رفتن به حالت انتخاب سال ضربه بزنید</string>
+    <string name="mtrl_timepicker_cancel">لغو</string>
+    <string name="mtrl_timepicker_confirm">تأیید</string>
+    <string name="password_toggle_content_description">نمایش گذرواژه</string>
+    <string name="salesiq.advertisebadge.content">تحت مدیریت SalesIQ Mobilisten</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"جستجو"</string>
+    <string name="siq_articles_count_many">%1$d مقاله</string>
+    <string name="siq_articles_count_single">1 مقاله</string>
+    <string name="siq_articles_sub_categories_count_one">1 دسته‌ فرعی</string>
+    <string name="siq_articles_sub_categories_counts">%1$d دسته‌ فرعی</string>
+    <string name="siq_recently_viewed_articles_title">اخیراً بازدید شده</string>
+    <string name="siq_related_articles">مقالات مرتبط</string>
+    <string name="siq_title_articles">مقالات</string>
+    <string name="siq_title_sub_category">دسته‌های فرعی</string>
+    <string name="size_bytes"> بایت</string>
+    <string name="size_kilo_bytes"> کیلوبایت</string>
+    <string name="size_mega_bytes"> مگابایت</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_unit_day_d">ر</string>
+    <string name="time_unit_hour_h">س</string>
+    <string name="time_unit_minute_m">د</string>
+    <string name="time_unit_month_m">م</string>
+    <string name="time_unit_second_s">ث</string>
+    <string name="time_unit_week_w">ه</string>
+    <string name="time_unit_year_y">س</string>
+</resources>

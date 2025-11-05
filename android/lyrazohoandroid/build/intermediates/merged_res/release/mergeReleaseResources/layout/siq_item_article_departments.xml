@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/siq_article_department_parent"
+    style="@style/SalesIQ.Layout.article_department">
+
+    <ImageView
+        android:id="@+id/siq_department_icon"
+        style="@style/SalesIQ.Style.articles_department_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.zoho.livechat.android.modules.common.ui.views.MobilistenTextView
+        android:id="@+id/siq_department_title"
+        style="@style/SalesIQ.Style.articles_department_name_text"
+        android:layout_marginStart="@dimen/siq_12"
+        android:layout_marginLeft="@dimen/siq_12"
+        android:layout_marginEnd="@dimen/siq_45"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/siq_department_icon"
+        app:layout_constraintStart_toEndOf="@+id/siq_department_icon"
+        app:layout_constraintTop_toTopOf="@+id/siq_department_icon"
+        tools:text="Test" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/siq_1"
+        android:layout_marginTop="@dimen/siq_10"
+        android:layout_marginEnd="@dimen/siq_16"
+        android:background="?attr/siq_articles_divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/siq_department_title"
+        app:layout_constraintTop_toBottomOf="@+id/siq_department_icon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

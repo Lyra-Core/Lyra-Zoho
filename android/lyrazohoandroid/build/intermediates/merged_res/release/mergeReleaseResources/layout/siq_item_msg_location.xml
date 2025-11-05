@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/siq_msg_location"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/siq_msg_location_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/siq_location_image"
+                style="@style/SalesIQ.Style.chatwindow_location_image"
+                android:layout_marginHorizontal="2dp"
+                android:layout_marginTop="2dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.zoho.livechat.android.ui.customviews.MobilistenFlexboxLayout
+                android:id="@+id/siq_location_flex_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="@dimen/siq_14"
+                android:paddingVertical="@dimen/siq_10"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/siq_location_image">
+
+                <TextView
+                    android:id="@+id/siq_location_text"
+                    style="@style/SalesIQ.Style.chatwindow_location_text" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/siq_location_status_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp">
+
+                    <TextView
+                        android:id="@+id/siq_location_timetextview"
+                        style="@style/SalesIQ.Style.chatwindow_time_textcolor_operator"
+                        tools:text="12:30PM"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/siq_location_flex_status_icon"
+                        style="@style/SalesIQ.Style.ChatWindow_Message_Status_Icon"
+                        app:layout_constraintBottom_toBottomOf="@id/siq_location_timetextview"
+                        app:layout_constraintTop_toTopOf="@+id/siq_location_timetextview"
+                        app:layout_constraintStart_toEndOf="@+id/siq_location_timetextview"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:srcCompat="@drawable/salesiq_deliver" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.zoho.livechat.android.ui.customviews.MobilistenFlexboxLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

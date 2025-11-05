@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/siq_backgroundcolor"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:focusable="true">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/siq_dialog_toolbar"
+        style="?attr/siq_toolbar_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/siq_toolbar_height"
+        android:minHeight="@dimen/siq_toolbar_height"
+        android:elevation="@dimen/siq_2"
+        app:popupTheme="@style/SalesIQ.PopupMenuStyle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/siq_backgroundcolor"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/siq_calender_from_date_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingLeft="60dp"
+            android:paddingRight="16dp"
+            android:paddingStart="60dp"
+            android:paddingTop="16dp">
+
+            <TextView
+                android:id="@+id/siq_from_date_title"
+                style="@style/SalesIQ.Style.Calender_date_title"/>
+
+            <TextView
+                android:id="@+id/siq_from_date"
+                style="@style/SalesIQ.Style.Calender_date_subtitle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/siq_calender_from_time_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingLeft="60dp"
+            android:paddingRight="16dp"
+            android:paddingStart="60dp"
+            android:paddingTop="16dp">
+
+            <TextView
+                android:id="@+id/siq_from_time_title"
+                style="@style/SalesIQ.Style.Calender_time_title" />
+
+            <TextView
+                android:id="@+id/siq_from_time"
+                style="@style/SalesIQ.Style.Calender_time_subtitle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/siq_calender_to_date_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingLeft="60dp"
+            android:paddingRight="16dp"
+            android:paddingStart="60dp"
+            android:paddingTop="16dp">
+
+            <TextView
+                android:id="@+id/siq_to_date_title"
+                style="@style/SalesIQ.Style.Calender_timezone_title" />
+
+            <TextView
+                android:id="@+id/siq_to_date"
+                style="@style/SalesIQ.Style.Calender_timezone_subtitle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/siq_calender_to_time_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingLeft="60dp"
+            android:paddingRight="16dp"
+            android:paddingStart="60dp"
+            android:paddingTop="16dp">
+
+            <TextView
+                android:id="@+id/siq_to_time_title"
+                style="@style/SalesIQ.Style.Calender_time_title" />
+
+            <TextView
+                android:id="@+id/siq_to_time"
+                style="@style/SalesIQ.Style.Calender_time_subtitle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/siq_calender_tz_parent"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?attr/siq_recyclerview_backgroundcolor"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingLeft="60dp"
+            android:paddingRight="16dp"
+            android:paddingStart="60dp"
+            android:paddingTop="16dp">
+
+            <TextView
+                android:id="@+id/siq_tz_title"
+                style="@style/SalesIQ.Style.Calender_timezone_title" />
+
+            <TextView
+                android:id="@+id/siq_tz"
+                style="@style/SalesIQ.Style.Calender_timezone_subtitle"  />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

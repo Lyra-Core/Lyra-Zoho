@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/siq_msg_feedback_layout_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/siq_feedback_inner_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/siq_feedback_card_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="?attr/siq_chat_message_backgroundcolor_operator"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/siq_chat_message_backgroundcolor_operator"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.zoho.livechat.android.ui.customviews.MobilistenFlexboxLayout
+                        android:id="@+id/msg_flex_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="@dimen/siq_14"
+                        android:paddingLeft="@dimen/siq_14"
+                        android:paddingTop="@dimen/siq_10"
+                        android:paddingEnd="@dimen/siq_14"
+                        android:paddingRight="@dimen/siq_14"
+                        android:paddingBottom="@dimen/siq_10"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/siq_msg_feedback"
+                            style="@style/SalesIQ.Style.chatwindow_feedback_operator_reply_text"
+                            android:text="@string/livechat.feedback.ask.rating" />
+
+                        <LinearLayout
+                            android:id="@+id/siq_feedback_status_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:paddingStart="12dp"
+                            android:paddingLeft="12dp"
+                            android:paddingEnd="1dp"
+                            android:paddingRight="1dp">
+
+                            <TextView
+                                android:id="@+id/siq_feedback_timetextview"
+                                style="@style/SalesIQ.Style.chatwindow_time_textcolor_operator"
+                                tools:text="12:30PM" />
+                        </LinearLayout>
+                    </com.zoho.livechat.android.ui.customviews.MobilistenFlexboxLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/siq_feedback_button_text"
+                    style="@style/SalesIQ.Style.chatwindow_feedback_button_text"
+                    android:layout_width="match_parent" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/siq_feedback_rated_icon_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:visibility="visible"
+        app:constraint_referenced_ids="siq_msg_rating_layout, siq_feedback_bottom_margin, siq_msg_rating_icon" />
+
+    <View
+        android:id="@+id/siq_msg_rating_layout"
+        android:layout_width="36dp"
+        android:layout_height="28dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginEnd="2dp"
+        android:translationY="14dp"
+        android:elevation="@dimen/siq_3"
+        android:gravity="center"
+        android:visibility="visible"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintBottom_toBottomOf="@+id/siq_feedback_inner_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/siq_feedback_inner_layout"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/siq_msg_rating_icon"
+        style="@style/SalesIQ.Style.chatwindow_rating_emoji"
+        android:elevation="@dimen/siq_4"
+        android:visibility="gone"
+        android:translationY="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/siq_msg_rating_layout"
+        app:layout_constraintEnd_toEndOf="@+id/siq_msg_rating_layout"
+        app:layout_constraintStart_toStartOf="@+id/siq_msg_rating_layout"
+        app:layout_constraintTop_toTopOf="@+id/siq_msg_rating_layout" />
+
+    <View
+        android:id="@+id/siq_feedback_bottom_margin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/siq_22"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/siq_msg_rating_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>
