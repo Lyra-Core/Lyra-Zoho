@@ -95,38 +95,10 @@ publishing {
     publications {
         release(MavenPublication) {
             groupId 'com.github.Lyra-Core'
-            artifactId 'Lyra-Zoho'
+            artifactId 'lyra-zoho'
             version version
 
-            afterEvaluate {
-                from components.release
-            }
-
-            pom {
-                name = 'Lyra-Zoho'
-                description = 'Lyra Zoho SDK for Android'
-                url = 'https://github.com/Lyra-Core/Lyra-Zoho'
-
-                licenses {
-                    license {
-                        name = 'MIT License'
-                        url = 'https://github.com/Lyra-Core/Lyra-Zoho?tab=MIT-1-ov-file#readme'
-                    }
-                }
-
-                developers {
-                    developer {
-                        id = 'lyra-core'
-                        name = 'Lyra Core'
-                    }
-                }
-
-                scm {
-                    connection = 'scm:git:git://github.com/Lyra-Core/Lyra-Zoho.git'
-                    developerConnection = 'scm:git:ssh://github.com/Lyra-Core/Lyra-Zoho.git'
-                    url = 'https://github.com/Lyra-Core/Lyra-Zoho'
-                }
-            }
+            artifact("$buildDir/outputs/aar/${project.getName()}-release.aar")
         }
     }
     repositories {
