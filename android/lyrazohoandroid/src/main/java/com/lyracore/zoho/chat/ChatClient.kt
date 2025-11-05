@@ -142,7 +142,6 @@ object ChatClient {
                             listener?.onQueuePositionChange(chatEvent)
                         }
                     }
-                    //Test to trigger build in public repo
             )
 
             isListenersStarted = true
