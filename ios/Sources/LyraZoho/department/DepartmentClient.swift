@@ -78,7 +78,7 @@ final class DepartmentClient {
         }
     }
     
-    func getDepartmentsByCountry(countryCode: String) -> [Department] {
+    func getDepartmentsByCountry(countryCode: String) -> Optional<Department> {
         do throws (InitializationError) {
             let isSDKInitialized = CoreInitializer.shared.withLock({ core in  return core.isInitialized() })
             if !isSDKInitialized {
@@ -86,32 +86,32 @@ final class DepartmentClient {
             }
             let fileUtils = FileUtils.shared.withLock({ fileUtils in return fileUtils })
             
-            guard let file = fileUtils.getFile(named: "departments", extensioned: "json") else { return [] }
+            guard let file = fileUtils.getFile(named: "departments", extensioned: "json") else { return nil }
             
             do {
                 
                 let decoder = JSONDecoder()
                 
                 let departments = try decoder.decode([Department].self, from: file.data(using: .utf8)!)
-                return departments.filter{ $0.codes.contains(countryCode)}
+                return departments.first{ $0.codes.contains(countryCode)}
             } catch {
                 
                 guard let exceptionHandlingCallback = CoreInitializer.shared.withLock({ core in  return core.getExceptionHandlingCallback() }) else {
-                    return []
+                    return nil
                 }
                 exceptionHandlingCallback.onException(error: ExceptionEvent(exception: error.localizedDescription, exceptionLocation: ExceptionLocation.DEPARTMENT_GET_BY_COUNTRY))
                 
-                return []
+                return nil
             }
         } catch InitializationError.sdkUninitialized {
-            return []
+            return nil
         } catch {
             guard let exceptionHandlingCallback = CoreInitializer.shared.withLock({ core in  return core.getExceptionHandlingCallback() }) else {
-                return []
+                return nil
             }
             exceptionHandlingCallback.onException(error: ExceptionEvent(exception: error.localizedDescription, exceptionLocation: ExceptionLocation.DEPARTMENT_GET_BY_COUNTRY))
             
-            return []
+            return nil
         }
     }
 }

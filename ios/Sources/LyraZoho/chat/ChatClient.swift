@@ -11,7 +11,7 @@ final class ChatClient: Sendable {
     private var languageCode = "en"
     
     
-    func startLissteners(listener: Optional<ZohoChatListener>) {
+    func startLissteners(listener: Optional<ZohoChatListener>) throws(InitializationError) {
         do throws (InitializationError) {
             let isSDKInitialized = CoreInitializer.shared.withLock({ core in  return core.isInitialized() })
             if !isSDKInitialized {
@@ -36,7 +36,7 @@ final class ChatClient: Sendable {
                 exceptionHandlingCallback.onException(error: ExceptionEvent(exception: error.localizedDescription, exceptionLocation: ExceptionLocation.CHAT_START_LISTENERS))
             }
         } catch InitializationError.sdkUninitialized {
-            // TODO: Figure out what to do here
+            throw .sdkUninitialized
         } catch {
             
             guard let exceptionHandlingCallback = CoreInitializer.shared.withLock({ core in  return core.getExceptionHandlingCallback() }) else { return }
@@ -45,7 +45,7 @@ final class ChatClient: Sendable {
         }
     }
     
-    func open() {
+    func open() throws (InitializationError) {
         do throws (InitializationError) {
             let isSDKInitialized = CoreInitializer.shared.withLock({ core in  return core.isInitialized() })
             if !isSDKInitialized {
@@ -66,7 +66,7 @@ final class ChatClient: Sendable {
                 exceptionHandlingCallback.onException(error: ExceptionEvent(exception: error.localizedDescription, exceptionLocation: ExceptionLocation.CHAT_START_LISTENERS))
             }
         } catch InitializationError.sdkUninitialized {
-            // TODO: Figure out what to do here
+            throw .sdkUninitialized
         } catch {
             
             guard let exceptionHandlingCallback = CoreInitializer.shared.withLock({ core in  return core.getExceptionHandlingCallback() }) else { return }
@@ -75,7 +75,7 @@ final class ChatClient: Sendable {
         }
     }
     
-    func setDepartment(departmentName: String) {
+    func setDepartment(countryCode: String) throws (InitializationError) {
         do throws (InitializationError) {
             let isSDKInitialized = CoreInitializer.shared.withLock({ core in  return core.isInitialized() })
             if !isSDKInitialized {
@@ -88,10 +88,17 @@ final class ChatClient: Sendable {
             }
             
             do throws (DepartmentError) {
-                let departments = DepartmentClient.shared.withLock({ core in  return core.getAllDepartments()})
-                if (!departments.contains(where: { $0.name == departmentName})) {
-                    throw .notFound
+                var department = DepartmentClient.shared.withLock({ core in  return core.getDepartmentsByCountry(countryCode: countryCode, )})
+                
+                if (department == nil) {
+                    department = DepartmentClient.shared.withLock({ core in  return core.getDefaultDepartment()})
+                    
+                    if (department == nil) {
+                        throw .notFound
+                    }
                 }
+                
+                let departmentName = department!.name
                 
                 ZohoSalesIQ.Chat.setDepartment(departmentName)
             } catch {
@@ -100,7 +107,7 @@ final class ChatClient: Sendable {
                 exceptionHandlingCallback.onException(error: ExceptionEvent(exception: error.localizedDescription, exceptionLocation: ExceptionLocation.CHAT_SET_DEPARTMENT))
             }
         } catch InitializationError.sdkUninitialized {
-            // TODO: Figure out what to do here
+            throw .sdkUninitialized
         } catch {
             
             guard let exceptionHandlingCallback = CoreInitializer.shared.withLock({ core in  return core.getExceptionHandlingCallback() }) else { return }
@@ -109,7 +116,7 @@ final class ChatClient: Sendable {
         }
     }
     
-    func setLanguage(languageCode: String) {
+    func setLanguage(languageCode: String) throws (InitializationError) {
         do throws (InitializationError) {
             let isSDKInitialized = CoreInitializer.shared.withLock({ core in  return core.isInitialized() })
             if !isSDKInitialized {
@@ -135,7 +142,7 @@ final class ChatClient: Sendable {
                 self.languageCode = languageCode
             }
         } catch InitializationError.sdkUninitialized {
-            // TODO: Figure out what to do here
+            throw .sdkUninitialized
         } catch {
             
             guard let exceptionHandlingCallback = CoreInitializer.shared.withLock({ core in  return core.getExceptionHandlingCallback() }) else { return }
@@ -144,7 +151,7 @@ final class ChatClient: Sendable {
         }
     }
     
-    func setAdditionalInformation(additionalInfo: ChatAdditionalInformation) {
+    func setAdditionalInformation(additionalInfo: ChatAdditionalInformation) throws (InitializationError) {
         do throws (InitializationError) {
             let isSDKInitialized = CoreInitializer.shared.withLock({ core in  return core.isInitialized() })
             if !isSDKInitialized {
@@ -166,7 +173,7 @@ final class ChatClient: Sendable {
                 ZohoSalesIQ.Visitor.addInfo("Potential Risk", value: "Yes")
             }
         } catch InitializationError.sdkUninitialized {
-            // TODO: Figure out what to do here
+            throw .sdkUninitialized
         } catch {
             
             guard let exceptionHandlingCallback = CoreInitializer.shared.withLock({ core in  return core.getExceptionHandlingCallback() }) else { return }
@@ -175,7 +182,7 @@ final class ChatClient: Sendable {
         }
     }
     
-    func setPageTitle(title: String) {
+    func setPageTitle(title: String) throws (InitializationError) {
         do throws (InitializationError) {
             let isSDKInitialized = CoreInitializer.shared.withLock({ core in  return core.isInitialized() })
             if !isSDKInitialized {
@@ -189,7 +196,7 @@ final class ChatClient: Sendable {
             
             ZohoSalesIQ.Tracking.setPageTitle(title)
         } catch InitializationError.sdkUninitialized {
-            // TODO: Figure out what to do here
+            throw .sdkUninitialized
         } catch {
             
             guard let exceptionHandlingCallback = CoreInitializer.shared.withLock({ core in  return core.getExceptionHandlingCallback() }) else { return }
@@ -198,7 +205,7 @@ final class ChatClient: Sendable {
         }
     }
     
-    func setQuestion() {
+    func setQuestion() throws (InitializationError) {
         do throws (InitializationError) {
             let isSDKInitialized = CoreInitializer.shared.withLock({ core in  return core.isInitialized() })
             if !isSDKInitialized {
@@ -231,7 +238,7 @@ final class ChatClient: Sendable {
                 return
             }
         } catch InitializationError.sdkUninitialized {
-            // TODO: Figure out what to do here
+            throw .sdkUninitialized
         } catch {
             
             guard let exceptionHandlingCallback = CoreInitializer.shared.withLock({ core in  return core.getExceptionHandlingCallback() }) else { return }

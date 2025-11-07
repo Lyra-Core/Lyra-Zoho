@@ -4,7 +4,7 @@
             "outputFile": "com.lyracore.zoho.lyrazohoandroid-release-51:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/runner/.gradle/caches/8.14.3/transforms/f9c9aebbf4b241af181176ae564ef50d/transformed/appcompat-1.7.1/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/Users/runner/.gradle/caches/8.14.3/transforms/f9c9aebbf4b241af181176ae564ef50d/transformed/appcompat-1.7.1/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -20,7 +20,7 @@
             "outputFile": "com.lyracore.zoho.lyrazohoandroid-mergeReleaseResources-49:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/runner/.gradle/caches/8.14.3/transforms/f9c9aebbf4b241af181176ae564ef50d/transformed/appcompat-1.7.1/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/Users/runner/.gradle/caches/8.14.3/transforms/f9c9aebbf4b241af181176ae564ef50d/transformed/appcompat-1.7.1/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

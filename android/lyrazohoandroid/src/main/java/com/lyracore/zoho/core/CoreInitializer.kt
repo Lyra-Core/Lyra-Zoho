@@ -47,9 +47,13 @@ object CoreInitializer {
                         override fun onInitSuccess() {
                             ZohoSalesIQ.Chat.showOperatorImageInLauncher(false)
                             // Mark core as initialized with the keys
-                            this@CoreInitializer.zohoAppKey = zohoConfig.appKey
-                            this@CoreInitializer.zohoAccessKey = zohoConfig.accessKey
-                            zohoInitialized = true
+                            synchronized(this) {
+                                if (!this@CoreInitializer.zohoInitialized) {
+                                    this@CoreInitializer.zohoAppKey = zohoConfig.appKey
+                                    this@CoreInitializer.zohoAccessKey = zohoConfig.accessKey
+                                    this@CoreInitializer.zohoInitialized = true
+                                }
+                            }
                         }
 
                         override fun onInitError(errorCode: Int, errorMessage: String) {

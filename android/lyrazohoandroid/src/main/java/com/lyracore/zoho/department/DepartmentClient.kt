@@ -48,7 +48,7 @@ object DepartmentClient {
         }
     }
 
-    fun getDepartmentByCountry(context: Context, countryCode: String): List<Department> {
+    fun getDepartmentByCountry(context: Context, countryCode: String): Department? {
         try {
             if (!CoreInitializer.isInitialized()) throw Exception("SDK is not initialized")
 
@@ -58,13 +58,13 @@ object DepartmentClient {
             inputStream.read(buffer)
             val jsonString: String = String(buffer, Charsets.UTF_8)
             val obj = Json.decodeFromString<List<Department>>(jsonString)
-            return obj.filter { o -> o.codes.contains(countryCode) }
+            return obj.firstOrNull() { o -> o.codes.contains(countryCode) }
         } catch (ex: Exception) {
             // Handle exception
             if (CoreInitializer.isInitialized())
                 CoreInitializer.getExceptionHandlingCallback()
                         .onException(ExceptionEvent(ex, ExceptionLocation.DEPARTMENT_GET_BY_COUNTRY))
-            return emptyList()
+            return null
         }
     }
 }

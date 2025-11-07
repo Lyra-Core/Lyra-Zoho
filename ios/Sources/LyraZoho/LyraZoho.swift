@@ -40,39 +40,39 @@ public final class LyraZoho: Sendable {
     }
     
     // Chat functionality = properly exposed
-    public func startChatListeners(listener: Optional<ZohoChatListener>) {
+    public func startChatListeners(listener: Optional<ZohoChatListener>)  throws (InitializationError) {
         let chatClient = ChatClient.shared.withLock({ chat in return chat })
-        chatClient.startLissteners(listener: listener)
+        try chatClient.startLissteners(listener: listener)
     }
     
-    public func openChat(listener: Optional<ZohoChatListener>) {
+    public func openChat(listener: Optional<ZohoChatListener>)  throws (InitializationError) {
         let chatClient = ChatClient.shared.withLock({ chat in return chat })
-        chatClient.open()
+        try chatClient.open()
     }
     
-    public func setChatDepartment(departmentName: String) {
+    public func setChatDepartment(countryCode: String)  throws (InitializationError) {
         let chatClient = ChatClient.shared.withLock({ chat in return chat })
-        chatClient.setDepartment(departmentName: departmentName)
+        try chatClient.setDepartment(countryCode: countryCode)
     }
     
-    public func setChatLanguage(languageCode: String) {
+    public func setChatLanguage(languageCode: String)  throws (InitializationError) {
         let chatClient = ChatClient.shared.withLock({ chat in return chat })
-        chatClient.setLanguage(languageCode: languageCode)
+        try chatClient.setLanguage(languageCode: languageCode)
     }
     
-    public func setChatQuestion() {
+    public func setChatQuestion()  throws (InitializationError) {
         let chatClient = ChatClient.shared.withLock({ chat in return chat })
-        chatClient.setQuestion()
+        try chatClient.setQuestion()
     }
     
-    public func setPageTitle(title: String) {
+    public func setPageTitle(title: String)  throws (InitializationError) {
         let chatClient = ChatClient.shared.withLock({ chat in return chat })
-        chatClient.setPageTitle(title: title)
+        try chatClient.setPageTitle(title: title)
     }
     
-    public func setAdditialInforation(additionalInfo: ChatAdditionalInformation) {
+    public func setAdditialInforation(additionalInfo: ChatAdditionalInformation)  throws (InitializationError) {
         let chatClient = ChatClient.shared.withLock({ chat in return chat })
-        chatClient.setAdditionalInformation(additionalInfo: additionalInfo)
+        try chatClient.setAdditionalInformation(additionalInfo: additionalInfo)
     }
     
     public func endChatSession() {
@@ -108,7 +108,7 @@ public final class LyraZoho: Sendable {
         return departmentClient.getDefaultDepartment()
     }
     
-    public func getDepartmentsByCountryCode(countryCode: String) ->[Department] {
+    public func getDepartmentsByCountryCode(countryCode: String) -> Optional<Department> {
         let departmentClient = DepartmentClient.shared.withLock({ department in return department })
         return departmentClient.getDepartmentsByCountry(countryCode: countryCode )
     }

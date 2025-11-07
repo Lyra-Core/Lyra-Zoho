@@ -1,4 +1,4 @@
-enum InitializationError: Error {
+public enum InitializationError: Error {
     case noErrorCode
     case noErrorMessage(Int)
     case sdkUninitialized

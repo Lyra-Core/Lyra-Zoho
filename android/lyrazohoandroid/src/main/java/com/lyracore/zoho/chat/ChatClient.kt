@@ -180,17 +180,18 @@ object ChatClient {
     }
 
     /** Set the department for the chat. */
-    fun setDepartment(context: Context, departmentName: String) {
+    fun setDepartment(context: Context, countryCode: String) {
         try {
             if (!CoreInitializer.isZohoInitialized()) Exception("Zoho not initialized")
 
-            val escapedDepartmentName = Html.escapeHtml(departmentName)
-            if (DepartmentClient.getAllDepartments(context).count { o ->
-                        o.name == escapedDepartmentName
-                    } <= 0
-            )
-                    Exception("Selected department does not exist")
+            var department = DepartmentClient.getDepartmentByCountry(context, countryCode)
+            if (department == null)
+                department = DepartmentClient.getDefaultDepartment(context)
 
+            if (department == null)
+                    Exception("No default department available. Please contact support")
+
+            val escapedDepartmentName = Html.escapeHtml(department?.name)
             ZohoSalesIQ.Chat.setDepartment(escapedDepartmentName)
         } catch (ex: Exception) {
             // Handle exception
@@ -236,7 +237,7 @@ object ChatClient {
                 ZohoSalesIQ.Visitor.addInfo("Potential Risk", "Yes")
             } else {
                 ZohoSalesIQ.Visitor.addInfo("Page", "Services")
-                ZohoSalesIQ.Visitor.addInfo("Potential Risk", "Yes")
+                ZohoSalesIQ.Visitor.addInfo("Potential Risk", "No")
             }
         } catch (ex: Exception) {
             // Handle exception
