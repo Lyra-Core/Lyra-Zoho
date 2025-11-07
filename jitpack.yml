@@ -1,5 +1,0 @@
-jdk:
-  - openjdk21
-
-install:
-  - cd android && ./gradlew :lyrazohoandroid:publishReleasePublicationToMavenLocal
