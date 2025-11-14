@@ -36,6 +36,7 @@ object ChatClient {
     private var chatListener: ZohoChatListener? = null
     private var isListenersStarted = false
     private var languageCode = "en"
+    private var pageTitle = "";
 
     /** Start listening to chat events and setup the launcher. */
     fun startListeners(listener: ZohoChatListener? = null) {
@@ -201,7 +202,7 @@ object ChatClient {
     }
 
     /** Set the language for the chat. Default language is en */
-    fun setLanguage(languageCode: String) {
+    fun setLanguage(context: Context, languageCode: String) {
         try {
             if (!CoreInitializer.isZohoInitialized()) Exception("Zoho not initialized")
             val languageMap: Map<String, String> =
@@ -218,6 +219,9 @@ object ChatClient {
                 ZohoSalesIQ.Chat.setLanguage(languageCode)
                 this.languageCode = languageCode
             }
+
+            this.setPageTitle(this.pageTitle)
+            this.setQuestion(context)
         } catch (ex: Exception) {
             // Handle exception
             CoreInitializer.getExceptionHandlingCallback()
@@ -252,6 +256,7 @@ object ChatClient {
     fun setPageTitle(title: String) {
         try {
             if (!CoreInitializer.isZohoInitialized()) Exception("Zoho not initialized")
+            this.pageTitle = title
             ZohoSalesIQ.Tracking.setPageTitle(title)
         } catch (ex: Exception) {
             // Handle exception

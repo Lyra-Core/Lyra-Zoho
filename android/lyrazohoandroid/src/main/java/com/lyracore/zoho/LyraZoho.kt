@@ -33,24 +33,28 @@ object LyraZoho {
     fun startChatListeners(listener: ZohoChatListener? = null) = ChatClient.startListeners(listener)
     fun openChat(activity: AppCompatActivity) = ChatClient.open(activity)
     fun setChatDepartment(context: Context, departmentName: String) =
-            ChatClient.setDepartment(context, departmentName)
-    fun setChatLanguage(languageCode: String) = ChatClient.setLanguage(languageCode)
+        ChatClient.setDepartment(context, departmentName)
+
+    fun setChatLanguage(context: Context, languageCode: String) = ChatClient.setLanguage(context, languageCode)
     fun setChatQuestion(context: Context) = ChatClient.setQuestion(context)
     fun setPageTitle(title: String) = ChatClient.setPageTitle(title)
     fun setAdditionalInformation(additionalInfo: ChatAdditionalInformation) =
-            ChatClient.setAdditionalInformation(additionalInfo)
+        ChatClient.setAdditionalInformation(additionalInfo)
+
     fun endChatSession(application: Application) = ChatClient.endSession(application)
 
     // Notification functionality
     fun enablePushNotification(token: String, isTestDevice: Boolean) =
-            NotificationClient.enablePush(token, isTestDevice)
+        NotificationClient.enablePush(token, isTestDevice)
+
     fun handlePushNotification(context: Context, data: Map<Any?, Any?>) =
-            NotificationClient.handleNotification(context, data)
+        NotificationClient.handleNotification(context, data)
+
     fun isZohoPushNotification(data: Map<Any?, Any?>) = NotificationClient.isZohoNotification(data)
 
-    // Department fucntionality
+    // Department functionality
     fun getAllDepartments(context: Context) = DepartmentClient.getAllDepartments(context)
     fun getDefaultDepartment(context: Context) = DepartmentClient.getDefaultDepartment(context)
     fun getDepartmentsByCountryCode(context: Context, countryCode: String) =
-            DepartmentClient.getDepartmentByCountry(context, countryCode)
+        DepartmentClient.getDepartmentByCountry(context, countryCode)
 }
