@@ -8,7 +8,7 @@ import com.zoho.livechat.android.ZohoLiveChat
 
 object NotificationClient {
     /* Function that is used to enable push notifications from Zoho */
-    fun enablePush(token: String, isTestDevice: Boolean) {
+    internal fun enablePush(token: String, isTestDevice: Boolean) {
         try {
             if (!CoreInitializer.isInitialized()) throw Exception("SDK is not initialized")
             if (!CoreInitializer.isZohoInitialized()) throw Exception("Zoho not initialized")
@@ -23,7 +23,7 @@ object NotificationClient {
     }
 
     /* Handles the notifications from Zoho? */
-    fun handleNotification(context: Context, data: Map<Any?, Any?>) {
+    internal fun handleNotification(context: Context, data: Map<Any?, Any?>) {
         try {
             if (!CoreInitializer.isInitialized()) throw Exception("SDK is not initialized")
             if (!CoreInitializer.isZohoInitialized()) throw Exception("Zoho not initialized")
@@ -40,7 +40,7 @@ object NotificationClient {
     }
 
     /* Determines whether a notification is from Zoho. Returns null on exception */
-    fun isZohoNotification(data: Map<Any?, Any?>): Boolean? {
+    internal fun isZohoNotification(data: Map<Any?, Any?>): Boolean? {
         try {
             if (!CoreInitializer.isInitialized()) throw Exception("SDK is not initialized")
             if (!CoreInitializer.isZohoInitialized()) throw Exception("Zoho not initialized")

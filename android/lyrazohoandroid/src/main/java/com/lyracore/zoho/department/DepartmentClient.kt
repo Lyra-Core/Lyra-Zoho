@@ -9,7 +9,7 @@ import java.io.InputStream
 import kotlinx.serialization.json.Json
 
 object DepartmentClient {
-    fun getAllDepartments(context: Context): List<Department> {
+    internal fun getAllDepartments(context: Context): List<Department> {
         try {
             if (!CoreInitializer.isInitialized()) throw Exception("SDK is not initialized")
 
@@ -28,7 +28,7 @@ object DepartmentClient {
         }
     }
 
-    fun getDefaultDepartment(context: Context): Department? {
+    internal fun getDefaultDepartment(context: Context): Department? {
         try {
             if (!CoreInitializer.isInitialized()) throw Exception("SDK is not initialized")
 
@@ -48,7 +48,7 @@ object DepartmentClient {
         }
     }
 
-    fun getDepartmentByCountry(context: Context, countryCode: String): Department? {
+    internal fun getDepartmentByCountry(context: Context, countryCode: String): Department? {
         try {
             if (!CoreInitializer.isInitialized()) throw Exception("SDK is not initialized")
 

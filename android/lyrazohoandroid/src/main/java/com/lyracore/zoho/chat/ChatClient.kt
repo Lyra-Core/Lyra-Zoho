@@ -39,7 +39,7 @@ object ChatClient {
     private var pageTitle = "";
 
     /** Start listening to chat events and setup the launcher. */
-    fun startListeners(listener: ZohoChatListener? = null) {
+    internal fun startListeners(listener: ZohoChatListener? = null) {
         try {
             if (!CoreInitializer.isZohoInitialized()) Exception("Zoho not initialized")
             if (isListenersStarted) return
@@ -154,7 +154,7 @@ object ChatClient {
     }
 
     /** Open the chat interface. */
-    fun open(activity: AppCompatActivity) {
+    internal fun open(activity: AppCompatActivity) {
         try {
             if (!CoreInitializer.isZohoInitialized()) Exception("Zoho not initialized")
             activity.runOnUiThread {
@@ -181,7 +181,7 @@ object ChatClient {
     }
 
     /** Set the department for the chat. */
-    fun setDepartment(context: Context, countryCode: String) {
+    internal fun setDepartment(context: Context, countryCode: String) {
         try {
             if (!CoreInitializer.isZohoInitialized()) Exception("Zoho not initialized")
 
@@ -202,7 +202,7 @@ object ChatClient {
     }
 
     /** Set the language for the chat. Default language is en */
-    fun setLanguage(context: Context, languageCode: String) {
+    internal fun setLanguage(context: Context, languageCode: String) {
         try {
             if (!CoreInitializer.isZohoInitialized()) Exception("Zoho not initialized")
             val languageMap: Map<String, String> =
@@ -230,7 +230,7 @@ object ChatClient {
     }
 
     /** Set additional information for the visitor. */
-    fun setAdditionalInformation(additionalInfo: ChatAdditionalInformation) {
+    internal fun setAdditionalInformation(additionalInfo: ChatAdditionalInformation) {
         try {
             if (!CoreInitializer.isZohoInitialized()) Exception("Zoho not initialized")
 
@@ -253,7 +253,7 @@ object ChatClient {
     }
 
     /** Set the page title for tracking. */
-    fun setPageTitle(title: String) {
+    internal fun setPageTitle(title: String) {
         try {
             if (!CoreInitializer.isZohoInitialized()) Exception("Zoho not initialized")
             this.pageTitle = title
@@ -266,7 +266,7 @@ object ChatClient {
     }
 
     /** Set a question for the visitor. */
-    fun setQuestion(context: Context) {
+    internal fun setQuestion(context: Context) {
         try {
             if (!CoreInitializer.isZohoInitialized()) Exception("Zoho not initialized")
 
@@ -287,7 +287,7 @@ object ChatClient {
     }
 
     /** End the current chat session. */
-    fun endSession(application: Application) {
+    internal fun endSession(application: Application) {
         try {
             if (!CoreInitializer.isZohoInitialized()) Exception("Zoho not initialized")
             endChat()
@@ -317,7 +317,7 @@ object ChatClient {
         )
     }
 
-    private fun showZohoLauncher() {
+    internal fun showZohoLauncher() {
         ZohoSalesIQ.Chat.getList(
                 ConversationType.OPEN,
                 object : ConversationListener {

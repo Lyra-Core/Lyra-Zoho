@@ -43,6 +43,8 @@ object LyraZoho {
 
     fun endChatSession(application: Application) = ChatClient.endSession(application)
 
+    fun showZohoLauncher() = ChatClient.showZohoLauncher()
+
     // Notification functionality
     fun enablePushNotification(token: String, isTestDevice: Boolean) =
         NotificationClient.enablePush(token, isTestDevice)

@@ -21,7 +21,7 @@ object CoreInitializer {
     private var zohoAccessKey: String? = null
     private lateinit var exceptionHandlingCallback: ExceptionHandlingCallback
 
-    fun initialize(config: LyraConfig) {
+    internal fun initialize(config: LyraConfig) {
         if (!initialized) {
             synchronized(this) {
                 if (!initialized) {
@@ -34,7 +34,7 @@ object CoreInitializer {
     }
 
     /** Initialize Zoho-specific keys. This is called by ChatClient after successful Zoho init. */
-    fun initializeZoho(application: Application, zohoConfig: ZohoConfig) {
+    internal fun initializeZoho(application: Application, zohoConfig: ZohoConfig) {
         try {
             val initConfig = InitConfig()
             this.exceptionHandlingCallback = zohoConfig.exceptionHandlingCallback
@@ -76,13 +76,13 @@ object CoreInitializer {
         }
     }
 
-    fun isInitialized(): Boolean = initialized
-    fun isZohoInitialized(): Boolean = zohoInitialized
-    fun getApiKey(): String? = apiKey
-    fun getConfig(): LyraConfig? = config
-    fun getZohoAppKey(): String? = zohoAppKey
-    fun getZohoAccessKey(): String? = zohoAccessKey
-    fun getExceptionHandlingCallback(): ExceptionHandlingCallback = exceptionHandlingCallback
+    internal fun isInitialized(): Boolean = initialized
+    internal fun isZohoInitialized(): Boolean = zohoInitialized
+    internal fun getApiKey(): String? = apiKey
+    internal fun getConfig(): LyraConfig? = config
+    internal fun getZohoAppKey(): String? = zohoAppKey
+    internal fun getZohoAccessKey(): String? = zohoAccessKey
+    internal fun getExceptionHandlingCallback(): ExceptionHandlingCallback = exceptionHandlingCallback
 
     /**
      * Reset the CoreInitializer state. This method is intended for testing purposes only.
