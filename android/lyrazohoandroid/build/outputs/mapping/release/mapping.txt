@@ -1,0 +1,154 @@
+# compiler: R8
+# compiler_version: 8.13.6
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: 10633cf34c05b021e111ca88aaa8346562dc9a3b741c3e19065bd1dfb64b41de
+# pg_map_hash: SHA-256 10633cf34c05b021e111ca88aaa8346562dc9a3b741c3e19065bd1dfb64b41de
+com.lyracore.zoho.chat.interfaces.DepartmentCallback -> com.lyracore.zoho.chat.interfaces.DepartmentCallback:
+# {"id":"sourceFile","fileName":"DepartmentCallback.kt"}
+com.lyracore.zoho.chat.interfaces.ZohoChatListener -> com.lyracore.zoho.chat.interfaces.ZohoChatListener:
+# {"id":"sourceFile","fileName":"ZohoChatListener.kt"}
+    1:1:void access$onChatAttended$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent):6:6 -> access$onChatAttended$jd
+    1:1:void access$onChatClosed$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent):6:6 -> access$onChatClosed$jd
+    1:1:void access$onChatMissed$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent):6:6 -> access$onChatMissed$jd
+    1:1:void access$onChatOpened$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent):6:6 -> access$onChatOpened$jd
+    1:1:void access$onChatReOpened$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent):6:6 -> access$onChatReOpened$jd
+    1:1:void access$onChatViewClose$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,java.lang.String):6:6 -> access$onChatViewClose$jd
+    1:1:void access$onChatViewOpen$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,java.lang.String):6:6 -> access$onChatViewOpen$jd
+    1:1:void access$onFeedback$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent):6:6 -> access$onFeedback$jd
+    1:1:void access$onQueuePositionChange$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent):6:6 -> access$onQueuePositionChange$jd
+    1:1:void access$onRating$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent):6:6 -> access$onRating$jd
+com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls -> com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls:
+# {"id":"sourceFile","fileName":"ZohoChatListener.kt"}
+    1:1:void onChatAttended(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent):11:11 -> onChatAttended
+    1:1:void onChatClosed(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent):10:10 -> onChatClosed
+    1:1:void onChatMissed(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent):12:12 -> onChatMissed
+    1:1:void onChatOpened(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent):9:9 -> onChatOpened
+    1:1:void onChatReOpened(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent):13:13 -> onChatReOpened
+    1:1:void onChatViewClose(com.lyracore.zoho.chat.interfaces.ZohoChatListener,java.lang.String):8:8 -> onChatViewClose
+    1:1:void onChatViewOpen(com.lyracore.zoho.chat.interfaces.ZohoChatListener,java.lang.String):7:7 -> onChatViewOpen
+    1:1:void onFeedback(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent):15:15 -> onFeedback
+    1:1:void onQueuePositionChange(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent):16:16 -> onQueuePositionChange
+    1:1:void onRating(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent):14:14 -> onRating
+com.lyracore.zoho.chat.models.ChatAdditionalInformation -> com.lyracore.zoho.chat.models.ChatAdditionalInformation:
+# {"id":"sourceFile","fileName":"ChatAdditionalInformation.kt"}
+    1:1:void <init>(java.lang.String,java.lang.String):3:3 -> <init>
+    1:1:java.lang.String getCompanyName():3:3 -> getCompanyName
+    1:1:java.lang.String getPrimaryNeed():3:3 -> getPrimaryNeed
+com.lyracore.zoho.chat.models.ChatEvent -> com.lyracore.zoho.chat.models.ChatEvent:
+# {"id":"sourceFile","fileName":"ChatEvent.kt"}
+    1:4:void <init>(com.lyracore.zoho.chat.models.enums.ChatEventType,java.lang.String,com.lyracore.zoho.chat.models.VisitorChatData):6:9 -> <init>
+    5:5:void <init>(com.lyracore.zoho.chat.models.enums.ChatEventType,java.lang.String,com.lyracore.zoho.chat.models.VisitorChatData,int,kotlin.jvm.internal.DefaultConstructorMarker):6:6 -> <init>
+    1:1:java.lang.String getChatId():8:8 -> getChatId
+    1:1:com.lyracore.zoho.chat.models.enums.ChatEventType getType():7:7 -> getType
+    1:1:com.lyracore.zoho.chat.models.VisitorChatData getVisitorChat():9:9 -> getVisitorChat
+com.lyracore.zoho.chat.models.Department -> com.lyracore.zoho.chat.models.Department:
+# {"id":"sourceFile","fileName":"Department.kt"}
+    1:1:void <init>(java.lang.String,java.lang.String,boolean):4:4 -> <init>
+    1:1:boolean getAvailable():4:4 -> getAvailable
+    1:1:java.lang.String getId():4:4 -> getId
+    1:1:java.lang.String getName():4:4 -> getName
+com.lyracore.zoho.chat.models.VisitorChatData -> com.lyracore.zoho.chat.models.VisitorChatData:
+# {"id":"sourceFile","fileName":"VisitorChatData.kt"}
+    1:16:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,long,java.lang.String,int):4:19 -> <init>
+    17:17:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,long,java.lang.String,int,int,kotlin.jvm.internal.DefaultConstructorMarker):4:4 -> <init>
+    1:1:java.lang.String getAttenderEmail():8:8 -> getAttenderEmail
+    1:1:java.lang.String getAttenderId():9:9 -> getAttenderId
+    1:1:java.lang.String getAttenderName():7:7 -> getAttenderName
+    1:1:java.lang.String getChatId():5:5 -> getChatId
+    1:1:java.lang.String getChatStatus():12:12 -> getChatStatus
+    1:1:java.lang.String getDepartmentName():11:11 -> getDepartmentName
+    1:1:java.lang.String getFeedback():14:14 -> getFeedback
+    1:1:java.lang.String getLastMessage():16:16 -> getLastMessage
+    1:1:java.lang.String getLastMessageSender():18:18 -> getLastMessageSender
+    1:1:long getLastMessageTime():17:17 -> getLastMessageTime
+    1:1:java.lang.String getQuestion():6:6 -> getQuestion
+    1:1:int getQueuePosition():19:19 -> getQueuePosition
+    1:1:java.lang.String getRating():15:15 -> getRating
+    1:1:int getUnreadCount():13:13 -> getUnreadCount
+    1:1:boolean isBotAttender():10:10 -> isBotAttender
+com.lyracore.zoho.chat.models.enums.ChatEventType -> com.lyracore.zoho.chat.models.enums.ChatEventType:
+# {"id":"sourceFile","fileName":"ChatEventType.kt"}
+    1:10:void <clinit>():5:14 -> <clinit>
+    1:1:void <init>(java.lang.String,int):4:4 -> <init>
+com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback -> com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback:
+# {"id":"sourceFile","fileName":"ExceptionHandlingCallback.kt"}
+com.lyracore.zoho.core.models.ErrorEvent -> com.lyracore.zoho.core.models.ErrorEvent:
+# {"id":"sourceFile","fileName":"ErrorEvent.kt"}
+    1:4:void <init>(int,java.lang.String,com.lyracore.zoho.core.models.enums.ErrorLocation):6:9 -> <init>
+    1:1:int getErrorCode():7:7 -> getErrorCode
+    1:1:com.lyracore.zoho.core.models.enums.ErrorLocation getErrorLocation():9:9 -> getErrorLocation
+    1:1:java.lang.String getErrorMessage():8:8 -> getErrorMessage
+com.lyracore.zoho.core.models.ExceptionEvent -> com.lyracore.zoho.core.models.ExceptionEvent:
+# {"id":"sourceFile","fileName":"ExceptionEvent.kt"}
+    1:1:void <init>(java.lang.Exception,com.lyracore.zoho.core.models.enums.ExceptionLocation):6:6 -> <init>
+    1:1:java.lang.Exception getException():6:6 -> getException
+    1:1:com.lyracore.zoho.core.models.enums.ExceptionLocation getExceptionLocation():6:6 -> getExceptionLocation
+com.lyracore.zoho.core.models.LyraConfig -> com.lyracore.zoho.core.models.LyraConfig:
+# {"id":"sourceFile","fileName":"LyraConfig.kt"}
+    1:4:void <init>(java.lang.String,java.lang.String,long):4:7 -> <init>
+    5:5:void <init>(java.lang.String,java.lang.String,long,int,kotlin.jvm.internal.DefaultConstructorMarker):6:6 -> <init>
+    6:6:void <init>(java.lang.String,java.lang.String,long,int,kotlin.jvm.internal.DefaultConstructorMarker):4:4 -> <init>
+    1:1:java.lang.String getApiKey():5:5 -> getApiKey
+    1:1:java.lang.String getBaseUrl():6:6 -> getBaseUrl
+    1:1:long getTimeoutMs():7:7 -> getTimeoutMs
+com.lyracore.zoho.core.models.Translation -> com.lyracore.zoho.core.models.Translation:
+# {"id":"sourceFile","fileName":"Translation.kt"}
+    1:1:void <init>(int,java.lang.String,kotlinx.serialization.internal.SerializationConstructorMarker):5:5 -> <init>
+    2:2:void <init>(java.lang.String):5:5 -> <init>
+    1:1:java.lang.String getZOHO_QUESTION():5:5 -> getZOHO_QUESTION
+    1:1:void write$Self$lyrazohoandroid_release(com.lyracore.zoho.core.models.Translation,kotlinx.serialization.encoding.CompositeEncoder,kotlinx.serialization.descriptors.SerialDescriptor):5:5 -> write$Self$lyrazohoandroid_release
+com.lyracore.zoho.core.models.Translation$$serializer -> com.lyracore.zoho.core.models.Translation$$serializer:
+# {"id":"sourceFile","fileName":"Translation.kt"}
+    1:1:void <clinit>():5:5 -> <clinit>
+    1:1:void <init>():5:5 -> <init>
+    1:1:kotlinx.serialization.KSerializer[] childSerializers():5:5 -> childSerializers
+    1:1:com.lyracore.zoho.core.models.Translation deserialize(kotlinx.serialization.encoding.Decoder):5:5 -> deserialize
+    2:2:java.lang.Object deserialize(kotlinx.serialization.encoding.Decoder):5:5 -> deserialize
+    1:1:void serialize(kotlinx.serialization.encoding.Encoder,com.lyracore.zoho.core.models.Translation):5:5 -> serialize
+    2:2:void serialize(kotlinx.serialization.encoding.Encoder,java.lang.Object):5:5 -> serialize
+    1:1:kotlinx.serialization.KSerializer[] typeParametersSerializers():5:5 -> typeParametersSerializers
+com.lyracore.zoho.core.models.Translation$Companion -> com.lyracore.zoho.core.models.Translation$Companion:
+# {"id":"sourceFile","fileName":"Translation.kt"}
+    1:1:void <init>(kotlin.jvm.internal.DefaultConstructorMarker):0:0 -> <init>
+    2:2:void <init>():5:5 -> <init>
+    1:1:kotlinx.serialization.KSerializer serializer():5:5 -> serializer
+com.lyracore.zoho.core.models.ZohoConfig -> com.lyracore.zoho.core.models.ZohoConfig:
+# {"id":"sourceFile","fileName":"ZohoConfig.kt"}
+    1:4:void <init>(java.lang.String,java.lang.String,com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback):6:9 -> <init>
+    1:1:java.lang.String getAccessKey():8:8 -> getAccessKey
+    1:1:java.lang.String getAppKey():7:7 -> getAppKey
+    1:1:com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback getExceptionHandlingCallback():9:9 -> getExceptionHandlingCallback
+com.lyracore.zoho.core.models.enums.ErrorLocation -> com.lyracore.zoho.core.models.enums.ErrorLocation:
+# {"id":"sourceFile","fileName":"ErrorLocation.kt"}
+    1:5:void <clinit>():5:9 -> <clinit>
+    1:1:void <init>(java.lang.String,int):4:4 -> <init>
+com.lyracore.zoho.core.models.enums.ExceptionLocation -> com.lyracore.zoho.core.models.enums.ExceptionLocation:
+# {"id":"sourceFile","fileName":"ExceptionLocation.kt"}
+    1:16:void <clinit>():5:20 -> <clinit>
+    1:1:void <init>(java.lang.String,int):4:4 -> <init>
+com.lyracore.zoho.department.models.Department -> com.lyracore.zoho.department.models.Department:
+# {"id":"sourceFile","fileName":"Department.kt"}
+    1:1:void <clinit>():5:5 -> <clinit>
+    1:1:void <init>(int,java.lang.String,java.util.List,boolean,kotlinx.serialization.internal.SerializationConstructorMarker):5:5 -> <init>
+    2:3:void <init>(java.lang.String,java.util.List,boolean):5:6 -> <init>
+    1:1:kotlin.Lazy[] access$get$childSerializers$cp():5:5 -> access$get$childSerializers$cp
+    1:1:java.util.List getCodes():6:6 -> getCodes
+    1:1:boolean getDefault():6:6 -> getDefault
+    1:1:java.lang.String getName():6:6 -> getName
+    1:1:void write$Self$lyrazohoandroid_release(com.lyracore.zoho.department.models.Department,kotlinx.serialization.encoding.CompositeEncoder,kotlinx.serialization.descriptors.SerialDescriptor):5:5 -> write$Self$lyrazohoandroid_release
+com.lyracore.zoho.department.models.Department$$serializer -> com.lyracore.zoho.department.models.Department$$serializer:
+# {"id":"sourceFile","fileName":"Department.kt"}
+    1:1:void <clinit>():5:5 -> <clinit>
+    1:1:void <init>():5:5 -> <init>
+    1:1:kotlinx.serialization.KSerializer[] childSerializers():5:5 -> childSerializers
+    1:1:com.lyracore.zoho.department.models.Department deserialize(kotlinx.serialization.encoding.Decoder):5:5 -> deserialize
+    2:2:java.lang.Object deserialize(kotlinx.serialization.encoding.Decoder):5:5 -> deserialize
+    1:1:void serialize(kotlinx.serialization.encoding.Encoder,com.lyracore.zoho.department.models.Department):5:5 -> serialize
+    2:2:void serialize(kotlinx.serialization.encoding.Encoder,java.lang.Object):5:5 -> serialize
+    1:1:kotlinx.serialization.KSerializer[] typeParametersSerializers():5:5 -> typeParametersSerializers
+com.lyracore.zoho.department.models.Department$Companion -> com.lyracore.zoho.department.models.Department$Companion:
+# {"id":"sourceFile","fileName":"Department.kt"}
+    1:1:void <init>(kotlin.jvm.internal.DefaultConstructorMarker):0:0 -> <init>
+    2:2:void <init>():5:5 -> <init>
+    1:1:kotlinx.serialization.KSerializer serializer():5:5 -> serializer

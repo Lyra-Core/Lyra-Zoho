@@ -1,0 +1,5 @@
+-keep class com.lyracore.zoho.chat.models.** { *; }
+-keep class com.lyracore.zoho.chat.interfaces.** { *; }
+-keep class com.lyracore.zoho.core.models.** { *; }
+-keep class com.lyracore.zoho.core.interfaces.** { *; }
+-keep class com.lyracore.zoho.department.models.** { *; }
