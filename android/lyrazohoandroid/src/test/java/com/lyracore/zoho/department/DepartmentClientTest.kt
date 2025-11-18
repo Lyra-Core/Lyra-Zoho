@@ -84,7 +84,7 @@ class DepartmentClientTest {
 
         val result = DepartmentClient.getDepartmentByCountry(context, "za")
 
-        assertEquals(1, result.count())
+        assertNotNull(result)
     }
 
     @Test
@@ -92,6 +92,6 @@ class DepartmentClientTest {
 
         val result = DepartmentClient.getDepartmentByCountry(context, "za")
 
-        assertEquals(0, result.count())
+        assertNull(result)
     }
 }

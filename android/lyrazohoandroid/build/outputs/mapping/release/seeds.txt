@@ -1,321 +1,321 @@
-com.lyracore.zoho.chat.models.ChatAdditionalInformation
-com.lyracore.zoho.core.models.Translation
 com.lyracore.zoho.R
-com.lyracore.zoho.core.models.enums.ExceptionLocation
 com.lyracore.zoho.core.models.ZohoConfig
-com.lyracore.zoho.chat.interfaces.DepartmentCallback
-com.lyracore.zoho.core.models.Translation$$serializer
-com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls
-com.lyracore.zoho.chat.interfaces.ZohoChatListener
-com.lyracore.zoho.core.models.Translation$Companion
+com.lyracore.zoho.core.models.LyraConfig
 com.lyracore.zoho.core.models.enums.ErrorLocation
-com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback
-com.lyracore.zoho.department.models.Department$$serializer
-com.lyracore.zoho.chat.models.enums.ChatEventType
-com.lyracore.zoho.core.models.ErrorEvent
-com.lyracore.zoho.chat.models.ChatEvent
+com.lyracore.zoho.core.models.Translation$Companion
+com.lyracore.zoho.chat.interfaces.ZohoChatListener
 com.lyracore.zoho.department.models.Department
 com.lyracore.zoho.department.models.Department$Companion
-com.lyracore.zoho.core.models.ExceptionEvent
-com.lyracore.zoho.chat.models.VisitorChatData
-com.lyracore.zoho.core.models.LyraConfig
+com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback
+com.lyracore.zoho.core.models.Translation
+com.lyracore.zoho.department.models.Department$$serializer
+com.lyracore.zoho.core.models.enums.ExceptionLocation
 com.lyracore.zoho.chat.models.Department
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String feedback
-com.lyracore.zoho.core.models.ErrorEvent: com.lyracore.zoho.core.models.enums.ErrorLocation errorLocation
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String question
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String chatStatus
-com.lyracore.zoho.chat.models.enums.ChatEventType: kotlin.enums.EnumEntries $ENTRIES
-com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType CHAT_VIEW_CLOSE
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation NOTIFICATION_HANDLE_NOTIFICATION
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CHAT_SET_PAGE_TITLE
-com.lyracore.zoho.department.models.Department$$serializer: com.lyracore.zoho.department.models.Department$$serializer INSTANCE
-com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType CHAT_VIEW_OPEN
-com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType CHAT_CLOSED
-com.lyracore.zoho.core.models.ExceptionEvent: java.lang.Exception exception
-com.lyracore.zoho.chat.models.VisitorChatData: boolean isBotAttender
-com.lyracore.zoho.department.models.Department: boolean default
-com.lyracore.zoho.chat.models.ChatAdditionalInformation: java.lang.String companyName
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String attenderName
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String rating
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation DEPARTMENT_GET_BY_COUNTRY
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CHAT_START_LISTENERS
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation DEPARTMENT_GET_ALL
-com.lyracore.zoho.chat.models.ChatEvent: com.lyracore.zoho.chat.models.enums.ChatEventType type
-com.lyracore.zoho.core.models.LyraConfig: java.lang.String baseUrl
-com.lyracore.zoho.core.models.LyraConfig: long timeoutMs
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CHAT_GET_DEPARTMENTS
-com.lyracore.zoho.core.models.enums.ErrorLocation: com.lyracore.zoho.core.models.enums.ErrorLocation CHAT_SHOW_ZOHO_LAUNCHER
-com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType RATING
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation DEPARTMENT_GET_DEFAULT
-com.lyracore.zoho.core.models.enums.ErrorLocation: com.lyracore.zoho.core.models.enums.ErrorLocation CHAT_END_CHAT
-com.lyracore.zoho.core.models.enums.ErrorLocation: com.lyracore.zoho.core.models.enums.ErrorLocation CHAT_GET_DEPARTMENTS
-com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType CHAT_REOPENED
-com.lyracore.zoho.chat.models.ChatAdditionalInformation: java.lang.String primaryNeed
-com.lyracore.zoho.chat.models.ChatEvent: com.lyracore.zoho.chat.models.VisitorChatData visitorChat
-com.lyracore.zoho.chat.models.VisitorChatData: int unreadCount
-com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType FEEDBACK
-com.lyracore.zoho.core.models.ZohoConfig: java.lang.String appKey
-com.lyracore.zoho.core.models.ErrorEvent: int errorCode
-com.lyracore.zoho.core.models.LyraConfig: java.lang.String apiKey
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String chatId
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CHAT_END_SESSION
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation NOTIFICATION_IS_ZOHO_NOTIFICATION
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CHAT_SET_DEPARTMENT
-com.lyracore.zoho.department.models.Department: kotlin.Lazy[] $childSerializers
-com.lyracore.zoho.chat.models.Department: java.lang.String id
-com.lyracore.zoho.core.models.enums.ErrorLocation: kotlin.enums.EnumEntries $ENTRIES
-com.lyracore.zoho.core.models.Translation$$serializer: com.lyracore.zoho.core.models.Translation$$serializer INSTANCE
-com.lyracore.zoho.core.models.Translation$$serializer: kotlinx.serialization.descriptors.SerialDescriptor descriptor
-com.lyracore.zoho.department.models.Department: java.lang.String name
-com.lyracore.zoho.core.models.ZohoConfig: java.lang.String accessKey
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CHAT_SET_ADDITIONAL_INFORMATION
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String lastMessageSender
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation[] $VALUES
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CHAT_OPEN
-com.lyracore.zoho.chat.models.Department: boolean available
-com.lyracore.zoho.core.models.Translation: com.lyracore.zoho.core.models.Translation$Companion Companion
-com.lyracore.zoho.core.models.enums.ErrorLocation: com.lyracore.zoho.core.models.enums.ErrorLocation[] $VALUES
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CHAT_SET_QUESTION
-com.lyracore.zoho.chat.models.Department: java.lang.String name
-com.lyracore.zoho.chat.models.VisitorChatData: int queuePosition
-com.lyracore.zoho.core.models.enums.ExceptionLocation: kotlin.enums.EnumEntries $ENTRIES
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String departmentName
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation NOTIFICATION_ENABLE_PUSH
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CORE_INITIALIZE
-com.lyracore.zoho.department.models.Department: java.util.List codes
-com.lyracore.zoho.core.models.enums.ErrorLocation: com.lyracore.zoho.core.models.enums.ErrorLocation CORE_INITIALIZE
+com.lyracore.zoho.chat.models.ChatAdditionalInformation
+com.lyracore.zoho.chat.models.ChatEvent
+com.lyracore.zoho.core.models.Translation$$serializer
+com.lyracore.zoho.chat.models.VisitorChatData
+com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls
+com.lyracore.zoho.core.models.ExceptionEvent
+com.lyracore.zoho.chat.models.enums.ChatEventType
+com.lyracore.zoho.core.models.ErrorEvent
+com.lyracore.zoho.chat.interfaces.DepartmentCallback
 com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType CHAT_OPENED
-com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType QUEUE_POSITION_CHANGE
-com.lyracore.zoho.core.models.enums.ErrorLocation: com.lyracore.zoho.core.models.enums.ErrorLocation CHAT_OPEN
-com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType CHAT_MISSED
-com.lyracore.zoho.core.models.ErrorEvent: java.lang.String errorMessage
-com.lyracore.zoho.department.models.Department: com.lyracore.zoho.department.models.Department$Companion Companion
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String lastMessage
-com.lyracore.zoho.chat.models.ChatEvent: java.lang.String chatId
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String attenderId
-com.lyracore.zoho.core.models.Translation: java.lang.String ZOHO_QUESTION
-com.lyracore.zoho.department.models.Department$$serializer: kotlinx.serialization.descriptors.SerialDescriptor descriptor
-com.lyracore.zoho.core.models.ZohoConfig: com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback exceptionHandlingCallback
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CHAT_SET_LANGUAGE
+com.lyracore.zoho.chat.models.ChatAdditionalInformation: java.lang.String companyName
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation NOTIFICATION_ENABLE_PUSH
+com.lyracore.zoho.chat.models.VisitorChatData: boolean isBotAttender
 com.lyracore.zoho.core.models.ExceptionEvent: com.lyracore.zoho.core.models.enums.ExceptionLocation exceptionLocation
-com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType[] $VALUES
+com.lyracore.zoho.core.models.Translation: java.lang.String ZOHO_QUESTION
+com.lyracore.zoho.core.models.Translation$$serializer: kotlinx.serialization.descriptors.SerialDescriptor descriptor
+com.lyracore.zoho.core.models.enums.ExceptionLocation: kotlin.enums.EnumEntries $ENTRIES
+com.lyracore.zoho.department.models.Department: java.util.List codes
+com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType CHAT_CLOSED
+com.lyracore.zoho.chat.models.ChatEvent: java.lang.String chatId
+com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType CHAT_VIEW_OPEN
+com.lyracore.zoho.department.models.Department: kotlin.Lazy[] $childSerializers
+com.lyracore.zoho.department.models.Department$$serializer: com.lyracore.zoho.department.models.Department$$serializer INSTANCE
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CHAT_SET_ADDITIONAL_INFORMATION
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation DEPARTMENT_GET_DEFAULT
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String departmentName
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CHAT_SET_QUESTION
+com.lyracore.zoho.core.models.LyraConfig: java.lang.String apiKey
+com.lyracore.zoho.core.models.Translation: com.lyracore.zoho.core.models.Translation$Companion Companion
+com.lyracore.zoho.chat.models.ChatAdditionalInformation: java.lang.String primaryNeed
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation NOTIFICATION_HANDLE_NOTIFICATION
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String rating
+com.lyracore.zoho.chat.models.Department: boolean available
+com.lyracore.zoho.chat.models.VisitorChatData: int queuePosition
+com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType QUEUE_POSITION_CHANGE
 com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType CHAT_ATTENDED
-com.lyracore.zoho.chat.models.VisitorChatData: long lastMessageTime
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String feedback
+com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType RATING
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CHAT_START_LISTENERS
+com.lyracore.zoho.department.models.Department: java.lang.String name
+com.lyracore.zoho.chat.models.ChatEvent: com.lyracore.zoho.chat.models.enums.ChatEventType type
+com.lyracore.zoho.chat.models.Department: java.lang.String name
+com.lyracore.zoho.core.models.ZohoConfig: java.lang.String accessKey
+com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType[] $VALUES
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CHAT_OPEN
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation[] $VALUES
+com.lyracore.zoho.chat.models.Department: java.lang.String id
 com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String attenderEmail
-com.lyracore.zoho.core.models.ErrorEvent: int component1()
-com.lyracore.zoho.chat.models.VisitorChatData: int component9()
-com.lyracore.zoho.core.models.ErrorEvent: java.lang.String component2()
-com.lyracore.zoho.core.models.Translation$$serializer: java.lang.Object deserialize(kotlinx.serialization.encoding.Decoder)
-com.lyracore.zoho.core.models.Translation$Companion: kotlinx.serialization.KSerializer serializer()
-com.lyracore.zoho.core.models.ExceptionEvent: java.lang.String toString()
-com.lyracore.zoho.core.models.ExceptionEvent: java.lang.Exception component1()
-com.lyracore.zoho.department.models.Department$Companion: kotlinx.serialization.KSerializer serializer()
-com.lyracore.zoho.chat.models.ChatAdditionalInformation: ChatAdditionalInformation(java.lang.String,java.lang.String)
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onChatMissed$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.core.models.LyraConfig: LyraConfig(java.lang.String,java.lang.String,long)
-com.lyracore.zoho.department.models.Department: java.lang.String toString()
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component5()
+com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType CHAT_REOPENED
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String attenderId
+com.lyracore.zoho.chat.models.VisitorChatData: long lastMessageTime
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CHAT_GET_DEPARTMENTS
+com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType CHAT_VIEW_CLOSE
+com.lyracore.zoho.core.models.enums.ErrorLocation: com.lyracore.zoho.core.models.enums.ErrorLocation CHAT_SHOW_ZOHO_LAUNCHER
+com.lyracore.zoho.core.models.LyraConfig: java.lang.String baseUrl
+com.lyracore.zoho.chat.models.ChatEvent: com.lyracore.zoho.chat.models.VisitorChatData visitorChat
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String question
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CHAT_END_SESSION
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String chatId
+com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType CHAT_MISSED
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String lastMessage
+com.lyracore.zoho.chat.models.enums.ChatEventType: kotlin.enums.EnumEntries $ENTRIES
+com.lyracore.zoho.core.models.ErrorEvent: java.lang.String errorMessage
+com.lyracore.zoho.core.models.Translation$$serializer: com.lyracore.zoho.core.models.Translation$$serializer INSTANCE
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CHAT_SET_DEPARTMENT
+com.lyracore.zoho.core.models.enums.ErrorLocation: com.lyracore.zoho.core.models.enums.ErrorLocation[] $VALUES
+com.lyracore.zoho.core.models.ErrorEvent: int errorCode
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation DEPARTMENT_GET_BY_COUNTRY
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CHAT_SET_LANGUAGE
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CHAT_SET_PAGE_TITLE
+com.lyracore.zoho.department.models.Department: boolean default
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation DEPARTMENT_GET_ALL
+com.lyracore.zoho.chat.models.VisitorChatData: int unreadCount
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation NOTIFICATION_IS_ZOHO_NOTIFICATION
+com.lyracore.zoho.core.models.ExceptionEvent: java.lang.Exception exception
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String chatStatus
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation CORE_INITIALIZE
+com.lyracore.zoho.core.models.enums.ErrorLocation: com.lyracore.zoho.core.models.enums.ErrorLocation CHAT_END_CHAT
+com.lyracore.zoho.core.models.enums.ErrorLocation: kotlin.enums.EnumEntries $ENTRIES
+com.lyracore.zoho.department.models.Department: com.lyracore.zoho.department.models.Department$Companion Companion
+com.lyracore.zoho.core.models.enums.ErrorLocation: com.lyracore.zoho.core.models.enums.ErrorLocation CHAT_OPEN
+com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType FEEDBACK
+com.lyracore.zoho.core.models.LyraConfig: long timeoutMs
+com.lyracore.zoho.core.models.ZohoConfig: java.lang.String appKey
+com.lyracore.zoho.core.models.ErrorEvent: com.lyracore.zoho.core.models.enums.ErrorLocation errorLocation
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String lastMessageSender
+com.lyracore.zoho.core.models.enums.ErrorLocation: com.lyracore.zoho.core.models.enums.ErrorLocation CORE_INITIALIZE
+com.lyracore.zoho.core.models.ZohoConfig: com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback exceptionHandlingCallback
+com.lyracore.zoho.department.models.Department$$serializer: kotlinx.serialization.descriptors.SerialDescriptor descriptor
+com.lyracore.zoho.core.models.enums.ErrorLocation: com.lyracore.zoho.core.models.enums.ErrorLocation CHAT_GET_DEPARTMENTS
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String attenderName
 com.lyracore.zoho.chat.models.VisitorChatData: boolean component6()
-com.lyracore.zoho.department.models.Department$$serializer: Department$$serializer()
-com.lyracore.zoho.core.models.Translation$$serializer: void serialize(kotlinx.serialization.encoding.Encoder,java.lang.Object)
-com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls: void onQueuePositionChange(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.core.models.LyraConfig: long component3()
-com.lyracore.zoho.chat.interfaces.DepartmentCallback: void onSuccess(java.util.List)
+com.lyracore.zoho.core.models.LyraConfig: com.lyracore.zoho.core.models.LyraConfig copy$default(com.lyracore.zoho.core.models.LyraConfig,java.lang.String,java.lang.String,long,int,java.lang.Object)
+com.lyracore.zoho.core.models.LyraConfig: java.lang.String getBaseUrl()
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component10()
+com.lyracore.zoho.chat.models.VisitorChatData: int hashCode()
 com.lyracore.zoho.chat.models.VisitorChatData: VisitorChatData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,long,java.lang.String,int,int,kotlin.jvm.internal.DefaultConstructorMarker)
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onChatReOpened$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.department.models.Department: int hashCode()
-com.lyracore.zoho.chat.models.ChatAdditionalInformation: java.lang.String toString()
-com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls: void onChatOpened(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.chat.models.Department: int hashCode()
-com.lyracore.zoho.chat.models.ChatAdditionalInformation: boolean equals(java.lang.Object)
-com.lyracore.zoho.department.models.Department: boolean component3()
+com.lyracore.zoho.core.models.Translation: java.lang.String toString()
+com.lyracore.zoho.core.models.Translation: void write$Self$lyrazohoandroid_release(com.lyracore.zoho.core.models.Translation,kotlinx.serialization.encoding.CompositeEncoder,kotlinx.serialization.descriptors.SerialDescriptor)
+com.lyracore.zoho.chat.models.Department: java.lang.String component1()
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onRating$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getRating()
+com.lyracore.zoho.department.models.Department$$serializer: com.lyracore.zoho.department.models.Department deserialize(kotlinx.serialization.encoding.Decoder)
+com.lyracore.zoho.core.models.ZohoConfig: java.lang.String component1()
 com.lyracore.zoho.department.models.Department: java.util.List component2()
+com.lyracore.zoho.department.models.Department: kotlin.Lazy[] access$get$childSerializers$cp()
+com.lyracore.zoho.core.models.ZohoConfig: com.lyracore.zoho.core.models.ZohoConfig copy$default(com.lyracore.zoho.core.models.ZohoConfig,java.lang.String,java.lang.String,com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback,int,java.lang.Object)
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onChatOpened(com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls: void onQueuePositionChange(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.chat.models.ChatEvent: com.lyracore.zoho.chat.models.VisitorChatData getVisitorChat()
+com.lyracore.zoho.chat.models.enums.ChatEventType: kotlin.enums.EnumEntries getEntries()
+com.lyracore.zoho.core.models.ErrorEvent: ErrorEvent(int,java.lang.String,com.lyracore.zoho.core.models.enums.ErrorLocation)
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component7()
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onChatAttended$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.department.models.Department: java.lang.String component1()
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onChatOpened$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.department.models.Department: boolean equals(java.lang.Object)
+com.lyracore.zoho.department.models.Department$$serializer: kotlinx.serialization.KSerializer[] typeParametersSerializers()
+com.lyracore.zoho.core.models.ExceptionEvent: java.lang.String toString()
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onChatAttended(com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component8()
+com.lyracore.zoho.core.models.Translation$$serializer: kotlinx.serialization.descriptors.SerialDescriptor getDescriptor()
+com.lyracore.zoho.chat.models.VisitorChatData: com.lyracore.zoho.chat.models.VisitorChatData copy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,long,java.lang.String,int)
 com.lyracore.zoho.core.models.LyraConfig: com.lyracore.zoho.core.models.LyraConfig copy(java.lang.String,java.lang.String,long)
+com.lyracore.zoho.chat.models.ChatEvent: com.lyracore.zoho.chat.models.VisitorChatData component3()
+com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls: void onFeedback(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType[] $values()
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component3()
+com.lyracore.zoho.chat.models.VisitorChatData: int getUnreadCount()
+com.lyracore.zoho.department.models.Department: java.lang.String toString()
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onChatClosed$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.core.models.Translation: Translation(java.lang.String)
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onChatViewClose$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,java.lang.String)
+com.lyracore.zoho.core.models.ExceptionEvent: boolean equals(java.lang.Object)
+com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls: void onChatViewClose(com.lyracore.zoho.chat.interfaces.ZohoChatListener,java.lang.String)
+com.lyracore.zoho.chat.models.ChatEvent: java.lang.String getChatId()
+com.lyracore.zoho.chat.models.VisitorChatData: int component15()
+com.lyracore.zoho.R: R()
+com.lyracore.zoho.core.models.enums.ErrorLocation: ErrorLocation(java.lang.String,int)
+com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls: void onRating(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.chat.models.ChatEvent: com.lyracore.zoho.chat.models.enums.ChatEventType component1()
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onChatMissed$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.core.models.ErrorEvent: int component1()
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component2()
+com.lyracore.zoho.chat.models.Department: boolean equals(java.lang.Object)
+com.lyracore.zoho.core.models.ExceptionEvent: java.lang.Exception getException()
+com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls: void onChatOpened(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.chat.models.ChatAdditionalInformation: java.lang.String getPrimaryNeed()
+com.lyracore.zoho.chat.models.Department: com.lyracore.zoho.chat.models.Department copy(java.lang.String,java.lang.String,boolean)
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onChatViewClose(java.lang.String)
+com.lyracore.zoho.department.models.Department: void write$Self$lyrazohoandroid_release(com.lyracore.zoho.department.models.Department,kotlinx.serialization.encoding.CompositeEncoder,kotlinx.serialization.descriptors.SerialDescriptor)
+com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType valueOf(java.lang.String)
+com.lyracore.zoho.department.models.Department$$serializer: kotlinx.serialization.KSerializer[] childSerializers()
+com.lyracore.zoho.core.models.LyraConfig: long component3()
+com.lyracore.zoho.chat.models.VisitorChatData: long getLastMessageTime()
+com.lyracore.zoho.chat.models.Department: boolean component3()
+com.lyracore.zoho.department.models.Department$Companion: Department$Companion(kotlin.jvm.internal.DefaultConstructorMarker)
+com.lyracore.zoho.chat.models.Department: java.lang.String getName()
+com.lyracore.zoho.department.models.Department$$serializer: kotlinx.serialization.descriptors.SerialDescriptor getDescriptor()
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation[] values()
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getLastMessageSender()
+com.lyracore.zoho.chat.models.ChatEvent: com.lyracore.zoho.chat.models.enums.ChatEventType getType()
+com.lyracore.zoho.core.models.ErrorEvent: com.lyracore.zoho.core.models.ErrorEvent copy$default(com.lyracore.zoho.core.models.ErrorEvent,int,java.lang.String,com.lyracore.zoho.core.models.enums.ErrorLocation,int,java.lang.Object)
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component1()
+com.lyracore.zoho.core.models.ZohoConfig: com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback component3()
+com.lyracore.zoho.department.models.Department: Department(java.lang.String,java.util.List,boolean)
+com.lyracore.zoho.core.models.ErrorEvent: java.lang.String getErrorMessage()
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getChatId()
+com.lyracore.zoho.chat.models.ChatEvent: java.lang.String component2()
+com.lyracore.zoho.department.models.Department$$serializer: void serialize(kotlinx.serialization.encoding.Encoder,java.lang.Object)
+com.lyracore.zoho.core.models.LyraConfig: java.lang.String toString()
+com.lyracore.zoho.chat.models.ChatEvent: com.lyracore.zoho.chat.models.ChatEvent copy$default(com.lyracore.zoho.chat.models.ChatEvent,com.lyracore.zoho.chat.models.enums.ChatEventType,java.lang.String,com.lyracore.zoho.chat.models.VisitorChatData,int,java.lang.Object)
+com.lyracore.zoho.department.models.Department$Companion: kotlinx.serialization.KSerializer serializer()
+com.lyracore.zoho.chat.models.ChatEvent: com.lyracore.zoho.chat.models.ChatEvent copy(com.lyracore.zoho.chat.models.enums.ChatEventType,java.lang.String,com.lyracore.zoho.chat.models.VisitorChatData)
+com.lyracore.zoho.chat.models.Department: java.lang.String toString()
+com.lyracore.zoho.core.models.LyraConfig: java.lang.String component2()
+com.lyracore.zoho.chat.models.ChatAdditionalInformation: boolean equals(java.lang.Object)
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getLastMessage()
 com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onChatClosed(com.lyracore.zoho.chat.models.ChatEvent)
 com.lyracore.zoho.core.models.Translation: com.lyracore.zoho.core.models.Translation copy(java.lang.String)
-com.lyracore.zoho.core.models.ZohoConfig: com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback getExceptionHandlingCallback()
-com.lyracore.zoho.core.models.LyraConfig: long getTimeoutMs()
-com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls: void onChatMissed(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component12()
-com.lyracore.zoho.chat.models.ChatEvent: com.lyracore.zoho.chat.models.VisitorChatData component3()
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onChatViewClose$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,java.lang.String)
-com.lyracore.zoho.department.models.Department$Companion: Department$Companion()
-com.lyracore.zoho.chat.models.ChatEvent: int hashCode()
-com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType[] values()
-com.lyracore.zoho.core.models.LyraConfig: boolean equals(java.lang.Object)
-com.lyracore.zoho.chat.models.VisitorChatData: int hashCode()
-com.lyracore.zoho.core.models.Translation: void write$Self$lyrazohoandroid_release(com.lyracore.zoho.core.models.Translation,kotlinx.serialization.encoding.CompositeEncoder,kotlinx.serialization.descriptors.SerialDescriptor)
-com.lyracore.zoho.chat.models.VisitorChatData: com.lyracore.zoho.chat.models.VisitorChatData copy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,long,java.lang.String,int)
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onChatViewClose(java.lang.String)
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component4()
-com.lyracore.zoho.core.models.LyraConfig: int hashCode()
+com.lyracore.zoho.core.models.Translation$$serializer: com.lyracore.zoho.core.models.Translation deserialize(kotlinx.serialization.encoding.Decoder)
+com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls: void onChatReOpened(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.department.models.Department$$serializer: java.lang.Object deserialize(kotlinx.serialization.encoding.Decoder)
+com.lyracore.zoho.core.models.ZohoConfig: ZohoConfig(java.lang.String,java.lang.String,com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback)
+com.lyracore.zoho.core.models.ErrorEvent: java.lang.String toString()
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String toString()
+com.lyracore.zoho.chat.models.ChatAdditionalInformation: java.lang.String component1()
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onChatMissed(com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.chat.models.VisitorChatData: com.lyracore.zoho.chat.models.VisitorChatData copy$default(com.lyracore.zoho.chat.models.VisitorChatData,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,long,java.lang.String,int,int,java.lang.Object)
+com.lyracore.zoho.department.models.Department$$serializer: Department$$serializer()
+com.lyracore.zoho.chat.models.ChatEvent: ChatEvent(com.lyracore.zoho.chat.models.enums.ChatEventType,java.lang.String,com.lyracore.zoho.chat.models.VisitorChatData)
+com.lyracore.zoho.core.models.ErrorEvent: com.lyracore.zoho.core.models.ErrorEvent copy(int,java.lang.String,com.lyracore.zoho.core.models.enums.ErrorLocation)
+com.lyracore.zoho.core.models.LyraConfig: java.lang.String component1()
+com.lyracore.zoho.chat.models.VisitorChatData: VisitorChatData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,long,java.lang.String,int)
+com.lyracore.zoho.chat.models.ChatAdditionalInformation: java.lang.String toString()
+com.lyracore.zoho.core.models.Translation$$serializer: java.lang.Object deserialize(kotlinx.serialization.encoding.Decoder)
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getChatStatus()
+com.lyracore.zoho.core.models.ExceptionEvent: java.lang.Exception component1()
 com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls: void onChatClosed(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.core.models.LyraConfig: LyraConfig(java.lang.String,java.lang.String,long,int,kotlin.jvm.internal.DefaultConstructorMarker)
+com.lyracore.zoho.chat.models.Department: com.lyracore.zoho.chat.models.Department copy$default(com.lyracore.zoho.chat.models.Department,java.lang.String,java.lang.String,boolean,int,java.lang.Object)
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onRating(com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getDepartmentName()
 com.lyracore.zoho.department.models.Department: com.lyracore.zoho.department.models.Department copy$default(com.lyracore.zoho.department.models.Department,java.lang.String,java.util.List,boolean,int,java.lang.Object)
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onRating$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.core.models.Translation$$serializer: void serialize(kotlinx.serialization.encoding.Encoder,com.lyracore.zoho.core.models.Translation)
-com.lyracore.zoho.chat.models.Department: boolean getAvailable()
-com.lyracore.zoho.core.models.Translation$Companion: Translation$Companion(kotlin.jvm.internal.DefaultConstructorMarker)
-com.lyracore.zoho.chat.models.enums.ChatEventType: kotlin.enums.EnumEntries getEntries()
 com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getQuestion()
+com.lyracore.zoho.chat.models.ChatAdditionalInformation: ChatAdditionalInformation(java.lang.String,java.lang.String)
+com.lyracore.zoho.core.models.Translation: java.lang.String getZOHO_QUESTION()
+com.lyracore.zoho.department.models.Department: Department(int,java.lang.String,java.util.List,boolean,kotlinx.serialization.internal.SerializationConstructorMarker)
+com.lyracore.zoho.chat.interfaces.DepartmentCallback: void onSuccess(java.util.List)
+com.lyracore.zoho.core.models.Translation$Companion: Translation$Companion()
+com.lyracore.zoho.core.models.LyraConfig: boolean equals(java.lang.Object)
+com.lyracore.zoho.core.models.ZohoConfig: com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback getExceptionHandlingCallback()
+com.lyracore.zoho.chat.models.VisitorChatData: boolean isBotAttender()
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component14()
+com.lyracore.zoho.core.models.ZohoConfig: boolean equals(java.lang.Object)
+com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback: void onException(com.lyracore.zoho.core.models.ExceptionEvent)
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onChatViewOpen$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,java.lang.String)
+com.lyracore.zoho.core.models.ErrorEvent: com.lyracore.zoho.core.models.enums.ErrorLocation component3()
+com.lyracore.zoho.chat.models.Department: java.lang.String getId()
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component4()
+com.lyracore.zoho.core.models.enums.ErrorLocation: com.lyracore.zoho.core.models.enums.ErrorLocation valueOf(java.lang.String)
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation valueOf(java.lang.String)
+com.lyracore.zoho.core.models.enums.ExceptionLocation: ExceptionLocation(java.lang.String,int)
+com.lyracore.zoho.chat.models.VisitorChatData: int component9()
+com.lyracore.zoho.core.models.Translation$Companion: Translation$Companion(kotlin.jvm.internal.DefaultConstructorMarker)
+com.lyracore.zoho.core.models.ExceptionEvent: com.lyracore.zoho.core.models.ExceptionEvent copy(java.lang.Exception,com.lyracore.zoho.core.models.enums.ExceptionLocation)
+com.lyracore.zoho.chat.models.Department: int hashCode()
+com.lyracore.zoho.core.models.ZohoConfig: int hashCode()
+com.lyracore.zoho.core.models.ErrorEvent: int getErrorCode()
+com.lyracore.zoho.core.models.ErrorEvent: boolean equals(java.lang.Object)
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onFeedback(com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.core.models.enums.ExceptionLocation: kotlin.enums.EnumEntries getEntries()
+com.lyracore.zoho.chat.models.Department: boolean getAvailable()
+com.lyracore.zoho.department.models.Department: java.util.List getCodes()
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getAttenderEmail()
+com.lyracore.zoho.core.models.ZohoConfig: java.lang.String toString()
+com.lyracore.zoho.chat.models.ChatAdditionalInformation: int hashCode()
+com.lyracore.zoho.chat.models.ChatAdditionalInformation: com.lyracore.zoho.chat.models.ChatAdditionalInformation copy(java.lang.String,java.lang.String)
+com.lyracore.zoho.core.models.Translation: boolean equals(java.lang.Object)
+com.lyracore.zoho.department.models.Department$Companion: Department$Companion()
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getFeedback()
+com.lyracore.zoho.core.models.ExceptionEvent: int hashCode()
+com.lyracore.zoho.chat.models.Department: java.lang.String component2()
+com.lyracore.zoho.department.models.Department: int hashCode()
+com.lyracore.zoho.core.models.Translation$$serializer: Translation$$serializer()
+com.lyracore.zoho.core.models.LyraConfig: int hashCode()
+com.lyracore.zoho.department.models.Department: kotlinx.serialization.KSerializer _childSerializers$_anonymous_()
+com.lyracore.zoho.core.models.LyraConfig: long getTimeoutMs()
+com.lyracore.zoho.core.models.Translation$$serializer: kotlinx.serialization.KSerializer[] typeParametersSerializers()
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onChatReOpened(com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType[] values()
+com.lyracore.zoho.core.models.Translation: Translation(int,java.lang.String,kotlinx.serialization.internal.SerializationConstructorMarker)
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getAttenderId()
+com.lyracore.zoho.core.models.ExceptionEvent: com.lyracore.zoho.core.models.enums.ExceptionLocation component2()
+com.lyracore.zoho.department.models.Department: boolean getDefault()
+com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls: void onChatMissed(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.chat.models.ChatEvent: ChatEvent(com.lyracore.zoho.chat.models.enums.ChatEventType,java.lang.String,com.lyracore.zoho.chat.models.VisitorChatData,int,kotlin.jvm.internal.DefaultConstructorMarker)
 com.lyracore.zoho.core.models.ErrorEvent: com.lyracore.zoho.core.models.enums.ErrorLocation getErrorLocation()
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onChatAttended(com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.core.models.ZohoConfig: java.lang.String getAppKey()
-com.lyracore.zoho.core.models.LyraConfig: java.lang.String toString()
-com.lyracore.zoho.department.models.Department: kotlin.Lazy[] access$get$childSerializers$cp()
-com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback: void onError(com.lyracore.zoho.core.models.ErrorEvent)
+com.lyracore.zoho.chat.models.ChatAdditionalInformation: java.lang.String getCompanyName()
+com.lyracore.zoho.department.models.Department: com.lyracore.zoho.department.models.Department copy(java.lang.String,java.util.List,boolean)
+com.lyracore.zoho.chat.models.VisitorChatData: long component13()
+com.lyracore.zoho.core.models.ZohoConfig: java.lang.String getAccessKey()
+com.lyracore.zoho.core.models.ExceptionEvent: ExceptionEvent(java.lang.Exception,com.lyracore.zoho.core.models.enums.ExceptionLocation)
+com.lyracore.zoho.department.models.Department: java.lang.String getName()
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onChatReOpened$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.core.models.ErrorEvent: java.lang.String component2()
+com.lyracore.zoho.core.models.Translation$$serializer: void serialize(kotlinx.serialization.encoding.Encoder,com.lyracore.zoho.core.models.Translation)
+com.lyracore.zoho.chat.models.VisitorChatData: int getQueuePosition()
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onQueuePositionChange$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.chat.models.enums.ChatEventType: ChatEventType(java.lang.String,int)
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onQueuePositionChange(com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.chat.models.ChatEvent: java.lang.String toString()
+com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls: void onChatAttended(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation[] $values()
+com.lyracore.zoho.chat.models.ChatAdditionalInformation: java.lang.String component2()
+com.lyracore.zoho.core.models.LyraConfig: java.lang.String getApiKey()
+com.lyracore.zoho.core.models.enums.ErrorLocation: com.lyracore.zoho.core.models.enums.ErrorLocation[] values()
+com.lyracore.zoho.core.models.ZohoConfig: java.lang.String component2()
+com.lyracore.zoho.chat.models.Department: Department(java.lang.String,java.lang.String,boolean)
+com.lyracore.zoho.chat.models.ChatAdditionalInformation: com.lyracore.zoho.chat.models.ChatAdditionalInformation copy$default(com.lyracore.zoho.chat.models.ChatAdditionalInformation,java.lang.String,java.lang.String,int,java.lang.Object)
+com.lyracore.zoho.core.models.Translation: java.lang.String component1()
+com.lyracore.zoho.core.models.Translation$Companion: kotlinx.serialization.KSerializer serializer()
+com.lyracore.zoho.core.models.ExceptionEvent: com.lyracore.zoho.core.models.ExceptionEvent copy$default(com.lyracore.zoho.core.models.ExceptionEvent,java.lang.Exception,com.lyracore.zoho.core.models.enums.ExceptionLocation,int,java.lang.Object)
+com.lyracore.zoho.core.models.Translation: com.lyracore.zoho.core.models.Translation copy$default(com.lyracore.zoho.core.models.Translation,java.lang.String,int,java.lang.Object)
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onFeedback$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
+com.lyracore.zoho.core.models.enums.ErrorLocation: com.lyracore.zoho.core.models.enums.ErrorLocation[] $values()
+com.lyracore.zoho.department.models.Department: boolean component3()
 com.lyracore.zoho.core.models.enums.ErrorLocation: kotlin.enums.EnumEntries getEntries()
 com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls: void onChatViewOpen(com.lyracore.zoho.chat.interfaces.ZohoChatListener,java.lang.String)
-com.lyracore.zoho.core.models.ErrorEvent: com.lyracore.zoho.core.models.ErrorEvent copy(int,java.lang.String,com.lyracore.zoho.core.models.enums.ErrorLocation)
-com.lyracore.zoho.department.models.Department$$serializer: kotlinx.serialization.descriptors.SerialDescriptor getDescriptor()
-com.lyracore.zoho.core.models.LyraConfig: LyraConfig(java.lang.String,java.lang.String,long,int,kotlin.jvm.internal.DefaultConstructorMarker)
-com.lyracore.zoho.core.models.Translation$$serializer: kotlinx.serialization.KSerializer[] typeParametersSerializers()
-com.lyracore.zoho.core.models.Translation: com.lyracore.zoho.core.models.Translation copy$default(com.lyracore.zoho.core.models.Translation,java.lang.String,int,java.lang.Object)
-com.lyracore.zoho.core.models.enums.ErrorLocation: com.lyracore.zoho.core.models.enums.ErrorLocation[] $values()
-com.lyracore.zoho.chat.models.Department: com.lyracore.zoho.chat.models.Department copy(java.lang.String,java.lang.String,boolean)
-com.lyracore.zoho.chat.models.ChatEvent: java.lang.String getChatId()
-com.lyracore.zoho.core.models.Translation: java.lang.String component1()
-com.lyracore.zoho.core.models.ZohoConfig: int hashCode()
-com.lyracore.zoho.department.models.Department: com.lyracore.zoho.department.models.Department copy(java.lang.String,java.util.List,boolean)
-com.lyracore.zoho.chat.models.ChatEvent: com.lyracore.zoho.chat.models.ChatEvent copy$default(com.lyracore.zoho.chat.models.ChatEvent,com.lyracore.zoho.chat.models.enums.ChatEventType,java.lang.String,com.lyracore.zoho.chat.models.VisitorChatData,int,java.lang.Object)
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getChatId()
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onChatAttended$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.core.models.ExceptionEvent: com.lyracore.zoho.core.models.enums.ExceptionLocation getExceptionLocation()
-com.lyracore.zoho.chat.models.Department: java.lang.String getId()
-com.lyracore.zoho.department.models.Department$$serializer: java.lang.Object deserialize(kotlinx.serialization.encoding.Decoder)
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getChatStatus()
-com.lyracore.zoho.chat.models.ChatEvent: com.lyracore.zoho.chat.models.enums.ChatEventType component1()
-com.lyracore.zoho.chat.models.VisitorChatData: long getLastMessageTime()
-com.lyracore.zoho.department.models.Department: kotlinx.serialization.KSerializer _childSerializers$_anonymous_()
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component3()
-com.lyracore.zoho.core.models.ErrorEvent: com.lyracore.zoho.core.models.ErrorEvent copy$default(com.lyracore.zoho.core.models.ErrorEvent,int,java.lang.String,com.lyracore.zoho.core.models.enums.ErrorLocation,int,java.lang.Object)
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component7()
-com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls: void onChatAttended(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.chat.models.enums.ChatEventType: ChatEventType(java.lang.String,int)
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation valueOf(java.lang.String)
-com.lyracore.zoho.department.models.Department: Department(java.lang.String,java.util.List,boolean)
-com.lyracore.zoho.chat.models.VisitorChatData: long component13()
-com.lyracore.zoho.department.models.Department: boolean equals(java.lang.Object)
-com.lyracore.zoho.core.models.LyraConfig: java.lang.String component2()
-com.lyracore.zoho.core.models.ExceptionEvent: com.lyracore.zoho.core.models.enums.ExceptionLocation component2()
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onChatViewOpen$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,java.lang.String)
-com.lyracore.zoho.core.models.ErrorEvent: java.lang.String getErrorMessage()
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getLastMessageSender()
-com.lyracore.zoho.chat.models.Department: boolean equals(java.lang.Object)
-com.lyracore.zoho.core.models.Translation$$serializer: kotlinx.serialization.KSerializer[] childSerializers()
-com.lyracore.zoho.core.models.ExceptionEvent: com.lyracore.zoho.core.models.ExceptionEvent copy$default(com.lyracore.zoho.core.models.ExceptionEvent,java.lang.Exception,com.lyracore.zoho.core.models.enums.ExceptionLocation,int,java.lang.Object)
-com.lyracore.zoho.core.models.ExceptionEvent: int hashCode()
-com.lyracore.zoho.core.models.enums.ExceptionLocation: kotlin.enums.EnumEntries getEntries()
-com.lyracore.zoho.core.models.ErrorEvent: com.lyracore.zoho.core.models.enums.ErrorLocation component3()
-com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls: void onRating(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.department.models.Department: Department(int,java.lang.String,java.util.List,boolean,kotlinx.serialization.internal.SerializationConstructorMarker)
-com.lyracore.zoho.core.models.ErrorEvent: boolean equals(java.lang.Object)
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component8()
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getFeedback()
-com.lyracore.zoho.chat.models.ChatEvent: java.lang.String component2()
-com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls: void onFeedback(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onChatOpened$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.chat.models.ChatAdditionalInformation: java.lang.String getPrimaryNeed()
-com.lyracore.zoho.department.models.Department: java.lang.String component1()
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onChatClosed$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.core.models.Translation: int hashCode()
-com.lyracore.zoho.chat.models.VisitorChatData: boolean isBotAttender()
-com.lyracore.zoho.chat.models.ChatEvent: com.lyracore.zoho.chat.models.ChatEvent copy(com.lyracore.zoho.chat.models.enums.ChatEventType,java.lang.String,com.lyracore.zoho.chat.models.VisitorChatData)
-com.lyracore.zoho.department.models.Department: void write$Self$lyrazohoandroid_release(com.lyracore.zoho.department.models.Department,kotlinx.serialization.encoding.CompositeEncoder,kotlinx.serialization.descriptors.SerialDescriptor)
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onFeedback(com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component14()
-com.lyracore.zoho.core.models.enums.ExceptionLocation: ExceptionLocation(java.lang.String,int)
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component2()
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation[] $values()
-com.lyracore.zoho.core.models.ExceptionEvent: java.lang.Exception getException()
-com.lyracore.zoho.core.models.Translation: java.lang.String getZOHO_QUESTION()
-com.lyracore.zoho.core.models.Translation: Translation(java.lang.String)
-com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType valueOf(java.lang.String)
-com.lyracore.zoho.chat.models.VisitorChatData: VisitorChatData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,long,java.lang.String,int)
-com.lyracore.zoho.core.models.ZohoConfig: java.lang.String component1()
-com.lyracore.zoho.core.models.Translation: java.lang.String toString()
-com.lyracore.zoho.department.models.Department$Companion: Department$Companion(kotlin.jvm.internal.DefaultConstructorMarker)
-com.lyracore.zoho.chat.models.ChatAdditionalInformation: com.lyracore.zoho.chat.models.ChatAdditionalInformation copy$default(com.lyracore.zoho.chat.models.ChatAdditionalInformation,java.lang.String,java.lang.String,int,java.lang.Object)
-com.lyracore.zoho.department.models.Department: java.lang.String getName()
-com.lyracore.zoho.chat.models.ChatEvent: ChatEvent(com.lyracore.zoho.chat.models.enums.ChatEventType,java.lang.String,com.lyracore.zoho.chat.models.VisitorChatData)
-com.lyracore.zoho.chat.models.VisitorChatData: int getQueuePosition()
-com.lyracore.zoho.department.models.Department$$serializer: com.lyracore.zoho.department.models.Department deserialize(kotlinx.serialization.encoding.Decoder)
-com.lyracore.zoho.core.models.ErrorEvent: int hashCode()
-com.lyracore.zoho.chat.models.ChatAdditionalInformation: java.lang.String component1()
-com.lyracore.zoho.core.models.Translation$Companion: Translation$Companion()
-com.lyracore.zoho.chat.models.ChatEvent: com.lyracore.zoho.chat.models.VisitorChatData getVisitorChat()
-com.lyracore.zoho.chat.models.ChatEvent: java.lang.String toString()
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onFeedback$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.core.models.Translation: boolean equals(java.lang.Object)
-com.lyracore.zoho.department.models.Department$$serializer: void serialize(kotlinx.serialization.encoding.Encoder,java.lang.Object)
-com.lyracore.zoho.chat.models.Department: java.lang.String toString()
-com.lyracore.zoho.chat.models.VisitorChatData: boolean equals(java.lang.Object)
-com.lyracore.zoho.core.models.ZohoConfig: com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback component3()
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onChatMissed(com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.core.models.ZohoConfig: com.lyracore.zoho.core.models.ZohoConfig copy(java.lang.String,java.lang.String,com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback)
-com.lyracore.zoho.chat.models.enums.ChatEventType: com.lyracore.zoho.chat.models.enums.ChatEventType[] $values()
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component1()
-com.lyracore.zoho.core.models.ErrorEvent: java.lang.String toString()
-com.lyracore.zoho.chat.models.Department: Department(java.lang.String,java.lang.String,boolean)
-com.lyracore.zoho.core.models.Translation: Translation(int,java.lang.String,kotlinx.serialization.internal.SerializationConstructorMarker)
-com.lyracore.zoho.core.models.LyraConfig: java.lang.String getBaseUrl()
 com.lyracore.zoho.chat.interfaces.DepartmentCallback: void onError(java.lang.String)
-com.lyracore.zoho.core.models.Translation$$serializer: com.lyracore.zoho.core.models.Translation deserialize(kotlinx.serialization.encoding.Decoder)
-com.lyracore.zoho.core.models.enums.ErrorLocation: ErrorLocation(java.lang.String,int)
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getRating()
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onQueuePositionChange(com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.chat.models.Department: boolean component3()
-com.lyracore.zoho.chat.models.Department: java.lang.String component2()
-com.lyracore.zoho.chat.models.ChatAdditionalInformation: int hashCode()
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onChatReOpened(com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getAttenderName()
-com.lyracore.zoho.core.models.ErrorEvent: ErrorEvent(int,java.lang.String,com.lyracore.zoho.core.models.enums.ErrorLocation)
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onChatViewOpen(java.lang.String)
-com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls: void onChatViewClose(com.lyracore.zoho.chat.interfaces.ZohoChatListener,java.lang.String)
-com.lyracore.zoho.core.models.enums.ExceptionLocation: com.lyracore.zoho.core.models.enums.ExceptionLocation[] values()
-com.lyracore.zoho.chat.models.ChatAdditionalInformation: com.lyracore.zoho.chat.models.ChatAdditionalInformation copy(java.lang.String,java.lang.String)
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component10()
-com.lyracore.zoho.chat.models.Department: java.lang.String component1()
-com.lyracore.zoho.department.models.Department$$serializer: kotlinx.serialization.KSerializer[] typeParametersSerializers()
-com.lyracore.zoho.chat.interfaces.ZohoChatListener$DefaultImpls: void onChatReOpened(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getLastMessage()
-com.lyracore.zoho.core.models.ZohoConfig: com.lyracore.zoho.core.models.ZohoConfig copy$default(com.lyracore.zoho.core.models.ZohoConfig,java.lang.String,java.lang.String,com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback,int,java.lang.Object)
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component11()
-com.lyracore.zoho.core.models.ZohoConfig: java.lang.String toString()
-com.lyracore.zoho.chat.models.Department: java.lang.String getName()
-com.lyracore.zoho.chat.models.VisitorChatData: int getUnreadCount()
-com.lyracore.zoho.department.models.Department: java.util.List getCodes()
-com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback: void onException(com.lyracore.zoho.core.models.ExceptionEvent)
-com.lyracore.zoho.chat.models.VisitorChatData: int component15()
-com.lyracore.zoho.core.models.ExceptionEvent: com.lyracore.zoho.core.models.ExceptionEvent copy(java.lang.Exception,com.lyracore.zoho.core.models.enums.ExceptionLocation)
-com.lyracore.zoho.chat.models.ChatEvent: ChatEvent(com.lyracore.zoho.chat.models.enums.ChatEventType,java.lang.String,com.lyracore.zoho.chat.models.VisitorChatData,int,kotlin.jvm.internal.DefaultConstructorMarker)
-com.lyracore.zoho.core.models.enums.ErrorLocation: com.lyracore.zoho.core.models.enums.ErrorLocation[] values()
-com.lyracore.zoho.core.models.ExceptionEvent: ExceptionEvent(java.lang.Exception,com.lyracore.zoho.core.models.enums.ExceptionLocation)
-com.lyracore.zoho.department.models.Department$$serializer: kotlinx.serialization.KSerializer[] childSerializers()
-com.lyracore.zoho.core.models.Translation$$serializer: kotlinx.serialization.descriptors.SerialDescriptor getDescriptor()
-com.lyracore.zoho.core.models.LyraConfig: java.lang.String getApiKey()
-com.lyracore.zoho.chat.models.Department: com.lyracore.zoho.chat.models.Department copy$default(com.lyracore.zoho.chat.models.Department,java.lang.String,java.lang.String,boolean,int,java.lang.Object)
-com.lyracore.zoho.core.models.ErrorEvent: int getErrorCode()
-com.lyracore.zoho.core.models.ZohoConfig: java.lang.String getAccessKey()
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String toString()
-com.lyracore.zoho.core.models.ExceptionEvent: boolean equals(java.lang.Object)
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component12()
+com.lyracore.zoho.core.models.LyraConfig: LyraConfig(java.lang.String,java.lang.String,long)
+com.lyracore.zoho.core.models.Translation$$serializer: void serialize(kotlinx.serialization.encoding.Encoder,java.lang.Object)
 com.lyracore.zoho.chat.models.ChatEvent: boolean equals(java.lang.Object)
-com.lyracore.zoho.chat.models.ChatEvent: com.lyracore.zoho.chat.models.enums.ChatEventType getType()
-com.lyracore.zoho.department.models.Department: boolean getDefault()
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onRating(com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.core.models.enums.ErrorLocation: com.lyracore.zoho.core.models.enums.ErrorLocation valueOf(java.lang.String)
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getAttenderEmail()
-com.lyracore.zoho.core.models.Translation$$serializer: Translation$$serializer()
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getAttenderId()
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void access$onQueuePositionChange$jd(com.lyracore.zoho.chat.interfaces.ZohoChatListener,com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.core.models.LyraConfig: com.lyracore.zoho.core.models.LyraConfig copy$default(com.lyracore.zoho.core.models.LyraConfig,java.lang.String,java.lang.String,long,int,java.lang.Object)
-com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onChatOpened(com.lyracore.zoho.chat.models.ChatEvent)
-com.lyracore.zoho.core.models.ZohoConfig: boolean equals(java.lang.Object)
+com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback: void onError(com.lyracore.zoho.core.models.ErrorEvent)
+com.lyracore.zoho.core.models.ZohoConfig: com.lyracore.zoho.core.models.ZohoConfig copy(java.lang.String,java.lang.String,com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback)
+com.lyracore.zoho.chat.interfaces.ZohoChatListener: void onChatViewOpen(java.lang.String)
+com.lyracore.zoho.core.models.ErrorEvent: int hashCode()
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component5()
+com.lyracore.zoho.core.models.ZohoConfig: java.lang.String getAppKey()
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String component11()
+com.lyracore.zoho.chat.models.ChatEvent: int hashCode()
+com.lyracore.zoho.core.models.Translation$$serializer: kotlinx.serialization.KSerializer[] childSerializers()
+com.lyracore.zoho.chat.models.VisitorChatData: boolean equals(java.lang.Object)
+com.lyracore.zoho.core.models.ExceptionEvent: com.lyracore.zoho.core.models.enums.ExceptionLocation getExceptionLocation()
 com.lyracore.zoho.department.models.Department$$serializer: void serialize(kotlinx.serialization.encoding.Encoder,com.lyracore.zoho.department.models.Department)
-com.lyracore.zoho.chat.models.ChatAdditionalInformation: java.lang.String component2()
-com.lyracore.zoho.core.models.LyraConfig: java.lang.String component1()
-com.lyracore.zoho.R: R()
-com.lyracore.zoho.core.models.ZohoConfig: java.lang.String component2()
-com.lyracore.zoho.core.models.ZohoConfig: ZohoConfig(java.lang.String,java.lang.String,com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback)
-com.lyracore.zoho.chat.models.ChatAdditionalInformation: java.lang.String getCompanyName()
-com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getDepartmentName()
-com.lyracore.zoho.chat.models.VisitorChatData: com.lyracore.zoho.chat.models.VisitorChatData copy$default(com.lyracore.zoho.chat.models.VisitorChatData,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,long,java.lang.String,int,int,java.lang.Object)
+com.lyracore.zoho.core.models.Translation: int hashCode()
+com.lyracore.zoho.chat.models.VisitorChatData: java.lang.String getAttenderName()
