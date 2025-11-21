@@ -19,13 +19,11 @@ jobs:
           fetch-depth: 0
 
       - name: Build Android SDK
-        working-directory: android
         run: |
           chmod +x gradlew
           ./gradlew :lyrazohoandroid:assembleRelease
 
       - name: Publish Android SDK
-        working-directory: android
         env:
           GPR_KEY: ${{ secrets.GITHUB_TOKEN }}
           GPR_USER: ${{ secrets.actor }}
