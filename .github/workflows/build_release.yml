@@ -2,11 +2,10 @@ name: Release SDK
 
 on:
   push:
-    branches:
-      - main
-    paths:
-      - android/**
-      - ios/**
+    tags:
+      - "*"
+    paths-ignore:
+      - .github/**
 
 jobs:
   build-and-release-android:
@@ -16,14 +15,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ inputs.branch || github.ref }}
+          ref: ${{ github.ref }}
           fetch-depth: 0
-
-      - name: Verify version detection
-        run: |
-          echo "Verifying git tag detection..."
-          git describe --tags --abbrev=0
-          echo "Expected version: ${{ github.event.inputs.version }}"
 
       - name: Build Android SDK
         working-directory: android
