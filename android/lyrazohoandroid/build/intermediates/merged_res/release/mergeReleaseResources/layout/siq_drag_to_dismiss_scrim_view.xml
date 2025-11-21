@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<View xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/siq_drag_to_dismiss_scrim_view"
-    android:layout_width="match_parent"
-    android:layout_height="@dimen/launcher_dismiss_scrim_area_height"
-    android:alpha="0"
-    android:visibility="gone"></View>
