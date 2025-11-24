@@ -10,13 +10,12 @@ object NotificationClient {
     /* Function that is used to enable push notifications from Zoho */
     internal fun enablePush(token: String, isTestDevice: Boolean) {
         try {
-            if (!CoreInitializer.isInitialized()) throw Exception("SDK is not initialized")
             if (!CoreInitializer.isZohoInitialized()) throw Exception("Zoho not initialized")
 
             ZohoLiveChat.Notification.enablePush(token, isTestDevice)
         } catch (ex: Exception) {
             // Handle exception
-            if (CoreInitializer.isInitialized())
+            if (CoreInitializer.isZohoInitialized())
                 CoreInitializer.getExceptionHandlingCallback()
                         .onException(ExceptionEvent(ex, ExceptionLocation.NOTIFICATION_ENABLE_PUSH))
         }
@@ -25,13 +24,12 @@ object NotificationClient {
     /* Handles the notifications from Zoho? */
     internal fun handleNotification(context: Context, data: Map<Any?, Any?>) {
         try {
-            if (!CoreInitializer.isInitialized()) throw Exception("SDK is not initialized")
             if (!CoreInitializer.isZohoInitialized()) throw Exception("Zoho not initialized")
 
             ZohoLiveChat.Notification.handle(context, data)
         } catch (ex: Exception) {
             // Handle exception
-            if (CoreInitializer.isInitialized())
+            if (CoreInitializer.isZohoInitialized())
                 CoreInitializer.getExceptionHandlingCallback()
                         .onException(
                                 ExceptionEvent(ex, ExceptionLocation.NOTIFICATION_HANDLE_NOTIFICATION)
@@ -42,13 +40,12 @@ object NotificationClient {
     /* Determines whether a notification is from Zoho. Returns null on exception */
     internal fun isZohoNotification(data: Map<Any?, Any?>): Boolean? {
         try {
-            if (!CoreInitializer.isInitialized()) throw Exception("SDK is not initialized")
             if (!CoreInitializer.isZohoInitialized()) throw Exception("Zoho not initialized")
 
             return ZohoLiveChat.Notification.isZohoSalesIQNotification(data)
         } catch (ex: Exception) {
             // Handle exception
-            if (CoreInitializer.isInitialized())
+            if (CoreInitializer.isZohoInitialized())
                 CoreInitializer.getExceptionHandlingCallback()
                         .onException(
                                 ExceptionEvent(ex, ExceptionLocation.NOTIFICATION_HANDLE_NOTIFICATION)

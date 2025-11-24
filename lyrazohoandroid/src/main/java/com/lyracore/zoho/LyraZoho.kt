@@ -7,7 +7,6 @@ import com.lyracore.zoho.chat.ChatClient
 import com.lyracore.zoho.chat.interfaces.ZohoChatListener
 import com.lyracore.zoho.chat.models.ChatAdditionalInformation
 import com.lyracore.zoho.core.CoreInitializer
-import com.lyracore.zoho.core.models.LyraConfig
 import com.lyracore.zoho.core.models.ZohoConfig
 import com.lyracore.zoho.department.DepartmentClient
 import com.lyracore.zoho.notification.NotificationClient
@@ -18,16 +17,12 @@ import com.lyracore.zoho.notification.NotificationClient
  */
 object LyraZoho {
     /** Initialize the SDK with full configuration. */
-    fun initialize(application: Application, config: LyraConfig, zohoConfig: ZohoConfig) {
-        CoreInitializer.initialize(config)
+    fun initialize(application: Application, zohoConfig: ZohoConfig) {
         CoreInitializer.initializeZoho(application, zohoConfig)
     }
 
     // Basic SDK methods
-    fun isInitialized(): Boolean = CoreInitializer.isInitialized()
     fun isZohoInitialized(): Boolean = CoreInitializer.isZohoInitialized()
-    fun getApiKey(): String? = CoreInitializer.getApiKey()
-    fun getConfig(): LyraConfig? = CoreInitializer.getConfig()
 
     // Chat functionality - properly exposed at the SDK level
     fun startChatListeners(listener: ZohoChatListener? = null) = ChatClient.startListeners(listener)

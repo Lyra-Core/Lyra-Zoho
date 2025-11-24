@@ -6,7 +6,6 @@ import androidx.test.core.app.ApplicationProvider
 import com.lyracore.zoho.LyraZoho
 import com.lyracore.zoho.core.CoreInitializer
 import com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback
-import com.lyracore.zoho.core.models.LyraConfig
 import com.lyracore.zoho.core.models.ZohoConfig
 import kotlin.collections.count
 import org.junit.After
@@ -39,10 +38,9 @@ class DepartmentClientTest {
 
     @Test
     fun getAllDepartments_Success_ReturnsData() {
-        val lyraConfig: LyraConfig = LyraConfig("test")
         val zohoConfig: ZohoConfig = ZohoConfig("test", "test", exceptionHandlingCallback)
 
-        LyraZoho.initialize(application, lyraConfig, zohoConfig)
+        LyraZoho.initialize(application,  zohoConfig)
 
         val result = DepartmentClient.getAllDepartments(context)
 
@@ -58,10 +56,9 @@ class DepartmentClientTest {
 
     @Test
     fun getDefaultDepartment_Success_ReturnsData() {
-        val lyraConfig: LyraConfig = LyraConfig("test")
         val zohoConfig: ZohoConfig = ZohoConfig("test", "test", exceptionHandlingCallback)
 
-        LyraZoho.initialize(application, lyraConfig, zohoConfig)
+        LyraZoho.initialize(application, zohoConfig)
 
         val result = DepartmentClient.getDefaultDepartment(context)
 
@@ -77,10 +74,9 @@ class DepartmentClientTest {
 
     @Test
     fun getDepartmentByCountry_Success_ReturnsData() {
-        val lyraConfig: LyraConfig = LyraConfig("test")
         val zohoConfig: ZohoConfig = ZohoConfig("test", "test", exceptionHandlingCallback)
 
-        LyraZoho.initialize(application, lyraConfig, zohoConfig)
+        LyraZoho.initialize(application, zohoConfig)
 
         val result = DepartmentClient.getDepartmentByCountry(context, "za")
 
