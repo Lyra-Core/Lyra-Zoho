@@ -181,16 +181,16 @@ object ChatClient {
     }
 
     /** Set the department for the chat. */
-    internal fun setDepartment(context: Context, countryCode: String) {
+    internal suspend fun setDepartment(countryCode: String) {
         try {
-            if (!CoreInitializer.isZohoInitialized()) Exception("Zoho not initialized")
+            if (!CoreInitializer.isZohoInitialized()) throw Exception("Zoho not initialized")
 
-            var department = DepartmentClient.getDepartmentByCountry(context, countryCode)
+            var department = DepartmentClient.getDepartmentByCountry(countryCode)
             if (department == null)
-                department = DepartmentClient.getDefaultDepartment(context)
+                department = DepartmentClient.getDefaultDepartment()
 
             if (department == null)
-                    Exception("No default department available. Please contact support")
+                throw Exception("No default department available. Please contact support")
 
             val escapedDepartmentName = Html.escapeHtml(department?.name)
             ZohoSalesIQ.Chat.setDepartment(escapedDepartmentName)
@@ -204,7 +204,7 @@ object ChatClient {
     /** Set the language for the chat. Default language is en */
     internal fun setLanguage(context: Context, languageCode: String) {
         try {
-            if (!CoreInitializer.isZohoInitialized()) Exception("Zoho not initialized")
+            if (!CoreInitializer.isZohoInitialized()) throw Exception("Zoho not initialized")
             val languageMap: Map<String, String> =
                     mapOf(
                             "zh-hant" to "zh_TW",
@@ -232,7 +232,7 @@ object ChatClient {
     /** Set additional information for the visitor. */
     internal fun setAdditionalInformation(additionalInfo: ChatAdditionalInformation) {
         try {
-            if (!CoreInitializer.isZohoInitialized()) Exception("Zoho not initialized")
+            if (!CoreInitializer.isZohoInitialized()) throw Exception("Zoho not initialized")
 
             ZohoSalesIQ.Visitor.addInfo("Company Name", additionalInfo.companyName)
             ZohoSalesIQ.Visitor.addInfo("Primary Need", additionalInfo.primaryNeed)
@@ -255,7 +255,7 @@ object ChatClient {
     /** Set the page title for tracking. */
     internal fun setPageTitle(title: String) {
         try {
-            if (!CoreInitializer.isZohoInitialized()) Exception("Zoho not initialized")
+            if (!CoreInitializer.isZohoInitialized()) throw Exception("Zoho not initialized")
             this.pageTitle = title
             ZohoSalesIQ.Tracking.setPageTitle(title)
         } catch (ex: Exception) {
@@ -268,7 +268,7 @@ object ChatClient {
     /** Set a question for the visitor. */
     internal fun setQuestion(context: Context) {
         try {
-            if (!CoreInitializer.isZohoInitialized()) Exception("Zoho not initialized")
+            if (!CoreInitializer.isZohoInitialized()) throw Exception("Zoho not initialized")
 
             val inputStream: InputStream =
                     context.assets.open("translations/${this.languageCode}.json")
@@ -289,7 +289,7 @@ object ChatClient {
     /** End the current chat session. */
     internal fun endSession(application: Application) {
         try {
-            if (!CoreInitializer.isZohoInitialized()) Exception("Zoho not initialized")
+            if (!CoreInitializer.isZohoInitialized()) throw Exception("Zoho not initialized")
             endChat()
             ZohoSalesIQ.Launcher.show(ZohoSalesIQ.Launcher.VisibilityMode.WHEN_ACTIVE_CHAT)
             ZohoSalesIQ.clearData(application)

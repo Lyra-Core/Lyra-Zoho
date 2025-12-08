@@ -5,17 +5,17 @@ import com.lyracore.zoho.core.CoreInitializer
 import com.lyracore.zoho.core.models.ExceptionEvent
 import com.lyracore.zoho.core.models.enums.ExceptionLocation
 import com.lyracore.zoho.department.models.Department
+import com.lyracore.zoho.utilities.FileUtils
+import kotlinx.coroutines.runBlocking
 import java.io.InputStream
 import kotlinx.serialization.json.Json
 
 object DepartmentClient {
-    internal fun getAllDepartments(context: Context): List<Department> {
+    internal suspend fun getAllDepartments(): List<Department> {
         try {
-            val inputStream: InputStream = context.assets.open("departments.json")
-            val size: Int = inputStream.available()
-            val buffer: ByteArray = ByteArray(size)
-            inputStream.read(buffer)
-            val jsonString: String = String(buffer, Charsets.UTF_8)
+            if (!CoreInitializer.isZohoInitialized()) throw Exception("Zoho not initialized")
+
+            val jsonString: String = FileUtils.fetchDepartmentFile(CoreInitializer.getEnvironment())
             return Json.decodeFromString<Array<Department>>(jsonString).toList()
         } catch (ex: Exception) {
             // Handle exception
@@ -26,13 +26,11 @@ object DepartmentClient {
         }
     }
 
-    internal fun getDefaultDepartment(context: Context): Department? {
+    internal suspend fun getDefaultDepartment(): Department? {
         try {
-            val inputStream: InputStream = context.assets.open("departments.json")
-            val size: Int = inputStream.available()
-            val buffer: ByteArray = ByteArray(size)
-            inputStream.read(buffer)
-            val jsonString: String = String(buffer, Charsets.UTF_8)
+            if (!CoreInitializer.isZohoInitialized()) throw Exception("Zoho not initialized")
+
+            val jsonString: String = FileUtils.fetchDepartmentFile(CoreInitializer.getEnvironment())
             val obj = Json.decodeFromString<Array<Department>>(jsonString)
             return obj.firstOrNull { o -> o.default }
         } catch (ex: Exception) {
@@ -44,14 +42,12 @@ object DepartmentClient {
         }
     }
 
-    internal fun getDepartmentByCountry(context: Context, countryCode: String): Department? {
+    internal suspend fun getDepartmentByCountry(countryCode: String): Department? {
         try {
-            val inputStream: InputStream = context.assets.open("departments.json")
-            val size: Int = inputStream.available()
-            val buffer: ByteArray = ByteArray(size)
-            inputStream.read(buffer)
-            val jsonString: String = String(buffer, Charsets.UTF_8)
-            val obj = Json.decodeFromString<List<Department>>(jsonString)
+            if (!CoreInitializer.isZohoInitialized()) throw Exception("Zoho not initialized")
+
+            val jsonString: String = FileUtils.fetchDepartmentFile(CoreInitializer.getEnvironment())
+            val obj = Json.decodeFromString<Array<Department>>(jsonString)
             return obj.firstOrNull() { o -> o.codes.contains(countryCode) }
         } catch (ex: Exception) {
             // Handle exception

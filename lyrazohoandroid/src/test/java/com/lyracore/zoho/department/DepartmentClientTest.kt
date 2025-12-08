@@ -2,6 +2,7 @@ package com.lyracore.zoho.department
 
 import android.app.Application
 import android.content.Context
+import android.os.Looper
 import androidx.test.core.app.ApplicationProvider
 import com.lyracore.zoho.LyraZoho
 import com.lyracore.zoho.core.CoreInitializer
@@ -16,6 +17,7 @@ import org.junit.runner.RunWith
 import org.mockito.Mockito
 import org.mockito.kotlin.mock
 import org.robolectric.RobolectricTestRunner
+import org.robolectric.Shadows.shadowOf
 
 @RunWith(RobolectricTestRunner::class)
 class DepartmentClientTest {
@@ -34,6 +36,7 @@ class DepartmentClientTest {
     fun tearDown() {
         // Reset CoreInitializer state after each test to ensure test isolation
         CoreInitializer.reset()
+        shadowOf(Looper.getMainLooper()).runToEndOfTasks()
     }
 
     @Test
@@ -42,14 +45,14 @@ class DepartmentClientTest {
 
         LyraZoho.initialize(application,  zohoConfig)
 
-        val result = DepartmentClient.getAllDepartments(context)
+        val result = DepartmentClient.getAllDepartments()
 
         assertEquals(16, result.count())
     }
 
     @Test
     fun getAllDepartments_Failure_SDKNotInitialized() {
-        val result = DepartmentClient.getAllDepartments(context)
+        val result = DepartmentClient.getAllDepartments()
 
         assertEquals(0, result.count())
     }
@@ -60,14 +63,14 @@ class DepartmentClientTest {
 
         LyraZoho.initialize(application, zohoConfig)
 
-        val result = DepartmentClient.getDefaultDepartment(context)
+        val result = DepartmentClient.getDefaultDepartment()
 
         assertNotNull(result)
     }
 
     @Test
     fun getDefaultDepartment_Failure_SDKNotInitialized() {
-        val result = DepartmentClient.getDefaultDepartment(context)
+        val result = DepartmentClient.getDefaultDepartment()
 
         assertNull(result)
     }
@@ -78,7 +81,7 @@ class DepartmentClientTest {
 
         LyraZoho.initialize(application, zohoConfig)
 
-        val result = DepartmentClient.getDepartmentByCountry(context, "za")
+        val result = DepartmentClient.getDepartmentByCountry("za")
 
         assertNotNull(result)
     }
@@ -86,7 +89,7 @@ class DepartmentClientTest {
     @Test
     fun getDepartmentByCountry_Failure_NoDataReturned() {
 
-        val result = DepartmentClient.getDepartmentByCountry(context, "za")
+        val result = DepartmentClient.getDepartmentByCountry("za")
 
         assertNull(result)
     }

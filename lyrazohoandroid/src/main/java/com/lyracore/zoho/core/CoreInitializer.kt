@@ -5,8 +5,10 @@ import com.lyracore.zoho.core.interfaces.ExceptionHandlingCallback
 import com.lyracore.zoho.core.models.ErrorEvent
 import com.lyracore.zoho.core.models.ExceptionEvent
 import com.lyracore.zoho.core.models.ZohoConfig
+import com.lyracore.zoho.core.models.enums.Environment
 import com.lyracore.zoho.core.models.enums.ErrorLocation
 import com.lyracore.zoho.core.models.enums.ExceptionLocation
+import com.lyracore.zoho.utilities.FileUtils
 import com.zoho.commons.InitConfig
 import com.zoho.livechat.android.listeners.InitListener
 import com.zoho.salesiqembed.ZohoSalesIQ
@@ -16,6 +18,8 @@ object CoreInitializer {
     private var zohoAppKey: String? = null
     private var zohoAccessKey: String? = null
     private lateinit var exceptionHandlingCallback: ExceptionHandlingCallback
+
+    private var environment: Environment = Environment.PRODUCTION
 
     /** Initialize Zoho-specific keys. This is called by ChatClient after successful Zoho init. */
     internal fun initializeZoho(application: Application, zohoConfig: ZohoConfig) {
@@ -59,10 +63,25 @@ object CoreInitializer {
             )
         }
     }
+
+    internal fun setEnvironment(environment: Environment) {
+        try {
+            if (!this.isZohoInitialized()) throw Exception("Zoho not initialized")
+
+            this.environment = environment
+            FileUtils.clearCache()
+        } catch (ex: Exception) {
+            // Handle exception
+            CoreInitializer.getExceptionHandlingCallback()
+                .onException(ExceptionEvent(ex, ExceptionLocation.CORE_SET_ENVIRONMENT))
+        }
+    }
+
     internal fun isZohoInitialized(): Boolean = zohoInitialized
     internal fun getZohoAppKey(): String? = zohoAppKey
     internal fun getZohoAccessKey(): String? = zohoAccessKey
     internal fun getExceptionHandlingCallback(): ExceptionHandlingCallback = exceptionHandlingCallback
+    internal fun getEnvironment(): Environment = environment
 
     /**
      * Reset the CoreInitializer state. This method is intended for testing purposes only.

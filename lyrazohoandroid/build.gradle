@@ -12,9 +12,8 @@ configurations {
 android {
     namespace = 'com.lyracore.zoho'
     compileSdkVersion 36
-
     defaultConfig {
-        minSdk 21
+        minSdk 26
         targetSdk 36
         consumerProguardFiles 'proguard-rules.pro'
     }

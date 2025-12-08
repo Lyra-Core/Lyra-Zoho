@@ -1,0 +1,9 @@
+<network-security-config>
+    <domain-config>
+        <domain includeSubdomains="false">icascontentstorage.blob.core.windows.net</domain>
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+        <certificateTransparency enabled="true"/>
+    </domain-config>
+</network-security-config>
